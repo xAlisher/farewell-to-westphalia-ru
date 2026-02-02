@@ -17,3 +17,8 @@ Format:
 - Term/choice: governance
 - Decision: Use "управление".
 - Rationale: "Управление" is clear and widely understood. Avoid "администрирование" because it narrows the meaning and sounds bureaucratic.
+
+- Date: 2026-02-02
+- Term/choice: human governance
+- Decision: Use «координация людей» as the default. Allow «человеческое управление (координация людей)» on first mention. Allow «управление людьми» only when explicitly critiquing state power, coercion, or traditional government structures.
+- Rationale: Ensures semantic accuracy while avoiding hierarchical framing; preserves clarity for readers in constrained political contexts.
