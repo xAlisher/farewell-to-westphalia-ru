@@ -1,0 +1,25 @@
+governance:
+  ru: управление
+  forbidden:
+    - администрирование
+nation-state:
+  ru: национальное государство
+  forbidden: []
+sovereignty:
+  ru: суверенитет
+  forbidden: []
+decentralization:
+  ru: децентрализация
+  forbidden: []
+decentralized cooperation:
+  ru: децентрализованное сотрудничество
+  forbidden: []
+single point of failure:
+  ru: единая точка отказа
+  forbidden: []
+immutable records:
+  ru: неизменяемые записи
+  forbidden: []
+crypto sovereignty:
+  ru: криптосуверенитет
+  forbidden: []
