@@ -567,6 +567,7 @@ a:hover {
   position: sticky;
   top: 24px;
   align-self: flex-start;
+  margin-top: 280px;
   max-height: calc(100vh - 48px);
   overflow-y: auto;
   display: none;
