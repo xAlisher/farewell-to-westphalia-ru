@@ -838,6 +838,14 @@ a:hover {
   color: var(--text-muted);
 }
 
+.audiobook-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 20px 0;
+  color: var(--text-muted);
+}
+
 .badge-soon {
   font-family: var(--font-mono);
   font-size: 11px;
@@ -845,6 +853,7 @@ a:hover {
   border: 1px solid var(--border);
   padding: 2px 8px;
   letter-spacing: 0.05em;
+  margin-left: auto;
 }
 
 /* --- Share Button --- */

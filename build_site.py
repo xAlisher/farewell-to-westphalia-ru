@@ -685,11 +685,11 @@ def build_audiobook(chapters):
         num = f"{ch['chapter_num']:02d}"
         display_title = re.sub(r"^Глава\s+\d+\.\s*", "", ch["title"])
         items.append(
-            f'<li><a href="chapters/chapter-{num}.html" class="audiobook-row">'
+            f'<li><span class="audiobook-row">'
             f'<span class="chapter-num">{num}</span>'
             f'<span class="chapter-title">{escape(display_title)}</span>'
             f'<span class="badge-soon">скоро</span>'
-            f"</a></li>"
+            f"</span></li>"
         )
 
     description = f"Аудиокнига «{SITE_TITLE}» — скоро"
