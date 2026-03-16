@@ -1,0 +1,1 @@
+# Прощай, Вестфалия — Russian Translation
