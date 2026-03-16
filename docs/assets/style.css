@@ -306,7 +306,7 @@ a:hover {
 
 /* --- Chapter Page --- */
 .chapter-header {
-  padding: 60px 0 40px;
+  padding: 60px 0 24px;
   margin-bottom: 0;
 }
 
@@ -523,9 +523,9 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding: 16px 0;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 48px;
+  margin-bottom: 32px;
   font-family: var(--font-mono);
   font-size: 13px;
 }
@@ -565,7 +565,7 @@ a:hover {
   position: sticky;
   top: 24px;
   align-self: flex-start;
-  margin-top: 280px;
+  margin-top: 200px;
   max-height: calc(100vh - 48px);
   overflow-y: auto;
   display: none;
