@@ -80,7 +80,6 @@ a:hover {
 
 /* --- Site Header --- */
 .site-header {
-  border-bottom: 1px solid var(--border);
   padding: 16px 0;
 }
 
@@ -339,6 +338,11 @@ a:hover {
   padding-bottom: 80px;
 }
 
+.chapter-content {
+  border-top: 1px solid var(--border);
+  padding-top: 40px;
+}
+
 .chapter-content h2 {
   font-family: var(--font-serif);
   font-size: 24px;
@@ -524,8 +528,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 16px 0;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   font-family: var(--font-mono);
   font-size: 13px;
 }
