@@ -533,7 +533,8 @@ def build_chapter(ch, chapters, idx):
 <body>
 {site_header(depth=1)}
 <main>
-<div class="container">
+<div class="chapter-layout">
+<div class="chapter-main container">
 <div class="chapter-header">
 <div class="chapter-meta">
 <span>Глава {ch["chapter_num"]} из {total}</span>
@@ -545,13 +546,7 @@ def build_chapter(ch, chapters, idx):
 <a href="{ENGLISH_URL}" class="english-link">Читать по-английски →</a>
 </div>
 </div>
-</div>
-
-{nav_html if not toc_html else ""}
-
-<div class="chapter-layout">
-<div class="chapter-main container">
-{nav_html if toc_html else ""}
+{nav_html}
 <div class="chapter-content">
 {body_html}
 </div>
