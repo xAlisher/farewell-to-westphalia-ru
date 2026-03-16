@@ -33,6 +33,87 @@
     });
   });
 
+  // --- Footnote Popovers ---
+  var activePopover = null;
+
+  function closePopover() {
+    if (activePopover) {
+      activePopover.classList.remove('visible');
+      setTimeout(function () {
+        if (activePopover && !activePopover.classList.contains('visible')) {
+          activePopover.remove();
+        }
+      }, 150);
+      activePopover = null;
+    }
+  }
+
+  document.addEventListener('click', function (e) {
+    var ref = e.target.closest('.footnote-ref');
+    if (ref) {
+      e.preventDefault();
+      closePopover();
+
+      var href = ref.getAttribute('href');
+      var fnId = href.replace('#', '');
+      var fnEl = document.getElementById(fnId);
+      if (!fnEl) return;
+
+      // Get footnote text (clone to strip backref link)
+      var clone = fnEl.cloneNode(true);
+      var backref = clone.querySelector('.footnote-backref');
+      if (backref) backref.remove();
+      var fnText = clone.innerHTML;
+
+      // Extract footnote number
+      var num = fnId.replace('fn-', '');
+
+      // Create popover
+      var popover = document.createElement('div');
+      popover.className = 'fn-popover';
+      popover.innerHTML =
+        '<button class="fn-popover-close" aria-label="Закрыть">&times;</button>' +
+        '<div class="fn-popover-num">' + num + '</div>' +
+        '<div>' + fnText + '</div>';
+
+      // Position near the ref
+      var isMobile = window.innerWidth <= 520;
+      if (isMobile) {
+        document.body.appendChild(popover);
+      } else {
+        // Insert after the paragraph containing the ref
+        var para = ref.closest('p, blockquote, li') || ref.parentNode;
+        para.style.position = 'relative';
+        para.appendChild(popover);
+      }
+
+      // Show with animation
+      requestAnimationFrame(function () {
+        popover.classList.add('visible');
+      });
+
+      activePopover = popover;
+
+      // Close button
+      popover.querySelector('.fn-popover-close').addEventListener('click', function (e) {
+        e.stopPropagation();
+        closePopover();
+      });
+
+      return;
+    }
+
+    // Click outside closes popover
+    if (activePopover && !e.target.closest('.fn-popover')) {
+      closePopover();
+    }
+  });
+
+  // Escape key closes popover
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closePopover();
+  });
+
   // --- TOC Sidebar Active Highlight ---
   const tocLinks = document.querySelectorAll('.toc-sidebar a');
   if (tocLinks.length > 0) {

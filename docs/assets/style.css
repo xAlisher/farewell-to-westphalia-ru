@@ -445,6 +445,80 @@ a:hover {
   color: var(--text-dim);
 }
 
+/* --- Footnote Popover --- */
+.fn-popover {
+  position: absolute;
+  z-index: 100;
+  max-width: 420px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  padding: 16px 20px;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.15s, transform 0.15s;
+  pointer-events: none;
+}
+
+.fn-popover.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.fn-popover-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.fn-popover-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.fn-popover-close:hover {
+  color: var(--text);
+}
+
+.fn-popover em {
+  font-style: italic;
+}
+
+@media (max-width: 520px) {
+  .fn-popover {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    max-width: none;
+    transform: translateY(100%);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid var(--border);
+    padding: 20px 24px 28px;
+  }
+
+  .fn-popover.visible {
+    transform: translateY(0);
+  }
+}
+
 /* --- Chapter Navigation --- */
 .chapter-nav {
   display: flex;
