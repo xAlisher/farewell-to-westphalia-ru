@@ -683,12 +683,13 @@ def build_audiobook(chapters):
     items = []
     for ch in chapters:
         num = f"{ch['chapter_num']:02d}"
+        display_title = re.sub(r"^Глава\s+\d+\.\s*", "", ch["title"])
         items.append(
-            f'<li class="audiobook-item">'
-            f'<span class="audiobook-num">{num}</span>'
-            f'<span class="audiobook-title">{escape(ch["title"])}</span>'
+            f'<li><a href="chapters/chapter-{num}.html" class="audiobook-row">'
+            f'<span class="chapter-num">{num}</span>'
+            f'<span class="chapter-title">{escape(display_title)}</span>'
             f'<span class="badge-soon">скоро</span>'
-            f"</li>"
+            f"</a></li>"
         )
 
     description = f"Аудиокнига «{SITE_TITLE}» — скоро"
@@ -697,16 +698,16 @@ def build_audiobook(chapters):
 {html_head(f"Аудиокнига — {SITE_TITLE}", description, SITE_URL + "/audiobook.html")}
 <body>
 {site_header()}
-<main class="page-content">
+<main>
+<section class="chapter-list-section">
 <div class="container">
-<h1>Аудиокнига</h1>
-<p>Аудиоверсия книги «Прощай, Вестфалия» на русском языке находится в разработке. Каждая глава будет доступна для прослушивания прямо на этой странице.</p>
-
-<div class="section-label" style="margin-top:48px">↳ Главы</div>
-<ul class="audiobook-list">
+<div class="section-label">↳ Аудиокнига</div>
+<p style="color:var(--text-muted);margin-bottom:32px">Аудиоверсия книги «Прощай, Вестфалия» на русском языке находится в разработке. Каждая глава будет доступна для прослушивания прямо на этой странице.</p>
+<ul class="chapter-list">
 {"".join(items)}
 </ul>
 </div>
+</section>
 </main>
 {site_footer()}
 </body>
