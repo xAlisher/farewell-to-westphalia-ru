@@ -307,8 +307,7 @@ a:hover {
 /* --- Chapter Page --- */
 .chapter-header {
   padding: 60px 0 40px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 48px;
+  margin-bottom: 0;
 }
 
 .chapter-meta {
@@ -525,9 +524,8 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 24px 0;
-  border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  margin: 48px 0;
+  margin-bottom: 48px;
   font-family: var(--font-mono);
   font-size: 13px;
 }
