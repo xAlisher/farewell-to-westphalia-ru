@@ -448,7 +448,7 @@ def build_index(chapters):
 <h1>{SITE_TITLE}</h1>
 <p class="hero-subtitle">{SITE_SUBTITLE}</p>
 <p class="hero-authors">{SITE_AUTHORS}</p>
-<a href="chapters/chapter-01.html" class="hero-cta">
+<a href="chapters/chapter-00.html" class="hero-cta">
 Читать книгу <span class="arrow">→</span>
 </a>
 </div>
