@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xalisher.github.io/farewell-to-westphalia-ru/sitemap.xml
