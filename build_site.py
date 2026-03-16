@@ -371,7 +371,7 @@ def assets_path(url):
 def site_header(depth=0):
     """Generate site header navigation."""
     prefix = "../" if depth > 0 else ""
-    return f"""<div class="wip-banner">Перевод в процессе — проходит человеческую вычитку. Нашли ошибку? <a href="https://github.com/xAlisher/farewell-to-westphalia-ru/issues/new">Сообщите нам ↗</a></div>
+    return f"""<div class="wip-banner">Перевод в процессе — проходит редакторскую проверку. Нашли ошибку? <a href="https://github.com/xAlisher/farewell-to-westphalia-ru/issues/new">Сообщите нам ↗</a></div>
 <header class="site-header">
 <div class="wide-container">
 <a href="{prefix}index.html" class="site-logo">↳ Прощай, Вестфалия</a>
