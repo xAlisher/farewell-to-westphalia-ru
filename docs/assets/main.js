@@ -34,17 +34,19 @@
   });
 
   // --- Footnote Popovers ---
-  var activePopover = null;
+  var fnOverlay = null;
+  var fnPopover = null;
 
   function closePopover() {
-    if (activePopover) {
-      activePopover.classList.remove('visible');
+    if (fnPopover) {
+      fnPopover.classList.remove('visible');
+      fnOverlay.classList.remove('visible');
       setTimeout(function () {
-        if (activePopover && !activePopover.classList.contains('visible')) {
-          activePopover.remove();
-        }
-      }, 150);
-      activePopover = null;
+        if (fnPopover) fnPopover.remove();
+        if (fnOverlay) fnOverlay.remove();
+        fnPopover = null;
+        fnOverlay = null;
+      }, 200);
     }
   }
 
@@ -59,57 +61,41 @@
       var fnEl = document.getElementById(fnId);
       if (!fnEl) return;
 
-      // Get footnote text (clone to strip backref link)
       var clone = fnEl.cloneNode(true);
       var backref = clone.querySelector('.footnote-backref');
       if (backref) backref.remove();
       var fnText = clone.innerHTML;
-
-      // Extract footnote number
       var num = fnId.replace('fn-', '');
 
+      // Create overlay
+      fnOverlay = document.createElement('div');
+      fnOverlay.className = 'fn-overlay';
+      document.body.appendChild(fnOverlay);
+
       // Create popover
-      var popover = document.createElement('div');
-      popover.className = 'fn-popover';
-      popover.innerHTML =
+      fnPopover = document.createElement('div');
+      fnPopover.className = 'fn-popover';
+      fnPopover.innerHTML =
         '<button class="fn-popover-close" aria-label="Закрыть">&times;</button>' +
-        '<div class="fn-popover-num">' + num + '</div>' +
+        '<div class="fn-popover-num">Примечание ' + num + '</div>' +
         '<div>' + fnText + '</div>';
+      document.body.appendChild(fnPopover);
 
-      // Position near the ref
-      var isMobile = window.innerWidth <= 520;
-      if (isMobile) {
-        document.body.appendChild(popover);
-      } else {
-        // Insert after the paragraph containing the ref
-        var para = ref.closest('p, blockquote, li') || ref.parentNode;
-        para.style.position = 'relative';
-        para.appendChild(popover);
-      }
-
-      // Show with animation
       requestAnimationFrame(function () {
-        popover.classList.add('visible');
+        fnOverlay.classList.add('visible');
+        fnPopover.classList.add('visible');
       });
 
-      activePopover = popover;
-
-      // Close button
-      popover.querySelector('.fn-popover-close').addEventListener('click', function (e) {
+      fnPopover.querySelector('.fn-popover-close').addEventListener('click', function (e) {
         e.stopPropagation();
         closePopover();
       });
 
+      fnOverlay.addEventListener('click', closePopover);
       return;
-    }
-
-    // Click outside closes popover
-    if (activePopover && !e.target.closest('.fn-popover')) {
-      closePopover();
     }
   });
 
-  // Escape key closes popover
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') closePopover();
   });
