@@ -192,6 +192,34 @@ a:hover {
   transform: translateX(4px);
 }
 
+/* --- Epigraph --- */
+.epigraph-section {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.epigraph {
+  border-left: 2px solid var(--accent);
+  padding-left: 24px;
+  margin: 0;
+  font-style: italic;
+}
+
+.epigraph p {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.epigraph-author {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: 16px;
+  padding-left: 26px;
+}
+
 /* --- Chapter List --- */
 .chapter-list-section {
   padding: 80px 0;

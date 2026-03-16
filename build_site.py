@@ -454,6 +454,15 @@ def build_index(chapters):
 </div>
 </section>
 
+<section class="epigraph-section">
+<div class="container">
+<blockquote class="epigraph">
+<p>Восстаньте — вам нечего терять, кроме своих заборов из колючей проволоки!</p>
+</blockquote>
+<p class="epigraph-author">— Тимоти Мэй, Манифест криптоанархиста</p>
+</div>
+</section>
+
 <section class="chapter-list-section">
 <div class="container">
 <div class="section-label">↳ Содержание</div>
