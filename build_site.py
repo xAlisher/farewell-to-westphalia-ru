@@ -23,7 +23,7 @@ ASSETS_DIR = DOCS_DIR / "assets"
 SITE_TITLE = "Прощай, Вестфалия"
 SITE_SUBTITLE = "Криптосуверенитет и управление в постнациональную эпоху"
 SITE_AUTHORS = "Джаррад Хоуп и Питер Лудлоу"
-SITE_URL = "https://xalisher.github.io/farewell-to-westphalia-ru"
+SITE_URL = "https://farewelltowestphalia.net"
 ENGLISH_URL = "https://logos.co"
 
 WORDS_PER_MINUTE = 200  # Average reading speed in Russian

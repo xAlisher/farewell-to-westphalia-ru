@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xalisher.github.io/farewell-to-westphalia-ru/sitemap.xml
+Sitemap: https://farewelltowestphalia.net/sitemap.xml
