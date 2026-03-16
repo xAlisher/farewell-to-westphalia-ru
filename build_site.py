@@ -103,9 +103,13 @@ def parse_chapter(filepath):
         heading_id = make_id(heading_text)
         headings.append({"text": heading_text, "id": heading_id})
 
-    # Extract chapter number from title
+    # Extract chapter number from title, fall back to filename number
     ch_num_match = re.match(r"Глава\s+(\d+)", title)
-    chapter_num = int(ch_num_match.group(1)) if ch_num_match else 0
+    if ch_num_match:
+        chapter_num = int(ch_num_match.group(1))
+    else:
+        file_num_match = re.search(r"chapter_(\d+)", os.path.basename(filepath))
+        chapter_num = int(file_num_match.group(1)) if file_num_match else 0
 
     # Calculate word count and reading time
     word_count = len(body_text.split())
