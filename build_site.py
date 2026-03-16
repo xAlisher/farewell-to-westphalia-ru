@@ -401,10 +401,12 @@ def build_index(chapters):
     for ch in chapters:
         num = f"{ch['chapter_num']:02d}"
         filename = f"chapter-{num}.html"
+        # Strip "Глава N. " prefix for index listing since we show the number separately
+        display_title = re.sub(r"^Глава\s+\d+\.\s*", "", ch["title"])
         chapter_items.append(
             f'<li><a href="chapters/{filename}">'
             f'<span class="chapter-num">{num}</span>'
-            f'<span class="chapter-title">{escape(ch["title"])}</span>'
+            f'<span class="chapter-title">{escape(display_title)}</span>'
             f'<span class="chapter-arrow">→</span>'
             f"</a></li>"
         )
