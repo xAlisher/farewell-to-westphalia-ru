@@ -2,6 +2,10 @@
 
 (appended by chapter closers; injected into every later translator prompt)
 
+## chapter_00_front_matter
+
+- **Naturalness slips persist even in formulaic front matter** (naturalness, 3 hits, all minor; no majors — the ch. 01/02 idiom-calque and deverbal-noun lessons are landing). Even boilerplate (copyright page, acknowledgements, category labels) needs the «сказал бы так русский автор?» reread: publishing-trade formulas have fixed Russian equivalents (печатное/электронное издание, оптовым покупателям, «он же» for aka) — reach for the native trade formula first, don't translate the English one.
+
 ## chapter_01_introduction
 
 - **Glossary terms drift when they collide with neighbouring words** (terminology, 5 hits, 3 major). corruption-resistant / corruption resistance was rendered «защищён(ность) от коррупции» in 01-002/01-003/01-014 instead of the canonical «устойчив(ость) к коррупции» — apparently to avoid repeating «устойчивый» next to resilient. Rule: glossary terms are invariant, especially the book's four named base values (децентрализация, кооперация, устойчивость к коррупции, прозрачность); on collision with resilient, restructure the sentence («устойчивы — и к сбоям, и к коррупции»), never re-coin the term.

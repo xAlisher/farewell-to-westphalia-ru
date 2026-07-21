@@ -1,0 +1,22 @@
+{
+  "total": 4,
+  "by_cat": {
+    "naturalness": 3,
+    "mechanics": 1
+  },
+  "by_sev": {
+    "minor": 4
+  },
+  "samples": [],
+  "escalated": [],
+  "assembly": {
+    "chunks_expected": ["00-000", "00-001"],
+    "chunks_assembled": ["00-000", "00-001"],
+    "notes_chunks": 0,
+    "footnotes": "none in this chapter (front matter); marker check 1..N trivially satisfied (N=0)",
+    "headings": "H1 title + H2 sections (Авторские права, Посвящение, Благодарности, Эпиграф) — hierarchy intact",
+    "seams_checked": 1,
+    "seams_total": 1,
+    "seam_notes": "00-000→00-001: print-ISBN line followed by digital-ISBN line, continuous, no duplication or missing text"
+  }
+}
