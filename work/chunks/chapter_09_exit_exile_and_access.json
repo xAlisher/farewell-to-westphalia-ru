@@ -1,0 +1,210 @@
+[
+ {
+  "id": "09-000",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1126,
+  "en_words": 197,
+  "text": "# 9. Exit, Exile and Access\n\n## 9.1 Preliminaries\n\nMany people can relate to the following experience: you do not feel at home somewhere, and you want to leave, but you cannot. The obstacle does not have to be a powerful king or some other form of tyrannical government, like the Soviet Union with its Iron Curtain and Berlin Wall. You might be a slave on a plantation facing a death sentence if you try to escape. Or it might be an economic obstacle. Perhaps you do not have the resources to exit your situation. Or maybe there is a cultural barrier to exit – for example, linguistic or religious barriers to movement. Such barriers or frictions come in different degrees. The issue is always whether it is worth the effort to escape. Often, when it is a matter of preservation of a culture or tradition or individual freedom, people will sacrifice everything to overcome these barriers. This being said, one wants to minimise such barriers where possible, as they are not just barriers to movement but to self-determination – they prevent us from moving to a jurisdiction with a political system that aligns with our values."
+ },
+ {
+  "id": "09-001",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1624,
+  "en_words": 259,
+  "text": "Exit is not the only situation to consider. There is also the issue of exile. Sometimes, people do not wish to leave, but they are forced to. There are also many examples of this phenomenon, and it spans across cultures. Human history is strewn with examples of forcibly removed people: Jews, Palestinians, Native Americans, Kurds, Armenians, not to mention Slavs and then Africans pressed into slavery; the list goes on and on.\n\nOne lesser-known example of exile would be the so-called Acadians, who were French-speaking people who lived in Acadia – what is now Eastern Canada’s Maritime provinces, as well as parts of Quebec and parts of what is now the state of Maine in the United States. During the French and Indian War (known to Canadians as the Seven Years’ War), British colonial officers suspected that Acadians were aligned with France and indeed found some Acadians fighting alongside French troops. The British, together with the help of New England legislators and militias, carried out *Le Grand Dérangement* (the Great Expulsion) of the Acadians between 1755 and the mid-1760s.[^1] It was not pretty.\n\nMost Acadians were deported to the British American colonies, where some were put into forced labour or servitude. Some Acadians were deported to England, some to the Caribbean and some to France. Some of the Acadians who were removed to France were then recruited by the Spanish government to migrate to Luisiana (today, Louisiana). These Acadians settled into the existing Louisiana Creole settlements, sometimes intermarrying with Creoles, and gradually developed what became known as Cajun culture.[^2]"
+ },
+ {
+  "id": "09-002",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1233,
+  "en_words": 204,
+  "text": "It may be that the British had some reason for moving the Acadians. They certainly were not loyal to the British Crown and some of them did fight alongside the French. However, the issue is that if you absolutely have to force someone out, there must be more humane ways of doing it. It is estimated that one-third of the Acadians perished during their resettlements. The event was traumatic.\n\nThat traumatic event was, of course, nothing compared to what the Native Americans endured. One famous example from the 1830s is the ‘Trail of Tears’, which was the forced relocation of Native Americans from the Southeast region of the United States. Among others, the displaced tribes included the Cherokee, Creek, Chickasaw, Choctaw and Seminole. They were moved west of the Mississippi River, and estimates based on both tribal and military records suggest that approximately 100,000 people were forced from their homes during the period and between 15,000 and 30,000 people died during the involuntary journey west.[^3] The cost in lives is not the only reason it was called the Trail of Tears, of course. It was also traumatic in that people were forced out of their ancestral homes, and their communities and cultures were destroyed."
+ },
+ {
+  "id": "09-003",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1603,
+  "en_words": 254,
+  "text": "We have mentioned examples of exit and exile so far, but to set up our discussion in this chapter, we must introduce one more class of situations: those involving access. Sometimes, you find yourself on the outside looking in, and you want to petition to enter into some new community. Typically, the motivation might be economic, or it might be that you are fleeing political oppression where you now live, or it might simply be that you are already culturally aligned with the place you are petitioning. As we write, many countries are facing difficult decisions about accepting migrant populations that want to enter and live within their borders. Of course, this is not restricted to people petitioning to enter the European Union and the United States. Many Venezuelans are currently petitioning for entry into Colombia, Brazil and Ecuador. Other cases include the Rohingya refugees petitioning to enter Bangladesh; Sub-Saharan Africans to North Africa; Haitians to South America; Central Asians from Uzbekistan, Tajikistan and Kyrgyzstan to Russia; and Eritreans to Sudan and Ethiopia. The question, of course, is whether these people have a right to petition and enter, what the limits of those rights are, and at what point those requests become unreasonable. More specifically, we want to know how those rights extend to blockchain communities.\n\nOur goal in this chapter is to consider exit, exile and access from the perspective of blockchain communities. What rights and responsibilities do blockchain communities have when it comes to permitting exit, carrying out exile and granting access?"
+ },
+ {
+  "id": "09-004",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 888,
+  "en_words": 157,
+  "text": "It seems logical that people should have the right to exit their blockchain communities, but how do people exit them? Under what conditions can they do so? For example, do people get to take their assets with them when they exit? What are your obligations when you belong to a blockchain community? Can you just up and leave, or should that be discouraged? Or for that matter, what if a blockchain community wants to kick you out? Should that be allowed? And if so, what are the rules for doing so? And what if there is a blockchain community you want to join, but it creates barriers to doing so? Is that allowed? Again, what are the rules?\n\nThese questions must be addressed upfront because they pose critical constraints on how we engineer blockchain communities but also on how we establish relations between them – ultimately, on how we build the ecosystem in which they will reside."
+ },
+ {
+  "id": "09-005",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1357,
+  "en_words": 233,
+  "text": "## 9.2 Exit\n\nAs we noted in this chapter’s introduction, the bold promise of blockchain communities is that there can be an exit strategy for us if we find that the values of our blockchain community do not align with our own. However, exit is not entirely frictionless, nor is it clear that it should be. This will lead us to take a closer look at the barriers to exit – social, economic and so on – as well as at the conditions that facilitate exit.\n\nExit also implies that there is an alternative place for us to exit to, and this leads us to the question of onboarding: How easy should it be for people to be onboarded to new blockchain communities, or at least to create new blockchain communities that align with their goals? The journalist and philosopher Hannah Arendt was stateless for nineteen years after World War II. That sounds like an excessively long time. What is a reasonable obstacle to movement when we talk about blockchain communities? We will explore this question in depth in the following two sections.\n\nA guiding philosophy that we endorse is the principle that there should be a plurality of governance mechanisms and that changes in governance should not require violent revolutions and wars and extended periods of political strife but should be as frictionless as possible. However, this idea requires some critical reflection."
+ },
+ {
+  "id": "09-006",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1335,
+  "en_words": 230,
+  "text": "To understand the subtleties of the exit problem, consider the position of someone who may have been a citizen of a single blockchain community for all or most of their life. Perhaps most of their friends and family are fellow citizens. Let us assume also that most of their business relations are with fellow citizens. They have paid taxes their entire working lives, and there is an understanding that the blockchain community will assist them when they retire. Clearly, there is a sense in which such a person can exit, but can they exit without being economically ruined?\n\nThe problem is particularly easy to see with regard to the benefits that may be owed the person after a lifetime of paying into what they supposed was their community’s retirement programme. A community can allow a person to cash out on exit, but nothing we have said thus far guarantees this. Can blockchain communities withhold from retirees who exit the community? For that matter, can they prohibit persons who exit from taking their current assets with them? Suppose, for example, a blockchain community had its own currency, let us call it Community Coin (CMTY), and suppose a citizen who wished to exit had all of their assets tied up in CMTY. Even if the state allowed you to take your CMTY with you, would CMTY even have value outside the community?"
+ },
+ {
+  "id": "09-007",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1504,
+  "en_words": 232,
+  "text": "Of course, golden handcuffs come into play independently of the question of asset transfer. Consider a person who is not close to retirement but who runs an online business providing computer programming services to members of the blockchain community. Certainly, the shared community relationships will have included business relations with fellow citizens. What happens when a person exits from a community because of a disagreement over policy or a shift in the moral compass of the community? Can the community block future collaborations between such a person and its members? Ideally, many of these rules and terms of agreement are present and are independently verifiable onchain prior to one’s joining the community. However, while a blockchain community’s legitimacy depends on the strength of its commitment to its stated principles and rules, communities do sometimes fail in their principles, and rules are often ignored and rewritten. What is the recourse for the community member who cannot abide such failures?\n\nOne might argue that the existence of golden handcuffs should have been obvious to someone who joins a blockchain community based on the transparent smart contracts grounding the community’s governance. However, some people are born into their communities and do not make this choice. Other people may make choices under economic or political duress. Others still may choose to join a community and find that the governance shifts beneath them, negating their earlier decision."
+ },
+ {
+  "id": "09-008",
+  "kind": "body",
+  "en_sentences": 8,
+  "en_chars": 960,
+  "en_words": 159,
+  "text": "Meanwhile, a blockchain community might argue that it is well within its rights to make exit difficult. It may insist that good governance requires a long-term commitment from its citizens and thus that people cannot be allowed to walk away freely. Perhaps they make the aforementioned golden handcuffs for their citizens explicit; you are told you can leave but that you cannot take your assets with you.\n\nThe first issue we need to address in response to these concerns is whether it is actually possible for a blockchain community to block the movement of assets. There can certainly be blockchain communities in which there are no golden handcuffs and from which assets can be extracted freely. Still, there is no guarantee that everyone will belong to such a community. It may be that for certain kinds of blockchain communities, such freedom to exit with assets is problematic. The question is, what kind of obstacles do these golden handcuffs represent?"
+ },
+ {
+  "id": "09-009",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1509,
+  "en_words": 253,
+  "text": "If the citizen holds their wealth in bitcoin or some other globally used cryptocurrency, it is difficult, if not impossible, for a cyberstate to block movement, assuming the assets are self-custodied. If the assets are locked into a governance contract, then matters become more complicated. On entry to a community or while enjoying citizenship in a blockchain community, one might have to commit assets to a smart contract. In effect, the asset would be placed under the control of the community for some specified period of time. It might be that the community wants leverage against the citizen in case of bad behaviour, or it might be that the community needs the assets as collateral in seeking loans for financing community investment. One can imagine many possibilities here, each involving conditions in which a citizen has assets that are under the control of the community and which, hypothetically, could be withheld on exit.\n\nAs we noted, one does not have to enter blockchain communities that have such a policy, but some people may find themselves in such a position through no fault of their own. Do we need general guidelines against such contracts? It is definitely a topic for conversation. On the one hand, one expects people to avoid communities with such policies, but on the other hand, we all make mistakes and picking the wrong community with the wrong contract should not be a fatal decision. The penalty for selecting a bad community should not be a life sentence in that community."
+ },
+ {
+  "id": "09-010",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1215,
+  "en_words": 205,
+  "text": "Many blockchain communities will have their own tokens, some of which may serve as within-community currencies. They may also have governance tokens, which will work similarly to how DAO tokens work today; their primary function would be to provide a mechanism through which blockchain community members can vote on governance matters. Both kinds of tokens can be used to incentivise and reward behaviours in the community. Someone might earn those tokens in any number of ways during their time as a citizen of the blockchain community.\n\nTo keep this discussion as focused as possible, let us again suppose that a blockchain community has a governance token called Govern Coin (GC). Let us say that GC has no utility outside our hypothetical community. The token has plenty of value within the community but not much outside of it. Are there any options for the person to exit with those GC assets or something of equivalent value? It depends.\n\nUnder some circumstances, there might be a market within the community itself to exchange GC for BTC or ETH or some other asset. Alternatively, if people are hoping to enter the community and wish to have assets when they land, there might be an external market for GC."
+ },
+ {
+  "id": "09-011",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1329,
+  "en_words": 221,
+  "text": "Problems will arise, however, if GC utility is tied to a single individual using Sybil-resistant strategies of some sort (recall from Chapter 6 that ‘Sybil resistant’ in the context of token-based voting means that only one human person has access to and use of the token). For example, suppose that access to GC and its utility was tied to biometric data, or perhaps a private key was assigned to individuals so that only the key holder could ever access the tokens. Would this mean that the tokens will not be portable? Presumably, but there is a caveat.\n\nIf someone exits their community and another community, let us call it NewCommunity, wanted to recruit them, NewCommunity might consider the holdings of Community Coin to be evidence of a loyal community member and incentivise them with an equal value of NewCommunity Coin. However, in this case, it is not so much that the asset itself moved but rather that NewCommunity is paying incentives to individuals who showed evidence of excellent community involvement. There is, however, no guarantee that such payments will be offered. So, there are limits. Not all assets can be extracted from a blockchain community that is being tyrannical. There will always be scenarios in which the value one has created within a community cannot be fully extracted from that community."
+ },
+ {
+  "id": "09-012",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1651,
+  "en_words": 268,
+  "text": "If you find yourself in a particularly tyrannical blockchain community, either by choice or birth, it is entirely possible that the community will have economic levers to restrict your freedom of exit. However, this needs to be understood in contrast to the situation in traditional nation states when they become tyrannical. The former Soviet Union is a good case in point. Exiting the Iron Curtain (for example, by trying to cross the Berlin Wall) was difficult and often deadly business. In short, instituting real freedom of exit is not trivial since leaving a successful blockchain community requires leaving behind the benefits that its citizenship confers.\n\nSo far, we have been concerned with the movement of assets, and we were speaking of assets with monetary value, but of course, there are also cultural assets. Let us take up the issue of the cultural importance that a particular cyberstate might have. Earlier, we spoke in the abstract of the Lakota nation, but now, to illustrate our point, let us imagine that there was a blockchain community engineered around a shared Lakota culture. Let us imagine that our blockchain community was a platform designed to facilitate the sharing of Lakota history and language and which provided entry to real-world cultural events and ceremonies. Now, imagine a small group of Lakota youth, say in their twenties, who are very much interested in learning and nurturing Lakota culture, who viewed our hypothetical blockchain community as the ideal platform for doing so, and thus built their life around business and social contacts in the community. To what extent is exit feasible for such people?"
+ },
+ {
+  "id": "09-013",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1040,
+  "en_words": 172,
+  "text": "Let us suppose that our Lakota friends very much enjoy their life in the Lakota blockchain community but cannot ethically abide by its current direction. They consider its policies unethical but are consistently outvoted on political matters. Let us suppose they become outcasts in their community and punitive actions are taken against them (socially punitive or economically punitive, it does not matter). They begin to feel like second-class citizens. They feel oppressed. But can they really exit?\n\nTo be sure, there is a hypothetical sense in which our Lakota friends are free to leave and start a new Lakota blockchain community. But how easy is that really? Do they have the technical ability to do so? Can they get enough people to follow them so that the new community can achieve critical mass? These questions are important because one of the key selling points of blockchain communities has been that they provide ways of avoiding a minority group being kettled in a space with another group that does not share their attitudes."
+ },
+ {
+  "id": "09-014",
+  "kind": "body",
+  "en_sentences": 13,
+  "en_chars": 1150,
+  "en_words": 180,
+  "text": "Presumably (and hopefully), we are not looking at a situation like that faced by Immaculée Ilibagiza during the Rwandan genocide. It is not going to come to that. Hopefully, the adversaries of our Lakota friends would not be waiting outside with machetes. They might even be somewhere on the other side of the world. Still, it is clearly a case where diverse interests are kettled together. They are not being kettled together because they inhabit the same geographical location but because they share certain important cultural interests. Yet, at the very same time, important cultural differences exist.\n\nCases like this do not even require cyberstates organised around an identifiable culture. Our friends might have found themselves in a pluralistic cyberstate that, for some reason, tolerates sexism (or some other form of discrimination). Let us say that they lobby, unsuccessfully, for a prohibition on such behaviour. However, their values are otherwise aligned with those of the community, and their friends and business relations are all contained in their cyberstate. Is an exit for them frictionless? Or rather, is it frictionless enough?"
+ },
+ {
+  "id": "09-015",
+  "kind": "body",
+  "en_sentences": 8,
+  "en_chars": 775,
+  "en_words": 133,
+  "text": "The short answer is that the deployment of blockchain communities will be an imperfect technology if the goal is to eliminate frustration with being on the losing end of a political fight. However, eliminating all pain and frustration was never the goal. The goal was to prevent conflicting values from being kettled together, with passions rising to the point that wars and acts of genocide are the order of the day. The goal is to provide people an exit and a potential new home before extreme situations manifest.\n\nOf course, for some individuals, it is not a question of exit. They get kicked out. We could call it involuntary exit, or we could call it exile. And the question becomes, what can we say about cases where individuals are exiled from blockchain communities?"
+ },
+ {
+  "id": "09-016",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1578,
+  "en_words": 287,
+  "text": "## 9.3 Exile\n\nMany people know of Hannah Arendt for her reporting on Adolf Eichmann’s trial for war crimes and her observations about ‘the banality of evil’.[^4] Fewer people know about her personal history. In 1933, she was arrested in Berlin by the Gestapo and subsequently escaped to Paris. When France began to fall in World War II, she was placed in an internment camp named Gurs, located near the town of Pau in the French Pyrenees, from which she fled when she heard rumours that the camp residents would be turned over to the Gestapo. Following her escape, she biked, walked and hitchhiked to a friend’s home near Toulouse. From there, she made her way to Marseilles, then Spain and then to Lisbon, where she found passage to New York City. From 1933 to 1951, when she finally became a US citizen, she was officially stateless.\n\nIt was thus not by accident that Hannah Arendt became concerned with the rights of stateless people – persons in exile. In 1946, she first published an essay, which was later reproduced in her book, *The Origins of Totalitarianism*. In it, she spoke of ‘the right to have rights’, by which she meant that if you do not belong to a community, you have no functional rights at all. If you are exiled and are stateless, it is as though you have fallen through the cracks and no longer live in a world of rights and norms. In her view, ‘We become aware of the existence of a right to have rights (and that means to live in a framework where one is judged by one’s actions and opinions) and a right to belong to some kind of organized community’."
+ },
+ {
+  "id": "09-017",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1253,
+  "en_words": 223,
+  "text": "What is it like to be stateless and no longer belong to an organised community? Arendt describes the phenomenon this way: ‘Once they had left their homeland they remained homeless, once they had left their state they became stateless; once they had been deprived of their human rights they were rightless, the scum of the earth.’[^5]\n\nHere, we get to the deep point that Arendt is making. The idea is that rights really only make sense in the context of a community, for only fellow community members can negotiate *de facto* rights with you. *De facto* rights are not something you simply have; they are something that we have to forge together. Here is how Arendt puts it:\n\n> We are not born equal; we become equal as members of a group on the strength of our decision to guarantee ourselves mutually equal rights. Our political life rests on the assumption that we can produce equality through organization, because man can act and change and build a common world, together with his equals and only with his equals.[^6]\n\nIf you are not part of a community, you no longer enjoy the conditions under which your equal rights can be forged. You still have a natural right, but that is the right to be part of a community where these rights can be forged."
+ },
+ {
+  "id": "09-018",
+  "kind": "body",
+  "en_sentences": 14,
+  "en_chars": 1855,
+  "en_words": 332,
+  "text": "We can dig even deeper here. Part of Arendt’s point is that while you might have the right to free speech, if you are not part of an organised community, then you are basically just howling at the moon. You have speech, but you do not really have the ‘right to opinion’, by which she means that you do not have the kind of speech that matters in getting things done. ‘Opinion’, as Arendt uses the word, is speech that takes place in a context in which what you say can (potentially) have uptake in policy decisions. Similarly, in her view, you have the right to freedom when you are alone, but you do not have the ‘right to action’, which means that if you do not belong to some form of community, what you do does not have real consequences. So, in the big picture, many of our rights do not materialise, or put better, are not causally effective unless they are realised in the context of a community. Otherwise, they are inert.\n\nIn the world of nation states, the problem of the stateless and of exiles has become massive. In her book *Exile, Statelessness, and Migration*, Seyla Benhabib observed that at the end of 2016, there were estimated to be 65.6 million refugees worldwide.[^7] Or to put it in other terms, one in every 113 people in the world is some form of refugee – they are stateless, outside the realm of rights. Now, to be sure, not all of these people were exiled by the state in which they lived. Some were displaced by war or other factors (and many were born into these conditions), but the core issue is that these are all individuals who have become untethered to the institutions in which meaningful rights are forged. The terminology for these people varies. They may be referred to as ‘refugees’, ‘asylees’, ‘internally displaced persons’ or ‘stateless persons’. Whatever name we give to the displaced, their situation is dire."
+ },
+ {
+  "id": "09-019",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1421,
+  "en_words": 241,
+  "text": "Part of the promise of blockchain communities is that they can provide safe landing spots for displaced people. Specifically, they can provide communities in which people can express opinions and act in ways that have consequences. Refugees should not have to wait for new nation states to be forged for them or for old nation states to accept them; they should be able to form blockchain communities even when they are without territorial homes. They should be able to form their own blockchain communities as soon as they are needed.\n\nIdeally, one can find asylum without bouncing from country to country and then living in legal limbo for decades. However, that is the ideal situation, and we need to be clear that if states are at liberty to exile members, we must ensure that everyone has a plausible landing spot and that the landing spot comes without delay. Among other things, this means that the exile should be fair.\n\nSo, what should happen when blockchain communities wish to exile citizens who are bad actors or are perceived as not contributing? Clearly, being banned from a blockchain community would not be as onerous as what happened to Arendt and millions of other refugees from Nazi Germany, or as what is still happening to Palestinians today, or as onerous as what happened to the Native Americans or the Acadians. However, there are still very real costs to being exiled from a blockchain community."
+ },
+ {
+  "id": "09-020",
+  "kind": "body",
+  "en_sentences": 13,
+  "en_chars": 1618,
+  "en_words": 274,
+  "text": "At first glance, it seemed reasonable that a blockchain community should be free to force out whomever it wishes, subject to its own principles. However, the matter is fundamentally just as problematic as a blocked exit. It is one thing to ask an exiled citizen to surrender their governance tokens, but what if the request is to no longer do business with their partners in the community? And what if those business partners are critical of the exiled person’s livelihood? It may be that the global community will expect that banned citizens receive a suitable compensation package on forced exit, even if the banning was in accord with the laws and principles of the blockchain community. A banning, after all, has consequences outside the virtual and physical borders of the blockchain community.\n\nIt seems we must find a path that allows blockchain communities to exile individuals, but that is fair to the exiled individuals – we need to protect their ‘right to have rights’. We have said that blockchain communities should be free to conduct their own affairs, but that freedom only makes sense if exiled people have the ability to land on their feet. There are certain universal principles that blockchain communities must respect if their very idea is to be workable. And having individuals and minority communities cast out without functional resources is not a workable solution. It is the sort of failure that might be tolerated in the age of nation states but which is not an option in the age of blockchain communities. So, what can be done? What kinds of safety nets must be made available to the exiled?"
+ },
+ {
+  "id": "09-021",
+  "kind": "body",
+  "en_sentences": 13,
+  "en_chars": 1127,
+  "en_words": 197,
+  "text": "The fundamental issue is that if we are to allow exile, we must allow frictionless access to a new home. It took Hannah Arendt decades to acquire her US citizenship. Refugees from Palestine and elsewhere have had to wait even longer to find homes. Indeed, as Benhabib points out, there are ‘temporary’ Palestinian internment camps in Lebanon that have been in operation since 1948. The Dadaab refugee camp in Kenya, with 420,000 refugees, has been in operation for twenty years.[^8] In view of the loss of rights of the stateless persons living in these places, this is an embarrassment to all of humanity. It is now time to do better. But how?\n\n## 9.4 Access\n\nWe concluded the previous section by saying that exiled people should have the right to gain access to a blockchain community (and thereby the ‘right to have rights’). Should they, therefore, have the right to access any blockchain community? Do you get to choose your landing spot? Or do you merely have the right to petition for entrance? But what kind of a hearing would this entail? Or do you merely have the right to form a new blockchain community with others?"
+ },
+ {
+  "id": "09-022",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 596,
+  "en_words": 96,
+  "text": "There are several issues to address here. First, does the right to access entail the right to start-up resources? And if so, who is responsible for providing those start-up resources? The community from which the refugee is exiled? The community in which the refugee lands? Other blockchain communities? Next, the question involves whether you have the right to enter any community or merely some communities. If you can only feely enter some communities, which communities? Finally, if there is a right to petition, what does that entail? What counts as a serious consideration of your petition?"
+ },
+ {
+  "id": "09-023",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1546,
+  "en_words": 240,
+  "text": "Should people be free to join any blockchain communities they wish? Presumably not; there are lots of good reasons to restrict access, not least of which is the problem that blockchain communities built around minority cultures and values could get swamped by bad actors joining from a majority culture with the express goal of undermining the community. Beyond that, it seems reasonable for communities to control conditions for entrance.\n\nThere are, of course, concerns here familiar from our world of exclusive clubs and neighbourhoods that block entry from undesired groups. There is a widely shared attitude that exclusion from minority organisations is permissible, but exclusion from majority organisations – typically, from access to power – is problematic. The reflex of this problem in the case of blockchain communities is that we are inclined to say that our hypothetical Lakota blockchain community is within its rights to restrict entry to tribal members but that a powerful majority blockchain community should not be so restrictive. Is this attitude well placed?\n\nIt certainly makes sense to allow blockchain communities to be organised around ethnic groups, and it certainly makes sense that blockchain communities should not be in the business of freezing people out of power, but clearly, these two ideas come into conflict, just as they do in traditional nation states. A blockchain community organised around European culture could hardly avoid being a blockchain community organised around wealth and power in today’s world."
+ },
+ {
+  "id": "09-024",
+  "kind": "body",
+  "en_sentences": 15,
+  "en_chars": 1948,
+  "en_words": 313,
+  "text": "We can offer some preliminary reflections on how this tension might be resolved. For example, we can distinguish between blockchain communities that are organised around culture and blockchain communities that are organised around economic opportunities. Individuals could belong to both, just as we have dual citizenships today. For example, our Lakota friend could belong to a blockchain community organised by Lakota and a separate blockchain community organised around economic concerns. The key idea would be that economic communities must be inclusive, and culture-based communities may be exclusive.\n\nIt is not even obvious that this would have to be enforced as an intercommunity principle. Assuming a plurality of economic communities, it is difficult to imagine that any of them, much less all of them, could flourish by being restrictive. On the other hand, it may be that some cultural communities need to address the economic welfare of their members. So, one may want to allow that cultural communities can provide economic assistance up to a certain economic threshold.\n\nThese are all questions that will remain open, but for now, we can close off our discussion by noting that blockchain community exit, exile and access, while certainly not free of frictions and certainly not free of hard decisions, will at least be less painful and violent than what we are used to in the age of nation states.\n\nHowever, once we have reduced the frictions of exit and access, and once we have minimised the hardship of exile, we find ourselves confronted with new questions. If humans are organised around communities, and communities may overlap, and if the movement of citizens between communities is fluid, what will governmental sovereignty look like in this picture? Will there even be a unified notion of sovereignty? Or will this lead to many new kinds of overlapping sovereignties? These are the questions we turn to in the next chapter."
+ },
+ {
+  "id": "09-N00",
+  "kind": "notes",
+  "en_sentences": 8,
+  "en_chars": 778,
+  "en_words": 110,
+  "text": "[^1]: John Mack Faragher, *A Great and Noble Scheme: The Tragic Story of the Expulsion of the French Acadians from Their American Homeland*, 1st ed. (New York, NY, 2005).\n\n[^2]: This is reflected in the phonological similarity between ‘Acadian’ and ‘Cajun’.\n\n[^3]: Encyclopedia Britannica, ‘Trail of Tears’, Britannica, 2024 <https://www.britannica.com/event/Trail-of-Tears> [accessed 29 October 2024].\n\n[^4]: Hannah Arendt and Amos Elon, *Eichmann in Jerusalem: A Report on the Banality of Evil* (London, 2006).\n\n[^5]: Hannah Arendt, *The Origins of Totalitarianism*, New ed. (New York, NY, 1973).\n\n[^6]: Ibid., 301.\n\n[^7]: Seyla Benhabib, *Exile, Statelessness, and Migration: Playing Chess with History from Hannah Arendt to Isaiah Berlin* (Princeton, NJ, 2018).\n\n[^8]: Ibid."
+ }
+]

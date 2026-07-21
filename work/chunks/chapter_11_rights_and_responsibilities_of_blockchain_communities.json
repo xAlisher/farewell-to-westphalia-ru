@@ -1,0 +1,242 @@
+[
+ {
+  "id": "11-000",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1244,
+  "en_words": 196,
+  "text": "# 11. The Rights and Responsibilities of Blockchain Communities\n\n## 11.1 Preliminaries\n\nIn 1789, during the French Revolution, the National Assembly of France approved a document known as the Declaration of the Rights of Man and of the Citizen. Initially drafted by George Washington’s protégé, the Marquis de Lafayette, with assistance from US Declaration of Independence author Thomas Jefferson (then serving as US Ambassador to France), the final version was written by the Abbé Sieyès.[^1] It incorporated a great deal of Enlightenment philosophy, including ideas from the philosophers John Locke and Jean-Jacques Rousseau, as well as inspiration from the US Declaration of Independence. To this day, it is a model for our understanding of human rights and is considered a valid document to which to appeal in constitutional and international law.\n\nThe document has been of seminal influence, but its very existence raises questions. Where do these rights come from? Who makes sure we are free to exercise them? The rights also seem to apply to individuals; could we envision a similar document that applied to communities rather than individuals? What would it look like? And would we have the technology necessary to protect these rights?"
+ },
+ {
+  "id": "11-001",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1725,
+  "en_words": 308,
+  "text": "## 11.2 De jure and de facto rights\n\nLet us begin by making a distinction between the de jure rights that someone might have – for example, rights that God might grant to them – and the de facto rights that they are actually able to enjoy. For example, if God were the foundation for our rights, God might grant us the right to liberty, but state authorities might take that right away in practice. In this case, we might say that one has a God-given, de jure right to liberty but no corresponding de facto right, as the state has stripped it from us. Sometimes, we might say that the de jure right is still there, although we are not able to exercise that right.\n\nThere are probably as many theories of the origins of de jure rights as there are thinkers on the topic. We have mentioned the idea that they might be God given, and this idea is widely held (as evidenced by the common use of the phrase ‘God-given rights’). Its most famous advocate would be Saint Aquinas. In a nutshell, the idea is that all rights that we have are conferred by God.\n\nThis is not the only view of the origins of rights, of course. We earlier mentioned John Locke and Jean-Jacques Rousseau, who had an influence on the drafting of the Declaration of the Rights of Man. Locke’s view was that individuals have natural rights to life, liberty and property, which are inherent and inalienable.[^2] Rousseau, on the other hand, grounded de jure rights in his concept of the social contract and the ‘general will’.[^3] Utilitarians, like Jeremy Bentham, thought that rights would have to extrude from the idea of maximising happiness for the greatest number of people. Others have advocated any number of other approaches to the grounding of rights."
+ },
+ {
+  "id": "11-002",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 725,
+  "en_words": 129,
+  "text": "We aim to remain neutral on the source of the de jure rights of individuals. For current purposes, it does not matter where they come from; we just need to agree on what some of those rights are – for example, the right to liberty or the right to political self-determination. Once we agree on what those individual rights might be, we immediately get to the question of whether we will be allowed to exercise them. Or to put it another way, do we have the corresponding de facto rights?\n\nThis leads us to the question of what sorts of systems are actually capable of protecting our individual rights. Can monarchies do it? Can oligarchies do it? Can democracies do it? Can anything involving traditional nation states do it?"
+ },
+ {
+  "id": "11-003",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1701,
+  "en_words": 288,
+  "text": "It will probably not surprise you to learn that we think nation states are, by their very nature, not capable of protecting the de jure rights of individuals. They can hardly be expected to do so when individuals with conflicting values are kettled within their borders. For that matter, we doubt that any centralised authority can do it either – the dangers of corruption and lack of transparency are just too great in centralised systems. The rights of individuals invariably take a back seat to the interests of centralised authorities.\n\nIt will also not surprise you to learn that we think that any system of governance that is actually capable of defending our rights – making sure that we are free to exercise those rights – must allow us to exit untenable situations, and this, in turn, requires that they must allow us to be informed of the actions of the government and what kinds of ways of living are possible under alternative governance structures. There is a series of responsibilities that governing institutions have if they are to preserve our ability to exercise our de jure rights – to make those rights de facto rights.\n\nHere is where things get interesting. If governing institutions are responsible for protecting our de facto rights, they must be given the resources to do so. ‘Ought’ implies ‘can’. Therefore, if they are to fulfill that responsibility, they must also possess the means – and thus the rights – necessary to do so. However, these are not yet de facto rights for communities. If we are to build an alternative governance structure around the concept of blockchain communities, we must ensure that the underlying technology stack can ensure these de facto rights."
+ },
+ {
+  "id": "11-004",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1775,
+  "en_words": 307,
+  "text": "On this view, we are not so much worried about how the rights of individuals are grounded, but we are worried about how the rights of communities are grounded. At least some of those rights are grounded in a community’s right to carry out its responsibilities, including its responsibilities to individuals. If individuals have a right to exit, for example, then communities have the responsibility to make that a de facto right, but then communities, in turn, must have rights of their own. And if those community rights are also to be de facto rights, then we need to ensure that the underlying technology enables those de facto rights as well.\n\nIn other words, blockchain communities will have significant rights of their own, and the question is how we can ensure that those rights become de facto rights, not merely aspirational ideas. Our aim here is to offer a template for discussing these de jure community rights, with an eye to later reflecting on how we can organise the technology stack for blockchain communities to afford them these abilities and rights – in other words, to make them de facto rights.\n\n## 11.3 The Declaration of the Rights of Man\n\nTo begin this discussion, it might be useful to review the Declaration of the Rights of Man and use it as a template for how we could address the issue of the rights of communities. However, it will also be a guide; if we endorse the individual rights proposed, then we need to think about what must be afforded to blockchain communities in order to preserve those rights. For ease of reference, we reproduce the declaration’s articles here in full.\n\n> ARTICLE I. Men are born, and always continue, free and equal in respect of their rights. Civil distinctions, therefore, can be founded only on public utility."
+ },
+ {
+  "id": "11-005",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 907,
+  "en_words": 157,
+  "text": "> ARTICLE II. The end of all political associations, is the preservation of the natural and imprescriptible rights of man; and these rights are liberty, property, security, and resistance of oppression.\n\n> ARTICLE III. The nation is essentially the source of all sovereignty; nor can any individual, or any body of men, be entitled to any authority which is not expressly derived from it.\n\n> ARTICLE IV. Political liberty consists in the power of doing whatever does not injure another. The exercise of the natural rights of every man, has no other limits than those which are necessary to secure to every other man the free exercise of the same rights; and these limits are determinable only by the law.\n\n> ARTICLE V. The law ought to prohibit only actions hurtful to society. What is not prohibited by the law, should not be hindered; nor should anyone be compelled to that which the law does not require."
+ },
+ {
+  "id": "11-006",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1303,
+  "en_words": 219,
+  "text": "> ARTICLE VI. The law is an expression of the will of the community. All citizens have a right to concur, either personally, or by their representatives, in its formation. It should be the same to all, whether it protects or punishes; and all being equal in its sight, are equally eligible to all honours, places, and employments, according to their different abilities, without any other distinction than that created by their virtues and talents.\n\n> ARTICLE VII. No man should be accused, arrested, or held in confinement, except in cases determined by the law, and according to the forms which it has prescribed. All who promote, solicit, execute, or cause to be executed, arbitrary orders, ought to be punished, and every citizen called upon, or apprehended by virtue of the law, ought immediately to obey, and renders himself culpable by resistance.\n\n> ARTICLE VIII. The law ought to impose no other penalties but such as are absolutely and evidently necessary; and no one ought to be punished, but in virtue of a law promulgated before the offence, and legally applied.\n\n> ARTICLE IX. Every man being presumed innocent till he has been convicted, whenever his detention becomes indispensable, all rigour to him, more than is necessary to secure his person, ought to be provided against by the law."
+ },
+ {
+  "id": "11-007",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1266,
+  "en_words": 217,
+  "text": "> ARTICLE X. No man ought to be molested on account of his opinions, not even on account of his religious opinions, provided his avowal of them does not disturb the public order established by law.\n\n> ARTICLE XI. The unrestrained communication of thoughts and opinions being one of the most precious rights of man, every citizen may speak, write, and publish freely, provided he is responsible for the abuse of this liberty, in cases determined by law.\n\n> ARTICLE XII. A public force being necessary to give security to the rights of men and of citizens, that force is instituted for the benefit of the community and not for the particular benefit of the persons to whom it is entrusted.\n\n> ARTICLE XIII. A common contribution being necessary for the support of the public force, and for defraying the other expenses of government, it ought to be divided equally among the members of the community, according to their abilities.\n\n> ARTICLE XIV. Every citizen has a right, either by himself or his representative, to a free voice in determining the necessity of public contributions, the appropriation of them, and their account, mode of assessment, and duration.\n\n> ARTICLE XV. Every community has had a right to demand of all its agents an account of their conduct."
+ },
+ {
+  "id": "11-008",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1145,
+  "en_words": 205,
+  "text": "> ARTICLE XVI. Every community in which a separation of powers and a security of rights is not provided for, wants a constitution.\n\n> ARTICLE XVII. The right to property being inviolable and sacred, no one ought to be deprived of it, except in cases of evident public necessity, legally ascertained, and on condition of a previous just indemnity.[^4]\n\nThe first thing to notice about this document is that, in fact, not all of the articles apply to individuals. Article XV, for example, speaks of the right that a society has to the accountability of its administrators (it appears to be an example of a group right). Article XVI is not really a right but rather a responsibility, and it is a responsibility of the society rather than individuals. It suggests that if a society does not guarantee the rights of individual citizens, it is a false society – or in any case, it is without a true constitution. Article XIII also seems to be more of a right for the society than for individuals. Or perhaps it is a hybrid in that the society has a right to the service of individuals, but those individuals have the right to an equal call to service."
+ },
+ {
+  "id": "11-009",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1462,
+  "en_words": 226,
+  "text": "Article III is puzzling in that it appeals to the nation for the grounding of sovereignty and suggests that all rights stem from the nation. This needs to be placed in context, as it is properly understood as an alternative to rights stemming from the divine right of the king. Still, today, it strikes us as a peculiar place to ground individual rights.\n\nSince our focus here is more on communities than individuals, we will want to develop a different kind of constitution. We ultimately propose a Declaration of the Rights of Communities, understanding communities broadly to include blockchain communities and, hypothetically, any other similarly organised group of individuals (decentralised yet cooperative). However, to get at the rights of communities, we first need to discuss what their responsibilities are, then reflect on their de jure rights and, from there, think about whether the underlying technology stack can underwrite the corresponding de facto rights.\n\n## 11.4 On the responsibilities of blockchain communities\n\nThe responsibilities of blockchain communities are of two kinds. There are external responsibilities and internal responsibilities. As an example of an external responsibility, we might argue that communities do not have the right to infringe upon the rights of other communities and, thus, the citizens therein. With regard to internal responsibilities, we have argued that it is critical that citizens have the right to exit."
+ },
+ {
+  "id": "11-010",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1318,
+  "en_words": 231,
+  "text": "We are not in a position to offer an exhaustive survey of responsibilities, as they could potentially involve any aspect of human governance. However, it might be useful to discuss a handful of examples to give some sense of the nature and scope of such responsibilities. Let us set aside, for the moment, what should happen when responsibilities are violated and who or what should enforce the commitment to these responsibilities. For now, we just want to focus on the responsibilities themselves, ignoring how, or even if, they are to be enforced.\n\nLet us take up the issue of internal responsibilities first, and a good place to begin is with a case we have already discussed – the right to exit and the community responsibilities that extrude from that right. The right to exit is surely core to an understanding of how blockchain communities can be viable governance structures. However, if the right to exit is to be more than an empty platitude, we need to give it some teeth. In Chapter 9, we saw that if we are serious about exit, then citizens should be free to exit with the resources that they have acquired. Furthermore, we saw that the right to exit is also hollow if people are in the dark about what their community leaders are up to. Thus, viable exit requires transparency on top of everything else."
+ },
+ {
+  "id": "11-011",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1141,
+  "en_words": 192,
+  "text": "If we accept these additional requirements, it seems reasonable to cast them as internal responsibilities for blockchain communities. If the right to exit is fundamental, and if exit must be viable, then communities have the responsibility to ensure the conditions of a viable exit. In Chapter 9, we noted that this transparency would apply to any information that might be relevant to a person’s desire to exit. To put it another way, if knowing some piece of information would be relevant to a person’s exit decision, then the person has a right to know that information. This too opens the door to a class of responsibilities for blockchain communities. Transparency is not merely a good; it is a responsibility.\n\nWhat does this responsibility entail? There are many possibilities here. For example, it is reasonable to think that persons have a right to know how their tax contributions are being spent. They presumably should have a right to know if their government is engaged in criminal acts. They have a right to know if the rights of fellow citizens are being trampled. All of these questions might be relevant to an exit decision."
+ },
+ {
+  "id": "11-012",
+  "kind": "body",
+  "en_sentences": 21,
+  "en_chars": 1505,
+  "en_words": 242,
+  "text": "This is just one example, or family of examples, related to exit, but it is enough to help us formalise the structure of rights and responsibilities for blockchain communities. Again, this formalisation is not cast in bronze. It is designed to initiate conversation. However, we believe it is a reasonable place to start.\n\n> I. Responsibilities to individuals\n>\n> Communities have the primary responsibility to ensure individual exit. This responsibility entails additional responsibilities:\n>\n> 1. Communities have the responsibility to be as transparent as possible about their actions, plans and goals. Reliable records of actions, plans and goals should be easily accessible to all community members.\n> 2. Communities have the responsibility to enable members the right to access information outside of the community.\n> 3. Communities have the responsibility to ensure that community members do not forfeit their ability to exit even if they wish to do so.\n> 4. Communities have the responsibility to ensure that their members retain access to the resources necessary to exit, should they choose to do so in the moment.\n>\n> II. Responsibilities to other communities.\n>\n> 1. Communities have the responsibility to not interfere with the conduct of any community that is operating in a way that respects the rights of other communities and the ability of their members to exit.\n> 2. Communities have the responsibility to be accurate and transparent with communities with which they wish to collaborate."
+ },
+ {
+  "id": "11-013",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1168,
+  "en_words": 188,
+  "text": "As stated, this is not a definitive list but the initiation of a conversation, and one can see that interesting questions already arise.\n\nBlockchain communities have responsibilities to their individual members, and many of those responsibilities are tied to the right to exit. However, they also have responsibilities to other communities and the members of those communities. Blockchain communities have the right to attend to their own affairs as long as they are not interfering with others, but they also have the responsibility to honour the rights of other communities. If someone has a right, there is naturally a responsibility to respect that right.\n\nThis means that while there is a great deal of leeway in what kind of culture a blockchain community might inculcate, there can be no culture that infringes upon other cultures – even those of competitors. As usual, this leads to certain complicated cases. For example, the forced attack on another community is not permitted but there are more subtle issues surrounding, for example, proselytisation. You cannot force a community to adopt your values by the sword, but can you blanket them with propaganda?"
+ },
+ {
+  "id": "11-014",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1175,
+  "en_words": 205,
+  "text": "As we have set things out, a community has a right to control the information that enters it, but not over the right for members to venture out and explore the information space. This suggests limits to proselytisation, whether it be religious or cultural. Insofar as a community allows you into their information space, you play by its rules, but if someone ventures out, there really are no rules – proselytise away. The responsibility is then to respect the boundaries set by the individual community. A community can understandably set limits on the practice of proselytising within its network.\n\nAll of this raises the question of what it means to restrict the flow of information internally but permit someone to step outside the information sphere. And the answer, of course, is that from a technical point of view, there really is no interesting difference. The information is flowing by; the question is whether you are going to sample it or not. One way to think of it is like parental restrictions on online content. You can turn it on or you can leave it off, but even when you turn the filter on, the information is there; you are simply choosing not to view it."
+ },
+ {
+  "id": "11-015",
+  "kind": "body",
+  "en_sentences": 8,
+  "en_chars": 922,
+  "en_words": 146,
+  "text": "This, of course, leads to objections. How does one preserve a culture when there is so much information working against it that is only invisible because of some easily toggled community web nanny? The answer is that cultures can only be preserved by their desire to survive; they cannot survive by virtue of the involuntary ignorance of their community members. Any culture that requires involuntary censorship and forced ignorance to ensure its survival is perhaps not a culture worth preserving.\n\nIn Chapter 9, when we discussed exit and exile, we considered the right to petition to enter another community. This suggests that communities have a corresponding responsibility to consider such petitions in a fair manner. It may also suggest a responsibility to help make exit and access as frictionless as possible. This may include a responsibility to financially support individuals in exile and those seeking access."
+ },
+ {
+  "id": "11-016",
+  "kind": "body",
+  "en_sentences": 14,
+  "en_chars": 1374,
+  "en_words": 214,
+  "text": "So far, we have been talking about the responsibility that communities have towards their individual members, but as we noted, communities also have responsibilities towards other communities. One area where this arises is in the issue of respecting the culture of alternative communities. This is the inverse of the responsibilities that communities have to make knowledge of other cultures accessible. However, those other cultures, in turn, have the responsibility to be forthright in the information they provide. Just as a failure to exit out of ignorance is problematic, an exit based on misinformation is likewise undesirable.\n\nAgain, there are no easy answers here. Who decides if the information provided is misinformation or a ticket to escape oppression? Ultimately, there can be no centralised authority to judge when a community is being helpful and when it is being misleading. Litigation of these questions will have to take place on a case-by-case basis by the ecosystem of communities. The framework we are offering here does not pretend to circumvent hard questions. The goal is rather to remove the resolution of those questions from centralised authorities. In some cases, these disputes can be resolved by negotiating on a peer-to-peer or community-wide basis. In other cases, the dispute may well escalate. Communities may even come into open conflict."
+ },
+ {
+  "id": "11-017",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1365,
+  "en_words": 224,
+  "text": "In the next chapter, we will get to the question of how blockchain communities are optimal for resolving disputes, and then we will get into the business of what happens when their methods of dispute resolution fail. However, before we get into those matters, we need to stress one key point. As we have emphasised, blockchain communities have important responsibilities – both to their members and to other communities. Thus, there is the inevitable question of what happens when a blockchain community does not live up to its responsibilities. Our knee-jerk reaction may be to think that we must have some sort of oversight authority, but exactly who or what has oversight over these failures of responsibility? If we reject appeals to centralised authority, then the answer to this question is going to look very different from what we are used to.\n\n## 11.5 Decentralised oversight of blockchain communities\n\nIn the previous section, we saw that blockchain-based communities have responsibilities to individuals and to other communities. But what happens if they shirk those responsibilities or act in a way that is contrary to them? For example, what if they interfere in the conduct of another community, or what if they create barriers to exit for their citizens? Or to put it another way, what if they violate the rights of other communities and individuals?"
+ },
+ {
+  "id": "11-018",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1394,
+  "en_words": 232,
+  "text": "We are now leaving behind questions of what is right and what is wrong and beginning to ask questions about what is to be done if norms are violated. As we saw in the previous two sections of this chapter, there are arguably norms applying both to the rights of individuals and the rights and responsibilities of blockchain communities. Regarding individual rights, many of them extrude from the right to exit and the right to access. Regarding communities, many rights extrude from the idea that they should be free to exist unmolested as long as they do not harm other communities. Two questions immediately arise. Firstly, who or what determines when an agent or community has violated the rights of other agents or communities? Secondly, what is to be done when an agent or community violates the rights of other agents or communities?\n\nFor obvious reasons, we do not advocate a centralised authority to judge when communities are acting in violation of norms. Just as clearly, we do not advocate a standing (or even temporary) centralised authority to act against the violation of such norms. The guiding philosophy of the project in this book is that centralised authority is an inadequate solution to problems of governance in today’s world. We certainly do not want to rely on centralised authorities regarding this critical lynchpin to human governance. Fortunately, we do not have to."
+ },
+ {
+  "id": "11-019",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1694,
+  "en_words": 276,
+  "text": "The first observation that must be made is that in a world of decentralised governance, the preferred way to resolve disputes is not to ‘run to the parents’ – to a centralised authority. Disputes and misunderstandings often can be resolved on a peer-to-peer basis without appeal to a higher authority. As we will see in the next chapter, blockchain technologies will play an important role in making such dispute resolution more successful. The idea will be that conflict negotiations involve forming a kind of community – even if it is a community in conflict – and if such a community in conflict is organised using blockchain technologies, there will be many tools that can help resolve matters. For example, disputes about violations of norms can be assisted by shared records of negotiations over what each party to the dispute thinks the relevant norms are and how they want those norms to be respected.\n\nFor now, however, let us suppose that there has been a breakdown in the peer-to-peer attempt at dispute resolution. For example, imagine that there is a blockchain community that persists in violating fundamental norms regarding the right to exit or the freedom for a community to remain unmolested. Depending upon the severity of a violation of norms and assuming the exhaustion of negotiated solutions to norms, what is to be done? Communities may organise themselves into temporary alliances to take action against communities that are violating norms. Following the general principle that governance should be decentralised, this suggests that punitive alliances should be fleeting – they should be in place just long enough to respond to imminent threats to norms and no longer."
+ },
+ {
+  "id": "11-020",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1357,
+  "en_words": 210,
+  "text": "But what should, and for that matter, what can such an alliance do? For most blockchain communities, even those that supersede the role of states, it is unlikely that state identity will be tied to the control of territory. Success for a blockchain community (including cyberstates) is a direct function of its ability to network successfully with other communities. Being a pariah endangers this successful networking and thus endangers the ability of such a community to prosper.\n\nThis point deserves emphasis as it is perhaps a hidden feature of blockchain communities. They prosper thanks to network effects and having partners with whom they can collaborate. In the contemporary context of terrestrial nation states, sanctions are a crude instrument for success because traditional nation states have direct control over physical territory and the resources therein. They also have access to kinetic forces, which may be brought to bear against civilian populations. However, blockchain communities will not project force in the same way. Indeed, their most powerful mode of action is to disconnect and isolate bad actors – a strategy that is more successful when engaging blockchain communities than when engaging terrestrial nation states. It is easier to disconnect someone from a communication network than to remove them from a physical territory."
+ },
+ {
+  "id": "11-021",
+  "kind": "body",
+  "en_sentences": 8,
+  "en_chars": 976,
+  "en_words": 157,
+  "text": "There are, of course, lots of questions that arise here. How do we sanction other blockchain communities? What does disconnection and isolation look like? What happens when such a community seeks to retaliate with either cyberwarfare or kinetic attacks? Or for that matter, what happens when a blockchain community comes into conflict with a traditional nation state? We will dive deeper into these questions in Chapter 13. However, for now, we want to leave this conversation with one takeaway: there are clear norms that govern the conduct of all blockchain communities – surrounding the right to exit, for example – but judging that something is a violation of these norms and taking action in response to a such a violation is not the province of centralised authority. Violations of norms can only be recognised by individuals and individual communities, and their principal mode of action will be to collaborate with other communities to isolate the offending community."
+ },
+ {
+  "id": "11-022",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1619,
+  "en_words": 264,
+  "text": "## 11.6 On the rights of blockchain communities\n\nWe have touched upon the responsibilities of blockchain communities, and we have also given our first gloss over the kinds of political and governmental tools that blockchain communities can be expected to have in carrying out those responsibilities. The flip side of these responsibilities is that blockchain communities will have rights as well. The political and governmental tools that are available are the very tools that can help de jure rights become de facto rights. They are the tools that ensure we not only have rights but that we can exercise them.\n\nOf course, we are not only interested in preserving individual rights but also in preserving community rights. And we want those community rights to be not merely de jure rights but de facto rights. So far, however, we have not explained what those community rights are. In what follows, we offer our own Declaration of the Rights of Communities. It is informed by the responsibilities that communities have, both to individuals and to each other, and it is also informed by the tools that communities need to be afforded in order to carry out their responsibilities. Insofar as we are interested in the de facto rights of communities, we observe that those de facto rights are necessarily circumscribed by what the technology stack can actually provide.\n\nWhile this declaration focuses on the rights of communities, this is not to suggest that individuals have no rights or even lesser rights than communities. On the contrary, community rights extrude from the responsibility to protect individual rights."
+ },
+ {
+  "id": "11-023",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1058,
+  "en_words": 164,
+  "text": "Libertarians are apt to focus on the rights of individuals, and communitarians are apt to focus on the rights of communities. However, we think it is important to keep in mind that you cannot realistically have one without the other. Communities can preserve and nurture the rights of individuals, and communities really cannot function well without freely acting members. Together, they create a system in which individual rights and responsibilities serve community interests, and community rights and responsibilities serve individual interests.\n\nWithout further ado, and again, to open the discussion, we present the Declaration of the Rights of Communities:\n\n> ARTICLE I. All communities should be of equal status in the eyes of the technology stack. The same rules should apply to them all.\n\n> ARTICLE II. One of the goals of political association between communities is to contribute to the flourishing of those communities and the conservation of their rights, which include their liberty, property and safety, and their ability to defend themselves."
+ },
+ {
+  "id": "11-024",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 901,
+  "en_words": 146,
+  "text": "> ARTICLE III. The principle of sovereignty of a community resides in its internally shared goals and attitudes. No individual or body may exercise authority over the community in a way that is in conflict with these goals and attitudes.\n\n> ARTICLE IV. Community liberty consists of a community being free to do anything that does not infringe upon the rights of its members nor harm its members nor other communities and their members.\n\n> ARTICLE V. The constraining principles of blockchain communities only have claim over community actions that are harmful to or infringe upon the rights of others. Communities may not be otherwise constrained in their policies and actions.\n\n> ARTICLE VI. The constraining principles of blockchain communities are the expression of the wellbeing of the ecosystem of communities. They must be the same for all communities and be applied equally to all communities."
+ },
+ {
+  "id": "11-025",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1168,
+  "en_words": 176,
+  "text": "> ARTICLE VII. No punitive action may be taken against a community except to prevent harm to others, as determined by the constraining principles of blockchain communities. Actions otherwise taken against communities are themselves harmful and must be responded to as such.\n\n> ARTICLE VIII. Punishments and sanctions against communities must be strictly and evidently necessary for the wellbeing of the ecosystem of communities. No community shall be punished by sanction or other methods except under a constraining principle established before the alleged offence and applied by appropriate decentralised authorisation.\n\n> ARTICLE IX. Every community is presumed faultless until it is declared culpable by appropriate decentralised judgment. If a community is found at fault, it must not be punished more severely than is necessary to correct the behaviour, and any punishment in excess of that threshold is itself in violation of the constraining principles of blockchain communities.\n\n> ARTICLE X. No community may be punished for its opinions, doctrines, policies, principles and attitudes except insofar as they cause harm to its members or to other communities."
+ },
+ {
+  "id": "11-026",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1258,
+  "en_words": 197,
+  "text": "> ARTICLE XI. Free communication between communities and between communities and community members may not be prohibited nor in any way obstructed.\n\n> ARTICLE XII. If communities have a need to use terrestrial force or virtual force, the authority to use that force stems from that of the community it serves and the ecosystem of communities it inhabits. The use of force may not serve the interests of individuals merely because they are in a position to control said force.\n\n> ARTICLE XIII. Communities have the right to raise funds from community members in order to provide community services and administration, provided the fundraising is approved by the community and the services are needed, desired and possible to deliver.\n\n> ARTICLE XIV. Communities may discern the need to pay fees for inter-community administrative functions (adjudicating disputes between states or communities, for example). In that case, they have the right to determine the proportion, basis, collection and duration of these fees.\n\n> ARTICLE XV. The community has the right to transparency of the actions of every administrative agent of the community (including virtual agents) and from any agent in a higher-level governance structure in which the community participates."
+ },
+ {
+  "id": "11-027",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1140,
+  "en_words": 174,
+  "text": "> ARTICLE XVI. Any community that does not respect the rights of other communities and citizens therein forfeits its standing and recognition as a legitimate community agent in human affairs.\n\n> ARTICLE XVII. The property rights of communities and their members must be recognised, provided they are appropriately documented and consistent with the constraining principles of blockchain communities. Even communities that do not recognise property rights internally must recognise the property rights of communities (and members of those communities) that do.\n\nAs stated, this is not the final word about the rights of communities but an initial proposal for discussion – it is the Lafayette draft, if you will. Whichever direction the discussion unfolds, certain ideas should be salient. Communities, whether organised by DAOs using blockchain technologies or some other strategy, are very much actors on both local and global stages, and they are reifications of our group attitudes, goals, beliefs and cultures. They are the vehicles by which human cultures survive and flourish. They have rights, and those rights ought to be respected."
+ },
+ {
+  "id": "11-028",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1765,
+  "en_words": 287,
+  "text": "A couple of comments on this draft are also in order. First, when we say that ‘all communities are of equal status’, we are, of course, not saying that they are of equal wealth and power. We are saying that the governing principles for communities are neutral with respect to the values and principles of those communities. If, for example, several communities were to reside on the Ethereum protocol, the thought is that Ethereum is neutral towards them – the same rules apply to them all.\n\nWe have scrupulously avoided the term ‘laws’ (as deployed in the Declaration of the Rights of Man) in favour of the expression ‘constraining principles of blockchain communities’. We do not envision these principles as being codified as official law somewhere but rather as involving the nature of the underlying blockchain technology stack plus our working understanding of the values that are necessary for the ecosystem of blockchain communities to thrive – for example, values that help ensure the right to exit and the right to access and whatever considerations flow from those basic values in conjunction with the technology stack.\n\nNone of this should be taken to be a promise of a mode of governance that is free of oppression or conflict. Decentralised groups are, of course, capable of harm. The key is to minimise potential harm insofar as possible, and this minimisation strategy leans heavily into decentralisation and the understanding that the most effective action to take against a rogue networked cyberstate or other blockchain community is a consensus-based collaborative effort to isolate it until it respects the norms required for the ecosystem of blockchain communities to flourish. The following two chapters will detail how all of this might work."
+ },
+ {
+  "id": "11-N00",
+  "kind": "notes",
+  "en_sentences": 4,
+  "en_chars": 836,
+  "en_words": 95,
+  "text": "[^1]: As was customary of the period, the titles Marquis de Lafayette and Abbé Sieyès are not personal names but reflect the social roles of Gilbert du Motier as a nobleman and Emmanuel Joseph Sieyès as a cleric, respectively.\n\n[^2]: Alex Tuckness, ‘Locke’s Political Philosophy’, The Stanford Encyclopedia of Philosophy, 2024 <https://plato.stanford.edu/archives/sum2024/entries/locke-political/> [accessed 29 October 2024].\n\n[^3]: Christopher Bertram, ‘Jean Jacques Rousseau’, The Stanford Encyclopedia of Philosophy, 2024 <https://plato.stanford.edu/archives/sum2024/entries/rousseau/> [accessed 29 October 2024].\n\n[^4]: National Assembly of France, ‘The Declaration of the Rights of Man and of the Citizen’, 1789 <https://constitutionnet.org/sites/default/files/declaration_of_the_rights_of_man_1789.pdf> [accessed 29 October 2024]."
+ }
+]

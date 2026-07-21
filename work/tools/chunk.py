@@ -94,6 +94,9 @@ def chunk_chapter(ch_id, md):
         # headings start a new chunk so section boundaries align
         if b["kind"] == "heading" and cur_sents >= TARGET_MIN:
             flush_chunk()
+        # flush before a block that would overshoot the target window
+        elif cur_sents >= TARGET_MIN and cur_sents + sents > TARGET_MAX:
+            flush_chunk()
         cur_blocks.append(b)
         cur_sents += sents
         if cur_sents >= TARGET_MAX:

@@ -1,0 +1,194 @@
+[
+ {
+  "id": "16-000",
+  "kind": "body",
+  "en_sentences": 16,
+  "en_chars": 1923,
+  "en_words": 297,
+  "text": "# 16. Are Blockchain Communities Inevitable?\n\n## 16.1 Preliminaries\n\nIn this book, we have made the case that autonomous blockchain communities can do many great things for us. We argued that they could minimise human conflict by minimising the phenomenon of diverse groups being kettled together within the same nation state. We have argued that they can minimise corruption by introducing decentralised, immutable records and that they are resistant to internal and external attacks through the deployment of Byzantine-fault-tolerant strategies. We have argued that they can avoid economic failures by relying on decentralised blockchain currencies, and finally, we have argued that blockchain communities can be harnessed for regenerative public goods and positive externalities. By now, hopefully, they sound like a great idea. The question is, are they even possible?\n\nScepticism here is not surprising. The picture of governance we are painting is radically different from the picture of governance to which we are accustomed. We are, after all, accustomed to nation states that have established physical territorial boundaries and that are granted sovereignty over that territory. We are accustomed to those institutions and other centralised institutions (such as the United Nations and the Organization of American States and the International Monetary Fund) calling the shots in our world. These are the institutions that create the laws that govern us, that control our currencies and economies, that go to war, that tax us, that control our movements on planet Earth, and so forth. Nation states are found on every piece of territory on Earth. They are ubiquitous. We were born into this system, as were our parents and grandparents. It is quite hard to imagine things being any other way. Is all this talk of cyberstates and sovereign blockchain communities not simply too pie-in-the-sky to be taken seriously?"
+ },
+ {
+  "id": "16-001",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1313,
+  "en_words": 226,
+  "text": "It is certainly true that none of us alive have known another international order, but as we observed in the introduction to this book, this Westphalian order was not always here. More importantly, changes in human governance often arrived in the context of people not being able to imagine any other way. However, new ways of governing did emerge. There was a time, not very long ago, in which monarchies gave way to democracies. These shifts in governance may have seemed wildly implausible at the time. Even the shift from an absolute monarchy to a constitutional monarchy with minimal constraints on the ruler was considered wildly implausible at the time. Of course, it seemed that way because that was simply not the order of things that people were used to. Kings had divine rights – until they didn’t.\n\nPerhaps the most interesting element to all of this is that when those great transitions in the form of human governance took place, the spark for change was often something that might have appeared insignificant and trivial. However, the other remarkable thing is that when change finally came, it seemed so obvious that it was almost as if the new order already existed. And perhaps, in a way, it already did. If that sounds paradoxical, stay with us; it should make sense by the end of this chapter."
+ },
+ {
+  "id": "16-002",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 843,
+  "en_words": 136,
+  "text": "## 16.2 Seeds of cybergovernance now\n\nIn 1847, in Paris, a number of banquets were held. Each of them was a social and cultural event, but mostly what we might call a ‘vibe’ today. Within a year, King Louis-Phillipe would fall from power.\n\nThese Parisian banquets were copied elsewhere in Europe and ultimately contributed to the many revolutions that swept across the continent in 1848. The banquets, although social gatherings, were considered subversive and often banned. But why? Why ban a little party? Why ban a vibe?\n\nThe banquets were considered subversive because they brought people together under an attitude – an attitude opposed to centralisation of authority, an attitude opposed to the top-down imposition of cultural norms. Thus, the very act of gathering socially was subversive as, of course, was the motive of the gathering."
+ },
+ {
+  "id": "16-003",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1495,
+  "en_words": 246,
+  "text": "Our point here is that the seeds of a new order of decentralised blockchain governance might not be what you expect. They might stem from a series of social events rather than an organised political movement. Let us consider a possible scenario to see why this might be so.\n\nBalaji Srinivasan has argued that the NFT community Friends With Benefits (FWB) might be an example of an organisation that evolves into a more robust community and possibly even a cyberstate (what Srinivasan calls a network state). The membership requirement for the group consists of holding a certain number of the cryptocurrency FWB and answering questions about your occupation and interests.\n\nThe group members regularly maintain dialogue within chat platforms like Discord, and beyond this, there are regularly scheduled ‘ask me anything’ chats hosted by group leaders. There are informal meetings of group members in various cities, but the big events are the large social gatherings in different cities around the world. On the face of it, there is nothing more to it than that – just people chatting and organising parties.\n\nBut let us take a closer look. There is an actual governance structure underlying the decisions about where to hold the next social events. It is an example of participatory online democracy. More to the point, the community is not grounded by a shared interest in parties so much as shared views about the importance of decentralised technologies in all aspects of its members’ lives."
+ },
+ {
+  "id": "16-004",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1126,
+  "en_words": 194,
+  "text": "Indeed, if you dive deeper into the various archives within the FWB platform, you will find plenty of writing about cyberstates, using blockchain technologies for regenerative public goods and so on. It is a group for holding social events, but even that task can be highly political in and of itself. As Hakim Bey wrote in his classic essay *T.A.Z.: The Temporary Autonomous Zone*:\n\n> Let us admit that we have attended parties where for one brief night a republic of gratified desires was attained. Shall we not confess that the politics of that night have more reality and force for us than those of, say, the entire U.S. Government?[^1]\n\nOr let us take a similar example. There is no overt political message to the Bored Ape Yacht Club (BAYC), which appears to be an NFT collection that is driven by online gaming and social events like its annual ApeFest. However, there is a message behind BAYC culture – behind its vibe. Indeed, it is arguable that the criticism of BAYC stems not from it being a ‘scam’ but from its rejecting top-down culture. It is a nascent cultural movement that celebrates community-based culture."
+ },
+ {
+  "id": "16-005",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 810,
+  "en_words": 137,
+  "text": "Are we saying that these NFT-based communities will spawn the blockchain communities and cyberstates of the future? No, our point here is that no one knows what the exact drivers of the new forms of human governance will be. Those who attended the banquets of 1847 may have had no idea what these events were leading to. They had a diverse set of political views, but they shared a vibe. However, nothing is just a vibe. Nothing is just a party. Sometimes, they are doors to the unimagined future.\n\nKeeping in mind that new forms of governance might emerge from unlikely places, let us consider some alternative scenarios that follow a different path. Let us imagine that current blockchain communities grounded in shared economic interests evolve into something that takes on the roles that states hold today."
+ },
+ {
+  "id": "16-006",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1944,
+  "en_words": 326,
+  "text": "Consider an example like Uniswap and its DAO, membership of which is contingent on holding its UNI token. To be sure, Uniswap is an important platform, and it may well become the largest and most important trading platform in the world – eventually eclipsing the NASDAQ and NYSE trading platforms. This could happen because Uniswap provides a decentralised platform that cuts out middlemen and is capable of hosting any sort of trade. If you can tokenise an asset, you can trade it on Uniswap, and you can trade it without any centralised authority or needless intermediaries. Just as significantly, because it is an automated market maker protocol, it algorithmically determines prices based on demand and available resources in its liquidity pools. If Uniswap does indeed become the largest trading platform in the world, then its DAO will surely become a politically significant player on the global stage.\n\nOf course, there is a big difference between being an important trading platform (even the most important trading platform) and becoming as powerful as a state. Still, if you think about it, if Uniswap becomes that important, it will render many of the key functions of the nation state otiose. The code in the Uniswap smart contracts will take on many of the responsibilities of the state, including auditing transactions, and enforcement of trades will become automatic – agreed-to trades will happen, whether you want them to or not.\n\nSo far in this chapter, we have been talking as if we are gazing into the future – imagining scenarios that are grounded in the present but still very much speculative. However, if we step back and take a broader view of matters, we will find that this is not really speculation but rather an adjustment of our way of understanding the present. If we know what we are looking at, we will find that many blockchain communities are already here and already playing an important role in life today."
+ },
+ {
+  "id": "16-007",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1562,
+  "en_words": 264,
+  "text": "To see this, let us look closer at the Ethereum protocol. As we write this, there are around 6,500 Ethereum nodes running around the world. All of those nodes have agreed to participate in the network and, thus, have agreed to its technical requirements. They have also agreed to be fair players in that they understand that bad actors will be penalised.\n\nNow, one might say that this is not very impressive because Ethereum is nothing more than a specialised network of computers, but the reality is that it is much more than that. It is also a community (already established), and its decisions, arrived at collectively, already play an important role in the welfare of network participants as well as in the positive externalities that network members are trying to achieve. Or to put it another way, the Ethereum community seems to share a group consensus that it wants to build a better world, but it is also here, now, today, working on behalf of the interests of network participants and here, now, today, it is building out positive externalities consistent with the values and ethical principles held by community members.\n\nPerhaps this point needs further elaboration. Another way to put it is that the Ethereum protocol is not merely like a blockchain community or a cyberstate, and it is not merely a platform that will give rise to such governance structures. It is already such a governance structure, and it is already working on behalf of community members, and it is already building out the new legal architecture for a post-nation-state world."
+ },
+ {
+  "id": "16-008",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1767,
+  "en_words": 286,
+  "text": "We sometimes think that laws and computer code are very different things, but as Lawrence Lessig observed in his book, appropriately titled *Code: And Other Laws of Cyberspace*, computer code can and should be thought of as a form of law. More precisely, we should think of the moderation of behaviour (whether by governments or individuals) as being circumscribed by a number of conditions, of which traditional law is just one. As Lessig points out, we do not pass laws against stealing skyscrapers because they are too big for someone to snatch and run away with. The laws of physics constrain the set of possible behaviours here. Similarly, certain cultural norms might constrain behaviours, as may market forces. Finally, architecture can constrain behaviours (walls, for example, can control where you cannot walk, and bridges can allow you to walk over gorges that you otherwise might not be able to pass over). However, there is also computer architecture and software code that play a very significant role in our world. While such code is not law in the traditional sense, it is still functionally equivalent to traditional laws. It directs the behaviours of individuals and organisations, in some cases, restricting what can be done and, in other cases, enabling actions that might not otherwise be possible.\n\nLessig illustrates the situation with what he calls the ‘pathetic dot’. Where the dot can and cannot go (and presumably what it can and cannot do) is not determined by a single thing but by a confluence of factors, including the aforementioned laws (physical and legal), norms, the architecture of its world (physical and computational) and market forces.[^2] For our purposes, the important factor is the computational architecture of the world."
+ },
+ {
+  "id": "16-009",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1563,
+  "en_words": 263,
+  "text": "On this last point, the Ethereum protocol is not so different from any major Internet platform. Google and Facebook are also shaping the movement of the pathetic dot. The difference is that when traditional Silicon Valley corporations do this, they do so in a top-down manner. They are our versions of the Westphalian-era kingdoms, imposing their will from a position of centralised authority. Recognising that code is going to shape our world for better or for worse, we much prefer that the reach of the code should be limited to the community for which it is written and that it should be written and understood and supported as a group effort within that community.\n\nTwo points deserve to be considered in isolation here. The first relates to the role that Silicon Valley corporations currently play in shaping the legal order of our world – in determining the topology of the spaces in which the pathetic dot can freely move. As we saw in Chapter 13, Major Jason Lowery articulated an extreme version of this idea in his book *Softwar*, arguing that those with control over our software technologies constitute a kind of tyrannical elite. As he puts it:\n\n> Cyberspace is a globally-adopted belief system that is radically transforming the way society organizes itself, in much the same way that agrarian abstract power hierarchies did. Just as agrarian society led to the formation of empires, so too does cyberspace appear to be leading to the formation of cyber empires, complete with the threat of oppressive rulers rising to the top of the hierarchy.[^3]"
+ },
+ {
+  "id": "16-010",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1352,
+  "en_words": 223,
+  "text": "Does he have in mind people like Microsoft’s Bill Gates and Meta’s Mark Zuckerberg as being these oppressive leaders? Presumably, yes, although it needs to be noted that they are not acting as traditional tyrants did, with police and armies doing their bidding, but with software code being the shock troops for this new form of tyranny (here, we are not endorsing Lowery’s conclusion, just attempting to articulate it). Lowery goes on to hypothesise that ‘humanity is going to become so tired of being systematically exploited at unprecedented scales by computer networks by an elite, tyrannical, and technocratic ruling class, that they are going to invent a new form of digital warfare and use it to fight for zero-trust, permissionless, and egalitarian access to cyberspace and its egalitarian resources.’[^4]\n\nMajor Lowery is on active duty in the military and tends to view the world in pugilistic terms – or at least more pugilistic than we do. Many revolutions throughout human history have occurred without the use of warfare or really anything metaphorically like warfare. The agricultural and industrial revolutions come to mind. Sometimes, people simply see a better way to live their lives, and they adopt the new technology. We hope that is the case here. In fact, we can do more than hope because we can see it happening around us today."
+ },
+ {
+  "id": "16-011",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1651,
+  "en_words": 256,
+  "text": "This returns us to the second point made above: DAO-based decentralised blockchain protocols are already shaping their communities, thereby shaping the futures of their community members and, ultimately, shaping our futures as well. What this means is not that platforms like Uniswap and the Ethereum protocol will become cyberstates or anything closely resembling states. What it means is that platforms like Uniswap and their smart contracts, and protocols like Ethereum and its infrastructure, will replace many of the functions of states. The result is probably not something like a state but rather something entirely new.\n\nFor example, in previous chapters, we discussed ways in which the infrastructure of a blockchain protocol can be designed so that you cannot identify the source or destination of any message moving through the network. Network nodes would, therefore, not be in a position to censor other nodes on the network or even censor the transactions that individuals were attempting on the network. Now, this technology, if implemented, would have far-reaching consequences for its network. It would effectively prevent censorship, to be sure, but it would also make it very difficult to economically isolate an opponent on the network. When every packet of information looks the same, your options for censorship and embargo are quite limited. Alternatively, the system could be engineered so that every transaction is tagged with a source and a destination, and this would certainly make censorship and embargo possible. If the network was value-aligned to be censorship-happy, then one could expect quite a bit of such activity."
+ },
+ {
+  "id": "16-012",
+  "kind": "body",
+  "en_sentences": 18,
+  "en_chars": 2261,
+  "en_words": 376,
+  "text": "Our point here is that, to some extent, the future of blockchain networks is very much open ended and being determined today by active members of those communities. Those communities are building out the architecture of their future. If we think of ourselves as being in a position akin to Lessig’s pathetic dot, then blockchain communities are today building out the computational architecture that will determine the fate of those pathetic dots within their respective communities.\n\nThis sort of scenario is not just the case for DAOs on the Ethereum network, but if you think about it, the same can be said about the Bitcoin protocol. To be sure, there is a very robust community surrounding the Bitcoin protocol, and there are open debates about the future of the network that either go nowhere or result in some form of consensus or, alternatively, a fork of the network. We previously mentioned the ongoing dispute over whether the Bitcoin protocol should allow ordinals, but such a debate is not new to Bitcoin. Between 2015 and 2017, the Bitcoin community engaged in a debate that subsequently became known as the Blocksize War, and it was chronicled in a book by the same name.[^5]\n\nIt is important to recognise that the community surrounding the Bitcoin protocol is very much like the blockchain communities we have been discussing. Despite the hype, Bitcoin did not fall from the sky (or even from Satoshi) in immutable form. There have been and continue to be robust debates about the future of Bitcoin. Sometimes, these debates lead to stalemates and, in turn, to forks of Bitcoin (for example, BSV, which stands for ‘Bitcoin: Satoshi’s Vision’). The key thing to note here is the very thing we have been talking about throughout this book. The Bitcoin community, like all good decentralised blockchain communities, has no single leader with decision-making authority. Future changes to the protocol are the result of recorded debates and, hopefully, consensus. When consensus cannot be achieved, members may freely exit and, if they so wish, create a new protocol by forking the original. And behind it all, there is a set of values (and vibes) that guide the contours of the debates. However, this is the situation today. What is coming tomorrow?"
+ },
+ {
+  "id": "16-013",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1620,
+  "en_words": 265,
+  "text": "Eventually, enormous resources will fall into the lap of communities like the Uniswap DAO, and it will be up to the DAO to determine how those resources will be used. For sure, some will be used for future development of the platform, but is it implausible to think that DAO members might want to allocate resources to external concerns, such as assisting refugees or developing renewable energy or fighting human trafficking or supporting any other causes that might be of interest to DAO members? If a DAO is capable of taking up external causes, it is also certainly capable of taking up the personal concerns and interests of DAO members. Is there any reason the individual rights of DAO members cannot and would not be protected anywhere in the world?\n\nYou might think that the above scenario sounds plausible but object to the fact that there is nothing inevitable about it, and for sure, there is nothing inevitable about a specific scenario playing out in detail. However, if we are content with thinking in terms of broad trends, then the inevitability becomes apparent. New technologies do get adopted, although not always in the form that we expect. Thomas Edison thought that the principal application of the phonograph would be for business secretarial purposes, serving as a kind of dictaphone. He did, in fact, mention entertainment and music as possible applications, but those were not the most significant potential applications in his view.[^6] Similarly, Edison thought the future of electricity was direct current, but as we know, Nikola Tesla’s invention of alternating current carried the day.[^7]"
+ },
+ {
+  "id": "16-014",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1565,
+  "en_words": 257,
+  "text": "The point is that no one is omniscient about details. However, when you have a revolutionary new technology, you can see that something is inevitable, even if you do not know the exact form or even the ultimate use of that technology. Edison was correct in thinking that electricity would be ubiquitous; what he did not know was the ultimate form of delivery. He was similarly correct in thinking that the phonograph would be an important invention; he simply did not know in what form. Likewise, when the Internet was initially developed by DARPA, few could see the form it would ultimately take.\n\nAt its inception, the initial thought about blockchain technology was that its principal application would be as an economic tool. Indeed, in the very first sentence of the Bitcoin white paper, Satoshi describes Bitcoin as a ‘payment system’. And for sure, economic concerns drove the development of Bitcoin. The economic troubles in 2008 were very much on Satoshi’s mind and there is no doubt that the problems surrounding centralised finance were very much a driving force behind his efforts.\n\nWe hope we have made it clear that we think that blockchain applications will be much more extensive than Satoshi imagined – or at least, more extensive than articulated in their white paper. For sure, financial uses of blockchain technology will be important, but financial transactions are only one small piece of the puzzle that is human governance, and ultimately, human governance writ large is going to be the most important application of blockchain technologies."
+ },
+ {
+  "id": "16-015",
+  "kind": "body",
+  "en_sentences": 8,
+  "en_chars": 1523,
+  "en_words": 249,
+  "text": "## 16.3 How we can nurture blockchain governance\n\nLet us suppose you agree that blockchain governance is a good idea, and we can already find nascent versions of these future governance structures today. Is there something we can do to help them evolve into the governance structures we are looking for? And if decentralised blockchain communities are indeed inevitable, is there anything we can do to make their adoption as frictionless as possible?\n\nClearly, any such effort is going to involve a heavy dose of community participation. Simply by participating in a decentralised blockchain community, one can put one’s hand on the tiller at critical moments. Using the cases we discussed in the previous section, we can say that in each instance, the task involves expanding the mission, projects and strategies of the blockchain community and moving them in a direction not initially envisioned.\n\nFor example, in the case of the FWB community, we can imagine a scenario in which the documents about cyberstates, already archived and discussed by FWB members, are taken to be not just ideas to be discussed but aspirational goals for the FWB blockchain community. This would be an aspiration to evolve from a blockchain community that creates social events with positive vibes to a blockchain community that has its heart set on evolving into a cyberstate of some form – an organisation that does more than entertain its members but enables their flourishing by providing many of the services that nation states do today."
+ },
+ {
+  "id": "16-016",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1111,
+  "en_words": 175,
+  "text": "In a similar vein, a DAO designed for economic interests might expand its portfolio as well. The Yearn Finance community might decide that in addition to voting on creating vaults with investment strategies, they might take on the role of representing the interests of their DAO members, stepping in for them as advocates in some cases, becoming involved in the purchase of physical territory and the management of that territory for their community members, and so on. The community could expand its portfolio to international trade and manufacturing and, ultimately, the flourishing of their DAO members. One can even imagine mergers between DAOs here. For example, a social-based NFT community might merge with an economically based DAO. Alternatively, one might just build a community from scratch that had all of these features.\n\nWhat then is the key to frictionless adoption? Participation seems to be the crucial element. The more one can participate and, when needed, ‘touch the tiller’ on these projects, the sooner they can mature into the robust decentralised blockchain communities that we envision."
+ },
+ {
+  "id": "16-017",
+  "kind": "body",
+  "en_sentences": 8,
+  "en_chars": 1075,
+  "en_words": 169,
+  "text": "## 16.4 Why the technology is doable\n\nIf you have reached this far in the book by reading the earlier chapters, then you already know that the technology is doable. We have the technology. Still, let us review those technologies now that we have some aspirational goals in place and some hints at how we might approach those goals.\n\nRecall that the principal needs for blockchain communities are secure archives, decentralisation with Byzantine fault tolerance, ways for people to collaborate in these communities, transparent administration of these communities and corruption resistance. Meanwhile, members have the rails to communicate privately with each other and their business partners, and there are also economic rails, such as cryptocurrencies, in place for this to happen.\n\nAll of these technologies exist to some extent today, and in Chapter 14, we provided some very specific open-source versions of them. However, it is worth thinking about how these technologies might be (more rapidly) adopted. In other words, how do we facilitate getting from here to there?"
+ },
+ {
+  "id": "16-018",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1621,
+  "en_words": 250,
+  "text": "Happily, for existing blockchain communities, the necessary technologies have already been adopted or are at least familiar to community members. For example, let us suppose that the members of FWB acquired the aspiration to be a full-on cyberstate or at least a player on a global scale. What they already have is a blockchain-based DAO. What they need to incorporate are robust voting mechanisms, a secure private communication system for their citizens and an official blockchain-based currency for their community. Clearly, these are already off-the-shelf technologies. Thus, rather than finding the necessary technologies, the real task is to direct those technologies towards the community’s aspirational goals.\n\nThis direction does not require new technologies but instead new attitudes to go with existing technologies. Communities need to want to use those technologies to expand the footprint of their blockchain community. This is to say that they need to leverage the technologies that they have in order to contribute to the flourishing of their community members, and this will ultimately lead them to take on many of the functions that have historically been the province of nation states and other levels of human governance.\n\nWe can already see this movement in the form of cryptocurrencies like bitcoin, which take over the role that government-issued fiat currencies used to have. However, if communities want their members to flourish, they will also work to secure their economic interests, create conditions for shared culture to thrive, and provide social securities and services on a global scale."
+ },
+ {
+  "id": "16-019",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1153,
+  "en_words": 184,
+  "text": "Let us illustrate this with an example of what FWB members could do if they wished. They could secure land, or if they had several members located in cities around the world, they could represent the interests of their community members in those cities or with whichever terrestrial authorities controlled the land where they lived. They could formally arrange business relationships (this already happens informally) and agreements. They could help citizens establish businesses in special economic zones. They could facilitate members with security problems. There is a lot that they could do. Indeed, the bigger question is whether there is something they could not do.\n\nWe began this section by asking whether the technology was doable, but in the end, we have seen that technology is not really the issue. The issue is whether a blockchain community has the desire to leverage existing technologies to provide progressively more robust services to its community members – ultimately, taking on roles that resemble those of existing Westphalian states. In other words, the technology is here. The question is whether we have the will to leverage it."
+ },
+ {
+  "id": "16-020",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1805,
+  "en_words": 312,
+  "text": "## 16.5 Why people will try to develop blockchain communities\n\nWe concluded the previous section by asking whether blockchain communities of any stripe are going to have the will to take on more and more services for their community members. In this section, we are going to argue that they definitely will. This is not to say that decentralised blockchain communities are a certainty, but it is to say that people will try to develop them. The kinds of decentralised blockchain communities that we have talked about in this book are not merely inert academic ideas. We do not know exactly what forms they will take or how they will take the forms that they do, but people will keep leveraging available technologies to build them out.\n\nThis prediction does not flow from any special features of blockchain communities or our vision of cyberstates. It rather flows from the simple fact that ideas for human organisation, no matter how foreign sounding in the beginning, eventually sound less foreign and, in the fullness of time, are eventually implemented in some form – for better or for worse.\n\nThis is not to say that all of the ideas attempted have lasted or that they have been helpful; it is rather a point about humans wanting to improve their lot in life and their willingness to try new things to accomplish that. So strong is the human desire to attempt new orders of political organisation that they will attempt them even faced with threats from the powers that be in the form of potential imprisonment, torture and execution. It is an uncanny human trait to want to keep trying new social orders. Now, there is clearly a competing human trait to preserve the status quo, and this is where many conflicts are born, but in the end, new technologies for human organisation are always attempted."
+ },
+ {
+  "id": "16-021",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1290,
+  "en_words": 211,
+  "text": "The events surrounding the French Revolution illustrate this capacity vividly. When the French Revolution began, it was simply an attempt to get Louis XVI to accept a constitution and not much more. However, when that request met with violent resistance, the resulting cauldron of ideas generated many projects and theories of governance. Some of those projects did not get very far – the Paris Commune being a case in point. Snuffed out early on in 1871, it lasted less than two months. It went on to inspire a number of thinkers, however, and was inspirational to future governance structures well into the twentieth century.[^8]\n\nThe same is true for individual thinkers. In 1755, Étienne-Gabriel Morelly published *The Code of Nature*, a pamphlet in which he proposed a utopia in which ‘Nothing in society will belong to anyone, either as a personal possession or as capital goods, except the things for which the person has immediate use, for either his needs, his pleasures, or his daily work.’[^9] This was well before the French Revolution and in an era when the dominant political debate was between absolute monarchists and constitutional monarchists. However, his ideas were noticed by Engels, Marx and Proudhon, and they were eventually put into effect, for better or for worse."
+ },
+ {
+  "id": "16-022",
+  "kind": "body",
+  "en_sentences": 16,
+  "en_chars": 1944,
+  "en_words": 321,
+  "text": "It is very difficult to think of political ideas that have not made their way to adoption eventually, and enough have been adopted so as to suggest that those that have not been attempted will be adopted eventually. This brings us to what we consider one of the great advantages of the framework we are advocating. It provides a substantially more friction-free way of incorporating new political ideas and studying their success. While some may celebrate great bloody revolutions, we have a strong preference for velvet revolutions, and cyberstates and blockchain communities provide a platform for these non-violent social upheavals. If people wish to implement Morelly’s utopia, they are free to try, so long as people within that utopia have the right and ability to exit.\n\nBending this discussion back around to blockchain technologies, people have been willing to try anything to implement a new political or social order, even if that involves the murder of millions of innocents. One hopes that they would take a path of lesser resistance if they could. And this is yet another reason why blockchain technologies will be deployed. There are lots of revolutionary ideas out there. They can incubate in blockchain communities and take full form in cyberstates, and this can be accomplished without spilling blood. We have the technology to attempt to bring about the flourishing of different forms of governance. It seems inevitable that it will be used as such.\n\nOf course, just because people will attempt to build decentralised blockchain communities (indeed, just because they are attempting it now) does not mean that these attempts are guaranteed to be successful. Nothing is guaranteed in this world. As we saw in the previous chapter, the issue for any technology is that if it is to be successful, the technology must be aligned with our values. This is an issue of such gravity that we dedicate our next and final chapter to it."
+ },
+ {
+  "id": "16-N00",
+  "kind": "notes",
+  "en_sentences": 10,
+  "en_chars": 1027,
+  "en_words": 118,
+  "text": "[^1]: Bey, *T.A.Z.: The Temporary Autonomous Zone*.\n\n[^2]: Lawrence Lessig, *Code: And Other Laws Of Cyberspace*, 1st ed. (New York, NY, 1999).\n\n[^3]: Lowery, *Softwar*.\n\n[^4]: Ibid.\n\n[^5]: Jonathan Bier, *The Blocksize War: The Battle for Control Over Bitcoin’s Protocol Rules* (2021).\n\n[^6]: Library of Congress, ‘History of the Cylinder Phonograph’, *Inventing Entertainment: The Early Motion Pictures and Sound Recordings of the Edison Companies* <https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/history-of-the-cylinder-phonograph/> [accessed 30 October 2024].\n\n[^7]: Department of Energy, ‘The War of the Currents: AC Vs. DC Power’, Energy.gov, 2014 <https://www.energy.gov/articles/war-currents-ac-vs-dc-power> [accessed 30 October 2024].\n\n[^8]: Norman Hampson, *A Social History of The French Revolution* (Hoboken, NJ, 2013).\n\n[^9]: Étienne-Gabriel Morelly, *Code de La Nature, Ou La Véritable Esprit de Ses Loix* (London, 2018)."
+ }
+]
