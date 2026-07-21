@@ -1,3 +1,9 @@
 # Lessons — recurring translation error patterns
 
 (appended by chapter closers; injected into every later translator prompt)
+
+## chapter_01_introduction
+
+- **Glossary terms drift when they collide with neighbouring words** (terminology, 5 hits, 3 major). corruption-resistant / corruption resistance was rendered «защищён(ность) от коррупции» in 01-002/01-003/01-014 instead of the canonical «устойчив(ость) к коррупции» — apparently to avoid repeating «устойчивый» next to resilient. Rule: glossary terms are invariant, especially the book's four named base values (децентрализация, кооперация, устойчивость к коррупции, прозрачность); on collision with resilient, restructure the sentence («устойчивы — и к сбоям, и к коррупции»), never re-coin the term.
+- **English idiom calques** (naturalness, 25 hits, 4 major). «взрыв инструментов» (explosion of tools), «на ближайшем горизонте» (on the immediate horizon). Rule: before submitting, reread each sentence asking «сказал бы так русский автор?»; replace literal image transfers with a native idiom («лавина инструментов», «не за горами») even at the cost of the source metaphor.
+- **Deverbal-noun clusters / translationese syntax** (naturalness, same category). «участвует в устройстве процветания человека (и его провалов)», «их будущее принятие шло с как можно меньшим трением». Rule: unpack abstract noun chains into verbs with human subjects («стоит за тем, как люди процветают — или терпят крах», «чтобы их принимали как можно легче»); watch stacked genitives that create wrong attachments («провалов человека»).
