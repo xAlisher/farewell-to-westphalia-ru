@@ -576,6 +576,7 @@ def build_chapter(ch, chapters, idx):
 <a href="#" class="back-to-top" aria-label="Наверх">↑</a>
 {site_footer(depth=1)}
 <script src="../assets/main.js"></script>
+<script src="../assets/suggest.js"></script>
 </body>
 </html>"""
 
@@ -636,6 +637,7 @@ def build_search(chapters):
 </main>
 {site_footer()}
 <script src="assets/main.js"></script>
+<script src="assets/suggest.js"></script>
 </body>
 </html>"""
 
