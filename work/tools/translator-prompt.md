@@ -34,12 +34,25 @@ Read, in this order (all under `/home/alisher/farewell-to-westphalia-ru/work/`):
 - **Quotes**: translate freshly; if the quoted work has a canonical published
   Russian version whose wording is well-known (Библия, Коммунистический
   манифест…), use recognizable canonical phrasing.
-- **Notes chunks** (`kind: notes`): bibliographic citations stay in English
-  verbatim; translate any explanatory prose inside a note; mixed notes: prose in
-  Russian, citation part in English.
+- **Notes chunks** (`kind: notes`): translate any explanatory prose inside a
+  note; mixed notes: prose in Russian, citation part in English; bibliographic
+  citations stay in English verbatim, but apparatus phrases are Russian:
+  „See“ → „См.:“, „[accessed …]“ → „[дата обращения: … г.]“.
 - **Markdown**: preserve structure — headings (translate their text), `>` block
   quotes, `*italics*` (work titles per style guide), `[^N]` markers and
   `[^N]:` note entries.
+
+## Чек-лист частых ошибок (v2)
+
+Перед gate пройди по каждому чанку (паттерны и примеры — в lessons.md, не повторяй их):
+1. Глоссарный термин каноничен ВЕЗДЕ? При соседстве синонима (resilient рядом с
+   corruption-resistant) перестрой фразу — термин не переиначивай.
+2. Английский образ перенесён буквально? Тест: сказал бы так русский автор?
+3. Отглагольное существительное в роли подлежащего? Родительная цепочка с ложной привязкой?
+4. Прочти вслух: стыки соседних слов («улучшали хуже») и управление глагола после
+   выпавшего issues/matters.
+5. Зачины абзацев: нет ли «служить тому, чтобы», «осуществлять», «являться»?
+6. Сноски: служебные фразы по-русски («См.:», «[дата обращения: …]»), библиография — EN дословно.
 
 ## Output & self-check (mandatory)
 

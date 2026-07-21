@@ -121,9 +121,9 @@ function actionableErrors(judgeResults) {
     judgeCount[k] = judgeCount[k] || new Set()
     judgeCount[k].add(e.judge)
   }
-  const act = all.filter((e) =>
-    e.sev === 'critical' ||
-    (e.sev === 'major' && judgeCount[`${e.chunk_id}|${e.cat}`].size >= 2))
+  // Judges are lane-specialized (adequacy/stylist/termmech), so a major from
+  // the lane owner is authoritative — no second vote exists for most lanes.
+  const act = all.filter((e) => e.sev === 'critical' || e.sev === 'major')
   const minors = all.filter((e) => !act.includes(e) && e.sev !== 'minor')
     .concat(all.filter((e) => e.sev === 'minor').slice(0, 10))
   return { act, minors, all }

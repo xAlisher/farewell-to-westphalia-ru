@@ -86,7 +86,7 @@ Bull замечает, что «крах фиатной валюты рано и
 
 Взять хотя бы экологию: загрязнение среды по своей природе транснационально, и борьба с ним уже оборачивается действиями, подрывающими суверенитет национальных государств. Понятно почему. Отравленные воздух и вода в границах не сидят. Загрязнить только свой воздух или только свою воду не выйдет: воздух и вода не признают рубежей национальных государств. Ядовитая химия, сброшенная в реки одной страны, скоро окажется в Мировом океане. Словом, это проблема, которая перерастает границы вестфальских государств. И новые централизованные силы в нашем мире уже разбирают национальный суверенитет по частям, чтобы с ней справиться.
 
-То же самое — на экономическом фронте: региональные блоки и торговые соглашения могут служить (и служат) тому, чтобы не дать нации осуществлять свой суверенитет в полной мере. Стоит заключить торговое соглашение с другой страной, как появятся споры, и наивно думать, что разрешать их вы будете единолично. Международные соглашения, как они устроены сегодня, требуют уступить хотя бы часть суверенитета международным арбитрам.
+То же самое — на экономическом фронте: региональные блоки и торговые соглашения способны урезать (и урезают) суверенитет нации. Стоит заключить торговое соглашение с другой страной, как появятся споры, и наивно думать, что разрешать их вы будете единолично. Международные соглашения, как они устроены сегодня, требуют уступить хотя бы часть суверенитета международным арбитрам.
 
 Наконец, рост глобальных угроз безопасности заставил некоторых утверждать, что традиционный суверенитет разошёлся с реальностью сегодняшних конфликтов. Подъём негосударственных акторов и транснациональных угроз — терроризма, наркоторговли — привёл многих к выводу: ни одна страна не способна полностью защитить себя, не передав часть своих операций по безопасности другим государствам или новым формам централизованной власти.
 
@@ -118,13 +118,13 @@ Bull замечает, что «крах фиатной валюты рано и
 
 Так, Дэни Родрик, экономист из Школы управления им. Джона Ф. Кеннеди Гарвардского университета, утверждает, что НПО могут мешать становлению сильных и подотчётных правительственных институтов. По его словам, «подменяя собой правительство в поставке базовых общественных благ и услуг, НПО рискуют ослабить и стимулы, и способность правительств оказывать эти услуги самим».[^22]
 
-Позднее Дин Карлан и Кристофер Удри, содиректора Лаборатории исследований глобальной бедности (Global Poverty Research Lab) при Школе менеджмента Келлога, проверили, правда ли НПО способны «вытеснять» правительства. Обобщив исследования гуманитарных групп в Гане и Уганде, они заключили, что в этих странах «финансирование со стороны правительства сократилось на 6,8 % в тех секторах, где работала НПО, и одновременно выросло на 7,4 % там, куда НПО не дотягивалась. Это значит, что деньги утекали от правительственных институтов, на которые сельские жители прежде полагались, к новым программам и услугам под патронажем НПО, — а жизнь людей эти новые программы и услуги улучшали хуже».[^23]
+Позднее Дин Карлан и Кристофер Удри, содиректора Лаборатории исследований глобальной бедности (Global Poverty Research Lab) при Школе менеджмента Келлога, проверили, правда ли НПО способны «вытеснять» правительства. Обобщив исследования гуманитарных групп в Гане и Уганде, они заключили, что в этих странах «финансирование со стороны правительства сократилось на 6,8 % в тех секторах, где работала НПО, и одновременно выросло на 7,4 % там, куда НПО не дотягивалась. Это значит, что деньги утекали от правительственных институтов, на которые сельские жители прежде полагались, к новым программам и услугам под патронажем НПО, — а с улучшением жизни людей эти новые программы и услуги справлялись хуже».[^23]
 
 Мы не берёмся судить, чего в работе НПО больше — пользы или вреда. Нам важно одно: к добру или к худу, они берут на себя работу, которую традиционно делали правительства. Это просто ещё один пример того, как функцию управления на мировой сцене перехватывают новые акторы.
 
 И заметили это не мы первые. Ряд авторов уже писал о подъёме транснациональных политических сетей (TPN) — или, как их ещё называют, «неформального управления». Как отмечают Оливер Вестервинтер, Кеннет У. Эбботт и Томас Бирстекер, «складывается всё более широкий и представительный консенсус: чтобы постичь, понять и проанализировать современное глобальное управление, уже нельзя сосредоточиваться исключительно — или хотя бы преимущественно — на государствах и их взаимодействии в межправительственных организациях».[^24] По их мысли, транснациональные сети неформальных механизмов управления вытесняют традиционные организации вроде ООН и Африканского союза: те смотрят на мир не с той степенью детализации — верят, будто власть в сегодняшнем мире всё ещё у государств. Но мы разбираем случай за случаем и видим: это не так.
 
-Ещё один вызов суверенитету национальных государств — феномен городских сетей. Города объединяются в сети, чтобы сообща заниматься градостроительством, изменением климата, экономическим развитием. Таковы сеть городов C40 (C40 Cities Climate Leadership Group) и Глобальный парламент мэров (Global Parliament of Mayors, GPM) — организация, объединяющая свыше тысячи мэров и городских лидеров из более чем 130 стран.
+Ещё один вызов суверенитету национальных государств — феномен городских сетей. Города объединяются в сети, чтобы сообща решать вопросы градостроительства, изменения климата, экономического развития. Таковы сеть городов C40 (C40 Cities Climate Leadership Group) и Глобальный парламент мэров (Global Parliament of Mayors, GPM) — организация, объединяющая свыше тысячи мэров и городских лидеров из более чем 130 стран.
 
 Глобальный парламент мэров — случай особенно любопытный. Организацию вдохновила вышедшая в 2013 году книга Бенджамина Барбера «Если бы мэры правили миром» (*If Mayors Ruled the World: Dysfunctional Nations, Rising Cities*). И понятно, чем идеи этой книги пришлись мэрам по душе.
 
@@ -196,13 +196,13 @@ Bull замечает, что «крах фиатной валюты рано и
 
 [^4]: Felipe Fernandez-Armesto, *Before Columbus: Exploration and Colonization from the Mediterranean to the Atlantic, 1229-1492* (Philadelphia, PA, 1987).
 
-[^5]: Leo Gross, ‘The Peace of Westphalia, 1648–1948’, *American Journal of International Law*, 42/1 (1948), 20–41 <https://www.cambridge.org/core/journals/american-journal-of-international-law/article/abs/peace-of-westphalia-16481948/80489D3C080D4CDD97C7EDC0354DC37F> [accessed 29 April 2023].
+[^5]: Leo Gross, ‘The Peace of Westphalia, 1648–1948’, *American Journal of International Law*, 42/1 (1948), 20–41 <https://www.cambridge.org/core/journals/american-journal-of-international-law/article/abs/peace-of-westphalia-16481948/80489D3C080D4CDD97C7EDC0354DC37F> [дата обращения: 29 апреля 2023 г.].
 
 [^6]: Henry Kissinger, *World Order* (New York, NY, 2015).
 
 [^7]: Jeremy Larkins, *From Hierarchy to Anarchy: Territory and Politics Before Westphalia* (New York, NY, 2009).
 
-[^8]: Cormac Shine, ‘Treaties and Turning Points: The Thirty Years’ War’, *History Today*, February 2016 <https://www.historytoday.com/treaties-and-turning-points-thirty-years-war> [accessed 28 April 2023].
+[^8]: Cormac Shine, ‘Treaties and Turning Points: The Thirty Years’ War’, *History Today*, February 2016 <https://www.historytoday.com/treaties-and-turning-points-thirty-years-war> [дата обращения: 28 апреля 2023 г.].
 
 [^9]: James R. Walker, *Lakota Society* (Lincoln, NE, 1992).
 
@@ -222,7 +222,7 @@ Bull замечает, что «крах фиатной валюты рано и
 
 [^17]: Что до духовной стороны, Насарио обязывал последователей носить с собой «духовное пособие» с полезными советами по самосовершенствованию. Например: «Не смотри на препятствия как на проблемы — прими их и найди в них возможность стать лучше». Его писания также требовали воздерживаться от спиртного и наркотиков, не продавать наркотики никому, кроме гринго, уважать женщин, а воров — бить. Пособие, которое в Мичоакане стали называть «Изречения Самого Безумного», призывало к смирению, служению, мудрости, братству, мужеству и послушанию Богу и его наместникам на Земле — то есть «Ла Фамилия Мичоакана», а впоследствии «Лос Кабальерос Темплариос».
 
-[^18]: Rana Dasgupta, ‘The Demise of the Nation State’, *The Guardian*, 5 April 2018 <https://www.theguardian.com/news/2018/apr/05/demise-of-the-nation-state-rana-dasgupta> [accessed 30 April 2023].
+[^18]: Rana Dasgupta, ‘The Demise of the Nation State’, *The Guardian*, 5 April 2018 <https://www.theguardian.com/news/2018/apr/05/demise-of-the-nation-state-rana-dasgupta> [дата обращения: 30 апреля 2023 г.].
 
 [^19]: Michael Weiss and Hassan Hassan, *ISIS: Inside the Army of Terror* (New York, NY, 2015).
 
@@ -230,21 +230,21 @@ Bull замечает, что «крах фиатной валюты рано и
 
 [^21]: Dasgupta, ‘The Demise of the Nation State’.
 
-[^22]: Dani Rodrik, ‘Populism and the Economics of Globalization’, *Journal of International Business Policy*, 1 (2018), 12–33 <https://doi.org/10.1057/s42214-018-0001-4> [accessed 30 April 2023].
+[^22]: Dani Rodrik, ‘Populism and the Economics of Globalization’, *Journal of International Business Policy*, 1 (2018), 12–33 <https://doi.org/10.1057/s42214-018-0001-4> [дата обращения: 30 апреля 2023 г.].
 
-[^23]: Katie Gilbert, ‘Why Well-Meaning NGOs Sometimes Do More Harm Than Good’, *Kellogg Insight*, 2020 <https://insight.kellogg.northwestern.edu/article/international-aid-development-ngos-crowding-out-government> [accessed 30 April 2023].
+[^23]: Katie Gilbert, ‘Why Well-Meaning NGOs Sometimes Do More Harm Than Good’, *Kellogg Insight*, 2020 <https://insight.kellogg.northwestern.edu/article/international-aid-development-ngos-crowding-out-government> [дата обращения: 30 апреля 2023 г.].
 
-[^24]: Thomas Biersteker, ‘Global Governance in Peril?’, *Global Challenges*, 2020 <https://globalchallenges.ch/issue/7/transnational-policy-networks-and-contemporary-global-governance/> [accessed 8 October 2023].
+[^24]: Thomas Biersteker, ‘Global Governance in Peril?’, *Global Challenges*, 2020 <https://globalchallenges.ch/issue/7/transnational-policy-networks-and-contemporary-global-governance/> [дата обращения: 8 октября 2023 г.].
 
 [^25]: Benjamin R. Barber, *If Mayors Ruled the World: Dysfunctional Nations, Rising Cities* (New Haven, CT, 2013).
 
-[^26]: Office of the Mayor, ‘Mayor Emanuel and Global Mayors Sign the Chicago Climate Charter at the North American Climate Summit’, Chicago.org, 2017 <https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2017/december/ChicagoClimateSummitCharter.html> [accessed 28 October 2024].
+[^26]: Office of the Mayor, ‘Mayor Emanuel and Global Mayors Sign the Chicago Climate Charter at the North American Climate Summit’, Chicago.org, 2017 <https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2017/december/ChicagoClimateSummitCharter.html> [дата обращения: 28 октября 2024 г.].
 
-[^27]: Mark Anderson, ‘Mayors Usurping Nation States in Quest to Fight “Climate Change”’, *UK Column*, 20 December 2017 <https://www.ukcolumn.org/article/mayors-usurping-nation-states-quest-fight-climate-change> [accessed 30 April 2023].
+[^27]: Mark Anderson, ‘Mayors Usurping Nation States in Quest to Fight “Climate Change”’, *UK Column*, 20 December 2017 <https://www.ukcolumn.org/article/mayors-usurping-nation-states-quest-fight-climate-change> [дата обращения: 30 апреля 2023 г.].
 
 [^28]: Dasgupta, ‘The Demise of the Nation State’.
 
-[^29]: ‘The Seasteading Institute’ <https://www.seasteading.org/> [accessed 28 October 2024].
+[^29]: ‘The Seasteading Institute’ <https://www.seasteading.org/> [дата обращения: 28 октября 2024 г.].
 
 [^30]: Sean McFate, *The New Rules of War: Victory in the Age of Durable Disorder* (New York, NY, 2019), 42.
 
