@@ -211,5 +211,7 @@ Return JSON {assembled: true/false, footnotes_ok: true/false, seams_ok: true/fal
   return { chapter: ch, batches: batchStats, errors: errDigest.by_sev, escalated: escalated.length, close }
 }
 
-const chapterResults = await parallel(args.chapters.map((c) => () => runChapter(c)))
+const input = typeof args === 'string' ? JSON.parse(args) : args
+if (!input || !input.chapters) throw new Error('args.chapters missing — pass {chapters:[{id,batches}]}')
+const chapterResults = await parallel(input.chapters.map((c) => () => runChapter(c)))
 return { chapters: chapterResults.filter(Boolean) }
