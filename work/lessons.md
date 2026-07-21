@@ -16,3 +16,7 @@
 
 - **Verb-government collisions and comic word-clashes** (naturalness, 43 hits, 2 major). «жизнь людей … улучшали хуже» (улучшать + хуже = оксюморон-стык), «сообща заниматься … изменением климата» (EN «issues» выпало, и «заниматься» стал напрямую управлять «изменением» — читается как «менять климат»). Rule: after eliding an EN hypernym (issues, matters, questions), re-check what the Russian verb now governs; reread each sentence aloud for adjacent-word clashes (улучшали хуже, повышали ниже) and restructure («решать вопросы климата», «с улучшением … справлялись хуже»).
 - **Канцелярит creeps back at paragraph openings** (register, 2 hits but 1 major; echoes ch. 01 translationese pattern). «могут служить (и служат) тому, чтобы … осуществлять свой суверенитет в полной мере» — «служить тому, чтобы» plus banned «осуществлять» (styleguide §1). Rule: banned-verb list (осуществлять, являться, обеспечивать…) applies with extra force in a paragraph's first sentence — replace with a concrete verb («урезать суверенитет», «распоряжаться суверенитетом»).
+
+## chapter_18_about_the_authors
+
+- **Naturalness still dominates even in a two-paragraph bio page** (naturalness, 4 hits, all minor; digest kept no samples). Dense biographical sentences — stacked credentials, book titles, «came to X through Y» constructions — pull the translation back toward EN sentence shape. Rule: same «сказал бы так русский автор?» reread applies to bios; break credential chains into short Russian clauses with dashes rather than mirroring the EN participial pile-up.
