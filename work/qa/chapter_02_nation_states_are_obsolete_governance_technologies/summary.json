@@ -1,0 +1,60 @@
+{
+  "total": 66,
+  "by_cat": {
+    "accuracy": 10,
+    "naturalness": 43,
+    "mechanics": 6,
+    "register": 2,
+    "terminology": 4,
+    "omission": 1
+  },
+  "by_sev": {
+    "minor": 63,
+    "major": 3
+  },
+  "samples": [
+    {
+      "chunk_id": "02-014",
+      "cat": "register",
+      "sev": "major",
+      "src_span": "to limit a nation's ability to fully exercise its sovereignty",
+      "tgt_span": "могут служить (и служат) тому, чтобы не дать нации осуществлять свой суверенитет в полной мере",
+      "note": "Канцелярит-рецидив в первой же фразе: конструкция «служить тому, чтобы» плюс «осуществлять» — глагол из прямого запретного списка стайлгайда (§1); выбивается из живого тона остального батча.",
+      "fix_hint": "«региональные блоки и торговые соглашения способны урезать (и урезают) суверенитет нации» или «…не дать нации распоряжаться своим суверенитетом сполна»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "02-019",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "less effective at improving people's well-being",
+      "tgt_span": "а жизнь людей эти новые программы и услуги улучшали хуже",
+      "note": "«улучшали хуже» — лексический стык-оксюморон, читается комично; редактор такое правит всегда",
+      "fix_hint": "«а с улучшением жизни людей эти новые программы и услуги справлялись заметно хуже»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "02-020",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "collaborate on issues such as urban planning, climate change",
+      "tgt_span": "сообща заниматься градостроительством, изменением климата",
+      "note": "«Заниматься изменением климата» по-русски читается как «менять климат» — EN «issues» выпало, и глагол «заниматься» напрямую управляет «изменением». Редактор поправит всегда.",
+      "fix_hint": "«сообща решать вопросы градостроительства, климата, экономического развития»",
+      "judge": 1
+    }
+  ],
+  "escalated": [],
+  "assembly": {
+    "chunks_total": 36,
+    "body_chunks": 32,
+    "notes_chunks": 4,
+    "all_chunk_ids_have_parts": true,
+    "footnotes_body_markers": 33,
+    "footnotes_continuous_1_to_N": true,
+    "footnotes_every_marker_has_note": true,
+    "headings_hierarchy_intact": true,
+    "seams_checked": ["02-000/02-001", "02-014/02-015", "02-025/02-026"],
+    "seams_ok": true
+  }
+}
