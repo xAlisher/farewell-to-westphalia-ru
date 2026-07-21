@@ -1,0 +1,194 @@
+i
+
+FAREWELL TO
+WESTPHALIA
+Crypto Sovereignty and
+Post-Nation-State Governance
+
+JARRAD HOPE   PETER LUDLOW
+
+Farewell to Westphalia: Crypto Sovereignty and Post-Nation-State Governance
+Published by Logos Press Engine
+Logos Collective Association, Baarerstrasse 10, 6300 Zug, Switzerland
+Copyright ©2025, Jarrad Hope and Peter Ludlow.
+This book is published under the Creative Commons Attribution-ShareAlike
+4.0 International License.
+Copy it, remix it, translate it, distribute it – just give credit and share alike.
+Hope, Jarrad, and Ludlow, Peter, Authors
+FAREWELL TO WESTPHALIA
+Jarrad Hope and Peter Ludlow
+ISBN: 978-3-9526275-0-1, 978-3-9526275-1-8 (print)
+ISBN: 978-3-9526275-2-5, 978-3-9526275-3-2 (digital)
+POLITICAL SCIENCE / Privacy & Surveillance
+BUSINESS & ECONOMICS / Bitcoin & Cryptocurrencies
+PHILOSOPY / Political
+QUANTITY PURCHASES: Schools, companies, professional groups, clubs
+and other organisations may qualify for special terms when ordering quantities
+of this title. For information, email pressengine@logos.co
+
+... dedicated to Julian Assange and
+to the memory of Hal Finney.
+
+This work is the product of our labour, but it is also the product of the
+labour of many others, including those who have helped us, argued with
+us, taught us, inspired us and encouraged us.
+Among those we wish to thank are Carl Bennetts, Vitalik Buterin, Mike
+Lorrey, Troy Cross, Andrew Bailey, Bradley Rettler, Craig Warmke,
+Brady Dale and the team at the Institute of Free Technology. Special
+thanks to Mike Lorrey (aka Intlibber Braughtigan) for encouragement
+and for suggesting the title. Thanks to Marvin Jones for comments on
+an earlier draft and to Rick Delaney for next-level editing and guidance.
+An earlier and very different version of Section 15.2 previously appeared
+under Ludlow’s nom de plume, EJ Spode, in Aeon magazine as ‘The great
+cryptocurrency heist’.
+
+CONTENTS
+1.
+
+Introduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1
+Pursuing Decentralised-Yet-Cooperative Governance .  .  .  .  .  . 1
+
+2.
+
+Nation States Are Obsolete Governance Technologies .  .  . 15
+2.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  15
+2.2 Nation states are not the only option .  .  .  .  .  .  .  .  .  .  .  . 17
+2.3 Are nation states bad at everything?.  .  .  .  .  .  .  .  .  .  .  .  22
+2.4 Questioning sovereignty.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  25
+2.5 Searching for alternatives .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 36
+
+3.
+
+Post-State Governance.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 41
+3.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  41
+3.2 Some examples from the Cambrian explosion.  .  .  .  .  .  .  44
+3.3 Sharding is not enough .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 52
+
+4.
+
+New Conceptual Foundations.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 61
+4.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  61
+4.2 The Cypherpunks and privacy .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  63
+4.3 The hacktivists and transparency.  .  .  .  .  .  .  .  .  .  .  .  .  .  65
+4.4 Digitally mediated, borderless governance.  .  .  .  .  .  .  .  .  71
+
+5.
+
+Technical Foundations for Decentralised Cooperation .  .  . 75
+5.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  75
+
+Contents
+
+5.2 Immutable records.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  77
+5.3 Decentralised cooperation .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  85
+5.4 Byzantine generals, decentralisation and Satoshi.  .  .  .  .  .  89
+6.
+
+New Tools for Human Governance.  .  .  .  .  .  .  .  .  .  .  .  .  .  . 97
+6.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  97
+6.2 Smart contracts and human governance.  .  .  .  .  .  .  .  .  .  99
+6.3 Oracles.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .105
+6.4 DAOs: What are they and how do they work?.  .  .  .  .  .  .106
+6.5 Impact DAOs and regenerative public goods .  .  .  .  .  .  . 118
+6.6 Applying these technologies to human governance .  .  .  . 124
+
+7.
+
+Why Centralisation Is the Problem, and Crypto Is
+the Solution .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 129
+7.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .129
+7.2 Quantifying corruption .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 132
+7.3 Who are the culprits? .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 134
+7.4 Alleged attempts to deal with the problem. . . . . . . . 135
+7.5 Corruption all the way down.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .141
+7.6 Crypto to the rescue .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .143
+7.7 The value of corruption-free governance.  .  .  .  .  .  .  .  .  .146
+7.8 Public confidence in governance.  .  .  .  .  .  .  .  .  .  .  .  .  .147
+
+8.
+
+Are Cyberstates the Answer?.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  151
+8.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .151
+8.2 Must blockchain communities have physical territories?.  . 159
+8.3 Should blockchain communities aspire to be
+diplomatically recognised by nation states? .  .  .  .  .  .  .  . 165
+8.4 Should blockchain communities strive to have national
+identity? .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 167
+8.5 Network states versus blockchain communities .  .  .  .  .  . 170
+
+vii
+
+viii
+
+9.
+
+
+Exit, Exile and Access.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  173
+9.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .173
+9.2 Exit.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .176
+9.3 Exile .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .183
+9.4 Access.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 187
+
+10. Rethinking Sovereignty .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 191
+10.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 191
+10.2 Post-state sovereignty.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .192
+10.3 Formalising a new vision of sovereignty .  .  .  .  .  .  .  .  . 197
+10.4 Territorial sovereignty revisited.  .  .  .  .  .  .  .  .  .  .  .  .  .202
+10.5 Decentralised property registries .  .  .  .  .  .  .  .  .  .  .  .  .204
+11. The Rights and Responsibilities of Blockchain
+Communities.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  211
+11.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 211
+11.2 De jure and de facto rights .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .212
+11.3 The Declaration of the Rights of Man.  .  .  .  .  .  .  .  .  . 214
+11.4 On the responsibilities of blockchain communities.  .  .  .218
+11.5 Decentralised oversight of blockchain communities.  .  . 223
+11.6 On the rights of blockchain communities .  .  .  .  .  .  .  . 226
+12. How Blockchain Communities Will Collaborate.  .  .  .  .  .  231
+12.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 231
+12.2 Relational contract theory .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 233
+12.3 Bringing DAOs to treaties and treaty organisations .  .  . 238
+12.4 Bringing DAOs to conflict resolution .  .  .  .  .  .  .  .  .  . 246
+13. When Blockchain Communities Are in Conflict .  .  .  .  .  .  251
+13.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 251
+13.2 Blockchain communities and PSYOP .  .  .  .  .  .  .  .  .  . 253
+13.3 Kinetic attacks on blockchain communities .  .  .  .  .  .  . 260
+13.4 Softwar .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .262
+
+Contents
+
+14. A Deeper Dive into the Technology .  .  .  .  .  .  .  .  .  .  .  .  . 271
+14.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 271
+14.2 Durable, corruption-resistant, transparent archives.  .  .  .272
+14.3 Decentralised, secure communications .  .  .  .  .  .  .  .  .  .281
+14.4 Cryptocurrencies and sound monetary policy .  .  .  .  .  . 285
+15. Conceptual Limits of Blockchain Governance .  .  .  .  .  .  . 291
+15.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 291
+15.2 Nothing is 100% trustless.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .292
+15.3 Nothing is 100% decentralised .  .  .  .  .  .  .  .  .  .  .  .  .  .297
+15.4 Social centralisation.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .302
+15.5 The epistemological limits of oracles .  .  .  .  .  .  .  .  .  .  .306
+15.6 Freedom and conservatorship.  .  .  .  .  .  .  .  .  .  .  .  .  .  .311
+15.7 The conceptual limits of transparency.  .  .  .  .  .  .  .  .  .  .313
+15.8 The limits of voluntary forfeit.  .  .  .  .  .  .  .  .  .  .  .  .  .  .315
+16. Are Blockchain Communities Inevitable? .  .  .  .  .  .  .  .  .  .  319
+16.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 319
+16.2 Seeds of cybergovernance now .  .  .  .  .  .  .  .  .  .  .  .  .  .320
+16.3 How we can nurture blockchain governance .  .  .  .  .  .  .330
+16.4 Why the technology is doable .  .  .  .  .  .  .  .  .  .  .  .  .  . 331
+16.5 Why people will try to develop blockchain
+   communities .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 333
+17. Values and the Technology Stack .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 337
+17.1 Preliminaries.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 337
+17.2 Level-one values .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 340
+17.3 Level-two values .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 343
+17.4 Beyond Westphalia.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .346
+About the Authors .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 349
+Bibliography.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  351
+
+ix
+
+Arise, you have nothing to lose but your barbed
+wire fences!
+
+– Timothy May,
+The Crypto Anarchist Manifesto

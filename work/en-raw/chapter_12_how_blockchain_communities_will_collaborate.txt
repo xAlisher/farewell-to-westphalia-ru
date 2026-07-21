@@ -1,0 +1,559 @@
+CHAPTER 12
+
+HOW BLOCKCHAIN COMMUNITIES
+WILL COLLABORATE
+12.1 Preliminaries
+
+W
+
+e concluded the last chapter by reflecting on the responsibilities of
+blockchain communities, raising the question of how such communities might collaborate in responding to some other community
+or nation state that acts against these responsibilities (for example, a
+community that prohibits exit). The short and obvious answer is that,
+first, adversely impacted communities should attempt to engage the
+bad actor community in dialogue. This would, of course, be true of any
+dispute. When two or more parties are in dispute, they first need to
+engage in discussions to attempt to resolve their problems.
+Of course, dispute resolution is not the only reason that different
+blockchain communities might need to engage with one another to
+achieve some common goal. There are as many reasons for nation states
+and communities to communicate and collaborate as there are forms
+of coordinated human endeavours; the goal could be to resolve conflict
+or head off impending hostilities, but it might also be to negotiate a
+mutually desired trade agreement, establish new global communications standards, or articulate shared approaches to AI or the environment or religious freedom or, frankly, anything.
+
+
+In the following two sections of this chapter, we present a more
+general picture of how blockchain communities can engage in collaborative efforts. Then, in Section 12.4, we return to the specific issue
+of how to proceed when blockchain communities are in conflict. As
+will become clear, we do not see a big difference between these two
+kinds of cases. Whether one begins from a point of agreement or disagreement, the basic tools required are the same. However, some may
+find an element of our position paradoxical. Our central thesis in this
+chapter is that when two communities are engaged in negotiations or
+some other form of shared communicative project, they have, in effect,
+created a new umbrella community to carry out the negotiations. In
+the case of two well-aligned communities working out an agreement
+of mutual interest, this might seem natural enough. However, the
+paradoxical element is the idea that this is also true when two communities are in conflict. Even in the act of disagreeing with each other
+– even if parties are engaged in the exchange of epithets – they have
+already formed a community of sorts. Our goal is to provide the tools
+that will guide the disagreeing communities in resolving their dispute
+more successfully.
+Before we get into the advantages of blockchain technology for the
+purpose of negotiation and other collaborative projects, we want to dive
+into what is known as ‘relational contract theory’. This is an approach
+to thinking of contracts not as one-off business deals but as opportunities to construct productive and long-lasting relationships with the
+other party of the agreement. To put it another way, you do not just
+negotiate to close a single business deal. The best way for either party
+to accomplish their long-term goals is to use the negotiation process
+to build a kind of intentional community with the other participants.
+Why do we begin with contracts? Because, if you think about it, treaties and other transnational agreements are kinds of contracts (even
+if grander in scale). Our hunch is that by beginning with a discussion
+of relational contracts, we can gain insights into other forms of agreements and negotiation processes.
+
+
+In Section 12.2, we will briefly tour relational contract theory and
+how blockchain technology and DAOs are well suited to its execution.
+In Section 12.3, we will extend this idea from talk of contracts to talk
+of grander agreements like treaties between communities and nation
+states. Finally, in 12.4, we will turn to the issue of what happens when
+we are not merely trying to negotiate a simple business contract or
+an agreement between two friendly parties but instead are attempting
+to resolve a serious conflict – perhaps even a conflict that has already
+become kinetic.
+
+12.2 Relational contract theory
+In 2019, Harvard Business Review published a fascinating article by
+David Frydlinger, Oliver Hart and Kate Vitasek titled ‘A New Approach
+to Contracts’, with the sub-heading ‘How to build better long-term
+strategic partnerships’. The article began by discussing how a long-term
+business relationship between the IT supplier Dell and logistics firm
+FedEx had recently reached breaking point, with both parties attempting to abide by a 100-page document that contained lots of ‘supplier
+shall’ statements. Neither party was happy with the agreement, and each
+side felt they were somehow being taken advantage of by the fine-print
+details of the contract. The two parties subsequently decided to abandon the idea of a traditional contract, realising that a well-functioning
+business relationship between them was more important than nailing
+down all the details in advance within the context of an adversarial
+negotiation. The solution was to opt for ‘relational contract theory’ – a
+relatively new idea,1 although its seeds were first articulated in a 1969
+paper by Ian Macneil titled ‘Whither Contracts?’2
+David Frydlinger, Oliver Hart and Kate Vitasek, ‘A New Approach to Contracts’, Harvard Business Review, 1 September 2019 <https://hbr.org/2019/09/a-new-approach-tocontracts> [accessed 10 July 2023].
+Ian R. Macneil, ‘Whither Contracts?’, Journal of Legal Education, 21/4 (1969), 403–18
+<https://www.jstor.org/stable/42891974> [accessed 16 July 2023].
+
+
+The basic idea of a ‘formal relational contract’, as articulated in the
+Harvard Business Review article, is that it ‘specifies mutual goals and
+establishes governance structures to keep the parties’ expectations and
+interests aligned over the long term.’ More importantly, given those
+interests, it is ‘designed from the outset to foster trust and collaboration’, and finally (also of interest to us), ‘this legally enforceable contract is especially useful for highly complex relationships in which it is
+impossible to predict every what-if scenario.’3
+Why are these matters of interest to us? Firstly, because they are
+precisely the sorts of things that DAOs and blockchain technologies
+are designed to facilitate. Those platforms provide tools that enable us
+to create a shared record of goals – particularly long-term ones – and a
+permanent record of those goals and the history of their changes. The
+goals can be updated, but the original goals remain visible to all. Similarly, blockchain technology is designed to facilitate trust, in part by
+using ‘trustless’ technologies like smart contracts.4 Finally, blockchain
+technologies can handle the representation of systems and organisations of arbitrary complexity. You simply cannot build an organisation
+that is too complex for a language that is Turing complete.
+We mentioned the issue of impossible-to-predict scenarios, and it
+is worth reflecting on where they can arise – essentially, everywhere.
+Frydlinger, Hart and Vitasek note that they naturally occur in ‘complicated outsourcing and purchasing arrangements, strategic alliances,
+joint ventures, franchises, public-private partnerships, major construction projects, and collective bargaining agreements.’5 The reason this
+speaks to the wisdom of seeking contractual relations instead of mere
+formal classical contracts is that we want the contractual relationship to
+evolve over time in response to conditions on the ground but also due
+Frydlinger, Hart and Vitasek, ‘A New Approach to Contracts’.
+The scare quotes are because nothing is truly trustless. As we will see in Chapter 15, the
+most we can hope for is distributed trust.
+Frydlinger, Hart and Vitasek, ‘A New Approach to Contracts’.
+
+
+to our deeper understanding of the goals and aspirations of the parties
+to the contractual relation.
+One of the problems that relational contract theory is designed to
+mitigate is what the authors of the paper call ‘shading’ – a phenomenon in which one party begins to feel it is being taken advantage of
+and decides to get even by taking advantage of minor loopholes in the
+contract to get an edge over the contractual partner, which rarely goes
+unnoticed and leads to an escalating war of shading episodes until both
+parties withdraw from the contract.6 The theory behind relational contracts is that both parties want to make it a priority for the contractual
+relationship to succeed and for both parties to benefit from the relationship. In this case, one of the things that the parties to the contract
+will do is to articulate their goals from the relationship to each other
+so that both parties have a sense of what is important to the other and
+what will contribute to a positive business relationship.
+You can probably already guess how blockchain technology and
+DAOs can help with an approach to contracts such as this – the description of the record keeping, the dynamic nature of the relationship and
+the call for building a kind of community sound a lot like the features
+of a DAO. However, before we get into the details, we want to say more
+about the process of negotiating contracts and other agreements and
+what kinds of tools and conditions facilitate it.
+One critical element discussed in the literature on contract negotiation is maintaining a record of proposals. The idea here is that instead of
+scribbling notes in no particular order, the best practice is to keep clean
+records of all parties’ proposals and the times at which they were made.
+Firstly, this is advantageous because it avoids rehashing things that have
+already been agreed upon or rejected. Furthermore, observing what has
+met with agreeable responses can help gauge which future proposals
+might be accepted or rejected. As usual, and for many reasons, good
+record keeping is key, and of course, in this case (as in many other
+
+Ibid.
+
+
+cases), one wants the record to be immutable and recognised as valid
+by all parties to the negotiations so that one party cannot unwind from
+agreed-to positions. We might add that the record of proposals should
+also contain information about the interpretation that all parties have
+assigned to the letter of what has been agreed upon. The archive itself is
+not everything; as Jacques Derrida pointed out, we also have to consider
+its interpretation.7
+We agree with the general philosophical perspective of relational
+contract theory and the idea that contracts are not just one-off pieces
+of paper. Those signed pieces of paper are just a small formal part of
+dynamic, long-lasting relationships between interested parties. In some
+sense, the contract is never completely set in stone, just as the business
+relationship is never set in stone. Even the bronze Tabula Alimentaria
+that we discussed in Chapter 5 had to undergo changes over the years it
+was displayed as conditions on the ground changed. Therefore, it is not
+just the negotiation of the contract that is going to involve a record of
+proposals, but the entire life of the contract is going to demand some
+way of recording proposed changes, proposed interpretations, disputes
+over interpretation and other details of interest to the concerned parties.
+There are a number of ways in which blockchain technologies can
+assist us in negotiating and developing relational contracts. The leading
+idea is that if each contract – or each contractual relation – is assigned
+a DAO in which the parties to the contract and relevant mediators
+are participants, then we immediately have a venue in which proposals
+can be discussed and in which guiding philosophies and goals can be
+articulated. If those discussions are recorded on the blockchain (as they
+should be), then we also have a shared, immutable history of the proposals made (literally a record of proposals) as well as a forum in which
+those proposals can be discussed, approved and rejected.
+We are aware, of course, that this process does not bottom out. A record of interpretations
+is yet another piece of archival information that is subject to interpretation. While this
+process never bottoms out, a few iterations of it should resolve many concerns and result in
+a greater understanding about the agreement being forged.
+
+
+Turning to the issue of trust, one key advantage of onchain collaboration is that it provides onchain verification of actions and intended
+actions. Take, for example, a negotiated economic policy or a trade
+agreement in which parties agree to purchase a good or service at a
+specific price. The history of trade agreements is littered with broken
+agreements and aspirational promises that were not fulfilled. However, if the agreement can be encoded in a smart contract, then there
+is no issue as to whether the promise will be kept. If the agreement is
+onchain and automated in a smart contract, it will be executed once it
+is digitally signed and the required conditions are met. In negotiating
+the details of a smart contract, one can eliminate a number of concerns
+about whether some policies will be executed and what measures need
+to be negotiated to ensure the proper execution of the agreement. The
+lines of code in the smart contract guarantee the fulfilment of many of
+the agreement’s terms.
+Let us consider a hypothetical example of this. Suppose that we
+agree to supply one million widgets at one price in exchange for ten
+thousand barrels of oil at a different price. Will we deliver on our promise? We can trustlessly guarantee that we will because we can write a
+smart contract in which, upon receipt of an oil contract at a certain
+price, we release our widgets from inventory. Indeed, the contract might
+even include logistics so that delivery methods and times are specified
+in the contract itself. If necessary, the oil could be released in stages
+depending on where our shipment rests in the logistical chain. Smart
+contracts take us from the age of ‘trust but verify’ to an age of ‘trustless
+with continuous verification’.
+We can give more concrete examples as well. Many treaties involve
+agreements for payments of reparations and the like. One could achieve
+a more trustworthy agreement if the funds were deposited in a smart
+contract and were dispersed over time as per the agreement. Or for
+example, agreements about territorial boundaries could have more bite
+if the property ownership was recorded onchain via a global property
+registry of the sort we discussed in Chapter 10. However, this talk of
+
+
+treaties may seem out of place; are treaties not different from contracts?
+Not in any sense that is relevant to this discussion.
+
+12.3 Bringing DAOs to treaties and treaty organisations
+If one thinks about treaties (let us say between two nation states),
+they are, in effect, contracts between the parties to the treaty. There
+are obviously some differences between treaties and typical contracts.
+Most contracts, for example, are written within an established legal
+framework. Treaties often involve agreements between nation states
+and are therefore outside the scope of an external or higher legal
+framework. However, they are very much the same in other relevant
+respects. Party A agrees to do X, and party B agrees to do Y, with
+various specified conditions, verification methods and enforcement
+mechanisms. More to our point, if relational contract theory makes
+sense in the realm of contracts, something very much like it makes
+even more sense in the realm of international or global treaties. Ideally, one does not want treaties to be one-off efforts but instead wants
+to be in a relational treaty agreement in which the parties to the treaty
+remain in contact and can articulate their goals and concerns. If you
+think about it, the historical practice of arranging marriages between
+royal family members as a part of a treaty was a version of this idea
+– by marrying into the treaty partner, one is saying that the goal is a
+long-term relationship with that partner.
+We believe that the process of successful negotiation involves the
+creation of a temporary umbrella community. However, if we apply
+relational contract ideas, then the thought would be that we want the
+umbrella community to endure for some period of time – perhaps,
+indefinitely.
+We may find that a temporary umbrella community becomes a
+permanent community because agreements involve the creation of
+collaborative efforts, and these collaborative efforts will evolve into
+communities in their own right. A snowball effect can follow: as these
+
+
+communities make progress in finding common ground and building
+shared institutions, they tend to grow closer together. They will not
+necessarily be permanent communities, although they might evolve
+into that, for better or for worse. They are fundamentally only in existence for the agreed-upon life of the collaborative agreement. Still,
+agreements can be extended, and if agreements are modelled on relational contracts, we would come to think of them as being part of an
+agreement relation, which could have an unlimited lifespan.
+This point applies vividly to the act of negotiating a treaty between
+two communities – for example, between a cyberstate and a nation
+state or between two blockchain communities that are engaged in an
+exchange of goods and services or that wish to put an end to hostilities
+between themselves. In negotiating a treaty, one has already created
+a kind of meta community – typically, a community grounded in an
+understanding between the parties to the negotiations that there are
+shared values with respect to the goals of the treaty, the methods of
+verification, the methods of enforcement and so on. Treaties – or at
+least treaties of any consequence – are the product of people working
+together with shared values and goals.
+Blockchain technology allows us a fresh perspective on treaties
+and other agreements. Of course, treaties, being agreements, require
+methods of verification, and sometimes verification is simple (was the
+purchased grain delivered or not?) and, sometimes, not so simple (were
+those uranium centrifuges dismantled or not?). Successful treaties and
+agreements are not negotiated across communities so much as they are
+negotiated within a community, which means that a kind of community must exist that includes both parties to the treaty. It might be just
+the immediate parties to the treaty or it might include other facilitators
+as well (arbitrators, inspectors and so on).
+The problem is not that such communities are impossible to create
+but merely that they are very difficult to nurture. There are always many
+reasons for the parties to the treaty to be distrustful of each other and
+doubtful as to whether the terms of the agreement will be honoured. In
+
+
+some cases, the inability to carry out effective record keeping can be a
+hindrance to the successful negotiation of a treaty.
+And yes, we are back on the topic of record keeping because it is
+just as important in negotiating and resolving conflict as in anything
+else. As we noted earlier, one standard practice in negotiations is to
+maintain a record of proposals, which tracks the history of proposals
+made and agreed to over time. It is critical that both sides agree to
+the record of proposals – that they be able to see the progress made
+and are on the same page about what has been agreed to. If this is not
+done, progress made can be lost by one or more parties. Furthermore,
+having a shared record of proposals and agreements can bring to the
+fore disagreements about the interpretation of those proposals. You
+cannot clarify something if you have lost track of what it is that needs
+clarification.
+Our point is that a major part of resolving conflict involves having
+a clear and immutable record of what has been agreed to and how it has
+been interpreted, a history of what both parties have tended to agree
+to, and when possible, onchain mechanisms for the execution of the
+ultimate agreement. To put things into perspective, let us review how
+traditional economic treaties between nation states are enforced and
+then reflect on how blockchain-grounded treaties would carry out the
+same functions.
+Economic treaties are verified and enforced through various mechanisms (subject to the treaty itself ). Some of the most common mechanisms include the following:
+1. Self-reporting: This involves regular reporting by the signatories on the implementation of the treaty provisions, including
+data on trade flows, investment patterns and other relevant economic indicators.
+
+2. Monitoring: This typically involves some independent organisation to carry out the monitoring. For example, international
+organisations such as the World Trade Organization (WTO)
+
+
+and the International Monetary Fund (IMF) typically play a
+key role in collecting and analysing this kind of data.
+
+3. Dispute resolution: Economic treaties typically include provisions for resolving disputes between signatories, for example,
+through a neutral third-party mechanism such as a panel or
+court. The dispute resolution process may involve the submission of evidence and arguments, hearings, and the rendering
+of a final decision. There is a veritable alphabet soup of such
+courts that are in the business of settling trade disputes. These
+include the WTO’s Dispute Settlement Body, the International
+Centre for Settlement of Investment Disputes (ICSID), the
+International Chamber of Commerce (ICC), the International
+Court of Arbitration (ICA), the United Nations Commission on International Trade Law (UNCITRAL), Arbitration
+Rules (an organisation that provides a framework for resolving
+commercial disputes through arbitration), the European Court
+of Justice (ECJ), the NAFTA Dispute Settlement Body, the
+International Trade Commission (ITC) and the International
+Commercial Court.
+4. Peer review: Some economic treaties may include provisions for
+peer review in which signatories conduct periodic reviews of
+each other’s implementation of the treaty and provide feedback
+and recommendations.
+
+5. Enforcement mechanisms: Economic treaties typically also
+include enforcement mechanisms, such as sanctions or fines,
+to deter signatories from violating treaty provisions. These may
+also take the form of trade restrictions such as tariffs or quotas
+and suspension or termination of the treaty.
+In short, treaties involve a combination of monitoring, reporting,
+dispute resolution, peer review and enforcement mechanisms. The
+effectiveness of these mechanisms can depend on many factors, ranging
+
+
+from the good faith and political will of the signatories, their ability to
+deliver on their promises, and quite often, the ability of international
+organisations to successfully monitor compliance. And we have yet to
+even get to the issue of enforcement (how do we make someone pay the
+fines if they lose a trade dispute case in an international court?).
+All of this brings us back to treaties that are grounded on the blockchain and the question of how different they might be. Some elements
+might be similar, but others are not similar at all.
+Let us begin with the strategy of self-reporting. The weakness of
+self-reporting is, of course, that it opens the possibility of deceptive
+reporting. However, there is the additional problem that the data that
+the reporting community believes to be accurate may not be accurate at all. This could come about for many reasons, ranging from
+bureaucrats attempting to turn in friendly numbers to keep their
+bosses happy to the simple inability of states to accurately gather the
+requested information.
+With blockchain technologies, self-reporting should be a far more
+successful enterprise. Onchain information is difficult to falsify since
+it must be consistent with the information at every step of the supply
+chain and manufacturing process. It is not enough to falsify the number
+of widgets you have made because that number must also be consistent with the information at each stage in the manufacturing process,
+the supply chain for that manufacturing process, inventory control and,
+ultimately, the shipping of the product. All of these numbers are visible
+to everyone with access to the blockchain, so if it is your blockchain (i.e.
+the blockchain on which your community is based), misrepresenting
+the numbers is quite difficult.
+This leads us to the issue of monitoring other communities. There
+are several solutions here. If the information to be monitored is onchain,
+then one can provide access to the information onchain. For example,
+in the case of widget production, one can provide access to onchain
+information regarding production, the supply chain, inventory control
+and so on. If that information is proprietary in certain circumstances,
+
+
+it is possible to provide zero-knowledge proofs that can establish the
+reliability of the output information by proving that the numbers were
+not falsified somewhere along the line.
+This connects with more general advantages of utilising zeroknowledge proofs for other purposes. For example, a treaty might
+require that a certain percentage of state resources must be committed
+to some social cause. However, the community may not wish to provide information concerning its total resources. With a zero-knowledge
+proof, it can still prove that it has provided the requisite percentage of
+resources to social causes.
+Returning to the issue of exit, here again, if communities have a
+treaty obligation to provide the ability to exit for their citizens, crosschain proofs should be possible to determine whether citizens in other
+communities have resources available to them should they choose to exit.
+Again, this would be provided by zero-knowledge proof procedures
+that would query whether the DAO contract of the monitored community indeed unlocks agreed-to resources to citizens on their exit.
+This brings us to dispute resolution. There may still be a need for
+international courts to adjudicate disputes in some cases, but their task
+should be much easier given the onchain data available to the courts.
+The jobs of the alphabet soup of international organisations should be
+easier, but will such organisations be all that necessary? At least regarding treaties and agreements that take the form of smart contracts, it is
+hard to see how disputes could even get started, given that the code
+in the smart contract executes the agreement automatically. That said,
+there may be cases in which there are hacks to a contract or in which
+a contract is entered into under duress, so such international organisations may remain somewhat relevant.
+Smart contracts are better designed for economic disputes, where
+it is easy to see how the relevant information can and will be available onchain. However, even in a dispute about territorial control, smart
+contracts can be deployed.
+
+
+The key to extending smart contracts to all manner of treaties,
+agreements and subsequent dispute resolution involves the application of oracles that can monitor the relevant actions. For example, if
+an agreement says that adversarial forces must withdraw from a given
+territory or withdraw a particular class of weapons from the territory,
+oracles can take the form of bots that monitor the area for relevant
+information. To assure all parties to the treaty that only the relevant
+information will be sampled, the bot’s software would be under the
+observation of members of the DAO for the treaty. In other words,
+one could engineer ‘observers’ that pay attention only to the relevant
+parameters and are blind to everything else and that report only to the
+shared DAO. This represents an advantage over human observers who
+may be biassed or who may steal classified information not relevant
+to the treaty. Bots, under the control of the DAO, observe only what
+is relevant to the treaty.
+Are there limits to this kind of monitoring? Presumably, yes, particularly in areas that require human judgement. However, treaties
+and agreements can be written in such a way that the parameters of
+the agreement are within the capabilities of the bots. Suppose, for
+example, that we wanted to enter into a treaty regarding the treatment
+of prisoners. Using current AI technology, it should be possible to
+train a bot to recognise acceptable and unacceptable behaviours, and
+a treaty might be programmed to abide by the judgement of the bot,
+as trained for the specific purposes of the treaty. The bot reports to the
+DAO smart contract, which then affirms whether the treaty is being
+observed or not. If the treaty is not being observed, the enforcement
+mechanisms kick in.
+Let us stay with our example of the treatment of prisoners (although
+the same strategy could be deployed for other human rights abuses). If a
+suitably trained monitor bot reports abuses to the DAO, the smart contract automatically acts on that information. Perhaps the programmed
+response is to issue a warning (at least initially), or perhaps it is to issue
+a fine. This might mean that the treaty involved the staking of resources
+
+
+in the contract as a guarantee that its terms would be observed. The
+smart contract could deduct this fine automatically. Or the smart contract might issue other punitive actions. It could also issue a complaint
+to traditional dispute resolution mechanisms. There are many ways to
+do this. The participants will engineer the necessary specifics into each
+treaty and agreement as the relational treaty evolves.
+All of this discussion of treaties and other agreements was designed
+to establish a framework for how blockchain communities might collaborate with each other, not just on economic matters but on matters
+of fundamental community rights and individual rights. In Chapter 11,
+we talked about the rights and responsibilities of blockchain communities, and the issue now becomes how those rights are to be enforced –
+both the rights of individuals and those of communities.
+You may not have noticed it, but all of the rights and responsibilities outlined in the previous chapter are amenable to being represented
+in the kind of smart contract agreements we have discussed here. Take,
+for example, the right to exit, which we just mentioned. Once established, the parameters for exit can be monitored via zero-knowledge
+proofs, and if there is a violation of the principle, that violation can be
+reported to the DAO around which the signatories are organised.
+If it is not clear, we envision the various communities, organised
+around different principles and values, having some shared values – possibly those values encoded in our list of rights and responsibilities for
+communities. That opens the opportunity for the kind of meta DAO
+that we mentioned earlier. Such a community of communities will also
+be organised around smart contracts.
+Just as a first-order community will have strategies for incentivising
+positive collaboration among its members, so too will the meta DAO,
+which will have the usual DAO strategies for incentivising collaboration among its members. These incentives might involve carrots, and
+they might involve sticks, but engineering collaboration at this meta
+level is not different from engineering it at the lower level in any interesting way.
+
+
+None of this is to say that we will not encounter conceptual limits
+regarding this form of meta-DAO governance. As we will see in Chapter 15, there are significant issues surrounding the limits of oracles to
+reliably report real-world events and record those observations onchain.
+Before we get to those conceptual limits, however, there is a more pressing question that needs to be addressed.
+What if there are communities that want no part of the international order we envision here? For example, imagine a community that
+refused to allow exit, or that interfered, unjustifiably, in the affairs of
+another community, or that carried out human rights violations against
+its citizens or those of other communities. What happens if a community refuses to play nice or refuses to cooperate? This leads us to the
+topic of strategies for dealing with noncooperative communities, and
+ultimately, this leads to the topic of what happens when communities
+enter into conflict and war.
+
+12.4 Bringing DAOs to conflict resolution
+There is a famous quote from the philosopher Ludwig Wittgenstein, in
+which he says, ‘If a lion could talk, we wouldn’t be able to understand
+it.’ 8 What Wittgenstein means by this is that communication requires
+more than the ability to articulate words or to even have a syntax for
+those words. Communication requires that we have a shared community with shared practices. We would not understand the lion because
+we do not share the community and practices of lions, whether they be
+in zoos or hunting gazelles on the savanna. However, there is another
+way to look at this. If we are communicating with someone, even if we
+disagree about everything, we can only do that because we share a kind
+of community and set of practices. It does not matter how hopeless the
+disagreement appears or how deep it goes. It does not matter if it has
+Existential Comics, ‘Wittgenstein’s Lion’, Existential Comics, 2018 <https://existentialcomics.com/comic/245> [accessed 30 October 2024].
+
+
+degraded into an endless exchange of insults. You are still communicating – something you cannot do with Wittgenstein’s lion – and for that
+to be possible, there is already a community in place.
+It can even be argued that disagreements are critical components
+to coming to a common understanding with someone. You may have
+noticed that if you get into a disagreement with someone, you sometimes come out of it with a deeper understanding of your own position.
+However, you may also have noticed that a certain level of understanding must come before disagreement is possible. College teachers have
+long recognised this about their students. If the students passively nod
+their heads to the lecture, there is a good chance they are not understanding. However, if they are raising objections, they actually do
+understand what you are saying – or at least, they are understanding
+well enough to engage. So perhaps disagreement is a path to understanding and vice versa. First, there must be understanding, from which
+disagreement emerges, and this, in turn, leads to better understanding
+and more disagreement, and the cycle continues.
+Our point here is not to get philosophical about the nature of disagreement and understanding but simply to point out that disagreement itself assumes some form of understanding in the background,
+and it similarly can lead to (and we would argue is necessary to) future
+understanding. We bring this up to highlight that when we establish
+platforms upon which to conduct negotiations between communities in
+conflict, there is nothing at all bizarre about saying that in those negotiations, despite all of their differences, the parties to the disagreement
+constitute a working community. We might even say that they constitute a permanent community because as long as people communicate
+well enough to insult one another, they are part of a shared community.
+More generally, when two separate communities find themselves in
+conflict, they still also constitute a kind of joint community. That is to
+say that even if two parties are diametrically opposed to one another,
+and even if they are engaged in some form of kinetic conflict, if they
+are communicating with each other for any purpose – even if it is to
+
+
+degrade each other – they ipso facto also form an umbrella community
+encompassing both of the communities in conflict. This may seem paradoxical. How can two communities in dire conflict – even to the point
+of warfare – jointly constitute any sort of community? As contradictory
+as it may seem, the two parties in dispute, even if they are yelling at each
+other, are still engaged in a kind of communicative practice, and they
+are appealing to ideals and principles that they imagine the other party
+either shares or ought to share with them. This suggests more than a
+little common ground.
+What may seem odd about our perspective is that we often think
+of communities in conflict as being very separate communities. We fail
+to see that, at the end of the day, there is still a broader community
+encompassing both of the communities in dispute. Maybe that broader
+community is global or regional in scope, or maybe it only encompasses
+the two parties in conflict. Whatever the scope, those two parties, once
+engaged with each other and communicating (even if it is to trade
+insults), have formed a community, even if it is initially just a community of conversational participants. Why is this important? Because
+if it is a community with the shared goal of resolving the conflict and
+not much more than that, we want to be able to provide the tools to
+facilitate that process, and one of the best tools that can be provided in
+this and similar cases is a DAO.
+In earlier sections of this chapter, we observed that when two separate communities, each organised around their own DAO, need to
+negotiate or resolve some conflict, the best way to do this is to build an
+umbrella blockchain community for the purposes of the negotiation.
+This umbrella community might consist solely of the communities in
+dispute or representatives of those communities or the parties in conflict along with other interested parties and stakeholders.
+Just as we saw that there is not really an interesting distinction
+between contracts and treaties, so too, there really is no interesting difference between conversations between parties in conflict and those in
+accord. In each case, there is some sort of goal. In the case of parties in
+
+
+conflict, the goal might be the end of hostilities. Or if there is no desire
+to end hostilities but merely a mutually shared desire to trade insults,
+that is good enough. Blockchain technologies and DAOs are as useful
+to communities in conflict as they are to communities in accord.
+For example, it can only be helpful to ask parties in conflict to clearly
+articulate their principles and values and what their complaints against
+the other party are. If one of the parties finds the other to be evil, that
+suggests an assumption about some shared values or principles. Even if
+fundamental principles are, at the end of the day, incommensurable, it is
+still valuable to have those principles clearly articulated, if for no other
+reason than to know what sorts of proposals are unlikely to be successful. More specifically, if two parties are in conflict to the point that they
+do not trust each other, there is all the more reason to take the dispute
+to the blockchain so that both parties to the dispute will know that the
+records are immutable and that trustless agreements are possible in the
+form of smart contracts.
+While we would like to think that the application of blockchain
+technologies described in this chapter can resolve many disputes – or
+at least, take the edge off them – we certainly would never say that they
+can help us prevent disputes from becoming kinetic. Disputing parties
+will go to war. Maybe blockchain communities will have to go to war as
+well. The question is, what will that look like? We will explore this more
+thoroughly in the next chapter.
+

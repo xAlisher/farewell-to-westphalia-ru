@@ -1,0 +1,585 @@
+CHAPTER 3
+
+3.1 Preliminaries
+
+I
+
+n 1695, the British established an outpost on the Caribbean island
+of New Providence in Bermuda. Originally called Charles Town,
+its name was eventually changed to Nassau, which it still goes by
+today. When the War of the Spanish Succession broke out in 1701,
+multiple conflicts ensued across Europe, spilling over into the Western
+Hemisphere and eventually the Caribbean. When subsequent Franco–
+Spanish raids on Nassau forced the British to abandon the outpost in
+1706, Caribbean pirates formed a pirate republic, took possession of the
+town and made it their base until the British eventually got around to
+retaking control in 1718. In its twelve-year existence, it provided plenty
+of material for future Hollywood movies. Citizens included Edward
+‘Blackbeard’ Teach, ‘Calico Jack’ Rackham, Charles Vane, Stede Bonnet, Benjamin Hornigold and ‘Black Sam’ Bellamy.
+Even before taking possession of Nassau, the pirates had established
+something of a virtual governmental system – quite decentralised and
+not yet physically located. After claiming the area, they formed what
+would become known as the Republic of Pirates. It had its own government and its own pirates’ code (like the one reproduced below) governing
+affairs. Like the pirate code established onboard ships, it was relatively
+democratic. Booty from a conquest was shared, and sailors voted for
+
+
+their captains. Blackbeard was elected magistrate of Nassau and seems to
+have been in charge of the Republic in some way or other for a while.1
+Different pirate enclaves had different codes, but all of them were
+quite interesting. The code of the Nassau Republic of Pirates seems not
+to have survived, but we can provide a sense of how such codes worked
+with an example. This one from Bartholomew ‘Black Bart’ Roberts was
+written in 1722, just four years after the Republic folded:
+ARTICLE I. Every man shall have an equal vote in affairs of
+moment. He shall have an equal title to the fresh provisions
+or strong liquors at any time seized, and shall use them at
+pleasure unless a scarcity may make it necessary for the common good that a retrenchment may be voted.
+
+ARTICLE II. Every man shall be called fairly in turn by the
+list on board of prizes, because over and above their proper
+share, they are allowed a shift of clothes. But if they defraud
+the company to the value of even one dollar in plate, jewels
+or money, they shall be marooned. If any man rob another he
+shall have his nose and ears slit, and be put ashore where he
+shall be sure to encounter hardships.
+ARTICLE III. None shall game for money either with dice
+or cards.
+ARTICLE IV. The lights and candles should be put out at
+eight at night, and if any of the crew desire to drink after that
+hour they shall sit upon the open deck without lights.
+
+ARTICLE V. Each man shall keep his piece, cutlass and
+pistols at all times clean and ready for action.
+
+ARTICLE VI. No boy or woman to be allowed amongst
+them. If any man shall be found seducing any of the latter
+sex and carrying her to sea in disguise he shall suffer death.
+Colin Woodard, The Republic of Pirates: Being the True and Surprising Story of the Caribbean
+Pirates and the Man Who Brought Them Down (New York, NY, 2008).
+
+
+ARTICLE VII. He that shall desert the ship or his quarters
+in time of battle shall be punished by death or marooning.
+
+ARTICLE VIII. None shall strike another on board the
+ship, but every man’s quarrel shall be ended on shore by
+sword or pistol in this manner. At the word of command
+from the quartermaster, each man being previously placed
+back-to-back, shall turn and fire immediately. If any man do
+not, the quartermaster shall knock the piece out of his hand.
+If both miss their aim they shall take to their cutlasses, and
+he that draweth first blood shall be declared the victor.
+ARTICLE IX. No man shall talk of breaking up their way
+of living till each has a share of l,000. Every man who shall
+become a cripple or lose a limb in the service shall have 800
+pieces of eight from the common stock and for lesser hurts
+proportionately.
+ARTICLE X. The captain and the quartermaster shall each
+receive two shares of a prize, the master gunner and boatswain, one- and one-half shares, all other officers one and one
+quarter, and private gentlemen of fortune one share each.2
+
+The Republic of Pirates was one of the many examples that Hakim
+Bey used in T.A.Z.: The Temporary Autonomous Zone to illustrate his
+idea that temporary autonomous zones (TAZs) would be temporary
+‘islands in the net’, coming into and out of existence.3 However, the
+idea that TAZs would have short lives presupposed the ability of nation
+states and their security forces to push the TAZ out of existence. Today,
+as fissures in the Westphalian order continue to grow, it becomes less
+obvious that nation states are permanent features in our political order.
+It may well be that future pirate enclaves will not be as impermanent
+‘Pirate Code of Conduct’, Elizabethan Era, 2023 <https://www.elizabethan-era.org.uk/
+pirate-code-conduct.htm> [accessed 28 October 2024].
+Hakim Bey, T.A.Z.: The Temporary Autonomous Zone, Ontological Anarchy, Poetic Terrorism
+(New York, NY, 1991).
+
+
+as Hakim Bey imagined. In any case, nation states are now abandoning
+elements of their terrestrial sovereignty.
+Whether that abandonment is temporary or permanent, the question for us is this: What does it look like today when alternative forms of
+governance achieve a degree of sovereignty over physical territory? It will
+not look like the Republic of Pirates, although there will be some similarities: it will involve a network of individuals, coordinated and bound
+by shared principles, who have seized an opportunity to gain sovereign
+control over their lives at a time when Westphalian nation states are in
+crisis. These crises have only intensified since the days of the Caribbean
+pirates, and our resources for coordination across great distances are much
+more developed than those available to Black Beard and Calico Jack.
+This leads us to the topic of territorial control in the post-Westphalian order. We already have some idea of what it will look like, and
+we have discussed some examples of this phenomenon, namely special
+economic zones (SEZs). In the next section of this chapter, we want
+to dive deeper into this topic, looking at various forms of alternative
+governance that are currently emerging as nation states are dissolving.
+Then, in the following section, we paint a vision in which communities
+organised around blockchains emerge as the most promising alternative form of governance in the post-Westphalian era.
+
+3.2 Some examples from the Cambrian explosion
+In the previous chapter, we noted many ways in which the Westphalian
+political order is fragmenting, giving rise to new forms of governance.
+In some cases, the new forms are officially sanctioned and the product
+of intentional effort by legislatures and rulers. However, there are plenty
+of examples where new forms of government are unsanctioned (drug
+cartels, for example) and other, less criminal, examples where the governing alternative is not really the product of planned actions and certainly not plans of the state but in which the state, more or less, throws
+up its hands and lets the new form of governance continue to operate.
+
+
+A striking example of the latter occurred in the village of Cherán
+in the Michoacán region of Mexico. In this case, the locals revolted
+against their official government and La Familia Michoacana (which,
+alongside some legacy Mexican governmental power, had become the
+de facto government). Like other Michoacán communities, Cherán
+suffered from crime, corruption and violence (thanks in no small part to
+La Familia Michoacana drug cartel). Kidnappings, extortion and murders were quite common, but in this particular case, the illegal logging
+of the forest surrounding the village set off the 2011 revolt. Here, it is
+important to understand that the forest was sacred to the 12,000 locals,
+who were largely members of an indigenous population known as the
+Purépecha and spoke the Purépecha language.
+One of the community leaders, speaking to the Los Angeles Times,
+explained the motivation for the villagers’ revolt as follows: ‘To defend
+ourselves, we had to change the whole system – out with the political
+parties, out with City Hall, out with the police and everything. We had
+to organize our own way of living to survive.’
+In April 2011, armed with rocks and fireworks, Purépecha women
+and men attacked a busload of illegal loggers linked to La Familia
+Michoacana. The cartel members were armed with automatic weapons,
+but the local vigilantes, by virtue of their sheer numbers and passion,
+somehow managed to prevail. They took control of the town, expelled
+the corrupt legacy officials and police, and barricaded the roads leading to the oak forest on the neighbouring mountain – a mountain that
+had fallen victim to the chainsaws of armed gangs supported by corrupt authorities and cartel gang members. This micro-revolution subsequently evolved into a programme of independent community policing,
+which now encompasses 20,000 inhabitants and over 27,000 hectares
+of communal land.
+The Mexican government was forced to let this new administration
+continue, in part because indigenous communities possess the right
+to self-government and self-policing under the Mexican constitution.
+This having been said, it was only after protracted legal battles that the
+
+
+national government finally recognised autonomous Cherán as a legally
+self-governing indigenous community.
+Lourdes Cárdenas, writing for Truthout in 2016, summed up the
+new form of governance as follows: ‘In Cherán’s unique form of government, the real power lies wholly with the people. There is not a
+single decision taken without consensus, from who will get a local job
+in construction, to the allocation of public services and overseeing the
+spending of the budget. The authority of the community’s assembly is
+above any other local governmental body.’4
+Perhaps more controversially, political parties and campaigns have
+been outlawed in the town. Cherán’s model of direct democracy, as
+described by an article in The Guardian, offers ‘a simple solution to the
+vote-buying and patronage which plague Mexican democracy.’ This
+system may well have saved their sacred forest and brought peace to
+Cherán. In any case, by 2017, the town boasted the lowest homicide
+rate in the entire state of Michoacán, perhaps even in all of Mexico.5
+This case might seem like an outlier since it involves indigenous
+peoples with special rights to independence carved out by the Mexican constitution. However, similar movements are forming in less
+dramatic forms.
+Neighbourhood watch groups, after all, are also ways for residents
+to take on at least some of the role of policing in their communities.
+There are also tools to assist in this, including communication tools that
+make policing events more accessible and transparent. For example, a
+mobile application called Citizen (formerly Vigilante) tracks crime
+reports in real time and sends push notifications to local subscribers.
+Do tools like this replace police departments? Of course not – not yet.
+Lourdes Cárdenas, ‘Life Without Politicians: A Mexican Indigenous Community Finds
+Its Own Way’, Truthout, 2016 <https://truthout.org/articles/life-without-politicians-amexican-indigenous-community-finds-its-own-way/> [accessed 7 September 2023].
+David Agren, ‘The Mexican Indigenous Community That Ran Politicians Out of Town’,
+The Guardian, 4 March 2018 <https://www.theguardian.com/world/2018/apr/03/mexicoindigenous-town-banned-politicians-cheran> [accessed 28 October 2024].
+
+
+However, our point is that this is a gradual process by which, bit by
+bit, the functions of state governance are being taken on by other nonofficial forms of governance.
+Indeed, there are more dramatic examples of this phenomenon in
+the United States involving communities in which the actual kinetic
+form of policing is not in the hands of traditional governments but
+in the hands of other groups. For example, Sidney Torres, who made
+a fortune in waste management, started a policing operation in New
+Orleans in 2015 called the French Quarter Task Force. Torres invested
+in a fleet of GPS-equipped Polaris Rangers (which the New York Times
+Magazine describes as ‘militarized golf carts’) and an application that
+allows residents to summon the Task Force and view where they are on
+a map in real time. It is worth noting that he formed the Task Force in
+part thanks to encouragement (or perhaps baiting: the mayor told him
+to ‘put your money where your mouth is’).6 Our point is that we have
+yet another example in which a legacy government – in this case, a city
+government – was willing to cede its sovereign control over policing,
+and the replacement was up and running in short order. It is easy to see
+that efforts like this, combined with projects like the Citizen application, could change policing and, ultimately, governance as we know it.
+Aside from these new, smaller forms of governance that are emerging and becoming more important at the dawn of the post-state era,
+there are also larger organisations that are taking on the role of states.
+One prominent example is the European Union, which has assumed
+numerous roles – economic, cultural, social services and so on – that
+used to be the province of individual states. As they will also be a part of
+any post-state cocktail, we want to devote a few paragraphs to discussing them and how they will interact with state and, more importantly,
+non-state actors as nation states continue to dissolve.
+David Amsden, ‘Who Runs the Streets of New Orleans?’, New York Times Magazine,
+30 July 2015 <https://www.nytimes.com/2015/08/02/magazine/who-runs-the-streets-ofnew-orleans.html> [accessed 28 October 2024].
+
+
+The phenomenon of centralised umbrella governance that sits over
+national governments is quite common (we have already mentioned the
+European Union and, earlier, the Organization of American States).
+Where things get interesting is when these umbrella organisations
+codify their authority into international law, creating another layer of
+constitutions and subsuming those of nation states. This codification of
+covering laws or constitutions goes by several names, including ‘transnational constitutionalism’, ‘multi-layered constitutionalism’, ‘international constitutionalism’ and, with respect to the European Union,
+‘European constitutionalism’ and, with respect to the British Commonwealth, ‘Commonwealth constitutionalism’. The phenomenon has
+drawn substantial attention in international law.7
+Given the complexities of international law and the inherent difficulty of attempting to get transnational constitutions of whatever stripe
+to dovetail with nation-state constitutions and other transnational
+constitutions, the topic is challenging. For example, Commonwealth
+constitutionalism has to dovetail not only with British law but also with
+international law and (until recently) with European Union law.
+At the same time nation states are ceding some of their sovereignty to larger transnational governmental units with constitutions
+of their own, they are also ceding legal authority to smaller governmental units like special taxing districts, special enterprise zones and
+a host of other local governmental units. There is plenty to be said
+about special taxing districts and special enterprise zones, and these
+smaller governmental units are becoming an important part of the
+post-Westphalian puzzle.
+As we write this chapter, there is an ongoing struggle between
+the Walt Disney Company and Florida Governor Ron DeSantis.
+The dispute originates in what was initially called the Reedy Creek
+Improvement District (RCID) and concerns the alleged ‘wokeness’ of
+For a discussion of all of these approaches, see Roger Masterman and Robert Schütze,
+The Cambridge Companion to Comparative Constitutional Law (Cambridge, 2019); Part V.
+
+
+Disney. The RCID was formed by an agreement made between Disney
+and the State of Florida in 1967, in which Disney Company would
+take on many of the functions of a local government. These functions
+included municipal services like power, water, roads, fire protection and
+so on. When Disney bought the property, none of these services were
+available.
+The scope of governance within the Reedy Creek framework was
+quite impressive. The Reedy Creek website listed the following facts
+concerning its role in governance as of 2023. Their responsibilities
+included:
+• 134 miles of roadways and 67 miles of waterways built
+and maintained
+• 250,000 daily guests
+
+• 6 to 8-minute response time for fire and EMS
+• 60,000 tons of waste managed
+
+• 30 tons of aluminum, paper, steel cans, cardboard and
+plastic containers recycled every year
+• 22,800 water samples collected by RCID scientists from
+1,500 locations on the property for testing every year
+
+• 90,000 analyses conducted to make sure that water quality meets or exceeds state and national standards. Water
+draining from the south end of the District is generally
+cleaner than when it entered Reedy Creek at its north end.
+• 2,000 vendors, suppliers and contractors used to provide a
+high level of public services for visitors8
+
+Since the dispute with Governor DeSantis, the governing body is
+now known as the Central Florida Tourism Oversight District, and
+RCID, ‘About’, Reedy Creek Improvement District www.rcid.org/about/ [accessed 29 June
+2023].
+
+
+Disney no longer appoints the organisation’s five-member Board of
+Supervisors. Those supervisors are now appointed by the Office of the
+Governor of Florida. Certain powers were also removed by the Florida
+Legislature, including the power to construct a nuclear power plant,
+airport and stadium.
+This case study is interesting for several reasons, not least of which
+is the tension that holds between the Disney property in Orlando and
+the Florida governor’s office. It shows that, as with our Republic of
+Pirates in the first section of this chapter, the traditional state may come
+to reclaim its sovereignty – or at least some of it.
+Of course, the Disney Company is not without weapons of its own,
+some of them legal, some of them stemming from the popularity of the
+Disney brand and some of them being that the State of Florida would
+rather not be involving itself with 60,000 tons of waste management
+and 250,000 daily guests. Most importantly, Florida politicians would
+very much prefer not having to put their names on the tax initiatives
+necessary to pay for it all.
+Thus, in the Disney v. DeSantis case, we quickly run into the limits
+of political will. Governments, paradoxically, would rather avoid the
+messy business of day-to-day governance, and if a corporation or a community steps forward and offers to do the dirty work, legacy governments are often happy to cede some of their authority. In other words,
+the Empire may strike back, but it does not win in the end; in this case,
+it may not even want to win.
+The Disney–DeSantis dispute is perhaps best understood as an
+aberration, owing to the career interests of the current governor and
+his unsuccessful attempt to win the Republican nomination by fighting against the ‘wokeness’ of the Disney Corporation. Otherwise, this
+dispute might not have happened at all, and the evidence for this is
+that there are hundreds, perhaps thousands, of other such districts in
+Florida that continue to operate without controversy.
+As far back as 1982, there were approximately 1,000 special taxing districts in Florida, which was more than the state’s total number
+
+
+of cities and counties combined. They were 1,000 black boxes full of
+governmental mystery, by some accounts. Noting the rise of such districts in the middle of the twentieth century, John C. Bollens referred to
+special district governments as the ‘dark continent’ of American politics
+– a reference to the expression used to talk about precolonial Africa, in
+which many facets of Africa were a mystery, not least its various forms
+of tribal governance.9
+A working definition of a special taxing district, from David M.
+Hudson, is that it is a ‘local unit of special government, except district school boards and community college districts, created pursuant to
+general or special law for the purpose of performing prescribed special
+functions, including urban service functions, within limited boundaries.’ Of course, as the name implies, these districts can levy their own
+taxes to pay for these services.10
+The Disney special taxing district may not even be the most wellknown example in Florida, with the most famous, or at least most notorious, being a district known as The Villages. The Villages is a retirement
+community of over 130,000 senior citizens, famous for allegedly having
+one of the highest STD rates in the United States (although this is
+disputed).11 What is not disputed is that the governance of The Villages
+maintains most of the services generally associated with government,
+including police, fire, utilities and so on, but also matters like animal
+shelters and, of course, lots of golf courses. We will return to The Villages later to discuss a recent political conflict, but for now, we simply
+want to note that this is but one of many cases in which the State of
+Florida ceded governmental authority.
+
+John C. Bollens, Special District Governments in the United States (Oakland, CA, 2021).
+David Hudson, ‘Special Taxing Districts in Florida’, Florida State University Law Review,
+10/1 (1982), 49–94 <https://ir.law.fsu.edu/lr/vol10/iss1/2>.
+Hannah Critchfield, ‘Why is The Villages known as “the STD capital of America?”’, Tampa
+Bay Times, 8 December 2022 <https://www.tampabay.com/news/health/2022/08/12/whyis-the-villages-known-as-the-std-capital-of-america/> [accessed 28 October 2024].
+
+
+Of course, as we mentioned earlier, nation states do this as well in
+the form of the aforementioned SEZs. It would take a monumental
+effort to come up with a taxonomy of all the different kinds of these
+‘special’ zones dotting the governmental landscape around the world,
+and it may well be that no one has a firm handle on the scope and variety that exist today. Our job here is not to nail down existing flavours of
+such zones but rather to note that their composition is quite fluid, as is
+their source of origin. They promise to make a significant contribution
+to the tapestry of post-state governance. However, the problem is that,
+on their own, they are not the answer. It is not enough to break governance into smaller pieces – that just gives us more (if smaller) centres of
+authority, with all of the baggage that comes with centralisation. In the
+next section, we will explore this problem.
+
+3.3 Sharding is not enough
+‘Governance’ has been our term for strategies that humans use to organise their collective activities and decision making. Sometimes, that
+organisation is top-down and sometimes, it is bottom-up, but however
+it is structured, it permeates nearly every aspect of our lives. Governance is ubiquitous.
+We have explored some of the many kinds of institutions that are
+replacing the governance role of nation states, and we suggested that
+the very idea of the state may be dissolving before our eyes. In its place,
+we are beginning to see a complex web of different levels of governance
+and different forms of sovereignty. We have speculated that even the
+notion of territorial sovereignty is dissolving and soon will not be the
+province of any single level or form of government.
+You might think that this is a great state of affairs, as only good can
+come from moving from large centralised powers to smaller centres of
+power. However, this is not exactly correct. Decentralisation without
+coordination is not really a solution to anything. In fact, it is not really
+decentralisation so much as a phenomenon that we call ‘sharding’.
+
+
+‘Sharding’ is a term that is used in online video games to refer to
+cases in which gameplay proceeds independently on different servers. Like a piece of glass that has broken into smaller pieces (shards
+of glass), each of the smaller pieces has the same material composition
+as the original. Sharded games have the same mechanics and graphics,
+although the gameplay evolves in different ways. Similarly, we can take
+a centralised power and break it into pieces, but if those pieces are little
+centralised fiefdoms themselves, we have not really solved any problems. We have, if anything, just created more of the same.
+Of course, we can argue about whether sharded centralised authority is at least better than the original or not but, in our view, this is
+an unambitious approach to the problem. Sharding does not eliminate
+corruption. We need technologies that help shards become cooperative,
+transparent forms of governance. In this section, we aim to highlight
+some of the many forms of sharded governance that exist today – SEZs,
+homeowner associations (HOAs) and so on – and some of the problems
+to which they have given rise. We will then make the case that many of
+these problems can be ameliorated by bringing blockchain governance
+to these shards – to SEZs and HOAs and so on.
+Some review may be helpful here. As we noted earlier, there are
+currently many levels of official government, ranging from collections
+of traditional nation states (like the EU and the UN) to their member
+states (as in the United States of America and the United States of
+Mexico) to any number of smaller political units, including counties,
+municipalities, congressional districts and, in cities like New York, boroughs. Each level of government has its own concerns, its own methods
+and its own way of organising itself.
+While these levels of government are the most visible forms of
+human government, it is important to keep in mind that humans are
+engaged in many more forms of governance. As we have noted, there
+are scout troops, churches, condo boards, HOAs, school boards, event
+planning committees, social clubs and many forms of corporate governance. As Westphalian governance structures dissolve, these smaller
+
+
+units may become more important. This is not to say that they are
+going to be much better than large centralised authorities. They may
+even be worse.
+The problem is that the sharding of traditional forms of government into smaller pieces accomplishes little if those smaller pieces are
+still centralised in organisational structure. At best, we get smaller pieces
+of centralisation. The problem with governance at any level is that if it
+is centralised, and if it has control over financial resources or over our
+behaviour and our rights, then it is going to be a magnet for corruption
+and abusive leaders. This is true whether we are talking about nation
+states or cities or HOAs or church administrations. Centralisation is
+an attack vector at every level of governance, whether it concerns large
+or small governance institutions. Maybe with larger institutions, the
+failures are more spectacular, but the cumulative effect of sharded centralised governance may be worse in the aggregate.
+Here is another way to think about it. There is certainly plenty of
+corruption at the federal level of government in the United States, but
+there is precious little reason to think that there is less corruption in the
+aggregate at the state level. Illinois alone has sent four of its governors
+to prison for corruption since 1969, and it is far from being viewed as
+the most corrupt state. However, there is no reason to pick on states
+like Illinois. There are plenty of cases of corrupt county commissioners,
+mayors, sheriffs, assembly persons and so on.
+Our point in talking about all these different levels of government
+and different kinds of governance in a post-state world is not simply
+to impress you with their ubiquity. It is rather to observe that all of
+these levels of government and kinds of governance rely on tools to
+get their jobs done. Some of these tools involve the keeping of records
+– for example, minutes of meetings or spreadsheets of accounts. Other
+tools might include strategies for voting (raising hands versus secret
+ballots). Still, other tools might facilitate the distribution and control of financial resources (cookie jars versus checking accounts or
+investment portfolios). However, we believe that just as nation states
+
+
+(themselves obsolete technologies) are lumbering along using obsolete technology, so too all these different levels of human organisation
+are using obsolete technologies.
+Of course, for certain purposes, vintage technologies work just fine.
+Maybe the proceeds from a bake sale can be recorded using a pencil on
+the back of an envelope. And even that might be too much technology
+in some cases – as Avon Barksdale said in the HBO series The Wire, you
+do not want to be ‘takin’ notes on a criminal fuckin’ conspiracy’.12 However, sound, decentralised record keeping would be a huge step forward
+for many of the governance applications we have discussed, whether
+that be church business, condo board business or HOA business.
+We recognise that talking about these lower levels of human governance may not be that exciting. It takes a lot of mental stamina to start
+grinding through governance failures in things like SEZs and HOAs,
+but when we take a closer look, what we see can be pretty horrifying and
+thus worthy of our attention. Let us consider the example of HOAs.
+As of this writing, it is difficult to quantify the number of HOAs
+worldwide, but estimates suggest that there are approximately 50,000
+in both Florida and California alone.13 That number is apt to have
+increased dramatically by the time you read this book. As the Miami
+Herald reported in a story titled ‘HOAs from hell: homes associations
+that once protected residents now torment them’, 80% of new housing
+starts today are in HOAs.14
+While we know little about what goes on in most of these individual
+HOAs, the combination of centralised organisation, a lack of transparency and tempting pots of money has predictably led to some spectacular scandals. For example, the board of the Hammocks Community
+‘Straight and True’, The Wire (2004).
+Sami Sparber, ‘America’s HOAs, Mapped’, Axios, 2024 <https://www.axios.com/
+2024/02/10/homeowners-association-hoa-fees-map-states>.
+Judy L. Thomas, ‘HOAs from Hell: Homes Associations That Once Protected Residents
+Now Torment Them’, Miami Herald, 8 September 2016 <https://www.miamiherald.com/
+news/nation-world/national/article93434422.html> [accessed 28 October 2024].
+
+
+Association in the West Kendall suburbs of Miami, Florida, recently
+faced criminal charges for stealing $2 million worth of their HOA’s
+maintenance fees. Another article in the Miami Herald (this one titled
+‘Wild allegations at Miami homeowners association show why Florida
+needs HOA crackdown’) suggested that the situation was even worse
+than it sounds: ‘It involves charges of racketeering, money laundering,
+fabricating evidence and using shell companies.’ During a recall election, the association board threw out two-thirds of the ballots. According to the Miami-Dade State Attorney prosecuting the case, the board
+was ‘a criminal enterprise’.15
+Our point in discussing cases of scandal at the lower levels of governance is not to take some moral high ground and judge the offenders
+(although there are some quite reprehensible people included among
+them). Our central point is that if we wish to minimise cases of corruption and other vectors of attack, these smaller forms of governance
+also need to avail themselves of blockchain technology. But what would
+this look like?
+To illustrate, let us continue to consider HOAs. The problem
+encountered in the case of the Hammocks Community Association is
+that the day-to-day financial operations of the association board were
+not transparent. No one could see what the board was doing until it was
+far too late. But second, when it became necessary to vote, the voting
+mechanisms were also opaque. It became possible to discard two-thirds
+of the ballots. This might have been mitigated if the voting had taken
+place using an onchain smart contract with a publicly accessible audit
+trail immutably recorded on the blockchain. But how might this work?
+Recall that in the Introduction we introduced the idea of smart contracts – contracts that are encoded as computer programs and deployed
+on the blockchain. If the mechanisms of voting (and vote counting) are
+Miami Herald Editorial Board, ‘Wild Allegations at Miami Homeowners Association
+Show Why Florida Needs HOA Crackdown’, Miami Herald, 17 November 2022 <https://
+www.aol.com/wild-allegations-miami-homeowners-association-214951325.html>
+[accessed 28 October 2024].
+
+
+encoded in onchain computer programs, then the integrity of the system
+will be visible to all. Our basic idea is that the core activities (including
+financial activities) of an HOA would take place transparently onchain.
+Proposals would be put forward to the community; votes would be made
+via a smart contract or some trusted online tabulator. How do we know
+the records will be reliable? Because they will be recorded on a distributed ledger grounded on a trustworthy global blockchain like Ethereum.
+Clearly, an onchain HOA does not solve every problem, but if the core
+target of criminality (the money) can be constantly audited by the community, then the other aspects of criminality (money laundering, racketeering and so on) become more difficult to engage in.
+To illustrate this idea, let us return to the case of The Villages, the
+special taxing district with 130,000 residents that we discussed earlier
+in this chapter. While The Villages has many good things to offer its
+residents (it is sometimes characterised as Disneyland for senior citizens), not surprisingly, it has become a target for corruption. In this
+particular case, the issue stems from the relationship between the developers of The Villages and legacy politicians, and this is going to be an
+issue that any new independent governance structure will face – the
+desire of legacy institutions to get their hands on it.
+The Villages began its history in the 1970s as a trailer park. Its
+founder, Harold Schwartz, was soon joined by family members – surname Morse – and over the subsequent years, they began expanding
+the district from a handful of mobile homes to the booming suburban community that today does around $2 billion in annual revenue.
+However, with those years of success also came entrenched power. The
+Morse family today owns the local newspaper (The Villages Daily Sun),
+owns the local radio station and owns The Villages Magazine, which
+covers events in the community.
+Outsiders rarely peek into the affairs of The Villages, and when they
+do, it is usually to make fun of ‘boomers’ and their golf cart parades and
+their allegedly off-the-charts STD rates. However, that changed when
+The Intercept scrutinised the politics of The Villages more closely in
+
+
+February of 2023. The title of the article by Ryan Grim was definitely an
+eye-opener: ‘The Villages vendetta: How a grassroots revolt in the iconic
+retirement community ended with a 72-year-old political prisoner’.
+The reported events began in 2019 when residents of The Villages
+were surprised by a 25% hike in their property taxes. They were not
+merely surprised but deeply concerned, as most senior citizens live on
+fixed incomes and have their expenses calculated for the long term.
+What was unusual about this particular tax increase was that it was
+not designed to pay for amenities or upgrades to the existing housing
+units. Rather, it was designed to help subsidise the expansion of The
+Villages developments to the south. Ordinarily, a development of that
+sort would trigger impact fees for the developer – fees designed to pay
+for things like schools, fire departments, emergency medical services,
+police, parks and local government buildings. However, in this case, the
+developers paid for none of that, and the impact fees were being subsidised by current residents of The Villages.
+This led to an election in which three individuals, Craig Estep, Oren
+Miller and Gary Search (running on the ‘EMS’ ticket), campaigned for
+county commission – the only real oversight board for The Villages.
+EMS won the election but lost the war, as developers working for The
+Villages enlisted the support of the Florida Legislature and none other
+than Governor Ron DeSantis to bring the hammer down on EMS. The
+EMS-led commission voted to raise the impact fees for the developers
+by 75%, with the plan to roll back the property tax increases. However,
+friends of the developers in the state capital immediately passed legislation making it illegal for a county commission to raise impact fees on
+developers. The community’s newspaper, The Villages Daily Sun, happily
+celebrated the victory with multiple snarky subheaders: ‘Law stymies
+freshmen commissioners’, ‘Conservatives lead charge’, ‘Understanding
+economic theory’ and ‘Locals applaud new law’.16
+Ryan Grim, ‘The Villages Vendetta: How a Grassroots Revolt in the Iconic R
+ etirement
+Community Ended With a 72-Year-Old Political Prisoner’, The Intercept, 2 May 2023
+<https://theintercept.com/2023/02/05/ron-desantis-florida-villages-oren-miller/>
+[accessed 28 October 2024].
+
+
+The story in The Intercept is worth the read as it goes into subsequent actions that were taken against the EMS coalition, including the
+jailing of Oren Miller for allegedly using his wife to communicate with
+another commission member (a violation of Florida’s ‘Sunshine’ Law
+that requires said communications to take place exclusively in public
+meetings). Those details do not really matter to us, but two things do
+matter. The first is the observation that the kinds of government structures that are replacing traditional governance structures are no more
+democratic simply because the unit of governance is smaller. Whether
+it is a nation state or an HOA or a special taxing district, governance
+is centralised. Thus, it is resistant to democratic initiative and serves a
+small group. However, the second point to observe is that when corruption comes to these smaller forms of government, it typically comes
+from, or at least with the generous help of, legacy governments. The
+Florida Legislature and the Florida state government could not resist
+dabbling in the affairs of The Villages to ensure that the developers
+(significant campaign donors) were protected against the rabble.
+The moral of this section is that when we talk about centralised
+governance being a target of corruption, that corruption need not be
+some local warlord or cartel leader like Pablo Escobar. In many cases,
+the source of the corruption is the legacy political system. As in the case
+of the Disney special taxing district, legacy governments are happy to
+have smaller forms of government do the dirty work of fixing potholes
+and hauling garbage, but there is an element of power and sovereignty
+that they are not willing to give up, whether that element is control over
+a corporation’s support of the LGBTQ community or just ensuring
+that big donors are protected. This means that getting from point A to
+point B (in this case, from a world of centralised governance to a world
+of decentralised governance) is not a trivial matter. External forces prefer that you be centralised because, if you are centralised, you are easier
+to manipulate. In other words, governmental sharding is permitted as
+long as the shard is itself centralised and, thus, controllable.
+Obviously, we think that another way – a better way – is possible, and we have indicated that newer and more successful forms of
+
+
+governance will deploy new technologies that enable decentralised-yetcooperative governance. There is a lot at stake, and we owe a more complete account of our alternative vision. We begin laying out this vision
+in the following three chapters, explaining what blockchain technologies are, how they work, and how they can be leveraged to enable better
+governance and greater human flourishing.

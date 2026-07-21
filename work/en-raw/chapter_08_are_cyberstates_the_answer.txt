@@ -1,0 +1,627 @@
+CHAPTER 8
+
+8.1 Preliminaries
+
+I
+
+n 1996, in the wake of the passage of the Communications Decency
+Act (CDA) by the United States Congress, the Internet found
+an unlikely hero in John Perry Barlow. Barlow was a Republican
+Wyoming cattle rancher, a former lyricist for the Grateful Dead and,
+not least, a cofounder of the Electronic Frontier Foundation. Fed up
+with the CDA’s ham-fisted attempt to censor the Internet, Barlow
+wrote and uploaded his proclamation, ‘A Declaration of the Independence of Cyberspace’. From its opening paragraph, the essay did not
+pull punches:
+Governments of the Industrial World, you weary giants of
+flesh and steel, I come from Cyberspace, the new home of
+Mind. On behalf of the future, I ask you of the past to leave
+us alone. You are not welcome among us. You have no sovereignty where we gather.
+Barlow then doubled down on his thesis that terrestrial governments have no claim over the sovereignty of cyberspace:
+
+
+Governments derive their just powers from the consent of the
+governed. You have neither solicited nor received ours. We did
+not invite you. You do not know us, nor do you know our world.
+Cyberspace does not lie within your borders. Do not think that
+you can build it, as though it were a public construction project.
+You cannot. It is an act of nature and it grows itself through our
+collective actions.
+It concluded with a pledge to create a ‘civilization of the Mind’ in
+cyberspace. In order to accomplish this, the thought was that ‘We must
+declare our virtual selves immune to your sovereignty’ and further that
+‘We will spread ourselves across the Planet so that no one can arrest
+our thoughts.’ And finally, it articulated the aspiration: ‘May [our Civilization of the Mind] be more humane and fair than the world your
+governments have made before.’1
+Inspired by this work and similar discussions in the Internet
+slipstream at the time, Peter Ludlow collected a group of essays into a
+collection entitled Crypto Anarchy, Cyberstates, and Pirate Utopias.2 The
+title itself was a play on Robert Nozick’s famous defence of libertarianism, Anarchy, State, and Utopia,3 and it asked the question: What if
+virtual states could be formed that existed online – cyberstates? Would
+it be possible? Would it be a good thing?
+Ludlow concluded that such states were indeed a possibility and
+that they were already in the formation process, but he expressed some
+pessimism about their ability to persist. He reasoned that these ‘islands
+in the net’ (using a phrase borrowed from the science fiction author
+Bruce Sterling4) might have their day, but that day would be fleeting.
+Terrestrial governments would surely use their power to eliminate them
+John Perry Barlow, ‘A Declaration of the Independence of Cyberspace’, Electronic Frontier
+Foundation, 2016 <https://www.eff.org/cyberspace-independence> [accessed 6 May 2023].
+Ludlow, Crypto Anarchy, Cyberstates, and Pirate Utopias.
+Robert Nozick and Thomas Nagel, Anarchy, State, and Utopia (New York, NY, 2013).
+Bruce Sterling, Islands in the Net (New York, NY, 1989).
+
+
+eventually. Thus, he closed his anthology with the classic underground
+manifesto by Hakim Bey, T.A.Z.: The Temporary Autonomous Zone.5 Bey
+thought that these islands in the net, like the Caribbean pirate enclaves
+of the eighteenth century, would be fleeting postmodern utopias. They
+would form, dissolve and then reorganise elsewhere.
+Ludlow’s volume appeared in 2001 and, as David Hume once said
+of his most famous publication, An Enquiry Concerning Human Understanding, it initially ‘fell stillborn from the press.’6 But more than two
+decades later, with the rise of social media and web3 and blockchain
+technologies, people have begun to revisit its central thesis. Are cyberstates a possibility after all? And if so, is the outlook for their persistence more optimistic than it was two decades ago? We do not think
+they are the final stage in the progress of human governance, but we
+suspect they just might outlast traditional terrestrial nation states.
+In this book’s Introduction, we looked at the extensive role of legacy
+governments in our lives and, beyond that, the ubiquity of governance
+of some form or other in almost all aspects of our lives. In the previous
+chapter, we saw that the role of governments in the creation and preservation (and sometimes destruction) of wealth is massive. Of course, all
+of that was to set up a case that we want to make for an alternative to
+traditional nation states and to the traditional tools of governance that
+are used. Our promise was to make the case for blockchain governance.
+In Chapters 5 and 6, we discussed how blockchain governance will
+work (we will go into more detail later). Now, we want to introduce one
+particular form of blockchain governance: the cyberstate.
+Cyberstates are governance structures organised around blockchain
+technology, with the idea that they will take on the role currently occupied by nation states, although with several advantages over contemporary nation states. Balaji Srinivasan has called them ‘network states’,7
+Bey, T.A.Z.: The Temporary Autonomous Zone.
+Howard Darmstadter, ‘David Hume at 300’, Philosophy Now, 83, March 2011 <https://
+philosophynow.org/issues/83/David_Hume_at_300> [accessed 29 October 2024].
+Srinivasan, The Network State.
+
+
+and while they are indeed organised around networks, we prefer to call
+them ‘cyberstates’, with a nod to Norbert Weiner’s term ‘cybernetics’
+and an even bigger nod to the Greek term kybernetes, or ‘steersman’
+(metaphorically, ‘guide’ or ‘governor’). In other words, cyberstates are
+not merely aimless networks of people and groups of shared interest,
+but they can provide guidance (direction) for those groups.
+Cyberstates are superior to nation states because they can be organised around shared interests and values rather than arbitrary political
+boundaries, which are typically established by rivers and oceans and,
+quite often, by histories of armed conflict over natural resources. The
+cyberstate, by contrast, is geographically unencumbered. Its ‘territory’ is
+determined by its footprint in cyberspace, which is unlimited in scope
+and scale.
+Cyberstates, like blockchain communities generally, also allow
+communities to become self-determining – a principle enshrined in the
+Charter of the United Nations, although not particularly respected by the
+existing political order.8 Political self-determination means that people
+get to choose how they are ruled. The government they are subjected to
+is not determined by where they are born or which despot happens to
+take power over them. They have a say in what their government looks
+like and how it operates, and they also have an opportunity to move
+freely to a political system that they find more favourable.
+Because cyberstates would be organised around informationprocessing networks, one could engineer tools to enhance commerce,
+voting and other aspects of governance. Indeed, one can build tools
+that allow cyberstates to help their citizens flourish economically and
+culturally. Cyberstates are relatively easy to join and relatively easy to
+exit. If the rulers of the cyberstate are not following your values, you
+exit. In reality, it is not quite this simple; as we will see in Chapter 9,
+exit is not frictionless, but we can engineer ways to minimise frictions.
+United Nations, ‘Charter of the United Nations’ (1945) <https://www.un.org/en/aboutus/un-charter> [accessed 29 October 2024].
+
+
+Certainly, there are a lot of questions that need to be addressed.
+Perhaps you have already thought of some of them. For example, what
+if there is no government that suits you? Or what if you choose a government that does not deliver on its promises? And forget about your
+cyberstate; who governs where you actually live in physical space? Who
+is in charge of security there? And who is in charge of fixing potholes
+and disposing of waste? Or for that matter, what if another cyberstate
+full of hackers comes after your cyberstate and drains it of its wealth?
+And what about money? And laws? And food? And everything else?
+We will get to these questions eventually, at least as they pertain to the
+more general idea of blockchain communities.
+First, stepping back and taking the view from altitude, we can say
+that cyberstates are online communities, organised around blockchain
+technologies, that carry out functions usually associated with traditional nation states. This might include providing security; assisting
+community welfare (things like Medicare or Medicaid); playing a role
+in supporting national culture (think of the French government’s support of the arts); and supporting business in the form of negotiating
+trade agreements, encouraging business development and so on.
+Obviously, in the case of cyberstates, these familiar functions will
+be grounded in the digital realm and will thus look somewhat different
+than they do today. In the realm of security, for example, one principal function of the cyberstate would be to support the security of its
+core information infrastructure and avoid hacking assaults and ‘zeroday exploits’.9 Cyberstates would certainly be able to provide physical
+security as well, whether in the form of purchased security forces or
+simply leasing bases from which kinetic forces can keep lines of physical communication open (shipping routes, for example). At the end
+of the day, they are not virtual states but rather, as we stated, states
+‘Zero-day exploits’ are computer exploits that are thus far unknown – that is to say, known
+about for zero days. Therefore, they contrast with exploits that have been known for some
+time, such as thirty-day exploits. The problem with zero-day exploits is that, thus far, there
+has been no time to armour against them.
+
+
+organised around blockchain technologies. This means that they may
+have a very large footprint in the physical world. Blockchain technology is simply the central nervous system of the cyberstate, whether its
+activities are online or in the physical world.
+What then is the big difference between cyberstates and traditional
+nation states? The principal difference will be that in cyberstates, the governance activities of the state take place onchain. This means that important records, communications (including decision-making processes),
+voting, and government promises and policies are all on the blockchain
+and all very much visible to community members. Policies will take the
+form of onchain smart contracts. Votes may well be direct votes for those
+smart contracts. It will thus be an infrastructure grounded in blockchain
+technology, meaning its functions will be distributed yet cooperative.
+More specifically, this means that, for a cyberstate, the economic
+rails will use a blockchain-based currency like bitcoin and an onchain
+decentralised financial system, its records will be immutable yet accessible to all, and its policies and intentions will take the form of smart
+contracts that are visible to all onchain. Contrary to John Perry Barlow’s vision, it need not be some sort of disembodied state but may be
+a state very much grounded in the physical world, albeit organised with
+the use of technologies that afford decentralised cooperation.
+As we noted, the general idea of a cyberstate has become more popular in the last two decades (certainly taken more seriously), and one recent
+version of the idea has been put forward by Balaji Srinivasan in his book
+The Network State. Since that project is well known in the online community, it is worth spending some time contrasting our position with his.
+Srinivasan begins his book with a one-sentence definition of a ‘network state’.
+A network state is a highly aligned online community with a
+capacity for collective action that crowdfunds territory around
+the world and eventually gains diplomatic recognition from
+pre-existing states.
+
+
+As we understand this statement, he is saying that there are three
+components to a network state:
+1. A highly aligned online community with a capacity for collective action
+2. Crowdfunding territory around the world
+
+3. Gaining diplomatic recognition from pre-existing nation states
+He follows with a paragraph-level definition, which goes into more
+detail on these key ideas.
+A network state is a social network with a moral innovation,
+a sense of national consciousness, a recognized founder, a
+capacity for collective action, an in-person level of civility, an
+integrated cryptocurrency, a consensual government limited by
+a social smart contract, an archipelago of crowdfunded physical
+territories, a virtual capital, and an on-chain census that proves
+a large enough population, income, and real-estate footprint to
+attain a measure of diplomatic recognition.
+Our vision of blockchain communities intersects with Srinivasan’s
+vision of network states in some respects, but we part company in key areas.
+Let us start with the shared vision part. A blockchain community will definitely involve a highly involved online community with
+a capacity – indeed, a robust capacity – for collective action. We also
+agree with some of the development of this idea in the more extended
+definition. There should be an integrated cryptocurrency and a consensual government that utilises social smart contracts of the type we
+discussed in Chapters 5 and 6.
+However, we do not see the centrality of ‘a sense of national consciousness’, nor do we even see the desirability of a sense of national
+consciousness. As Srinivasan points out, the etymology of the term
+‘nation’ suggests the importance of place or group of birth (‘nation’ being
+
+
+from the Latin root nasci – to be born). Our view is that the nation is
+part of the core problem with nation states. Cyberstates (or network
+states) may choose to leave the idea of the nation behind. There are any
+number of ways a cyberstate might come together – through shared
+interests or beliefs or goals (including a shared interest in pluralism) –
+and this need not have anything to do with where we are born or whom
+we are related to by birth. People have no reason to organise themselves
+around their idea of national identity. However, this is not to say that
+they may not or will not.
+We also take some exception to the idea that there must be a ‘recognized founder’. There is nothing wrong with founders per se (one of the
+authors of this book is a founder), but in cases like Bitcoin, the founder
+may be anonymous and then disappear. Indeed, one might even make
+the case that it is better that way. On this line of reasoning, obsession
+with founders can be a way of introducing mythology into the foundations of our governments. For sure, it is hard to avoid the existence
+of founders. Someone has to get things up and running, after all. Still,
+there is no obvious reason to build the mythology or even importance
+of founders into the very definition of ‘cyberstates’.
+We do agree, as we said, with the promise of blockchain technologies for human governance. As we noted earlier, good governance,
+among other things, requires immutable, transparent records and economically sound money. While blockchain technologies do not guarantee these things, they certainly make them easier to achieve. As noted,
+this is a point on which we are in substantial accord with Srinivasan.
+This brings us to clauses two and three of Srinivasan’s one-sentence
+definition of a ‘network state’. We have doubts about both of these
+components, and here, we are perhaps taking issue with the need to
+reproduce the image of the traditional state on the blockchain. In other
+words, we take issue with both the nation part and the state part of the
+nation state. First, we do not see the necessity of crowdfunding territory
+for a blockchain community. Such communities do not need to have, or
+even be interested in having, sovereign control over physical territory.
+
+
+Second, we disagree that blockchain communities must somehow earn
+respect from or be recognised by existing nation states. In any case,
+it is not necessary for existing nation states to recognise blockchain
+communities as equal partners. It might be enough that they do business with blockchain communities, just as they do business with many
+nongovernmental organisations (NGOs), corporations and individuals
+throughout the world. Ultimately, what matters in blockchain governance is that community members are flourishing.
+You are probably thinking that we glossed over that rather quickly,
+and we could not agree more. Thus, the remainder of this chapter is
+devoted to diving deeper into these questions. In Section 8.2, we will
+make the case that there is no need for blockchain communities to
+trouble themselves with the acquisition of physical territory. Doing so
+always exists as an option, of course, but ultimately, we will argue that
+while blockchain communities will be able to protect your individual
+property rights (should you so desire), it does not follow that they must
+acquire control of physical territory in order to do so.
+In Section 8.3, we will visit Srinivasan’s idea that cyberstates should
+seek out recognition from traditional nation states, and we will argue that
+while this is an option, there is not much point in it. Ultimately, we want
+to supersede the old boys’ club of nations, not join it. In 8.4, we will take
+up the issue of national identity and argue that this can be a dangerous
+idea, which also should be optional. By the time we get to Section 8.5,
+Srinivasan’s idea of a network state will be pretty well deconstructed, which
+is perhaps just as well because, as we noted in Chapter 2, the very idea of a
+state (like the idea of a nation) may have reached its expiration date.
+
+8.2 Must blockchain communities have physical territories?
+As we noted earlier, Balaji Srinivasan’s definition of a ‘network state’
+includes the idea that such a state would ‘crowdfund territory around
+the world.’ Srinivasan envisions the result as an archipelago of physical
+territories under the control of the network state.
+
+
+Now, the first observation that we want to make is that this is not
+at all a crazy idea. It is entirely possible for blockchain communities to
+purchase chunks of physical land or perhaps other physical locations –
+offshore seasteading locations, for example. Our point is not that this
+would not work or even that blockchain communities should abstain
+from crowdfunded purchases of physical territory. Our point is merely
+that it is not necessary.
+Why do blockchain communities not need physical territory?
+What kind of state-like governance does not have an inch of physical
+territory? People have to live somewhere, after all. However, where they
+live is quite a different question from where their community is located
+in physical space or even whether it is located in physical space at all.
+As we write, approximately 1.6 million United States citizens live
+in Mexico.10 Some of those citizens get into trouble from time to time,
+and if the trouble is serious enough, they will contact a United States
+consulate for assistance. If they wish, they can also receive regular
+updates from the US government about dangerous hot spots in Mexico
+and other countries where they might travel. They are, for all practical purposes, represented by a significant player should trouble arise.
+Chances are, if they are US citizens, they are much less likely to be
+harassed by the local police, the federal police, the local narco leaders or
+whoever happens to be in charge in that area.
+This leads us to the following thought experiment. What if the
+United States did not have physical territory but still had the wealth
+and ability to project the power that it does? For example, suppose its
+wealth was all onchain and its military forces were stationed on leased
+property as they are today in military bases throughout the world.
+Indeed, as of this writing, the US has 174 military bases in Germany,
+113 in Japan and 83 in South Korea. There are hundreds more scattered
+David Nadelle, ‘7 Reasons So Many Americans Are Moving to Mexico City, Starting
+With Cheap Rent’, Yahoo Finance, 29 May 2024 <https://finance.yahoo.com/news/7-reasons-many-americans-moving-180139202.html> [accessed 29 October 2024].
+
+
+around the world in places ranging from Aruba and Australia and Bahrain and Bulgaria to Colombia, Kenya and Qatar, to name just a few.
+Worldwide, the United States has bases in more than seventy countries.
+Despite popular belief, none of those bases constitute US territory. Our
+point here is that if you have the financial resources, you can project a
+lot of military might without having complete sovereignty over or even
+owning physical territory.
+What would be the point of having such a vast military presence
+if you had no territory to defend? Well, the myth about the US military is that it is there to protect US territory. In fact, the US military is
+vastly larger than would be necessary to protect its territory. Consider,
+for example, a conventional attack from the country that is arguably the
+second greatest threat to the United States: Russia. As we write this, the
+Russian Federation is struggling to maintain its supply lines as it struggles to seize territory in eastern Ukraine, even though Ukraine borders
+Russian territory.11 Rivers like the Dnieper pose major tactical obstacles.
+Meanwhile, should Russia choose to attack the forty-eight contiguous United States with conventional forces, it would not be as simple
+as crossing its border into Ukraine using already existing roads and
+rail systems. To execute a physical attack, Russia would first have to
+transport its forces thousands of miles. Assuming it had enough cargo
+planes and ships to do this successfully, it would still need to maintain
+logistical support across great distances. If Russia cannot handle the
+logistical challenges of attacking Ukraine, there is no way it can handle
+the logistical challenges of a conventional (non-nuclear) attack against
+the United States. Such an attack would be challenging for Canada or
+Mexico even if they had the offensive armies to attempt it. So, what is
+all that US military force for?
+
+Devin McCarthy, D. Sean Barnett and Bradley Martin, Russian Logistics and Sustainment Failures in the Ukraine Conflict (2023) <https://www.rand.org/pubs/research_reports/
+RRA2033-1.html> [accessed 29 October 2024].
+
+
+The United States Armed Forces do not primarily exist to protect
+US borders but rather to ensure that the global financial system, global
+resources and global supply chains remain unmolested. This means that
+oil not only needs to be pumped freely in the Middle East but that it must
+be transported freely around the world. Similarly, it means that Apple’s
+and Walmart’s supply chains across the globe remain uninterrupted. As
+the 2020 COVID-19 outbreaks showed, supply chain interruption can
+have serious consequences for the global economy. And in the end, this
+is what US military forces are defending: the global economy. This is not
+a new phenomenon. Imperial navies like the British Navy long understood that one of their key roles was to keep international shipping lanes
+open – in their terminology, ‘to protect the lines of communication’.
+Let us return to our thought experiment, which showed that you
+could imagine being a United States citizen, enjoying the protections
+of its economic and military might, without the United States holding
+any physical territory at all. The thought experiment raises the question:
+Would it make any difference at all to the 1.6 million US citizens living
+in Mexico? Not likely.
+In point of fact, we can extend our thought experiment. This
+would never happen, but surely it is logically possible that the United
+States could relinquish all its territory and its mission to protect its
+borders and focus all its attention on protecting the economic interests of US citizens worldwide. If you hold US citizenship, you would
+be protected (and of course, also required to pay taxes to the US).
+As with most thought experiments, we do not consider this a likely
+scenario, but it should nevertheless help us see what governments are
+really about – protecting the interests of their citizens and their business relationships around the world. The fetish for territorial sovereignty is a sideshow.
+Now, we recognise that territory – land – is sacred for many people.
+Various political groups tie their identity to geographical locations.
+The Land of Israel is a case in point, as it is land that was believed to
+be promised to the descendants of Abraham. On very much the flip
+
+
+side, Nazi Germany advanced the concept of Blut und Boden (blood
+and soil), which emphasised the connection between German ethnicity
+(blood) and the land (soil).
+A very different articulation of this idea is found in the book Ohitika Woman by Mary Brave Bird:
+Maka ke wakan – the land is sacred. These words are at the core
+of our being. The land is our mother, the rivers our blood. Take
+our land away and we die. That is, the Indian in us dies. We’d
+become just suntanned white men, the jetsam and flotsam of
+your great melting pot. The land is where even those Native
+Americans who live in the wasichu cities, far away from home,
+can come to renew themselves, where they can renew their
+Indianness. We have an umbilical cord binding us to the land
+and therefore to our ceremonies – the sun dance, the vision
+quest, the yuwipi. Here, the city Indians can relearn their language, talk to the elders, live for a short while on ‘Indian time,’
+hear the howl of brother coyote greeting the moon, feel the
+prairie wind on their face, bringing with it the scent of sage
+and sweet grass. The white man can live disembodied within an
+artificial universe without ties to a particular tract of land. We
+cannot. We are bound to our Indian country.12
+There is a discussion to be had about whether the attachment of
+national identity (or any identity) to physical territory is healthy or
+whether it is deeply problematic. Perhaps some of us can live within an
+artificial universe without ties to a ‘particular tract of land’, and others
+cannot. We are not here to take sides in such a debate. Our point, at
+the moment, is that physical territory need not be important for every
+community, conceding that it may be very important for some.
+
+
+Mary Brave Bird and Richard Erdoes, Ohitika Woman (New York, NY, 2014).
+
+
+All of this may seem like a long-winded way to take issue with
+Srinivasan’s idea of network states and the need to crowdsource physical territory, and for all we know, he would agree that states should not
+have to do so. However, our goal here is not to cavil with Srinivasan so
+much as it is to drive home the point that communities can be divorced
+from physical territory.
+What does life look like for citizens of a landless community
+(whether you call it a state or not)? Well, it looks very similar to how
+it does now for the millions of expats worldwide. Some of them travel
+around the world as digital nomads, and some of them stay in the same
+place for the bulk of their expat lives. Some of them work online as programmers or graphic designers or writers – any type of work that can
+take place online. However, many others work in the service industry.
+There is absolutely no reason that they could not work in factories or
+be agricultural workers, although this typically involves expats from less
+wealthy to more affluent countries.13
+There are plenty of options concerning the ways in which a landless blockchain community might help its citizens. Such a community
+might help with security and legal troubles, assuming citizens pay taxes
+to the blockchain community. Following our earlier thought experiment, it could provide health care and retirement benefits to its global
+citizens. In that case, it could use its clout to negotiate better prices for
+medicines and treatments, for example. It could negotiate deals with
+real estate developers and service providers on behalf of its citizens.
+It could negotiate tax treaties with terrestrial governments to ease the
+tax burdens on its citizens. There is really no limit to what such a community might be able to offer its citizens if it had sufficient clout. All
+services could be provided just as easily, even if there is no land or territory ‘back home’.
+It is interesting that in this case, they are typically referred to as ‘immigrant workers’
+while immigrants from wealthier to less wealthy countries are known as ‘expats’. What is
+the actual difference? None.
+
+
+A blockchain community could also negotiate tax-free special
+economic zones (SEZs) for businesses that its citizens create. Do you
+want to open a factory to make electronic vehicles or drones or breakfast cereal? There are plenty of existing SEZs around the world with
+rules negotiated with whichever sovereign authority controls the territory. A blockchain community, even if it had no territory of its own,
+could negotiate SEZs on behalf of its manufacturing sector, giving it an
+archipelago of manufacturing locations. Similarly, it could negotiate the
+leasing of farmland for its agricultural sector.
+We are saying that a blockchain community need not depend solely
+upon a virtual economy simply because it is technically landless. If it
+can arrange the frictionless leasing of manufacturing and agricultural
+territory for its citizens, there is no reason that it could not have the
+manufacturing and agricultural base of the largest nation states. Blockchain communities could have sovereign control over physical territory.
+However, there is really no reason for them to need it, apart from certain religious or cultural demands that they should.
+
+8.3 Should blockchain communities aspire to be diplomatically
+recognised by nation states?
+We mentioned earlier that another point where we take exception to
+Srinivasan’s network state is that, according to his definition, a network
+state should aspire to be recognised as an equal by existing nation states.
+Why do we take exception to this idea?
+The first thing to understand is that traditional nation states do
+business with a wide array of entities beyond other nation states. It
+is not as though individuals and organisations are invisible to nation
+states. Indeed, nation states routinely enter into commercial arrangements with all kinds of private enterprises. For a very obvious case, think
+of defence contractors, which are organisations that work closely with
+the governments of the world. However, governments are constantly
+
+
+requesting bids for goods and services from corporations, individuals
+and NGOs.
+Our point here is that if non-state actors are already visible to existing nation states, it does not matter if some blockchain communities
+are recognised as being on a par with traditional nation states or not.
+Whether a traditional state wishes to hand the honourific title ‘state’ to
+a blockchain community or not hardly matters. The important question is whether traditional governments are willing to do business
+with blockchain communities or not, and the answer to this is that
+they absolutely will if the communities have something of value to offer
+them – for example, educated workers or investment opportunities or
+security arrangements or jobs for its people. Blockchain communities
+have a lot to offer, not only to their citizens but to the existing terrestrial
+powers that host their citizens.
+So, our first thought is, who cares if a traditional nation state recognises your blockchain community as a fellow state or not? Who cares
+if you get a seat at the United Nations or not? On the other hand, we
+understand Srinivasan’s sentiment. One puts a lot of effort into building a blockchain community; is it not reasonable to wish to be recognised as an equal by existing states?
+At first glance, it may be natural to think this way, but on reflection,
+it is a somewhat backward way of thinking. Blockchain c ommunities
+are not merely new kids on the global block. They are a big part of the
+future of human governance. If you are the future of governance, you
+do not worry about invitations to the old boys’ club. You are going to
+form a new club. Our view is that nation states served their purposes
+or perhaps misserved their purposes but, in any case, their time has
+come and gone.
+What then becomes of global governance and the United Nations?
+Well, there is no point in a blockchain community worrying about
+being invited into ‘the family of nations’. Blockchain communities will
+be actors on the global stage, and besides traditional nation states, they
+will be engaged with many more entities. They will be engaged with
+
+
+international corporations, with countless NGOs, with all kinds of terrestrial authorities ranging from cities to SEZs and, in some locations,
+local cartel leaders and military strongmen.
+Could we envision that cyberstates would be admitted into the
+United Nations someday? Sure, but as we asked, is that even such a big
+deal? Perhaps a bigger deal would be if the rise of cyberstates led us to
+appreciate other forms of governance around the world. Why not have
+an organisation to represent the interests of tribes or economic classes
+of people or religious groups or residents of SEZs or, for that matter,
+blockchain communities?
+Maybe what we really need is an organisation that offers seats at
+the table to all modes of human organisation, including tribes and special interest groups – a League of Communities, perhaps. We are not
+making a proposal here; we are saying that the reflex to be seen and
+recognised as equals by nation states is a misguided one. Nation states
+are organisations built around obsolete technology. They are themselves
+becoming obsolete. We need not care what they think.
+
+8.4 Should blockchain communities strive to have national
+identity?
+This leads us to the final point where we take issue with Srinivasan’s
+idea of a network state – the idea that there be ‘a sense of national
+consciousness’. As before, we stress that there likely will be blockchain
+communities with a sense of national consciousness; there may even
+be communities with national identity tied to place of birth or ethnicity. However, there may well also be communities in which the sense
+of identity is nothing more than pride in being a member of the most
+efficient or most ethical or most pluralist community.
+This is not just a quibble with Srinivasan, however, for we think
+that one of the principal benefits of blockchain communities is
+that they allow us to leave national identity in the proverbial dustbin of history. For traditional terrestrial states, located as they are in
+
+
+distinctive geographical territories, it is not surprising that there is a
+sense of ethnic or national identity in that area. It is the area where
+most of the citizens were born, after all. However, on reflection, this
+is something of an artifactual property of nation states. There are so
+many ways to organise a community; why should national identity be
+one that we prioritise?
+There is also no question that nationalism can be a dangerous
+principle around which to organise a state or a community. It is not
+accidental that the term ‘Nazi’ is from Nazionalist, which is to say
+‘nationalist’. The Nazi party was simply the nationalist party.14 And
+Nazi Germany is far from the only case where nationalism led to
+genocide and ‘ethnic cleansing’. It is not even difficult to see why this
+should be so.
+If one had a magic wand, perhaps it would be wise to use it to
+eliminate nationalist sentiment altogether, given its history. However,
+there is no such magic wand, and it is difficult to see how one can
+eliminate the sentiment that human beings have for ethically grounded
+national identities. For all we know, that sentiment could be baked into
+the selfish genes of human DNA.
+It is also worth pointing out that certain forms of nationalism not
+only seem benign but perhaps even worth fostering. Should we take
+objection to some Native Americans identifying as members of the
+Lakota nation, for example? We also forget that national sentiment,
+not so long ago, was very much a progressive idea. For example, during
+the revolutions that swept through Europe in 1848, a lot of revolutionary spirit was driven by nationalist sentiment, which served as a
+foil against the Habsburg Empire.15 Nationalist sentiment in Warsaw
+Pact countries also served as a counterweight against the former Soviet
+Union during its collapse in 1990.16 Given that nationalism can be a
+Strictly speaking, officially, the Nationalsozialistische Deutsche Arbeiterpartei.
+Pieter M. Judson, The Habsburg Empire: A New History (Cambridge, MA, 2016).
+Mark R. Beissinger, ‘Nationalism and the Collapse of Soviet Communism’, Contemporary
+European History, 18/3 (2009), 331–47.
+
+
+positive force under some circumstances, and given that it is probably
+impossible to eliminate it in any case, we think that the best solution
+is to accept that some blockchain communities will organise around a
+sense of national identity.
+In saying this, we are buying into the fiction that national identity
+is something real above and beyond a very amorphous sense of ethnic
+familiarity. The collapse of the Soviet empire also coincided with the
+collapse of the Socialist Federal Republic of Yugoslavia, with resulting atrocities and acts of genocide against Bosnians and Croatians. The
+Serbo–Croatian language became understood as separate languages –
+Serbian, Croatian and Bosnian – despite the fact that from a linguistic
+perspective, they are more similar than American English is to British
+English.17 The differences between Catholicism and Orthodox Christianity, which played a role in the ex-Yugoslavian conflicts, seem just
+as artificial from the long-term perspective. Such differences can be a
+big deal if you want them to be (they were certainly a big deal in the
+Thirty Years’ War) or if some demagogue convinces you that they are.
+Our point is that national identity is constructed from a collection of
+differences that may seem important but which, at the end of the day,
+are fleeting, random and unimportant.
+It is also plausible to think that the intensity of ethnic identity in
+ex-Yugoslavia directly resulted from General Tito’s attempt to wipe out
+cultural differences and impose a new national identity for Yugoslavia. In other words, it was his attempt to impose cultural conformity
+within terrestrial borders. This is, of course, a variation on the theme
+we discussed in Chapter 2 – a consequence of having diverse groups
+kettled together within a geographic territory. Only in this case, the
+idea was not to impose culture A over culture B but to impose some
+
+As linguists are fond of saying, a language is a dialect with an army and a navy. The point
+is that deciding when something is categorised as a distinct language is really just a political
+decision based on any number of factors.
+
+
+third universal culture C. Repressing cultural differences does not lead
+to happy outcomes.
+Our point is that any difference in religion or language or culture or
+genetic makeup can be imagined to be a big deal and can be construed
+as an integral part of national identity. And maybe it is a big deal to
+some people. It is not possible to make it go away. Arguably, it can even
+be a positive thing for the preservation of some cultures. The optimal
+system of political organisation is thus not to eliminate cultural diversity nor repress the desire of people to organise around such principles
+but to ensure that groups, so organised, do not trample on the rights
+of others. We have already seen how blockchain communities enable
+people to do this. They allow people to organise themselves unconstrained by physical location, and they enable diverse groups to organise
+in different ways and around diverse principles even when they happen
+to be in the same physical territory.
+None of this is to say that blockchain technologies can make atrocities and acts of genocide go away. As we saw, there is no stopping people
+from organising around perceived national identities, and there is likewise no stopping separate national identities from coming into conflict
+over physical territory. We can only show a path in which humans can
+organise themselves with indifference to physical territory but also in a
+way that allows people to exit from unfavourable governing situations.
+
+8.5 Network states versus blockchain communities
+So far in this chapter, we have taken issue with three key elements
+of Srinivasan’s definition of ‘network states’, or as we would prefer to
+call them, ‘cyberstates’. However, we find additional issues elsewhere
+in his definition. To be explicit about this, let us revisit his definition
+once more:
+A network state is a social network with a moral innovation,
+a sense of national consciousness, a recognized founder, a
+
+
+capacity for collective action, an in-person level of civility, an
+integrated cryptocurrency, a consensual government limited by
+a social smart contract, an archipelago of crowdfunded physical
+territories, a virtual capital, and an on-chain census that proves
+a large enough population, income, and real-estate footprint to
+attain a measure of diplomatic recognition.
+In the previous three sections, we took issue with the need for a
+‘sense of national consciousness’, the need for a ‘recognized founder’,
+the need for ‘physical territories’, and the need to ‘attain a measure of
+diplomatic recognition’. Is there anything left here worth keeping?
+Well, it is not at all clear that governance requires ‘an in-person level
+of civility’, nor is it clear to us that ‘moral innovation’ should be part of
+the bargain – a blockchain community might be morally conservative
+or even reactionary. Even the need for an ‘integrated crypto-currency’
+is not entirely clear, as a blockchain community could rely on entirely
+external cryptocurrencies like BTC or ETH.18 Yet, there remain elements of Srinivasan’s project that are worth salvaging.
+Our principal disagreement with Srinivasan is with his focus on
+national identity and the notion of a state as an important part of the
+formula. As we have already indicated, national identity is a tricky
+business, and there is no reason it needs to be folded into blockchain
+governance. As for statehood, as we argued in Chapters 2 and 3, the
+very idea of a state is unravelling across the globe. While we do not see
+the need for things like civility and moral innovation in successful governance, we can agree with Srinivasan about one very important point:
+human governance should be implemented with blockchain technologies at its very core. As we said several times earlier in this book, those
+
+Or more likely, restaked versions of these. The idea would be that sovereign communities
+could use restaked versions of BTC and ETH as their layer of economic security. Bad actors
+in the community would thus be putting these very valuable staked assets at risk. For an introduction to restaking, see <https://www.ledger.com/academy/what-is-ethereum-restaking>.
+
+
+technologies will serve as the central nervous system of future human
+governance.
+However, once we move from talking about states – or cyberstates
+and network states, for that matter – to talking about blockchain communities, new questions arise. How do we join these communities, and
+just as importantly, how do we leave them? And finally, what if a community insists that we leave? As we will see in the next chapter, these
+are not simple questions with easy answers.

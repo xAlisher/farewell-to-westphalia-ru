@@ -1,0 +1,579 @@
+CHAPTER 14
+
+14.1 Preliminaries
+
+B
+
+ack in Chapters 5 and 6, we laid out the basic technical tools that
+underlie blockchain technologies. We discussed how proof of work
+and proof of stake worked, how smart contracts worked, and so on. That
+was enough for us to discuss some of the general conceptual issues we
+have addressed thus far, but along the way, we frequently promised that
+we would eventually go into more detail about those technologies. In
+this chapter, we make good on that promise.
+In saying this, we do not mean we are going to provide the only
+way of fleshing out the technical details. In point of fact, there is more
+than one technological solution; there are many promising technologies that already exist or that are being developed or that someone will
+think of soon enough. Our goal here is to describe the strategies that
+we like best, which include the tools that have been developed by the
+Institute of Free Technology, with some words along the way about the
+technologies that inspired them as well as our current understanding of
+the technological landscape.
+These strategies are the ones that we have selected to talk about,
+given the needs, interests and abilities of existing blockchain communities and their members. You may have identified other needs, interests
+
+
+and abilities and may prefer a different set of strategies. That is to be
+expected. Our goal here is simply to lay out one approach to the available technologies and explain how it works and why people were motivated to develop this package of technologies. You are, of course, free to
+disagree with us and suggest that alternative technologies would do a
+better job addressing the limitations we discussed. We would welcome
+the mere existence of such debates, as it would be yet more evidence of
+the vitality and promise of blockchain technologies and their role in
+securing better governance and better lives for all of us. There is no single correct path to human flourishing. There are many paths, although
+we believe they all run through some form of decentralised blockchain
+technology.
+
+14.2 Durable, corruption-resistant, transparent archives
+In Chapter 5, we discussed at length the importance of secure archives
+for human governance. As we saw, archives preserve the history of
+government decisions, of property ownership, of culture and of relations with other communities. Indeed, as we saw, it is arguable that the
+archive comes before the community and the state, or in any case, that
+the community and state cannot exist without the archive. Furthermore, if a state or community cannot reliably maintain records of its
+actions, then it undermines the ability of its members to know if they
+should exit because the community administration no longer conforms
+to their values. Similarly, if the records are not accessible, community
+members lose the ability to understand the relations their community
+has entered into, the actions it has taken and, again, whether it is conforming to community values.
+Just as we saw that archives are very important, they are also very
+vulnerable. As we have seen in this book, in the past, they have been
+destroyed by revolutionaries, drug lords, conquistadors, counterrevolutionaries, invading armies, earthquakes and fires. They can also be
+lost, corrupted with bad data, hidden and otherwise made inaccessible
+
+
+(or incriminating parts can be made inaccessible). So, the issue is that
+for any sort of community, and certainly for blockchain communities
+and cyberstates, we desperately need some way to make such archives
+secure, incorruptible and accessible.
+The solution that we alluded to in Chapter 5 was to deploy decentralised archives that would be Byzantine fault tolerant. The idea is that
+there will not be a single point of failure; one would have to take down
+a vast portion of the network to destroy the archive. Nodes in the network could be targeted, but the network could survive such attacks. Of
+course, that is a very general claim. It is time to go into more detail.
+There are certainly many available options for distributed archives,
+including decentralised storage networks such as the InterPlanetary
+File System or IPFS (which is connected to the cryptocurrency Filecoin), Storj, Arweave and Sia. Some of these efforts have very good
+ideas for which we will advocate. To date, however, none of them offer
+a complete package of desirables.
+Let us begin with some of the limits that a decentralised file service
+might run into. One problem, of course, is that nodes within a network
+are of varying quality. We are talking about hardware here, and hardware failures happen often, without warning, and it sometimes seems
+that they happen at the worst possible times. One solution to the problem is to replicate the data at multiple locations in the network as often
+as possible. On one extreme, this would mean reproducing everything
+at every node. However, this strategy is wildly inefficient, and it has a
+centralising effect in that only very large-capacity nodes can hold all
+the information relevant to the conduct of, for example, a cyberstate.
+The network would consist of a handful of nodes that had the ability to
+supply Amazon or Google levels of data storage.
+You might think that we could get by with less redundancy if we can
+quickly repair a failure in the network. For example, a network in which
+two copies of every piece of data exist might be viable if you could repair
+the information loss the second a node went down. You would have to
+rebuild the redundancy as soon as you lost it. The problem is that two
+
+
+nodes that happen to have the same information might collapse at the
+same time. There is also the problem that constantly pinging nodes to
+see if they are online and available has a computational cost of its own.
+Therefore, the solution seems to be that we want more redundancy
+than two copies of the information. However, whether the solution is
+to create three or ten or one thousand copies depends on two things:
+how quickly you need to identify the data loss, and how quickly you
+need to repair it.
+There is also an additional problem here, which is that just because
+a node is supposed to have a certain piece of information does not mean
+that it does. A node in the network might claim to be keeping a piece
+of information safe in order to receive incentives of some form (i.e.
+payment), but it might be acting dishonestly. Thus, we need to assure
+ourselves that the nodes actually have the information they are supposed to. This will generate difficulties when the information that the
+node is supposed to hold is confidential – medical records, for example.
+Therefore, we want to know that they have the relevant information
+without having to see the data itself.
+Another concern is the issue of how incentives are supposed to
+work. Obviously, a distributed archive only works if people support the
+network and maintain the nodes that they are supposed to, but if the
+incentive structure is suboptimal, we might find that the incentives are
+only appealing (or mostly appealing) to very large data centres. This
+would have the effect of centralising the network all over again.
+Therefore, there are many potential issues, and we are not the first
+to worry about these matters. Let us discuss some of these concerns and
+connect them with previous attempts to allay them.
+Earlier, we stated that we do not want (actually, cannot have) a distributed network with a huge number of redundancies. There has to be
+some redundancy, of course, but critically, we also have to know when
+there is a data retention failure. To put it another way, you have to repair
+data loss in the network, but before you can do that, you have to know
+that the data has been lost.
+
+
+One solution, adopted by the Codex decentralised file storage protocol developed by the Institute of Free Technology, relies on ‘erasure
+coding’. ‘Erasure coding’ builds upon an old idea known as ‘Reed-Solomon codes’, which were developed by Irving S. Reed and Gustave
+Solomon, staff members of MIT Lincoln Laboratory, in 1960. Their
+seminal article was titled ‘Polynomial Codes Over Certain Finite
+Fields’, and their idea ended up having many applications over the
+years, most notably in compact disks.1
+The basic idea is this: to find out if a given piece of data has gone
+missing, you do not want to have to keep looking for the data itself
+or its absence. It is far more efficient to sprinkle some tracking information into the data – markers for the relevant data, if you will. For
+example, a given block of medical data might come with a code. You do
+not search for the medical data itself. You just search for the marker. If
+you ping a node for the marker and get no response, you have reason to
+believe that the data has gone missing, at least temporarily. Maybe the
+node has gone down. Or maybe bit rot has corrupted the medium of
+memory. It does not matter what happened; you just need to know that
+the information might have gone missing.
+Of course, this only actually works if the node being pinged is a
+good citizen and is not trying to deceive you, for it is possible to dump
+the data that is supposed to be preserved and keep the relevant tracking
+marker. Some sort of auditing mechanism is required.
+While erasure coding supports data loss detection, this alone may
+not be enough in Byzantine decentralised systems. Malicious nodes
+might try to implement a wide range of strategies to pretend they
+are storing information. Why would they do this? Maybe they are
+trying to cut costs and want to reduce expenditure on storage and
+bandwidth, but at the same time, they want to receive payment for
+Irving S. Reed and Gustave Solomon, ‘Polynomial Codes Over Certain Finite Fields’,
+Journal of the Society for Industrial and Applied Mathematics, 8/2 (1960), 300–304 <https://
+www.jstor.org/stable/2098968> [accessed 16 January 2024].
+
+
+data storage. Or maybe they are politically malicious and are part of
+a plot to disappear important cultural or legal information across the
+network. We need to occasionally probe or audit the information that
+was allegedly held.
+This is a well-studied problem in the academic literature, and it
+goes by names such as ‘proof of custody’ and ‘proof of space-time’,
+among others. Most of the existing solutions rely on a frequent random
+sampling of data blocks across the whole dataset. During this process,
+storage nodes have to provide clear evidence that they are in possession
+of the data they say they hold.
+These mechanisms are widely understood today, and for the most
+part, they do the job they are supposed to do, but with a couple of caveats. First, there is an issue of efficiency. There is a huge computational
+cost to conducting data audits – going through the data line by line.
+Then, for decentralised archives, there is the problem of what you are
+going to compare that data against to see if it is accurate. You cannot
+use a centralised register of information because then you have a centralised solution to the problem – the ‘official’ record has become centralised and thus becomes an immediate point of vulnerability. Beyond
+this, there is the issue discussed earlier in this section, which is that
+sometimes the information you are auditing is private. Take the example of medical records (or state secrets or whatever you like). You would
+like to pass the audit without releasing the information being stored to
+the auditor.
+Codex and other distributed databases leverage zero-knowledge
+proofs to prove the possession of information. Given that we have
+mentioned zero-knowledge proofs multiple times without much in the
+way of elaboration, let us now provide more detail about these groundbreaking cryptographic protocols.
+At its most abstract level, a zero-knowledge proof is simply a way of
+proving you have certain information or a certain ability without giving
+that information away or without exercising the ability. Note that this
+is stronger than simply supplying a marker or code as evidence that the
+
+
+data is held. This is much closer to a mathematical proof that you hold
+the relevant data.
+Suppose that we have a computer program that we want to sell
+to you – let us say an image analysis program that can identify buried
+treasure (yes, this is a completely fictional example, but stay with us).
+You want us to show you that the program works, so you ask us to run it
+to demonstrate its capabilities. Sneakily, during our demonstration, we
+run the very computation that you want to have performed; the demo
+itself will reveal the location of the buried treasure. One solution is to
+carry out demonstrations in other domains, but you might argue that
+no test is really reliable unless you can see that it functions as promised
+in the domain in which you intend to use it. What are we to do about
+your demands for proof of ability?
+This is where zero-knowledge proofs come in. Let us say we want
+to prove to you that our program can do what we say it can without
+giving away the thing of value (let us say we are selling a program to
+perform some task). We can do this in the following way. We provide
+a proof that anyone who can do the task you have in mind, let us call
+it Task 0 – a computation of some kind – can do this only if they can
+perform a certain logically related task (possibly including a collection
+of subtasks). Let us call this Task 1. To reiterate, Task 1 and Task 0 are
+related mathematically; in terms of computer science, Task 1 is reducible to Task 0. The proof relies on a challenge to see that the individual
+can perform Task 1. Since performing Task 1 implies the ability to perform Task 0, then we can (with reasonable probability) assume that
+the individual has done (or can do) Task 0. Keep in mind that Task 0
+is the task you are interested in. It is the one for which you are ready
+to pay. The other task is not worth anything to you per se, beyond the
+fact that it establishes that we can carry out Task 0. You can ask us to
+carry out enough of these computationally related tasks so that you are
+satisfied that our program can do what we claim it can. In effect, you
+issue a series of challenges to us in order to prove that our program can
+perform the tasks we claim it does.
+
+
+Zero-knowledge proofs come in many forms. We are inclined to
+favour succinct non-interactive arguments of knowledge – better known
+as ‘zk-SNARKs’. The concept of SNARK-type proofs has been in the
+literature for several years, and they have also been implemented by
+protocols such as Zcash and the zero-knowledge rollups (ZK-rollups)
+used by the Ethereum protocol in so-called ‘layer-two applications’
+(for example, protocols like Polygon zkEVM). Here, we can think of
+a layer-two protocol as a separate blockchain that performs operations
+rapidly but uses a more decentralised layer-one protocol like Ethereum
+as its secure settlement layer.
+The key difference between a zk-SNARK and a standard zeroknowledge proof procedure (like we used to verify our fictional treasure-hunting software) is that the zk-SNARK is, as the name suggests,
+non-interactive. This means that you do not need to issue a series of
+challenges to inductively establish the proof of knowledge. The idea is
+that a common reference string that both the prover and verifier share
+is sufficient to achieve computational zero-knowledge without requiring interactions.2 The non-interactive nature of the proof also removes
+the necessity of direct communication between the proving party and
+the validating party. This means that anyone can take a zk-SNARK
+proof and validate it with the same level of confidence that any other
+party has. This would be particularly helpful to independent third parties that might suspect the proving party and the validator are colluding. Finally, non-interactive proof procedures are particularly useful in
+the case of blockchain protocols, as constant interactive queries would
+be computationally expensive.
+A moment ago, we mentioned the ZK-rollups that are used
+by Ethereum layer-two protocols, and these are useful as well, for
+they offer proofs of the validity of batches of transactions instead of
+Manuel Blum, Paul Feldman and Silvio Micali, ‘Non-Interactive Zero-Knowledge and Its
+Applications’, in Proceedings of the Twentieth Annual ACM Symposium on Theory of Computing (Chicago, IL, 1988), 103–12 <http://portal.acm.org/citation.cfm?doid=62212.62222>
+[accessed 30 October 2024].
+
+
+transaction-by-transaction proofs. This can be beneficial if we want to
+query multiple databases for proof of possession of certain data without
+requiring proof of every single query. Batched queries are more efficient.
+So far, we have been talking about failure detection, and we have
+argued that data loss can be detected in several ways. We can detect
+benign data loss through erasure coding, and we can detect malicious
+data loss through remote auditing using zk-SNARKs. However, it is
+not enough to simply detect the missing or corrupted data. There is also
+the question of what you are going to do about it. Data loss needs to be
+repaired, but it needs to be repaired efficiently.
+One thought would be that as soon as you detect a loss of data,
+you should immediately repair it, but this turns out to be an inefficient
+solution. Usually, when a node goes down, it is a temporary problem,
+such as a power loss or required maintenance. Rather than engage in
+a computationally costly and potentially unnecessary repair process
+immediately, it would be better to wait to see if the node comes online
+again with the data intact.
+That said, nodes do go offline permanently and data degrades for
+any number of reasons. We believe a strategy known as ‘lazy repair’ is
+best positioned to balance these concerns. The basic idea is that you
+can tolerate data loss for a while because you have enough redundancy
+in your system, but when that data loss crosses a certain threshold, you
+must initiate repairs and restore the system’s necessary redundancies.
+Codex, for example, implements a strategy that starts with an idea
+from the previously mentioned Reed and Solomon work – in particular, a strong Reed-Solomon algorithm in which multiple data blocks
+from a dataset can be lost before the dataset becomes irretrievable.
+This means that the network can tolerate multiple missing blocks and
+still be able to reconstruct the whole dataset quickly. This allows us
+to implement a bandwidth-efficient, ‘lazy’ recovery technique like that
+just described. The basic idea is that when your redundancy falls below
+a certain threshold, you execute the repair strategy. For example, where
+seven copies are routinely maintained, one might tolerate a loss down
+
+
+to four copies, after which the creation of additional blocks is triggered. This strategy saves the network from a constant desperate churn
+to repair every single piece of missing data.
+Where does this leave us? The thought is that we can use a basket
+of existing technologies to not merely identify and repair data loss in
+the network but also to identify those losses and repair them in the
+most efficient way possible. It will not matter if those losses of data are
+accidental or caused by a malicious actor, we will be able to audit the
+data and repair it as necessary.
+All of this leads to an important question: Who conducts and pays
+for all this work, and how are they incentivised? The answer, of course,
+is that the network itself has to carry out these activities, which need to
+be hard coded into the design of the network. The incentives are those
+we have discussed throughout this book in terms of the value of having
+secure archives. The costs are borne by whomever happens to participate in the network. It is not a cost that is felt directly by network members, although perhaps indirectly in terms of greater transaction fees.
+However, in addition to the general role of the network in securing
+the archives, individual nodes have to do their part, too – nodes that
+need to be incentivised (in addition to time commitments, there are
+hardware and electricity expenses associated with running a node). Few
+people are going to run a node on a distributed network without some
+sort of compensation. Hypothetically, a network could demand that its
+members carry their weight by maintaining archival nodes, but another
+possibility is to incentivise people to run nodes by paying them through
+a system of rewards.
+This leads to the last big issue regarding archives: What does the
+incentive structure look like? This is not a trivial issue at all because
+we want the incentives for nodes to be designed so that they help the
+network grow in desirable ways. As we noted earlier, a poorly designed
+incentive structure might simply pay the most money to those node
+operators storing the most data. However, this leads to giant data
+repositories and something that looks a lot like the centralised Internet
+
+
+we see today, with powerhouses like Amazon maintaining giant server
+farms. This, in turn, gives them a kill switch to shut down many protocols should they choose to do so or be asked to do so by nation states
+and other powers. What is the solution?
+One idea is to structure the incentives so that they are very high for
+smaller stores of data and that they diminish as the set of stored data
+increases in size. There can be further incentives for data that is not
+widely replicated within the system or for data that is prioritised for
+some reason (medical records come to mind).
+Now clearly, this strategy sacrifices some efficiency for more decentralisation. However, such a sacrifice is well worth it for all the reasons
+addressed in this book. Decentralisation leads to many goods, including
+securing communities against corruption – a phenomenon with astronomical costs. Another way to put the point is that forsaking decentralisation to save a small amount of financial resources is penny wise
+and pound foolish.
+
+14.3 Decentralised, secure communications
+Effective states and communities need not only secure and transparent
+(when appropriate) archives but also private rails upon which their community members can communicate. Community members may wish to
+communicate with each other about business strategies or inventions or
+ideas for new technologies. They accordingly need to know that their
+communications on these matters are secure.
+However, communities also need to have a secure means of communication to discuss political matters. The fact that blockchain communities and cyberstates find people to be largely politically aligned
+does not mean that no important political disputes arise. People need
+to be able to discuss these in private until they feel ready to go public
+with their ideas.
+There is, obviously, an interesting asymmetry here in that the
+state itself should have open and transparent communications while
+
+
+individuals need private and secure communications. Persons in state
+positions will have access to private communications protocols, and
+these can be abused for purposes of state business. This is a problem we
+will return to but in the meantime, for us to even begin this discussion,
+we need to talk about secure communications.
+You might think that we have secure communications now, and to
+some extent, we do. However, there are important limitations in the
+current system of communication networks and communication technologies. Much of the infrastructure for encrypted communications is
+highly centralised, with all of the dangers that this entails. For example,
+while we can communicate using Pretty Good Privacy (PGP), and
+while this affords us the protection of military-grade encryption, there
+are points of failure. The key server, for example, is housed in a centralised location. Our existing communications network can refuse to carry
+encrypted communications. Or they can refuse to carry encrypted communications from a particular source. Furthermore, although we can
+use encrypted communication protocols, it is still possible for others to
+know that we are the ones communicating.
+It is worth reflecting on why this is important. Sometimes, the meta
+information of who is talking to whom is even more important than
+what they are talking about. A lot can be extracted from this metadata.
+There is the network of people communicating, the time they are communicating, a reasonably good idea of the amount of information they
+are communicating and one can determine who is at the centre of the
+group of people communicating – the hub, as it were. This is an issue for
+any sort of communication of political strategy, but it is also an issue for
+business dealings. Business leaders might wish to communicate about a
+potential merger without signalling that they are communicating with
+each other.
+Therefore, there are many issues to contend with. Perhaps the biggest of them involves the possibility of nodes being restrictive about the
+information that they let pass. Should nodes have the ability to censor
+
+
+the flow of information through the network? One would hope not,
+although censorship in decentralised nodes is not at all unheard of.3
+Of course, we have technologies that allow us to encrypt our
+communications, so the problem is not that someone might read our
+communications and then censor them. The problem is that someone
+might censor our communications based on their origin or destination.
+Someone might choose to censor nodes that originate in right-wing
+or left-wing or politically agnostic communities. Or they might censor communications that are addressed to such communities. Or they
+might choose to censor communications of a certain size because they
+indicate a certain degree of interest in contemporaneous political events.
+Can nodes do that? Sure, they can do it now because communications
+must propagate through the network, and this means that each node in
+the network is responsible for passing packets of communicated data
+around the network.
+Fortunately, protocols like Waku – developed by the Institute of
+Free Technology – address these problems. The desideratum is to find
+a strategy in which network nodes pass communications while being
+blind not just to the content but also to the source, the destination and
+the amount of information. How can we do this?
+The central idea behind Waku is that packets of information passed
+through the communications network are encapsulated in a way that
+does not reveal content or a known author or recipient. The nodes must
+simply pass the encapsulated information on. But how do we obscure
+the metadata?
+The metadata can be blurred in several ways. First, to disguise the
+amount of information being sent, short messages can be filled with
+For example, Bitcoin developer Luke Dashjr (Luke-jr) has advocated that Bitcoin transactions involving ‘ordinals’ be censored. See Frederick Munawa, ‘Among Bitcoin Developers,
+Debate Is Raging Over Whether to Censor Ordinals BRC-20s’, CoinDesk, 5 December
+2023 <https://www.coindesk.com/tech/2023/05/12/among-bitcoin-developers-debate-israging-over-whether-to-censor-ordinals-brc-20s/> [accessed 30 October 2024].
+
+
+additional junk information. Large messages can be broken into packets. All of these messages will not be routed directly from point A to
+point B but rather will be routed randomly through the network in a
+way that is blind to their ultimate destination. All a node needs to know
+is if a particular capsule is for that particular node. It can ping it using
+zero-knowledge proofs. If it is for them, the capsule will verify this; if
+it is not, the capsule will not verify ownership, and it will be passed on
+to other nodes.
+Now clearly, we want the transfer of information to be efficient
+despite all this, and one of the key ways to achieve this is to organise
+the network along the lines of a scale-free network. Such networks
+are designed with several densely integrated hubs connected to many
+local nodes but also connected to other centralised hubs. Scale-free
+networks like this are familiar in nature – the human brain and airline
+flight networks being cases in point. For example, most airlines have
+a handful of centralised hubs, each of which is densely connected to
+regional airports. This sort of network (explained by Duncan J. Watts
+in his book Small Worlds) gives rise to the ‘six degrees of separation’
+phenomenon. Such networks not only seem to emerge from natural
+phenomena and human activity but are wildly efficient from a mathematical point of view.4
+Therefore, we can think of a communications network for a blockchain community as having this sort of organising principle, with communications encapsulated and passed throughout the network quite
+rapidly thanks to heavily interconnected hubs and with the metadata
+obscured thanks to the sender being known only to the addressee and
+the addressee only known to the sender. Even the amount of information within the capsule will also be unknown, as small batches of
+information can be sent with junk information, and large batches of
+Duncan J. Watts, Small Worlds: The Dynamics of Networks Between Order and Randomness
+(Princeton, NJ, 2003).
+
+
+information will be split up randomly. The idea would be to have each
+capsule contain precisely the same number of bits of information.
+At the end of the day, this strategy, as embodied in Waku, provides
+a private and secure means for network citizens to communicate with
+each other while obscuring who is communicating with whom, how
+much is being communicated and, if we wish, obscuring the time of
+communication as well. Most importantly, there will be no opportunity
+for nodes in the network to censor the information they are passing
+along, as they will have no idea what its content is, who its sender is or
+who its receiver is.
+
+14.4 Cryptocurrencies and sound monetary policy
+We can hardly conclude this chapter without saying something about
+cryptocurrencies. We have avoided talking about cryptocurrencies
+throughout this book (except to use them as illustrations) because we
+want to highlight newer applications for blockchain technologies – in
+particular, those applications that support decentralised governance.
+However, cryptocurrencies are, of course, not peripheral to this project.
+They are essential to any attempt to provide decentralised-yet-cooperative human governance.
+This should not be surprising. It would be foolish to offer a platform
+for decentralised governance and not apply it to currencies. Traditional
+fiat currencies and traditional finance have all the drawbacks that we
+have discussed throughout this book – they offer up centralised points
+of failure, are vectors for attack and are magnets for corruption. And,
+let us be real: any account of human governance that avoided the fiscal
+sector of human governance would hardly be taken seriously. Managing monetary policy and regulating the financial sector is one of the
+principal elements of governance today and has been a central element
+of governance for millennia.
+
+
+The fundamental question here is not whether decentralised-yetcooperative governance should avail itself of cryptocurrencies, but rather
+what form of cryptocurrencies should be utilised. We can sharpen that
+question in the following way: Should blockchain communities utilise
+off-the-shelf, globally recognised cryptocurrencies like BTC and ETH,
+or should individual communities mint their own tokens with which to
+carry out their business? The answer is: Why not both?
+In the first place, it would be foolish for any blockchain community not to allow the usage of core cryptocurrencies like BTC and
+ETH. They, at least as of this writing, are monetarily sound; BTC
+will eventually reach its hard-capped supply limit of 21 million coins,
+and as we write this, ETH is sometimes already deflationary – more
+ETH is burned in a transaction than minted as staking rewards.5 Furthermore, the more widely the currency is circulated and the more
+widely decentralised a cryptocurrency network, the safer it is. We have
+already discussed the monumental amount of resources it would take
+to initiate a successful attack against either of these networks. One
+would either have to acquire massive amounts of mining resources (in
+the case of BTC) or stake a massive amount of ETH. Plus, the nodes
+for both protocols are already widely scattered around the globe.
+Given these advantages, why would one opt for a community-specific
+cryptocurrency?
+There is utility to having individual blockchain communities issue
+their own cryptocurrencies. In doing so, the community is maintaining
+its own ledger and recording value that is inherent in the operation of
+the community. Such cryptocurrencies might be used to measure stake
+in a DAO or they might be used to reward people making contributions to the community or they might be used to carry out business
+that is of interest to the community in a cost-efficient way. Thousands
+of web3 protocols have issued their own tokens for these and other
+
+<https://beaconcha.in/burn> [accessed 30 October 2024].
+
+
+reasons. Doing so is fairly simple, and as the protocol grows, such issuance can give rise to the accumulation of wealth by holders within the
+community.
+The problem with a community-issued cryptocurrency is that if
+the community is smaller, it means the value of the network will be
+less and a 51% attack of the type discussed in the previous chapter is
+always a possibility. Is there a way to enjoy the community-specific
+features of a community-based cryptocurrency while simultaneously
+preserving the security and safety provided by coins like BTC and
+ETH? Certainly. The trick is to anchor the community-based cryptocurrency in the more decentralised global coins, using the latter as a
+kind of settlement layer.
+There are many ways to ground a community-based cryptocurrency in a protocol like Ethereum, for example, by issuing the community-based cryptocurrency as a layer-two coin – something analogous
+to coins like Polygon’s POL and Arbitrum’s ARB, albeit presumably
+smaller in scope. In any case, one idea would be to issue the coin as a
+kind of ZK-rollup of the form we discussed earlier in this chapter.
+Here is the idea. Let us say that our blockchain community issues
+a layer-two coin called Community, or CMTY for short. That, in
+effect, means that we have a layer-two ledger that carries out computations, records information, and keeps track of transactions and
+who owns what for our community. However, if it is a ZK-rollup,
+we can also do two other things. Firstly, we can use zero-knowledge
+proofs to prove that the transactions are being carried out according to some specified set of rules. Secondly, we can assemble those
+layer-two transactions into batches and, periodically, permanently
+record the history of those transactions on the layer-one network – in
+this case, on the Ethereum blockchain. Thus, we get the best of both
+worlds. We get a ledger, smart contracts and so on that are dedicated
+to our community and its interests, and we can offer proof that those
+transactions and computations are valid. However, we can anchor the
+
+
+results of those transactions on the Ethereum blockchain and benefit
+from that blockchain’s robust security, which is, in part, a product of
+its global node distribution.
+A related strategy is to borrow from the Eigenlayer protocol and
+‘restake’ ETH into the new token. Staying with our example of CMTY,
+this means that one first stakes one’s ETH in a protocol like the liquid
+staking service Lido, yielding stETH, which represents staked ETH.
+In doing so, you have staked your ETH to help secure the network
+and will earn financial rewards for doing so, but now you have a token
+– stETH – that is tremendously valuable. One could then take that
+stETH and restake it as the security layer for CMTY. In this way, it
+would be extremely costly to try to seize control of the CMTY network.
+There would be real losses if the staked assets had to be surrendered as
+a result of penalties levied against such bad actors.
+If that sounds too good to be true, we must confess that there are
+limitations to this strategy. In the next chapter, we will see that there are
+conceptual limits to decentralisation, and layer-two protocols certainly
+reveal points of centralisation. The first problem begins with bridging
+information and cryptocurrencies from layer one to layer two. As we
+write this, there are no established decentralised cross-chain bridging
+solutions. Beyond this, layer-two protocols often operate on a single or
+a small number of dedicated servers. This means that even though we
+can monitor the operations and query for proof of their validity, if those
+transactions take place on a single server or a small number of servers, there are points of physical attack. Now, perhaps these difficulties
+can be overcome with layer-two redundancies, but this would lead to
+sacrificing the efficiency that we come to expect from layer-two protocols (if you have carried out transactions on Polygon or Arbitrum, you
+know how much faster and cheaper they were than similar transactions
+on Ethereum). Our point here is not that there are no solutions but
+simply that there are tradeoffs to any solution – security for efficiency,
+for example.
+
+
+We could continue delving into technical issues, but you probably
+already grasp our central point. There are technologies that are already
+well understood and some newer ones that can be combined in different ways to pursue the goals that we outlined in the first thirteen
+chapters of this book. Because there are conceptual limits to what we
+can accomplish, and because there will be tradeoffs in any strategy we
+pursue, it would be foolhardy to say that there is one single best strategy
+that we should follow exclusively. Indeed, different blockchain communities will doubtless settle on different technology stacks.
+Acknowledging that there is no single best approach to blockchain
+technologies, we can still offer tools that we feel are optimal for building such communities. In this chapter, we have already mentioned
+Codex and Waku and, previously, Status. However, there is one piece
+of the technology stack that we have not mentioned yet – Nomos. We
+have waited this long to introduce Nomos because, at its core, Nomos
+is what this book is about. Nomos is a layer-one blockchain that is
+optimised for human governance. It is a platform designed to help us
+build blockchain communities that meet the desiderata that we have
+discussed in this book.
+We encourage readers to explore and apply these technologies,
+adjusting them as necessary and adapting them to their needs. You
+may have entirely different ideas about how to proceed, but that is also
+completely fine. We are not merely advocates of decentralisation for
+finance and governance but for the enterprise of building out new technologies as well. As we stated earlier, there is no best way to proceed
+here, and if there is, we certainly do not know which way that would
+be – no one does.
+You can learn more about the elements of the technology stack we
+prefer at the following websites: Codex (https://codex.storage/), Waku
+(https://waku.org/), Nomos (https://nomos.tech/) and Status (https://
+status.app/). Those interested in these technologies and the principles
+behind them may also find value in the rest of the Institute of Free
+
+
+Technology’s portfolio (https://free.technology/). Feel free to use these
+technologies or ignore them as you see fit.
+There are some additional issues that we need to address. These
+recommended technologies, like any technologies, do not operate in
+isolation. They are technologies designed to be used by humans but by
+humans that hold certain values. Nothing works if we are not successfully aligned with our technologies, or perhaps, it would be better to
+say if they are not aligned with us. However, there are other conceptual
+issues that we also need to address – for example, whether anything can
+truly be trustless and whether anything can be truly decentralised. We
+turn to these fascinating conceptual issues in the next chapter.

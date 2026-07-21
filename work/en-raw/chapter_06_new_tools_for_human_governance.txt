@@ -1,0 +1,912 @@
+CHAPTER 6
+
+6.1 Preliminaries
+
+I
+
+n the previous chapter, we looked at a proposal that philosopher Gottfried Wilhelm Leibniz made for a permanent, immutable archive, and
+we argued that it could be strengthened if the archive was decentralised.
+In this chapter, we want to explore a second idea of Leibniz’s.
+When he was twenty years old, in 1666, Leibniz published his dissertation, which was on the idea for a formal universal language in which
+inferences could be carried out by algorithmic proofs (much as they are
+in computer languages today).1 What is most interesting for our purposes is that Leibniz not only had his idea of an archive of government
+information, but he also seemed to believe that some of this information
+could be written in his universal language and that this information, so
+encoded, could be used to guide government actions. That may not seem
+like a big idea on the surface. However, we believe it was an idea so far
+ahead of its time that it would take a further 330 years to see its full
+expression in Satoshi Nakamoto’s invention of the blockchain (in the
+form of Bitcoin) and Nick Szabo’s invention of smart contracts (selfexecuting contracts that are instantiated as computer programs).
+Massimo Mugnai and Han van Ruler, Leibniz: Dissertation on Combinatorial Art (Oxford,
+2020).
+
+
+Leibniz believed that the correct action might be computed and
+left for the prince to carry out. What might these actions entail? Leibniz only provided clues in his dissertation, but the relevant expressions
+over which he thought actions could be computed included war, peace,
+wagons, money, vassals, truce, allies, booty, bridges, gunpowder, attack,
+parley, clients, routes, cannonballs, security, treaty, neutrals, agreement,
+enemies, ships, medicine and counsels. In short, anything that might be
+relevant to seventeenth-century statecraft.
+Did Leibniz imagine that actual actions could be automated as well,
+or was the output to be merely written guidance? Probably the latter,
+but were he alive today, he no doubt would be attracted to the idea that
+his system could automate government actions. Indeed, it is worth noting that he proposed one of the very first physical computing machines
+– his ‘stepped reckoner’,2 which could do multiplication and division.3
+Leibniz’s project seems to have been well known at the time, and
+it came in for criticism from no less than Jonathan Swift in his famous
+novel Gulliver’s Travels. You may recall the passage in which Gulliver
+visits the Grand Academy of Lagado, where he encounters a strange
+mechanism called ‘The Engine’. The Engine had a large wooden frame
+with a network of wires. On the wires were small papercovered wooden
+cubes with symbols written on each side. Students turned a crank,
+and scribes wrote down the output. The professor claimed that they
+thereby could ‘write books in philosophy, poetry, politics, laws, mathematics and theology, without the least assistance from genius or study.’
+In other words, it was seventeenth-century ChatGPT. Gulliver left,
+
+Paul E. Donne, ‘History of Computation: 16-19th Century Work’, Paul E. Dunne, 2000
+<https://intranet.csc.liv.ac.uk/~ped/teachadmin/histsci/htmlform/lect3.html> [accessed 5
+May 2023].
+Did it work? Leibniz conceived the mechanism in 1672, but it was not built until 1694. Its
+intricate gearwork seems to have been ambitious for the fabrication technology of the time;
+it did not work reliably. According to Paul Donne’s History of Computation course notes,
+the problem was not diagnosed until 1893, when an investigation showed that a design flaw
+in the carrier mechanisms created problems when carrying tens.
+
+
+unimpressed.4 However, Leibniz apparently did not care what Gulliver
+(i.e. Swift) thought. In any case, Swift’s satire did not persuade Leibniz
+to abandon his project.
+Of course, Swift’s passage now seems amazingly prophetic, even if
+his goal was to poke fun at Leibniz. Much of what we aim to do in this
+book is to execute a contemporary version of the project as envisioned
+by Leibniz and skewered by Swift. To do that, we are going to go deep
+into the idea of smart contracts deployed on the blockchain and how
+those smart contracts can take on the role of governance.
+In Section 6.2, we will explore the idea that states and other communities might be organised around ‘smart contracts’ – by which we
+mean decentralised, immutable computer programs that are visible to
+community members and encode the intentions and thus future actions
+of the state or community. In the following section, we take up the
+very important question of how the blockchain imports information
+from the extra-blockchain world – information that will be critical to
+many smart contracts. This will involve discussing so-called ‘oracles’ and
+their role in providing this information to the blockchain. In 6.4, we
+will develop the idea of communities built around smart contracts further by introducing the concept of a ‘decentralised autonomous organisation’, or DAO. In Section 6.5, we will take up the topic of ‘impact
+DAOs’ – DAOs that are designed not merely to assist in community
+management but to create positive externalities as well. Finally, in Section 6.6, we tie everything together and give examples of how we might
+apply these new technologies to human governance.
+
+6.2 Smart contracts and human governance
+To refresh our memories, when we refer to ‘human governance’, we
+mean the systems and processes by which people manage and make
+decisions about their communities and implement those decisions to
+
+Jonathan Swift, Gulliver’s Travels (London, 2003).
+
+
+achieve some political, economic or cultural goal. Here, we take political in the very broad sense suggested by its origin in the Latin term
+politicus, meaning ‘of citizens or the state’. In other words, we take
+political goals to be those goals that involve some plan for the future
+conduct of the state or some group of organised citizens. Maybe that
+goal is peace or war or a robust economy or, at lower levels, fixing
+potholes, reliable trash removal or weekly yoga classes on the roof of
+the condo building.
+Different levels of human governance, of course, need different
+tools, but some tools seem to be required at nearly every level. These
+include tools for recording reliable records, transparent and reliable
+channels of communication between governing officials and the community, safe and secure handling of funds with a reliable audit trail of
+those funds, ways of articulating community goals, and ways of incentivising community members to align with and pursue those goals.
+Based on remarks made earlier in this book, we hope it is clear how
+blockchain technology is optimally designed to facilitate most of these
+goals. Secure communications, as we will see, require other measures.
+However, a few additional observations might be helpful here.
+Let us begin by revisiting the idea of an immutable public ledger.
+Such a ledger can do many things for us. Firstly, it can record what
+belongs to whom, and this is, in effect, what Bitcoin and Ethereum do.
+They are (among other things) immutable ledgers recording ownership (by wallet address) of crypto assets and the history of ownership
+transfers.
+This basic technology can do a lot more than keep track of asset
+ownership, however. It can also be a record for use in inventory control
+or in tracking the movement of produce from farm to factory to store.
+It can provide a secure record of the movement of products and parts all
+around the globe and, more importantly, be accessible to all parts of the
+globe. On top of this, it can record the history of every state change of
+that record should we need to audit the history of these records. Critically, everyone can know that everyone else has access to the very same
+
+
+record. It could even record the amount of labour that goes into product
+parts and then the amount of labour that goes into a product assembled
+from those parts. Blockchains are value agnostic. They do not care what
+you value, but whatever you value, they can record it in an immutable,
+decentralised-yet-reliable shared record. This brings us to the matter of
+smart contracts.
+In late 2013, five years after the Bitcoin white paper was published, nineteen-year-old Vitalik Buterin wrote the Ethereum white
+paper.5 Building on ideas put forward by Satoshi in forum posts and
+elsewhere, Buterin observed that just as you can record a ledger and
+other static documents on the blockchain, hypothetically, you can use
+a blockchain to store and execute computer programs (few people
+realise that Satoshi included a Bitcoin script – specifically, the OP_
+PUSHDATA4 opcode allowed up to 4.3 GB of data to be pushed
+onto the stack in the original Bitcoin protocol).6 Buterin’s profound
+idea was that you can record any computer program on the blockchain.
+A moment’s reflection should show why this is so. You can write out
+any computer program if you have the patience. However, some programming languages are ‘Turing complete’, meaning they can encode
+any computable function. Thus, if you have a way of executing those
+programs, you can do anything a digital computer can – and you can
+do it on the blockchain.
+This is effectively what Ethereum is – a blockchain-based platform that can perform any computable function. It is, as Camila
+Russo put it in the title of her book about the development of Ethereum, an Inf inite Machine.7 But because it is on the blockchain, it
+Vitalik Buterin, ‘Ethereum: A Next-Generation Smart Contract and Decentralized
+Application Platform’ (2014) <https://ethereum.org/content/whitepaper/whitepaper-pdf/
+Ethereum_Whitepaper_-_Buterin_2014.pdf> [accessed 29 October 2024].
+Joshua Henslee, ‘Did Satoshi Nakamoto Support Data On-Chain?’, CoinGeek <https://
+coingeek.com/did-satoshi-nakamoto-support-data-on-chain/> [accessed 29 October 2024].
+Camila Russo, The Infinite Machine: How an Army of Crypto-hackers Is Building the Next
+Internet with Ethereum (New York, NY, 2020).
+
+
+is visible to all. It is transparent. What could one do with such a
+universal computer on the blockchain? One thing it can support is
+self-executing contracts. This is actually an idea that predates Bitcoin and Ethereum. As we mentioned earlier, in the 1990s, Nick
+Szabo proposed the concept of a smart contract, which he described
+as ‘a set of promises, specified in digital form, including protocols
+within which the parties perform on these promises.’8 Of course,
+the similarities to Leibniz’s idea of proving (computing) courses of
+action for a prince should be apparent – the only difference is that
+Szabo made explicit the idea that the execution of governance policies could be automated.
+Let us take a hypothetical example of a smart contract. Sometimes, when we make a large purchase, such as real estate, we utilise
+escrow companies to hold the money until the transaction is resolved.
+For example, you want to buy a house for a million dollars, but you
+do not wish to send the money until you get clear title to the house,
+and the homeowner does not want to relinquish title until the money
+lands in their account. This is where escrow companies come in – yet
+another layer of centralised trust. A mutually trusted third party holds
+the payment until the title is transferred to the buyer before releasing
+the money to the seller.
+An Ethereum smart contract could supplant escrow services. A
+smart contract on the Ethereum blockchain can be designed to hold
+a document – for example, the title to the house – until payment is
+sent to the contract. You do not need trusted third parties because
+everyone can study the smart contract online and see that it will
+
+Nick Szabo, ‘Smart Contracts: Building Blocks for Digital Markets’, Phonetic Sciences, Amsterdam, 2006 <https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/
+Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html> [accessed 27
+May 2023].
+
+
+automatically release the title the instant the money is received by the
+smart contract.9
+This brings us back to Leibniz’s idea of a virtual mechanism guiding
+a prince’s actions. Did Leibniz design the mechanism to provide helpful advice only, or did he consider that the actual execution of policies
+could also be automated? Whatever Leibniz had in mind, it is certainly
+true that smart contracts can now automate aspects of governance.
+Government policies could be automated on the blockchain, visible to
+all, auditable by all and guaranteed to be executed.
+One way in which this might be realised is that elements of a
+government’s constitution could be programmed directly into the
+
+governmental smart contracts. As a hypothetical example, one might
+program a smart contract constitution such that the state budget has
+to be b
+ alanced. Alternatively, one might program the smart contract
+constitution so that a minimum percentage of GDP goes to universal
+health care. One could also program the smart contract so that the
+military budget could not exceed (or perhaps always exceed) a certain
+percentage of GDP. Or one could program the smart contract so that
+the government had to maintain minimum reserves in bitcoin. The
+options are endless.
+Of course, constitutions are silent on most aspects of governance,
+but the day-to-day business of lawmaking could give way to smart
+contract design and execution. Thus, the entire process, from voting to
+policy execution, can be built into smart contracts. For example, let us
+imagine a hypothetical onchain community consisting of various digital nomads scattered around the world. If you wish, we can suppose
+that our community also has secured pieces of physical territory worldwide. Our hypothetical community provides services, such as health
+As we will see, it is a bit more complicated than this. There is the issue of assessing the
+safety of the smart contract, for example, and there is also the question of how things like
+titles make their way onto the blockchain – that is, how assets are tokenised.
+
+
+care and health insurance, for its members. In exchange for this, it taxes
+its members some amount, let us say 0.1% of all transactions that the
+members engage in on the blockchain. But now, suppose that some
+members think that this is too much, and a proposal is made to reduce
+the tax to 0.08%, with a correlative cut in benefits.10
+In traditional nation states, people campaign for tax cuts all the
+time. Maybe the government will deliver on its promises or perhaps it
+will not. No one knows for sure. However, as we noted, with blockchain
+governance, we can vote directly for a policy, which is itself encoded in
+a blockchain smart contract. In this case, there would be a smart contract governing the taxation policy for the community (let us say it is a
+function that takes some percentage of transactions and then transfers
+that to the contract for health care and health insurance payments). The
+policy that receives the most votes is the policy that will go into effect.
+Will the contract really deliver on that policy? Well, we can inspect the
+code and see. Once the smart contract is activated, that is the policy.
+How do we know that our votes will be correctly recorded? We
+live, after all, in the age of competing claims of voter fraud, double voting, lost ballots, hanging chads and other obstacles to reliable e lections.
+Certainly, this is the state of conventional democratic mechanisms.
+Even when they do not fail, there often remains suspicion that they
+have failed. And why should there not be such a suspicion, given that
+the mechanisms of voting are centralised and are not visible to all? They
+are, at best, visible to election observers, who may or may not be reliable
+referees and who may or may not be in a position to actually assess what
+is happening.
+However, voting too can be built into the smart contract constitution of our community. Voting can take place on a smart contract that is
+immutable and accessible to all. Therefore, we can inspect the contract
+You might think that this rate of taxation would be draconian for someone engaged in
+potentially large numbers of high-speed transactions, but there are ways around this. Transactions could be processed in batches or conducted on a layer-two protocol – an option we
+will discuss later.
+
+
+and see if it is programmed to count every vote and if the vote outcome
+indeed leads to the execution of the desired smart contract. There is no
+need to wait for politicians to act on their promises after the election.
+The contract executes once the voting is closed or on a timeframe built
+into the smart contract.
+For example, let us suppose that our voting power depends on how
+many state-issued cryptocurrency tokens we hold in an anonymous wallet. After we vote, we can confirm on the blockchain that our vote was
+recorded and that the totals were added correctly. If we wish that our
+system be ‘one-person, one-vote’, then we need mechanisms to ensure
+each person has exactly one vote (or the same voting power), and this
+leads to challenges that involve tying a crypto identity (for example, a
+crypto wallet) to a ‘real-world’ identity.
+The key point is that in our thought experiment, all the critical
+democratic mechanisms have been encoded directly into our immutable public blockchain. This allows us to vote directly and securely for
+the tax mechanism we desire, with the assurance (by the laws of mathematics and the theory of computation) that if our vote prevails, the
+policy will be enacted.
+Of course, this is just one possible way to execute blockchain governance. Maybe you prefer a community where taxation is not subject to
+votes. Maybe you want the taxation to be hardcoded directly into the definition of the community itself. Or maybe you prefer that some elected
+leader set tax rates. Or maybe you do not want leaders to be chosen by
+election. All of these are possibilities with blockchain-based communities.
+
+6.3 Oracles
+One critical element to the success of blockchain technologies is the
+ability of the blockchain to ‘know’ things about the external world.
+Or if you prefer, it must represent states of the non-blockchain world.
+For example, a number of so-called ‘stablecoins’ exist that aim to emulate the value in terms of purchasing power of the US dollar. For that to
+
+
+happen, they must have offchain information about the dollar’s value.
+Similarly, a sports betting application must have information about the
+results of sports contests.
+Of course, it is easy enough to set up a traditional API that provides
+a direct feed of these values from a centralised source (for example,
+a news organisation like the BBC). However, that is not particularly
+aligned with the goal of decentralisation. If the decentralised blockchain is drawing its information from centralised sources, what have we
+really accomplished?
+Data feeds that provide outside information to the blockchain are
+known as ‘oracles’, and we need oracles that, like the blockchain, are
+decentralised. In later chapters, we will go into detail about the challenges facing decentralised oracles, but for now, we can provide a gloss
+of what the principal strategy will be.
+The real breakthrough of blockchain technology is that any human
+institution can be decentralised if we wish. For example, an oracle need
+not be a single source of information; it could be a group of individuals
+participating in a decentralised-yet-cooperative project to provide and
+verify offchain information. Instead of trusting a single news source,
+multiple people could survey multiple sources of information. Instead
+of trusting a newsfeed for a score, someone could go to the game,
+someone could contact the league office and so on. Here, there is not
+a single source but multiple sources, and everyone participating in the
+effort would have something at stake in the oracle’s reliability and
+success. As noted, conceptual issues arise concerning oracles, but for
+now, we simply want to introduce them and their role within the basic
+governance technology stack. We will examine them more thoroughly
+later in the book.
+
+6.4 DAOs: What are they and how do they work?
+In Section 6.2, we explored the concept of smart contracts and showed
+some of their interesting potential applications – indeed, applications
+
+
+that already exist. Smart contracts have many extraordinary use cases,
+but for our purposes, their most interesting move beyond currencies
+and finance; we can also establish entire organisations that are encoded
+on the blockchain in the form of DAOs.
+DAOs are the decision-making components of online communities. They are not organised top-down like traditional organisations.
+They are, as you might have guessed, decentralised. There are different
+ways of building DAOs. Some might be built around a community of
+individuals who make key decisions driving the organisation. Others
+might forgo the role of human intervention altogether. Let us start with
+the latter, very interesting idea.
+In its simplest form, the idea behind a fully automatic DAO is that
+several smart contracts can be combined into a larger contract that can
+function as a corporation or organisation on the blockchain. As we will
+see, this idea is quite radical.
+In principle, none of the usual trusted business partners are required
+in a DAO: you do not need employees, managers, human resource officers, CFOs or CEOs. In some cases, all of those jobs, and in other cases,
+most of those jobs, can be replaced by smart contracts. For example, if
+you designed a smart contract to do what a hedge fund like Renaissance
+Technologies does, it would no longer be necessary for shareholders to
+pay massive bonuses to hedge-fund executives who are trusted to make
+decisions about investors’ money. In theory, at least, those executives
+could be replaced by a bundle of transparent, preset instructions stored
+on the blockchain. Perhaps this would include an AI program on the
+blockchain, constantly seeking arbitrage opportunities with advanced
+mathematics. Of course, for many applications, no AI is required, and
+some DAOs can be built around simple and straightforward algorithms.
+On the other end of the spectrum from this completely automated
+DAO would be the idea of a DAO that is under the control of humans.
+All of its deliberations would take place offchain (for example, on a
+video conference call), and all of its actions take place offchain as well.
+What would make it a DAO, in this case, would be that the decisions
+
+
+made are still recorded and executed onchain and are informed by
+information that is stored onchain. We might think of this and the previous example as being the extreme limiting cases of a DAO. Between
+these two extremes, there are endless combinations of DAOs organised
+around different compositions of automation and human intervention.
+A few examples can illustrate some of the possibilities.
+Consider a decentralised exchange (DEX), which is a blockchainbased platform on which you can exchange one type of cryptocurrency
+(or any other tokenised asset) for another. In protocols like Uniswap,
+this would involve using automated market makers, in which the asset
+price for the exchange is set algorithmically, depending on the incoming bids for a token in the exchange and the number of tokens held by
+the contract (the tokens held in the contract constitute the liquidity
+pool for the currency pair being traded). Suppose we want to exchange
+crypto asset B for crypto asset A. As the supply of A decreases in the
+smart contract, the algorithm will increase the price of A relative to B.
+In this way, people are subsequently incentivised to provide B tokens in
+exchange for A tokens. The algorithm takes the place of the order book
+in traditional centralised exchanges.11
+A DEX would not have to be organised around a DAO. Maybe a
+centralised corporation can maintain it. However, it can also take the
+form of a DAO in which holders of the protocol’s governance token
+make decisions concerning the protocol. In the case of Uniswap, that
+token is UNI. Token holders can debate and vote on upgrades to the
+staking contracts. The Uniswap DAO, for example, has subsequently
+introduced version two and version three staking contracts.
+
+The protocol relies on people seeking arbitrage opportunities to bring the exchange rate on
+the DEX back in line with the broader market. The liquidity is provided by liquidity providers that stake liquidity pairs in the smart contract in exchange for financial remuneration.
+For more information on AMMs and liquidity providers, see ‘What Is an Automated Market Maker (AMM)?’, Coinbase Learn <https://www.coinbase.com/en-es/learn/advancedtrading/what-is-an-automated-market-maker-amm> [accessed 29 October 2024].
+
+
+Another application of DAOs has involved the issuance of overcollateralised loans. For example, the protocol MakerDAO (renamed
+to Sky while this book was in production) takes in collateral in the
+form of cryptocurrencies like ETH and then issues loans in the form
+of the stablecoin DAI, the value of which is pegged to the US dollar. Another way to describe this is that when you deposit ETH as
+security, a certain quantity of DAI is created, or ‘minted’. When you
+later choose to return your DAI in exchange for ETH, the DAI is
+destroyed (or ‘burned’, as per the parlance of those involved in the
+blockchain sector). However, the key thing is that DAI is able to
+remain pegged to the dollar by ensuring that it always has sufficient
+collateral to support DAI’s value of $1.
+We said that the MakerDAO protocol is overcollateralised, meaning that you must maintain more collateral in the smart contract than
+the borrowed amount. As of this writing, the minimum collateralisation in MakerDAO is 170%. If you wanted to borrow 10,000 DAI,
+you must first deposit $17,000 worth of ETH as collateral. Thus, while
+your $17,000 of ETH is locked in the protocol, you are free to take
+your 10,000 DAI and use it as you wish. Why would you do this? Well,
+selling your ETH is a taxable event, and you may not be ready to pay
+taxes at this time. Alternatively, you may anticipate the value of ETH
+will increase radically, and thus, you do not want to sell your position,
+but you need to buy a new car or have other expenses in your everyday
+life.12 Or you may want to loan out your DAI and collect interest on it
+while your ETH (hopefully) increases in value. Of interest to us is that
+if the value of ETH goes down and you no longer are collateralised at
+a rate of 170%, there are no bankers that sit and review your position
+and ask you to recollateralise your loan. The process is automatic. If your
+collateralisation drops below 170%, the smart contract automatically
+
+You would then convert those DAI into US dollars on a one-to-one basis on an exchange
+like Coinbase.
+
+
+liquidates enough of your ETH to repay enough of your loan to bring
+you back under 170%.
+For example, suppose that you deposited $17,000 of ETH in
+order to borrow 10,000 DAI. You are already at the minimum level
+of collateralisation. Now, suppose that ETH loses 10% of its value,
+leaving you undercollateralised. The smart contract automatically liquidates enough of your ETH to retire enough of your debt to bring
+you back within limits. Therefore, the protocol must liquidate enough
+of your ETH to recover $1,700 worth of DAI. Of course, in liquidating the ETH, your collateral is reduced as well, so to bring things into
+balance, additional ETH will be liquidated. But what is the role of the
+DAO in all this? One role is setting the minimum collateralisation
+rates, but as we are about to see, the DAO can also be called upon for
+more urgent matters.
+In 2022, as a series of centralised banks and cryptocurrency
+exchanges collapsed – most notoriously Sam Bankman-Fried’s FTX
+exchange – it was not lost on observers that DEXs like Uniswap and
+lenders like MakerDAO did just fine. With centralised platforms like
+FTX, the problem was that the operations of the company were not
+transparent. For example, no one really knew what FTX was doing
+with the deposited money (in hindsight, taking it and placing highly
+leveraged bets, it seems). The contagion across the crypto sector in 2022
+revolved around the fact that one could not be sure that the backing
+collateral was actually where it was supposed to be. And in point of fact,
+it often was not.
+In the case of MakerDAO, there were plenty of liquidations, but
+the collateral was where it was supposed to be – transparently so. The
+smart contract did its job and MakerDAO kept humming along just
+fine. Of course, this is not to say that things have never gone wrong for
+MakerDAO, a point we will return to shortly.
+A third DAO example would be the DAO providing governance
+for Yearn Finance. Yearn is a ‘yield aggregator’, which means it accepts
+asset deposits in the form of specific cryptocurrencies and then deploys
+
+
+strategies to earn yield off those deposits. The contract executing the
+strategy is known as a ‘vault’. Strategies vary but may range from loaning out deposits to placing them into liquidity pools like those in
+Uniswap with the goal of harvesting staking rewards. Yearn Finance
+also has a governance token, YFI, and holders of YFI can vote on the
+kinds of vaults that will be offered and the strategies those vaults will
+deploy. YFI token holders also vote on more general properties of the
+protocol, ranging from the number of YFI in circulation to the way in
+which developers are to be financially incentivised.
+The examples we have given thus far are finance driven, and this is
+in part because many of the early applications of DAOs have involved
+decentralised finance. However, the applications for DAOs are certainly
+not limited to financial cases. There are as many possible applications as
+there are needs for coordinated human actions.
+For example, VitaDAO is a DAO that is designed to support longevity research.13 DAOs could be organised around any sort of scientific
+research project, and they need not involve the fundraising component.
+They could involve nothing more than votes on which research projects
+to pursue next without concern for raising funds. The rewards might
+include nothing more than the equivalent of gold stars for researchers
+who are aligned with community goals. The advantage of such DAOs
+would be that research could be driven by suitably aligned community members rather than by a centralised funding organisation like the
+National Endowment for the Humanities or the National Endowment
+for the Sciences. The idea would be that we could avoid the cronyism
+and patronage that takes place behind the closed doors of centralised
+funding agencies.
+The examples we have discussed have involved some degree of
+human intervention, but as we noted, in theory, a DAO could be completely automated with no possibility for future human interference.
+For as long as there is a functioning blockchain, such a DAO would
+
+<https://www.vitadao.com/> [accessed 30 October 2024].
+
+
+continue to perform its function consistently. Perhaps that function
+would be to serve as a decentralised financial exchange like Uniswap
+or maybe it would be to issue overcollateralised loans like MakerDAO.
+However, as we noted, most DAOs (for now, at least) involve human
+intervention, and understandably so. Conditions change. Even the
+underlying blockchains undergo changes. Therefore, there is typically a
+group of signatories with access to the smart contracts constituting the
+DAO. If enough signatories permit it, the developers can access and
+‘change’ the smart contracts.14
+One case where this kind of human intervention was necessary
+involved the MakerDAO protocol, which we just discussed. In 2020,
+during the onset of COVID-19, there was a precipitous collapse in
+the value of ETH – a collapse so severe that the drop in ETH prices
+outran the ability of liquidations to balance the collateral ratios necessary to keep DAI at its $1 peg. Or as they say in crypto, DAI ‘lost
+its peg’.
+This was a case where the human element of the DAO became
+necessary. To prevent DAI from remaining below $1, the human
+DAO members took action. They voted to back DAI with USDC15 (in
+addition to ETH) and found backers to inject this liquidity into the
+protocol.
+It probably has not gone unnoticed that this voted-on fix was a step
+away from decentralisation – relying on an asset that is the creation
+of a centralised exchange and which relies on a centralised mechanism to maintain its stability. And in point of fact, the move remains
+
+We use scare quotes around ‘change’ because this is not strictly accurate. Once a smart
+contract is deployed, it cannot be changed. However, one can change a data field that the
+smart contract draws upon (for example, resetting collateralisation rates), and one can
+replace old contracts with a new version of the contract – i.e. redeploy the smart contract.
+USDC is a stablecoin maintained by a consortium that includes the payment company
+Circle and the centralised crypto exchange Coinbase.
+
+
+controversial. Indeed, the decision took on some urgency in the wake of
+USDC itself losing its peg to the US dollar in March 2023.16
+USDC slipped from its $1 peg in 2023 because the assets backing the stablecoin (actual US dollars or short-term treasuries) must be
+stored somewhere. In this case, many of them were being held with
+Silicon Valley Bank, which succumbed to rising interest rates, undermining the value of its long-term US treasury bills and other longterm assets. When the bank collapsed, USDC (temporarily) lost access
+to its backing collateral. The members of MakerDAO subsequently
+discussed a return to using only native crypto assets as collateral but
+voted to retain USDC as part of DAI’s collateral. The moral is that no
+store of value is completely safe and that centralised financial institutions are particularly unsafe – being as they are centralised and far from
+transparent.
+Of interest to us at the moment is the role that DAO members play
+in the process. In this case, the governance occurred through a series of
+time-based polls. These votes took place online, and voting power was
+a function of the number of the protocol’s governance tokens DAO
+members held. In this case, the governance token was MKR.
+It should now be clear what responsibilities holders of a DAO
+governance token might have, but what is in it for the token holder?
+Why bother? Well, holding governance tokens usually conveys
+rewards beyond the ability to discuss and vote on policy changes in
+the protocol. Benefits might include a financial reward in the form
+of token airdrops or other forms of remuneration. In some platforms, like DEXs (although not Uniswap), governance token holders are rewarded with a percentage of the fees the protocol collects
+with each exchange transaction. Of course, holding voting rights also
+opens up the possibility of voting for other forms of rewards. The
+Ashley Capoot, ‘Stablecoin USDC Breaks Dollar Peg After Firm Reveals It Has $3.3
+Billion in SVB Exposure’, CNBC, 3 November 2023 <https://www.cnbc.com/2023/03/11/
+stablecoin-usdc-breaks-dollar-peg-after-firm-reveals-it-has-3point3-billion-in-svb-exposure.html> [accessed 29 October 2024].
+
+
+token-holding community could elect to issue more tokens (or burn
+tokens to make those remaining in circulation more valuable) or sell
+assets from the protocol treasury and distribute the proceeds to token
+holders. In protocols like the DEX Curve Finance – a decentralised
+platform for trading stablecoins – governance token holders can vote
+to determine which staked assets will yield the largest returns. Thus,
+the right to vote to increase the yield on staked assets provides the
+incentive to hold the governance token.
+There are a lot of details to be worked out regarding DAOs. The
+first issue relates to voting itself. DAOs offer the opportunity for us
+to explore promising alternative voting systems – many dating back
+to those proposed by Condorcet in the French Revolution. The voting
+could be ranked preference or head-to-head or any other traditional
+voting method. However, the question of whether there is to be one
+vote per person or whether the number of votes a member is eligible
+to cast is weighted by the number of DAO governance tokens they
+hold remains a major issue with DAO voting. The beauty of blockchain governance is that we can try all approaches and keep a record
+of their successes and failures. This, in turn, can help us to learn how
+to design better voting mechanisms. Blockchain communities can
+become laboratories for investigating democratic voting (and other)
+governance mechanisms.
+If we wish to have a system in which each person is eligible to vote
+only once, then we introduce significant challenges: How can we ensure
+that there is only one person associated with each token? How can we
+be sure that some wealthy whale has not opened thousands of wallets,
+each containing one governance token? As DAO participants would
+put it, how do we make the protocol ‘Sybil resistant’?17
+Let us set aside the issue of Sybil resistance for now because there is
+a more pressing issue: What ensures that the developers and keyholders
+The name is based on the 1973 book Sybil by Flora Rheta Schreiber, which fictionalised
+the story of a person with dissociative identity disorder.
+
+
+will actually carry out the policies voted on by the governance token
+holders? Here, it may seem that we have come back to where we started
+with traditional governance: How can we be sure that the people with
+their hands on the switch will do what we voted for? In legacy voting
+systems, there is little recourse. If representatives do not implement the
+policy you voted for, you are stuck. You have to wait until the next election in two or four or six years and hope for the best next time.
+With blockchain technology, the situation is different. Setting
+aside the question of whether there is a legal obligation for keyholders to execute voted-on policies (we currently have no idea – this has
+not been litigated), there is also the option of cloning the unfaithful protocol and starting a very similar protocol that does what the
+original was supposed to do. And protocols have been replicated in
+the past – or ‘forked’, in the language of the crypto community –
+for lesser reasons. Yearn Finance, Maker and Uniswap have all been
+forked many times already, sometimes in response to an unhappy vote
+outcome and sometimes just because someone saw an opportunity
+to make some money by cloning an established platform. The point
+is that there are exit strategies that allow communities to start over
+with the same basic platform if the developers and keyholders refuse
+to execute the wishes of the DAO. Keep in mind that smart contracts
+constituting the DAO are publicly visible on the blockchain. It is a
+relatively trivial matter to clone the protocol and start over with new
+developers and new keyholders.
+However, at the end of the day, humans are typically part of the
+DAO equation, and there is no point in denying that these humans are
+possible points of failure. They inject all sorts of drama and conflict into
+the protocols, and it is difficult to engineer around drama. However, we
+can try, and we will discuss ways of doing that later. First, we have bigger fish to fry – or at least, more interesting fish.
+Assuming that these concerns about developer compliance within
+DAOs can be answered or at least ameliorated, we can address the much
+more interesting question of what other kinds of things DAOs can do.
+
+
+The question is interesting because there are many answers – indeed,
+there are many answers for every level of human governance.
+Let us start with a very low-level example of governance – something like a condo board. A condo building could have its own DAO,
+with an online record of meetings, decisions and funding authorisations. It could also incentivise contributions to the community by making contributions from its treasury. Would this not be possible with a
+centralised platform? To some extent, yes, but this raises the question
+of who maintains the relevant server. In the future that we envision, the
+records are not merely distributed among the condo members but distributed globally – the records are outsourced to a distributed network
+that is scattered across the world and thus to individuals that have no
+interest in the affairs of a single condo and plenty of interest in preserving the integrity of the network as a whole. To put it another way, the
+idea is that a single blockchain can support many such condo associations and that the incentive to preserve the security and reliability of
+that blockchain swamps the pressures for corruption from individual
+condo associations.
+This is not to say that the condo association could not create its own
+blockchain and issue its own coin. However, we would be more likely
+to trust an association in which the settlement layer for its token – the
+layer on which it is anchored – would be global and, by its very nature,
+immune to attempts at local-level corruption. Likewise, we would be
+more apt to trust an association that kept its records on a globally distributed file storage platform like IPFS (the InterPlanetary File System), a peer-to-peer file-sharing network for storing and sharing data
+in a distributed file system, or Codex, a decentralised file storage protocol developed by the Institute of Free Technology.18 The idea is that
+much of the business of the DAO would be anchored in broader, more
+robust and more widely distributed platforms.
+
+
+We discuss Codex in greater detail in Chapter 14.
+
+
+Here is another example of micro-level blockchain governance, which
+was executed in Brooklyn, New York. A neighbourhood established its
+own electricity microgrid, linking together a number of solar-powered
+homes in the area.19 Because it was built on a blockchain, it provided
+users a transparent, immutable record of the energy contributed to the
+mini-grid from each home, the amount of energy consumed by each
+home and the amount of energy sold to neighbours on the grid (think
+of it as local peer-to-peer energy sharing). Additionally, it is presumably
+possible for the microgrid to sell energy to the local centralised power
+grid (in this case, Consolidated Edison). The endeavour also allowed the
+transparent and fair distribution of dividends to cooperative members.
+Beyond all this, it opened the door for the cooperative association to
+provide incentives to people who contributed to the network (for example, by onboarding new members or by contributing new technologies).
+There are many other examples of DAOs that exist today, and we
+can hardly move on without discussing the DAOs created in the service of NFTs and their online communities. Although not all NFT
+communities operate through DAOs, many do. Those DAOs make
+decisions about the disposition of the treasury for the NFT project,
+policies for intellectual property rights for the NFT images, and plans
+for extensions and revisions to the NFT project. Typically, important
+decisions are debated and then voted on.
+In subsequent chapters, we will envision a scenario in which many
+different levels of governance will reside on the blockchain and be under
+the control of DAOs. This means that perhaps not only your local electricity microgrid and favourite NFT project are under the control of a
+DAO, but possibly your local condo board is as well or perhaps your
+homeowner association (HOA) is or maybe formal layers of government will be, too – perhaps your county administration or your city
+or even your state. The typical citizen may end up being a member of
+multiple DAOs. Is that even feasible? We think so.
+
+<https://www.brooklyn.energy/about> [accessed 30 October 2024].
+
+
+People who invest in multiple crypto protocols and NFTs are
+already familiar with this phenomenon. How does one keep track of
+it all? Well, one common way people keep track of events, proposals
+and policy debates today is to join a server on a platform like Discord for each of the DAOs in which they participate. For example,
+someone might belong to the DAO for Uniswap and MakerDAO and
+Yearn, as well as DAOs for some of their NFTs. The Discord server for
+each protocol has multiple threads open at any given time, providing
+information about official announcements, threads for making proposals, threads for social events, chatting and other relevant topics to the
+community. As currently designed, one can actively monitor all of the
+DAOs in which one participates, even if there are dozens of them.
+Ideally, we would not have to access these DAOs through Discord. That is a centralised point of failure, after all. Fortunately, there
+are already tools that allow us to monitor multiple DAOs in real time,
+participate in those DAOs and vote on proposals. For example, the
+Institute of Free Technology, with which we are affiliated, addresses
+this need inside of its Status app – a mobile app that incorporates messaging, a wallet, a decentralised application browser and a community
+management tool (in effect, a decentralised version of Discord).
+Potential applications for DAOs are only limited by our imaginations. Hopefully, we have provided enough examples of how DAOs
+work to anchor the next part of our discussion. We now want to turn
+to what are sometimes called ‘impact DAOs’ – DAOs that yield public
+goods and positive externalities and, in some cases, provide those goods
+and externalities in a regenerative way.
+
+6.5 Impact DAOs and regenerative public goods
+Blockchain technology, properly organised, has the ability to incentivise
+behaviours that help the community that organises around a particular
+blockchain. Or more accurately, behaviours that help the community to
+help the community. This incentivised behaviour is regenerative in that
+
+
+goodwill and good works are not expended in a one-and-done fashion
+but in a way that yields yet more goodwill and good works.20
+Does this sound too good to be true? Does it sound like cultural
+ponzinomics? Such concerns are natural, but we think we can assuage
+them. Cooperation is possible, it can yield public goods and it can also
+yield more cooperation. However, it must be properly incentivised.
+We can also incentivise positive externalities. This is to say that
+regenerative public goods can be extended beyond the local community.
+We can incentivise outcomes that help other communities and their
+members, and we can do so, again, in a way that is not one-and-done
+but in which positive outcomes continue to yield yet more positive
+externalities. Now, in saying this, we have to go deeper than slogans. We
+need to dive deeper into DAOs and how they have the unique capacity
+to bring about regenerative public goods.
+Most, if not all, readers will be familiar with the tragedy of the commons. Given a public space, say a public pasture in the village, there is a
+tendency for people to use the shared space to its exhaustion as quickly
+as possible, the reasoning being that ‘if I don’t use these resources first,
+someone else will.’ The end result is that the pasture is quickly overgrazed and left barren. The issue with the tragedy of the commons is
+that the game theory driving the outcome is zero sum, and essentially
+‘use it or lose it’. However, DAOs can provide ways of engineering the
+game theory to incentivise other behaviours.
+To stick with our village pasture example, the village can incentivise
+villagers to use less of the public space or even to contribute more land
+to it. Imagine that using the pasture first required clearing more land
+to create public pasture so that the public space grew with its use. How
+feasible that is in the case of a real-world village is not entirely clear,
+but it is clear that there are many options for a DAO to provide viable
+incentives.
+For an excellent introduction to impact DAOs producing positive externalities see Kevin
+Owocki, GreenPilled: How Crypto Can Regenerate The World (2023).
+
+
+The natural way for traditional governments to fund public resources
+is via taxation, but there are alternative options for a DAO. One strategy
+that is popular among DAOs is the generation of revenue by a small
+transaction fee. As noted during our discussion of DEXs, there can be a
+percentage captured in revenue with each transaction. This is, of course,
+a kind of taxation, but perhaps more palatable because it comes in the
+form of a fee for a specific service and is cognitively painless (you do not
+have to ‘do taxes’ – the money is collected automatically).
+Alternatively, DAOs can issue governance tokens as rewards for
+behaviour, although this policy is inflationary and is really only feasible
+if the network is growing at a rate sufficient to absorb the newly minted
+tokens or, alternatively, has a token burn mechanism. We are apt to dismiss inflationary monetary policy, but Bitcoin, for now, still has inflationary emissions as a reward for Bitcoin miners. Meanwhile, Ethereum
+will continue to mint more ETH even as it burns ETH in transaction fees. Thus, Ethereum has found a way to incentivise people who
+stake their ETH while maintaining a non-inflationary money supply.21
+Under certain circumstances, users can also contribute to their
+DAOs as a form of philanthropy, which has an advantage over giving
+to traditional charities in that the money trail is transparent, corruption resistant and capital efficient. There are no charity administrators
+to pay; the use of the gift is determined by an algorithm in a smart
+contract. To draw on our earlier metaphor, if you give money to build
+the community pasture, you can verify that the money will contribute
+to that goal.
+Of course, where we are going with this discussion is towards the
+idea of regenerative public goods. The fundamental function of DAOs
+is to serve as a decentralised mechanism for coordinating people’s
+behaviour via the protocol. If we want those behaviours to contribute
+to regenerative goods, this will be accomplished by offering the correct
+Non-inflationary in the sense that the supply of ETH should shrink over time, as more
+ETH is burned than created.
+
+
+incentives to the behaviours that assist the protocol in its regenerative
+growth. How would this work?
+DAOs have been known to issue rewards to members who contribute to the onboarding of new members (helping newcomers, for example), teaching others about features of the protocol (in tweet threads,
+for example), assisting community members with technical problems
+or devising investment strategies (protocols like Yearn Finance provide
+rewards to users that come up with strategies for their vaults). Notice
+that each of these incentive structures is designed to help the protocol grow. However, the secret to success here is that we do not merely
+incentivise growth but a form of growth that leads to more growth.
+The golden ticket to regenerative public goods is to incentivise
+DAO members to develop strategies that lead to more people contributing time and resources to the DAO in a way that brings about
+more DAO members sharing the same mission. There are a number of
+ways this might play out, but possible incentivisation activities include
+classes and tutorials that help users to not merely become contributors
+but to value regenerative public goods. Thus, educating DAO members about these values can supercharge the growth of the regenerative
+goods that flow from the DAO.
+Education is just one example of a meta strategy (a strategy for
+creating new strategies) that DAOs can deploy. Another meta strategy would be to incorporate meta rewards, which would be rewards
+given to people that generate rewards for behaviours that contribute to
+regenerative goods. What would this come to? If there are programmes
+that successfully reward strategies that create positive outcomes, we can
+incentivise those programmes to continue doing so. We need not worry
+too much about vetting these programmes for future success as it has
+been established that retroactive rewards (rewards for past success) can
+be a successful way to incentivise future productive behaviours.
+Blockchain-based DAOs are uniquely situated to carry out these
+various forms of incentive programmes. First and foremost, by making
+the incentive payments and the rewarded behaviour transparent and
+
+
+onchain, we allay the concern people have that they are not being fairly
+rewarded or will not be fairly rewarded or that the wrong people are
+being rewarded. Transparency is one of the keys to the success of blockchain governance, and it is certainly a key to the success of regenerative
+public goods.
+As we noted earlier, there is also a class of DAOs that aims to bring
+about positive external outcomes. For example, outcomes that benefit
+the planet are clearly going to be desirable to many blockchain communities. Reflecting briefly on how such DAOs might be organised
+might be helpful.
+Just as one can create onchain incentives to contribute to one’s
+virtual community, contributions of external goods (external to the
+blockchain community) can also be incentivised. The interesting difference is that for positive externalities – and for positive contributions –
+one needs different strategies to confirm those external outcomes have
+been achieved and that the external contributions have been performed.
+This is a bit more complicated than confirming contributions and results
+within the DAO, where both are visible to DAO members. In the case
+of offchain contributions, some oracle or other form of decentralised
+confirmation tool would be required. We can even confirm contributions made on other chains, as there are cross-chain strategies for verifying states and actions.
+There are currently several protocols designed to confirm states and
+activities in external blockchains. We will touch on how such crosschain protocols work when we consider proof of storage. For now, we
+can say that the basic idea is to use ‘zero-knowledge proofs’22 to confirm
+certain activities or states on another chain – for example, the presence
+of financial reserves. Given such tools, one has transparent and reliable
+
+‘Zero-knowledge proofs’ are strategies for mathematically proving the possession of
+information by an information processing system without revealing the information itself.
+See Chapter 14 for a more in-depth explanation of ‘zero-knowledge proofs’.
+
+
+confirmation that contributions to other blockchain communities have,
+in fact, occurred.
+The possibilities for positive externalities are vast. For example, one
+might contribute financial resources to struggling online communities
+or provide programming assistance or instructional help and so on. The
+point is that insofar as cross-chain confirmations are possible, incentives
+can be structured in the same way that they are for internal incentives.
+This means that those positive externalities can also be regenerative. The idea is the same as before, except with an eye to incentivising
+regenerative goods for those who are external to the home blockchain
+community. The objective is to reward projects that continue to generate positive outcomes or outcomes that are regenerative, and thus lead
+to additional positive outcomes down the road, whether through education or the rewarding of successful meta strategies.
+Keep in mind that all of these DAO examples are also examples of
+human governance in action. In particular, they are examples of how
+blockchain technology can be leveraged to assist in human coordination. Just as the Byzantine Generals Problem was a problem of coordination, so too, problems of governance are problems of coordination.
+Things fall apart when people are not on the same page. For example,
+if people are waiting for their neighbour to contribute before they contribute, we have a classic coordination problem. The problem cannot
+be engineered entirely away; humans are complex social animals, after
+all, and coordinating them can be a bit like herding cats. Still, the right
+technologies can make the problem more manageable.
+What makes DAOs special? What enables them to coordinate
+human affairs better than traditional governance mechanisms? Well, let
+us reflect. Coordination requires that people be on the same page at the
+same time. It also requires that everyone knows that everyone else is on
+the same page. These are goals that the blockchain is uniquely designed
+to accomplish. Beyond this, coordination requires trust. It requires that
+we trust that everyone has the same information and that the information has not been corrupted. It also requires that we can trust that what
+
+
+is supposed to happen under specified conditions will happen. These
+are also properties that blockchain technologies are uniquely designed
+to achieve.
+Finally, however, coordination requires incentivisation. Like it or
+not, people want to know what is in it for them, and some coordination games do not properly incentivise our actions. In a simple
+prisoner’s dilemma game, there is a strong incentive to defect – to not
+be coordinated.23 DAOs can engineer coordination games in which
+people are rewarded simply for cooperating – for being in accord with
+the group. They can make cooperation the rational outcome and the
+attractive outcome.
+
+6.6 Applying these technologies to human governance
+In this and the previous chapter, we talked about the basics of blockchain technologies, smart contracts and DAOs. However, we have only
+glossed over how we might apply these technologies to the general
+problem of human governance and our vision of the post-Westphalian
+order. It is still too early to give the complete picture in this chapter because we have lots of ground to cover regarding the limitations
+of current forms of governance and the governance problems that we
+hope to solve. That said, perhaps it is not too early to provide a preliminary picture of how these technologies might be incorporated into
+methods of human governance.
+To start with a simple example, let us consider a smaller unit of
+government – an HOA. As we saw in Chapter 3, HOAs are important
+players in the landscape of human governance. They are also a mess.
+Understanding that HOAs are governance structures for residential communities, how would blockchain technology be applied to their
+Steven Kuhn, ‘Prisoner’s Dilemma’, Stanford Encyclopedia of Philosophy (Stanford, CA,
+1997) <https://plato.stanford.edu/archives/win2019/entries/prisoner-dilemma/> [accessed
+29 October 2024].
+
+
+governance? Well, one of the principal features would involve the use
+of blockchain-grounded immutable archives, which would be accessible
+to everyone in the community. If you are a member of an HOA, you
+can, at any time of the day or night, check online to see a record of the
+activities of the HOA governance. You can also be sure that the archives
+were not tampered with.
+As for the governance mechanism itself, it might involve some
+combination of smart contracts and human governance – smart contracts that would execute tasks like fee calculations and requests for
+payment, as well as incentives for certain kinds of positive behaviours.
+After all, our HOA may be intentionally structured to promote positive
+outcomes by incentivising members to support the wellbeing of the
+community. If human administrators are part of the HOA, they may be
+elected by the community, and the voting could take place onchain via
+a smart contract. Everyone could see that the election was fair and that
+no one had tampered with the votes.
+The communications between HOA leaders would be onchain and
+visible to all community members. All such communications would be
+recorded on the blockchain and immutable for all practical purposes.
+However, beyond a record of votes and communications among leaders,
+there would also be a record of communications between community
+leaders and other citizens. This could involve complaints about service
+or the proper interpretation of community policies.
+To be sure, there are laws today (like Florida’s ‘Sunshine’ Law)
+that require governing officials to only communicate in public forums.
+Blockchain technologies would allow additional communication channels that could be widely accessible and, at the same time, impossible
+to tamper with. In other words, communications would not have to be
+limited to public meetings, but open communications could also be
+possible in online channels.
+In short, blockchain technologies would serve as the central nervous
+system of the community, but a central nervous system to which everyone in the community has access. Does this mean that there will be no
+
+
+drama? No, but it means that actions, policies and disputes should be
+more transparent, and the record of those actions, policies and disputes
+should be more secure. Smart contracts will automate some functions,
+which as you will recall are themselves transparent and onchain. The
+execution of the smart contract will be visible to all.
+Finally, blockchain technologies will afford ways to implement
+game-theoretic strategies in which people can be confident their contributions to the community will be rewarded in a fair and appropriately generous manner. No one will be taking advantage of their
+contributions.
+This is just one illustration of how blockchain technologies might
+be applied to human governance. Our idea is that this basic concept
+can be extended to all forms of human governance – from nation-state
+equivalents (for example, cyberstates) to global organisations like the
+European Union and down to the tiniest governance structures (like
+the administration of a single condo building).
+For example, consider a large governmental unit the size of the
+United States that is organised around blockchain technologies. The
+picture would unfold as in the case of HOAs, only on a much grander
+scale. Voting, for example, would be via smart contracts, the operations
+of which would be transparent to all. Some of the voted-for policies
+would also be instituted by smart contracts and thus guaranteed to
+take place (a tax cut or tax increase, for example). Incentive payouts for
+community contributions would also be transparent and, in some cases,
+guaranteed by smart contracts. As for the role of the governmental leaders (in effect, DAO leaders), their communications would be onchain,
+as would be the record of the interpretation of enacted policies.
+You may have your doubts, which is understandable because we
+have yet to fully explore the abilities and limits of the technologies that
+we are discussing. Furthermore, none of this is to say that all problems of governance are solved, but it is to say that the situation can be
+improved significantly from where it is today.
+
+
+Given the press that crypto has been receiving for the past decade,
+the claims made in this chapter may sound remarkable. Is crypto not
+supposed to be the favourite tool of drug dealers and terrorists and
+human traffickers? And above all, is it not supposed to be an ideal vehicle for money laundering? How can we say that blockchain technologies are the future of governance rather than the future of crime? In
+the next chapter, we take up the phenomenon of money laundering
+– or illicit financial flows – and build the case that, contrary to what
+the popular press exclaims, centralised governance is the source of the
+problem, and ultimately, blockchain technology will be the solution to
+the problem.
+
