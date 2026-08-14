@@ -25,6 +25,7 @@
 
 - **Broken verb/noun government inside long abstract sentences** (naturalness, 13 hits, 2 major). «открыть вам пути делать то…» — «путь» не присоединяет голый инфинитив; «Будущее у мира … возможно лишь такое, в котором» — подлежащее и сказуемое разорваны длинной вставкой и не согласуются. Rule: in sentences with a parenthetical insertion or an abstract head noun (путь, будущее, возможность), re-check the government chain after drafting — the noun must actually license what follows; if subject and predicate end up separated by a long insertion, recast as a conditional/if-clause («Если у … есть будущее, то лишь такое, где…») instead of preserving EN word order.
 - **Mechanics minors still leak in threes** (mechanics, 3 hits, all minor; digest kept no samples). Rule: before submitting a chunk, run the mechanics micro-pass separately from the style reread — punctuation around «—» insertions, footnote-marker placement after closing punctuation, and list-item end punctuation are the usual suspects.
+- **v2 pass: naturalness is still the residual leak, but shrinking** (naturalness, 3 hits, all minor; digest kept no samples; down from 13 in v1). Same class as the v1 majors — EN sentence shape surviving in long abstract sentences. Rule: the fixes hold, but the «сказал бы так русский автор?» reread plus the verb-government check stay mandatory on every chunk even in revision passes — minors persist precisely in sentences already reworked once.
 
 ## chapter_04_new_conceptual_foundations
 
