@@ -137,17 +137,24 @@ async function runChapter(chapter) {
   const batchStats = []
 
   for (let bi = 0; bi < chapter.batches.length; bi++) {
-    const ids = chapter.batches[bi]
-    // Pass 1: translate (translator self-runs the deterministic gate)
-    let trans = await agent(translatorPrompt(ch, ids),
-      { label: `tr:${short}:b${bi}`, phase: 'Translate', schema: TRANS_SCHEMA })
-    if (!trans) { escalated.push(...ids.map((c) => ({ chunk: c, reason: 'translator agent died' }))); continue }
+    // A batch is either a plain array of chunk ids (translate all), or
+    // {ids, translate} where translate ⊆ ids lists the chunks still needing
+    // translation ([] = judge-only: parts already on disk from a prior run).
+    const b = chapter.batches[bi]
+    const ids = Array.isArray(b) ? b : b.ids
+    const toTranslate = Array.isArray(b) ? b : (b.translate || [])
+    if (toTranslate.length > 0) {
+      // Pass 1: translate (translator self-runs the deterministic gate)
+      let trans = await agent(translatorPrompt(ch, toTranslate),
+        { label: `tr:${short}:b${bi}`, phase: 'Translate', schema: TRANS_SCHEMA })
+      if (!trans) { escalated.push(...toTranslate.map((c) => ({ chunk: c, reason: 'translator agent died' }))); continue }
 
-    // Retry chunks whose gate failed without a credible justification
-    const gateFails = (trans.chunks || []).filter((c) => !c.gate_ok && !(c.gate_note && c.gate_note.length > 20))
-    for (const gf of gateFails) {
-      await agent(translatorPrompt(ch, [gf.id], '\nNOTE: previous attempt failed the alignment gate — check for dropped sentences/footnote markers.'),
-        { label: `tr-retry:${short}:${gf.id}`, phase: 'Translate', schema: TRANS_SCHEMA })
+      // Retry chunks whose gate failed without a credible justification
+      const gateFails = (trans.chunks || []).filter((c) => !c.gate_ok && !(c.gate_note && c.gate_note.length > 20))
+      for (const gf of gateFails) {
+        await agent(translatorPrompt(ch, [gf.id], '\nNOTE: previous attempt failed the alignment gate — check for dropped sentences/footnote markers.'),
+          { label: `tr-retry:${short}:${gf.id}`, phase: 'Translate', schema: TRANS_SCHEMA })
+      }
     }
 
     // Judge: 3 personas in parallel
@@ -213,5 +220,14 @@ Return JSON {assembled: true/false, footnotes_ok: true/false, seams_ok: true/fal
 
 const input = typeof args === 'string' ? JSON.parse(args) : args
 if (!input || !input.chapters) throw new Error('args.chapters missing — pass {chapters:[{id,batches}]}')
-const chapterResults = await parallel(input.chapters.map((c) => () => runChapter(c)))
-return { chapters: chapterResults.filter(Boolean) }
+// Waves of 4 chapters: keeps agent slots concentrated so chapters close and
+// commit early — an interruption leaves few half-done chapters, not all of them.
+const WAVE = 4
+const chapterResults = []
+for (let i = 0; i < input.chapters.length; i += WAVE) {
+  const wave = input.chapters.slice(i, i + WAVE)
+  log(`wave ${i / WAVE + 1}: ${wave.map((c) => c.id.split('_')[1]).join(', ')}`)
+  const r = await parallel(wave.map((c) => () => runChapter(c)))
+  chapterResults.push(...r.filter(Boolean))
+}
+return { chapters: chapterResults }
