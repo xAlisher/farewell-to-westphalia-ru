@@ -1,0 +1,42 @@
+{
+ "total": 22,
+ "by_cat": {
+  "accuracy": 7,
+  "addition": 1,
+  "naturalness": 10,
+  "mechanics": 1,
+  "terminology": 2,
+  "omission": 1
+ },
+ "by_sev": {
+  "minor": 21,
+  "major": 1
+ },
+ "samples": [
+  {
+   "chunk_id": "04-013",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "these communities can be decentralised yet cooperative",
+   "tgt_span": "могут быть децентрализованными — и при этом кооперативными",
+   "note": "Фирменная формула книги зафиксирована в глоссарии как «децентрализованный, но кооперативный»; глоссарий прямо запрещает заменять союз «но» («Союз «но» (напряжение!) не заменять на «и»»). «— и при этом» размывает фиксированную формулу, которая должна звучать одинаково по всей книге.",
+   "fix_hint": "«такие сообщества могут быть децентрализованными, но кооперативными — благодаря тому, что…»",
+   "judge": 2
+  }
+ ],
+ "escalated": [],
+ "assembly": {
+  "chunks_expected": 16,
+  "chunks_found": 16,
+  "chunk_order": "per work/chunks/chapter_04_new_conceptual_foundations.json (04-000..04-013 body, 04-N00..04-N01 notes)",
+  "footnotes": "body markers continuous 1..17, each has a definition under «## Примечания» (N00: 1-10, N01: 11-17)",
+  "headings": "hierarchy intact: # 4 → ## 4.1/4.2/4.3/4.4 with ### 4.3.1-4.3.3, final ## Примечания",
+  "seams_checked": [
+   "04-000→04-001: desiderata paragraph continues with «Но этим наши пожелания не исчерпываются» — clean",
+   "04-003→04-004: «Вот что он писал в манифесте:» → blockquote — clean",
+   "04-012→04-013: Post quote closes, «Эти эссе писались в 1990-е» resumes — clean"
+  ],
+  "notes_fixes_verified": "major terminology fix applied in 04-013: «децентрализованными, но кооперативными»",
+  "result": "assembled OK, no duplicated or missing text at seams"
+ }
+}
