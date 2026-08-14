@@ -1,0 +1,107 @@
+{
+ "total": 39,
+ "by_cat": {
+  "accuracy": 4,
+  "addition": 4,
+  "naturalness": 20,
+  "register": 2,
+  "omission": 1,
+  "mechanics": 3,
+  "terminology": 5
+ },
+ "by_sev": {
+  "minor": 33,
+  "major": 6
+ },
+ "samples": [
+  {
+   "chunk_id": "12-009",
+   "cat": "naturalness",
+   "sev": "major",
+   "src_span": "You cannot clarify something if you have lost track of what it is that needs clarification.",
+   "tgt_span": "Нельзя прояснить то, о чём вы уже не помните, чтó именно требовало прояснения.",
+   "note": "Syntactic contamination: «прояснить то, о чём вы не помните, чтó требовало прояснения» — the nested relative clause misfires and the sentence does not parse as grammatical Russian; an editor would always rewrite.",
+   "fix_hint": "«Невозможно что-то прояснить, если вы уже не помните, что именно требовало прояснения.»",
+   "judge": 1
+  },
+  {
+   "chunk_id": "12-013",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "cross-chain proofs should be possible",
+   "tgt_span": "кросс-чейн-доказательства позволят проверить",
+   "note": "«кросс-чейн» — запрещённый вариант по глоссарию; канонично слитно «кроссчейн» (пример глоссария: cross-chain proof -> кроссчейн-доказательство)",
+   "fix_hint": "заменить на «кроссчейн-доказательства»",
+   "judge": 2
+  },
+  {
+   "chunk_id": "12-017",
+   "cat": "naturalness",
+   "sev": "major",
+   "src_span": "strategies for dealing with noncooperative communities",
+   "tgt_span": "к теме стратегий обращения с несотрудничающими сообществами",
+   "note": "«Несотрудничающими» — искусственное причастие-калька, по-русски так не говорят; плюс родительная цепочка «теме стратегий обращения с». Редактор поправит всегда.",
+   "fix_hint": "«к вопросу, как быть с сообществами, которые отказываются сотрудничать» (далее по тексту термин можно сократить до «несговорчивых сообществ»)",
+   "judge": 1
+  },
+  {
+   "chunk_id": "12-020",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "prevent disputes from becoming kinetic",
+   "tgt_span": "удержать споры от перехода в горячую фазу",
+   "note": "Glossary mandates «кинетический» for kinetic (warfare/conflict) and explicitly forbids the «горячая война»-type rendering; «горячая фаза» drops the military euphemism the authors deliberately use (note: «сохранять как эвфемизм»), and the next chapter builds on this term.",
+   "fix_hint": "«удержать споры от перехода в кинетическую фазу» (или «от того, чтобы стать кинетическими»)",
+   "judge": 0
+  },
+  {
+   "chunk_id": "12-020",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "prevent disputes from becoming kinetic",
+   "tgt_span": "удержать споры от перехода в горячую фазу",
+   "note": "Глоссарий требует сохранять военный эвфемизм «кинетический»; «горячая война/фаза» прямо в forbidden_variants — эвфемизм стёрт",
+   "fix_hint": "«…что они помогут не дать спорам перейти в кинетическую фазу» (или «стать кинетическими»)",
+   "judge": 1
+  },
+  {
+   "chunk_id": "12-020",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "prevent disputes from becoming kinetic",
+   "tgt_span": "удержать споры от перехода в горячую фазу",
+   "note": "Glossary fixes kinetic (warfare/conflict) as «кинетический» and forbids the «горячая война» rendering; the note requires preserving the military euphemism. «Горячая фаза» drops the euphemism and breaks consistency with chapter 13 where the term recurs.",
+   "fix_hint": "«удержать споры от перехода в кинетическую фазу» (или «от того, чтобы стать кинетическими»)",
+   "judge": 2
+  }
+ ],
+ "escalated": [],
+ "assembly_checks": {
+  "chunks_total": 22,
+  "body_chunks": 21,
+  "notes_chunks": 1,
+  "all_parts_present": true,
+  "footnotes_body_markers": "1..8 continuous",
+  "footnotes_all_defined": true,
+  "headings": [
+   "# 12",
+   "## 12.1",
+   "## 12.2",
+   "## 12.3",
+   "## 12.4",
+   "## Примечания"
+  ],
+  "seams_read": [
+   "12-002/12-003",
+   "12-009/12-010",
+   "12-019/12-020"
+  ],
+  "seams_clean": true,
+  "major_fixes_verified_in_parts": [
+   "12-009",
+   "12-013",
+   "12-017",
+   "12-020"
+  ]
+ }
+}
