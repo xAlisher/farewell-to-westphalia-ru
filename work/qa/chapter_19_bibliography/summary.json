@@ -17,8 +17,9 @@
       "note": "Bibliography chapter: no footnotes by design"
     },
     "headings": "single H1 '# Библиография' in 19-000; no notes section needed",
-    "seams_checked": ["19-000/19-001", "19-007/19-008", "19-011/19-012"],
+    "seams_checked": ["all 14 seams read in full", "19-000/19-001", "19-007/19-008", "19-013/19-014"],
     "seams_ok": true,
+    "alpha_order": "alphabetical entry order preserved across every seam; no duplicated or dropped entries vs EN chunks",
     "output": "work/ru-draft/chapter_19_bibliography.md",
     "output_chars": 31240
   }
