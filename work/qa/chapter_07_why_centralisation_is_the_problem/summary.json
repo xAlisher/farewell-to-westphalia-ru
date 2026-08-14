@@ -1,0 +1,90 @@
+{
+  "total": 44,
+  "by_cat": {
+    "addition": 2,
+    "accuracy": 6,
+    "omission": 3,
+    "naturalness": 27,
+    "mechanics": 2,
+    "terminology": 4
+  },
+  "by_sev": {
+    "minor": 39,
+    "major": 5
+  },
+  "samples": [
+    {
+      "chunk_id": "07-006",
+      "cat": "accuracy",
+      "sev": "major",
+      "src_span": "for every dollar they spend on financial crimes",
+      "tgt_span": "на каждый доллар, потраченный на финансовые преступления",
+      "note": "По-русски читается как доллар, потраченный НА совершение преступлений; в источнике — доллар, потраченный на борьбу с ними. Контекст спасает лишь отчасти, читатель спотыкается.",
+      "fix_hint": "«на каждый доллар, потраченный на борьбу с финансовыми преступлениями»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "07-007",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "worldwide approach to the application of anti-money laundering (AML) policies",
+      "tgt_span": "как по всему миру применяется борьба с отмыванием денег (AML)",
+      "note": "Сочетаемостный сбой: «применяется борьба» — борьбу ведут, а применяют меры. Возник из-за выпавшего 'policies'; редактор такое правит всегда.",
+      "fix_hint": "«как по всему миру применяются меры борьбы с отмыванием денег (AML)»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "07-008",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "in no position to lobby against the policies",
+      "tgt_span": "которым нечем лоббировать против таких мер",
+      "note": "Калька: «лоббировать против» — английское управление (lobby against); по-русски лоббируют что-то, а не против чего-то, и «нечем лоббировать» звучит как инструмент без глагола. Редактор такое правит всегда.",
+      "fix_hint": "«у которых нет никаких рычагов, чтобы противостоять таким мерам» / «которым нечем ответить на такие меры»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "07-016",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "Where Is the Wealth of Nations?",
+      "tgt_span": "«Где богатство наций?»",
+      "note": "proper-nouns.json fixes the title as «Где богатство народов?» (echoing Smith's «Богатство народов»); RU renders it «наций»",
+      "fix_hint": "replace with «Где богатство народов?» (*Where Is the Wealth of Nations?*)",
+      "judge": 0
+    },
+    {
+      "chunk_id": "07-016",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "Where Is the Wealth of Nations?",
+      "tgt_span": "«Где богатство наций?»",
+      "note": "proper-nouns.json canonical form is «Где богатство народов?» (echoing Смита «Богатство народов»); RU uses «наций»",
+      "fix_hint": "replace with «Где богатство народов?» (*Where Is the Wealth of Nations?*)",
+      "judge": 2
+    }
+  ],
+  "escalated": [],
+  "assembly": {
+    "assembled": true,
+    "chunks_total": 25,
+    "body_chunks": 21,
+    "notes_chunks": 4,
+    "missing_parts": [],
+    "footnotes": {
+      "body_markers": 31,
+      "continuous_1_to_n": true,
+      "note_entries": 31,
+      "markers_without_entry": [],
+      "entries_without_marker": [],
+      "duplicate_markers": []
+    },
+    "headings": {
+      "h1": 1,
+      "h2_sections": ["7.1", "7.2", "7.3", "7.4", "7.5", "7.6", "7.7", "7.8", "Примечания"],
+      "hierarchy_intact": true
+    },
+    "seams_checked": ["07-005/07-006", "07-012/07-013", "07-018/07-019/07-020"],
+    "seams_ok": true
+  }
+}
