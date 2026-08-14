@@ -1,0 +1,57 @@
+{
+ "total": 36,
+ "by_cat": {
+  "accuracy": 5,
+  "addition": 3,
+  "omission": 2,
+  "naturalness": 20,
+  "mechanics": 4,
+  "terminology": 2
+ },
+ "by_sev": {
+  "minor": 35,
+  "major": 1
+ },
+ "samples": [
+  {
+   "chunk_id": "03-013",
+   "cat": "naturalness",
+   "sev": "major",
+   "src_span": "the most visible forms of human government",
+   "tgt_span": "самые заметные формы человеческого правительства",
+   "note": "«Формы человеческого правительства» — калька; «человеческое правительство» по-русски не говорят, «правительство» не образует форм. Редактор исправит всегда.",
+   "fix_hint": "«Эти уровни власти — самые заметные из форм, в которых люди себя организуют» или «самые заметные формы официальной власти»",
+   "judge": 1
+  }
+ ],
+ "escalated": [],
+ "assembly": {
+  "chunks_total": 23,
+  "body_chunks": 21,
+  "notes_chunks": 2,
+  "parts_missing": [],
+  "footnotes": {
+   "markers_in_body": 16,
+   "continuous_1_to_n": true,
+   "monotonic_order": true,
+   "note_defs": 16,
+   "defs_match_markers": true
+  },
+  "headings": [
+   "# 3. Постгосударственное управление",
+   "## 3.1 Предварительные замечания",
+   "## 3.2 Несколько примеров из кембрийского взрыва",
+   "## 3.3 Шардирования недостаточно",
+   "## Примечания"
+  ],
+  "headings_ok": true,
+  "seams_checked": [
+   "03-002/03-003",
+   "03-007/03-008",
+   "03-019/03-020"
+  ],
+  "seams_ok": true,
+  "output": "work/ru-draft/chapter_03_post_state_governance.md",
+  "output_chars": 39082
+ }
+}
