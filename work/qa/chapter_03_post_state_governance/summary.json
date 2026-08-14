@@ -1,57 +1,49 @@
 {
- "total": 36,
- "by_cat": {
-  "accuracy": 5,
-  "addition": 3,
-  "omission": 2,
-  "naturalness": 20,
-  "mechanics": 4,
-  "terminology": 2
- },
- "by_sev": {
-  "minor": 35,
-  "major": 1
- },
- "samples": [
-  {
-   "chunk_id": "03-013",
-   "cat": "naturalness",
-   "sev": "major",
-   "src_span": "the most visible forms of human government",
-   "tgt_span": "самые заметные формы человеческого правительства",
-   "note": "«Формы человеческого правительства» — калька; «человеческое правительство» по-русски не говорят, «правительство» не образует форм. Редактор исправит всегда.",
-   "fix_hint": "«Эти уровни власти — самые заметные из форм, в которых люди себя организуют» или «самые заметные формы официальной власти»",
-   "judge": 1
-  }
- ],
- "escalated": [],
- "assembly": {
-  "chunks_total": 23,
-  "body_chunks": 21,
-  "notes_chunks": 2,
-  "parts_missing": [],
-  "footnotes": {
-   "markers_in_body": 16,
-   "continuous_1_to_n": true,
-   "monotonic_order": true,
-   "note_defs": 16,
-   "defs_match_markers": true
+  "total": 32,
+  "by_cat": {
+    "accuracy": 4,
+    "addition": 2,
+    "omission": 3,
+    "naturalness": 17,
+    "mechanics": 3,
+    "terminology": 3
   },
-  "headings": [
-   "# 3. Постгосударственное управление",
-   "## 3.1 Предварительные замечания",
-   "## 3.2 Несколько примеров из кембрийского взрыва",
-   "## 3.3 Шардирования недостаточно",
-   "## Примечания"
+  "by_sev": {
+    "minor": 31,
+    "major": 1
+  },
+  "samples": [
+    {
+      "chunk_id": "03-015",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "raising hands versus secret ballots",
+      "tgt_span": "поднятие рук — или тайный бюллетень",
+      "note": "«тайный бюллетень» — калька с secret ballot; по-русски тайным бывает голосование, а не бюллетень; редактор всегда поправит",
+      "fix_hint": "«поднятие рук — или тайное голосование (бюллетенями)»",
+      "judge": 1
+    }
   ],
-  "headings_ok": true,
-  "seams_checked": [
-   "03-002/03-003",
-   "03-007/03-008",
-   "03-019/03-020"
-  ],
-  "seams_ok": true,
-  "output": "work/ru-draft/chapter_03_post_state_governance.md",
-  "output_chars": 39082
- }
+  "escalated": [],
+  "assembly": {
+    "chunks_expected": 23,
+    "chunks_found": 23,
+    "missing_chunks": [],
+    "footnotes_body": "1..16 continuous, in order",
+    "footnotes_defs": "1..16, all present under '## Примечания'",
+    "headings": [
+      "# 3. Постгосударственное управление",
+      "## 3.1 Предварительные замечания",
+      "## 3.2 Несколько примеров из кембрийского взрыва",
+      "## 3.3 Шардирования недостаточно",
+      "## Примечания"
+    ],
+    "seams_checked": [
+      "03-003/03-004",
+      "03-007/03-008",
+      "03-011/03-012"
+    ],
+    "seams_ok": true,
+    "notes_on_seams": "03-007 list intro flows into 03-008 list; 03-011 introduces «шардирование», 03-012 defines it without duplication; no repeated or missing text at any checked seam. Major finding from 03-015 already fixed in the part on disk."
+  }
 }
