@@ -1,0 +1,28 @@
+{
+ "total": 36,
+ "by_cat": {
+  "accuracy": 7,
+  "naturalness": 24,
+  "register": 1,
+  "mechanics": 3,
+  "omission": 1
+ },
+ "by_sev": {
+  "minor": 36
+ },
+ "samples": [],
+ "escalated": [],
+ "assembly": {
+  "chunks_expected": 26,
+  "chunks_found": 26,
+  "chunk_order": "per work/chunks/chapter_09_exit_exile_and_access.json (09-000..09-024 body, 09-N00 notes)",
+  "footnotes": "body markers continuous 1..8, each has a definition under «## Примечания» (N00: 1-8)",
+  "headings": "hierarchy intact: # 9 → ## 9.1/9.2/9.3/9.4, final ## Примечания",
+  "seams_checked": [
+   "09-004→09-005: intro closes on «экосистему, в которой им предстоит жить», ## 9.2 Выход opens — clean",
+   "09-011→09-012: «ценность … целиком из него не вынести» → «Если вы оказались в особенно тираническом блокчейн-сообществе» — clean",
+   "09-020→09-021: «Какие страховочные сетки должны быть у изгнанных?» → «Суть проблемы в том, что, разрешая изгнание…» — clean"
+  ],
+  "result": "assembled OK, no duplicated or missing text at seams"
+ }
+}
