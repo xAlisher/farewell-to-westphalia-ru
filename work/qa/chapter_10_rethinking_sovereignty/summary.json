@@ -1,0 +1,80 @@
+{
+  "total": 37,
+  "by_cat": {
+    "accuracy": 3,
+    "naturalness": 26,
+    "mechanics": 1,
+    "addition": 2,
+    "register": 2,
+    "terminology": 3
+  },
+  "by_sev": {
+    "minor": 33,
+    "major": 4
+  },
+  "samples": [
+    {
+      "chunk_id": "10-010",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "As a next step in understanding sovereignty, let us distinguish",
+      "tgt_span": "Следующий шаг в понимании суверенитета — различим",
+      "note": "Анаколуф: именной зачин «Следующий шаг —» сломан глаголом 1-го лица «различим»; синтаксически несогласованная фраза, редактор исправит всегда.",
+      "fix_hint": "«Следующий шаг в понимании суверенитета — различить суверенитет де-факто и де-юре» либо «Сделаем следующий шаг: различим…»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "10-011",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "the idea of a nation state is not incoherent",
+      "tgt_span": "идея национального государства, возможно, и не бессвязна",
+      "note": "Калька с «incoherent»: по-русски «бессвязной» бывает речь, а не концепция; о понятии так не говорят.",
+      "fix_hint": "«…возможно, и не лишена смысла» / «не так уж несостоятельна»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "10-021",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "particularly if NGOs and others are willing to step in",
+      "tgt_span": "особенно если НКО и другие организации",
+      "note": "Glossary renders NGO as «НПО»; «НКО» is an explicitly forbidden variant (Russian legal category, wrong referent).",
+      "fix_hint": "заменить «НКО» на «НПО»",
+      "judge": 0
+    },
+    {
+      "chunk_id": "10-021",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "particularly if NGOs and others are willing to step in",
+      "tgt_span": "особенно если НКО и другие организации",
+      "note": "«НКО» — запрещённый вариант по глоссарию (nongovernmental organisation -> НПО; «НКО» — российская правовая категория). Противоречит и 10-017 того же раздела, где верно «неправительственная организация (НПО)».",
+      "fix_hint": "заменить «НКО» на «НПО»",
+      "judge": 2
+    }
+  ],
+  "escalated": [],
+  "assembly_checks": {
+    "all_chunk_ids_have_parts": true,
+    "chunk_count": 26,
+    "body_chunks": 23,
+    "notes_chunks": 3,
+    "footnotes_continuous_1_to_21": true,
+    "each_marker_has_note_entry": true,
+    "no_stray_note_defs_in_body": true,
+    "headings_hierarchy_intact": true,
+    "headings": [
+      "# 10. Переосмысляя суверенитет",
+      "## 10.1 Предварительные замечания",
+      "## 10.2 Постгосударственный суверенитет",
+      "## 10.3 Формализуя новое видение суверенитета",
+      "## 10.4 Возвращаясь к территориальному суверенитету",
+      "## 10.5 Децентрализованные реестры собственности",
+      "## Примечания"
+    ],
+    "seams_read": ["10-004->10-005", "10-010->10-011", "10-021->10-022"],
+    "seams_ok": true,
+    "majors_verified_fixed_in_final_parts": ["10-010", "10-011", "10-021 (НКО->НПО)"]
+  }
+}
