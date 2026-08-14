@@ -1,28 +1,46 @@
 {
- "total": 36,
- "by_cat": {
-  "accuracy": 7,
-  "naturalness": 24,
-  "register": 1,
-  "mechanics": 3,
-  "omission": 1
- },
- "by_sev": {
-  "minor": 36
- },
- "samples": [],
- "escalated": [],
- "assembly": {
-  "chunks_expected": 26,
-  "chunks_found": 26,
-  "chunk_order": "per work/chunks/chapter_09_exit_exile_and_access.json (09-000..09-024 body, 09-N00 notes)",
-  "footnotes": "body markers continuous 1..8, each has a definition under «## Примечания» (N00: 1-8)",
-  "headings": "hierarchy intact: # 9 → ## 9.1/9.2/9.3/9.4, final ## Примечания",
-  "seams_checked": [
-   "09-004→09-005: intro closes on «экосистему, в которой им предстоит жить», ## 9.2 Выход opens — clean",
-   "09-011→09-012: «ценность … целиком из него не вынести» → «Если вы оказались в особенно тираническом блокчейн-сообществе» — clean",
-   "09-020→09-021: «Какие страховочные сетки должны быть у изгнанных?» → «Суть проблемы в том, что, разрешая изгнание…» — clean"
+  "total": 30,
+  "by_cat": {
+    "accuracy": 4,
+    "naturalness": 22,
+    "mechanics": 3,
+    "terminology": 1
+  },
+  "by_sev": {
+    "minor": 29,
+    "major": 1
+  },
+  "samples": [
+    {
+      "chunk_id": "09-007",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "should have been obvious to someone who joins a blockchain community based on the transparent smart contracts",
+      "tgt_span": "тому, кто вступает…, существование «золотых наручников» должно было быть очевидно заранее",
+      "note": "дательный «тому» повисает на двадцать слов до сказуемого, внутри — цепочка «на которых держится», финал — нагромождение «должно было быть очевидно»; редактор такую фразу перестроит всегда",
+      "fix_hint": "«Можно возразить: тот, кто вступает в сообщество, чьё управление держится на прозрачных смарт-контрактах, должен был заранее разглядеть „золотые наручники“»",
+      "judge": 1
+    }
   ],
-  "result": "assembled OK, no duplicated or missing text at seams"
- }
+  "escalated": [],
+  "assembly": {
+    "chunks_total": 26,
+    "body_chunks": 25,
+    "notes_chunks": 1,
+    "all_chunk_ids_have_parts": true,
+    "footnotes_continuous_1_to_n": true,
+    "footnote_count": 8,
+    "every_marker_has_note_entry": true,
+    "headings_hierarchy_intact": true,
+    "headings": [
+      "# 9. Выход, изгнание и доступ",
+      "## 9.1 Предварительные замечания",
+      "## 9.2 Выход",
+      "## 9.3 Изгнание",
+      "## 9.4 Доступ",
+      "## Примечания"
+    ],
+    "seams_checked": ["09-006/09-007", "09-011/09-012", "09-019/09-020"],
+    "seams_ok": true
+  }
 }
