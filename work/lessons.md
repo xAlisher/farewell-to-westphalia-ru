@@ -20,3 +20,8 @@
 ## chapter_18_about_the_authors
 
 - **Naturalness still dominates even in a two-paragraph bio page** (naturalness, 4 hits, all minor; digest kept no samples). Dense biographical sentences — stacked credentials, book titles, «came to X through Y» constructions — pull the translation back toward EN sentence shape. Rule: same «сказал бы так русский автор?» reread applies to bios; break credential chains into short Russian clauses with dashes rather than mirroring the EN participial pile-up.
+
+## chapter_17_values_and_the_technology_stack
+
+- **Broken verb/noun government inside long abstract sentences** (naturalness, 13 hits, 2 major). «открыть вам пути делать то…» — «путь» не присоединяет голый инфинитив; «Будущее у мира … возможно лишь такое, в котором» — подлежащее и сказуемое разорваны длинной вставкой и не согласуются. Rule: in sentences with a parenthetical insertion or an abstract head noun (путь, будущее, возможность), re-check the government chain after drafting — the noun must actually license what follows; if subject and predicate end up separated by a long insertion, recast as a conditional/if-clause («Если у … есть будущее, то лишь такое, где…») instead of preserving EN word order.
+- **Mechanics minors still leak in threes** (mechanics, 3 hits, all minor; digest kept no samples). Rule: before submitting a chunk, run the mechanics micro-pass separately from the style reread — punctuation around «—» insertions, footnote-marker placement after closing punctuation, and list-item end punctuation are the usual suspects.
