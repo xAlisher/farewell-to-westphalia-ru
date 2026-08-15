@@ -1,0 +1,40 @@
+{
+  "total": 13,
+  "by_cat": {
+    "accuracy": 2,
+    "naturalness": 10,
+    "addition": 1
+  },
+  "by_sev": {
+    "minor": 13
+  },
+  "samples": [],
+  "escalated": [],
+  "assembly": {
+    "chunks_expected": 24,
+    "chunks_assembled": 24,
+    "body_chunks": 23,
+    "notes_chunks": 1,
+    "missing_parts": [],
+    "footnotes": {
+      "body_markers": 9,
+      "note_definitions": 9,
+      "continuous_1_to_n": true,
+      "all_markers_defined": true,
+      "orphan_definitions": []
+    },
+    "headings": [
+      "# 16. Неизбежны ли блокчейн-сообщества?",
+      "## 16.1 Предварительные замечания",
+      "## 16.2 Семена киберуправления сегодня",
+      "## 16.3 Как нам взрастить блокчейн-управление",
+      "## 16.4 Почему технология осуществима",
+      "## 16.5 Почему люди будут пытаться строить блокчейн-сообщества",
+      "## Примечания"
+    ],
+    "headings_hierarchy_ok": true,
+    "seams_checked": ["16-003/16-004", "16-009/16-010", "16-014/16-015"],
+    "seams_ok": true,
+    "duplicated_paragraphs": 0
+  }
+}
