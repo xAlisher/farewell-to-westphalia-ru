@@ -1,0 +1,40 @@
+{
+  "total": 22,
+  "by_cat": {
+    "accuracy": 4,
+    "naturalness": 12,
+    "terminology": 4,
+    "addition": 1,
+    "register": 1
+  },
+  "by_sev": {
+    "minor": 21,
+    "major": 1
+  },
+  "samples": [
+    {
+      "chunk_id": "08-028",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "limited by a social smart contract",
+      "tgt_span": "ограниченное общественным смарт-контрактом",
+      "note": "The verbatim repeated Srinivasan definition is rendered inconsistently across the chapter: 08-028 uses the glossary-canonical «общественным смарт-контрактом», but the first occurrence of the identical blockquote in 08-008 has «социальным смарт-контрактом» — a glossary forbidden_variant. A quote cited twice must match word for word.",
+      "fix_hint": "Fix belongs in 08-008: change «социальным смарт-контрактом» to «общественным смарт-контрактом» so both blockquotes are identical and glossary-compliant; leave 08-028 as is.",
+      "judge": 2
+    }
+  ],
+  "escalated": [],
+  "assembly_checks": {
+    "chunks_expected": 32,
+    "chunks_found": 32,
+    "body_chunks": 30,
+    "notes_chunks": 2,
+    "missing_parts": [],
+    "footnotes_body_order": "1..18 continuous, no gaps or duplicates out of sequence",
+    "footnote_defs": "18 note entries under '## Примечания', one per marker, 1..18",
+    "headings": "H1 + five H2 (8.1–8.5), hierarchy matches EN source",
+    "seams_read": ["08-001/08-002", "08-013/08-014", "08-027/08-028"],
+    "seams_ok": true,
+    "major_finding_status": "verified fixed at assembly: both Srinivasan blockquotes (08-008 and 08-028) are byte-identical in the final draft and use the glossary-canonical «общественным смарт-контрактом»; grep for «социальн(ым|ыми) смарт-контракт» over the assembled chapter returns 0 hits"
+  }
+}
