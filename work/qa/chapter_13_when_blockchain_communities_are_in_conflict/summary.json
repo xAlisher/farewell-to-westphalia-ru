@@ -1,0 +1,70 @@
+{
+ "total": 19,
+ "by_cat": {
+  "accuracy": 3,
+  "naturalness": 10,
+  "mechanics": 2,
+  "omission": 1,
+  "terminology": 3
+ },
+ "by_sev": {
+  "minor": 16,
+  "major": 3
+ },
+ "samples": [
+  {
+   "chunk_id": "13-024",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "a sufficiently wealthy and powerful terrestrial community",
+   "tgt_span": "достаточно богатого и могущественного наземного сообщества",
+   "note": "Glossary renders terrestrial as «земной» (authors' contrast «земное — сетевое») and explicitly forbids «наземное»; RU uses forbidden variant.",
+   "fix_hint": "заменить на «земного сообщества»",
+   "judge": 0
+  },
+  {
+   "chunk_id": "13-024",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "a sufficiently wealthy and powerful terrestrial community",
+   "tgt_span": "у достаточно богатого и могущественного наземного сообщества",
+   "note": "Глоссарий требует «земной» для terrestrial (авторский иронический контраст «земное — сетевое»); «наземное» — прямо запрещённый вариант, звучит как военная техника.",
+   "fix_hint": "«...могущественного земного сообщества»",
+   "judge": 1
+  },
+  {
+   "chunk_id": "13-024",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "a sufficiently wealthy and powerful terrestrial community",
+   "tgt_span": "могущественного наземного сообщества",
+   "note": "«наземный» — запрещённый вариант для terrestrial (glossary: terrestrial government/authority → «земное», forbidden «наземное»); весь корпус последовательно использует «земной» (земные правительства, земные власти, земные границы), и глоссарий требует сохранять иронический обертон «земной»",
+   "fix_hint": "заменить на «земного сообщества»",
+   "judge": 2
+  }
+ ],
+ "escalated": [],
+ "assembly": {
+  "chunks_total": 26,
+  "body_parts": 25,
+  "notes_parts": 1,
+  "missing_parts": [],
+  "footnote_markers_in_body": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "markers_continuous_1_to_N": true,
+  "every_marker_has_note_entry": true,
+  "headings": [
+   "# 13. Когда блокчейн-сообщества конфликтуют",
+   "## 13.1 Предварительные замечания",
+   "## 13.2 Блокчейн-сообщества и психологические операции",
+   "## 13.3 Кинетические атаки на блокчейн-сообщества",
+   "## 13.4 Софтвар",
+   "## Примечания"
+  ],
+  "headings_hierarchy_ok": true,
+  "seams_checked": ["13-005/13-006", "13-011/13-012", "13-023/13-024"],
+  "seams_ok": true,
+  "forbidden_variant_check": "grep «наземн» over final draft and all parts: 0 hits — the 13-024 major was fixed in revision",
+  "draft_path": "work/ru-draft/chapter_13_when_blockchain_communities_are_in_conflict.md",
+  "draft_chars": 39034
+ }
+}
