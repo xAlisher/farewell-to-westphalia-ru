@@ -355,6 +355,11 @@ def html_head(title, description, url="", extra=""):
 <meta property="og:description" content="{escape(description)}">
 <meta property="og:type" content="book">
 <meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="{SITE_URL}/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{SITE_URL}/assets/og-image.jpg">
 <link rel="alternate" hreflang="en" href="{ENGLISH_URL}">
 <link rel="canonical" href="{url}">
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" as="style">
