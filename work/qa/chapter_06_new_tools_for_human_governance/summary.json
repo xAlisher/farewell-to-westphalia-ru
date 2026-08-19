@@ -1,0 +1,71 @@
+{
+  "total": 45,
+  "by_cat": {
+    "accuracy": 7,
+    "terminology": 7,
+    "naturalness": 24,
+    "mechanics": 4,
+    "addition": 1,
+    "register": 1,
+    "omission": 1
+  },
+  "by_sev": {
+    "minor": 41,
+    "major": 4
+  },
+  "samples": [
+    {
+      "chunk_id": "06-026",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "something like a condo board … many such condo associations",
+      "tgt_span": "домового правления … товариществ жильцов",
+      "note": "Американская реалия condo board/association русифицирована («домовое правление», «товарищества жильцов») — глоссарий требует «правление кондоминиума»/«ассоциация домовладельцев» и прямо запрещает подмену российскими реалиями (ТСЖ, товарищество собственников).",
+      "fix_hint": "«что-то вроде правления кондоминиума»; далее «множество таких ассоциаций домовладельцев / кондоминиумов»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "06-026",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "something like a condo board",
+      "tgt_span": "с чего-то вроде домового правления",
+      "note": "Glossary fixes condo board -> «правление кондоминиума»; chapters 1 and 3 already use «правления кондоминиумов» (01-006, 03-013, 03-015), so «домовое правление» breaks both glossary and cross-chapter consistency.",
+      "fix_hint": "«с чего-то вроде правления кондоминиума»",
+      "judge": 2
+    },
+    {
+      "chunk_id": "06-026",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "many such condo associations … individual condo associations",
+      "tgt_span": "множество таких товариществ жильцов … отдельных товариществ",
+      "note": "Glossary note for HOA/condo entry: «Не русифицировать американские реалии российскими правовыми формами» (forbidden class: ТСЖ, товарищество собственников); «товарищество жильцов» is exactly such a Russified form and clashes with «ассоциация домовладельцев / правление кондоминиума» used elsewhere.",
+      "fix_hint": "«множество таких ассоциаций жильцов кондоминиумов … со стороны отдельных ассоциаций»",
+      "judge": 2
+    },
+    {
+      "chunk_id": "06-027",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "the condo association could not create its own blockchain",
+      "tgt_span": "товарищество жильцов не могло бы создать собственный блокчейн",
+      "note": "Same defect as 06-026: «товарищество жильцов» (3 occurrences in this chunk: «товарищество жильцов», «доверимся товариществу» ×2) Russifies the American realia against the glossary note for the HOA/condo entry.",
+      "fix_hint": "«ассоциация жильцов кондоминиума»; далее «доверимся ассоциации»",
+      "judge": 2
+    }
+  ],
+  "escalated": [],
+  "assembly": {
+    "chunks_total": 44,
+    "body_parts": 41,
+    "notes_parts": 3,
+    "missing_parts": [],
+    "footnote_markers": "1..23 continuous, in order",
+    "footnote_defs": "1..23, one per marker, no duplicates",
+    "headings": "H1 + 6 section H2 (6.1–6.6) + ## Примечания — hierarchy intact",
+    "seams_checked": ["06-004/06-005", "06-016/06-017", "06-026/06-027"],
+    "seams_ok": true,
+    "notes": "Condo-board terminology fixes from the digest are applied in the final parts: assembled draft reads «ассоциаций домовладельцев / ассоциация домовладельцев» at 06-026/06-027."
+  }
+}
