@@ -355,6 +355,7 @@ def html_head(title, description, url="", extra=""):
 <meta property="og:description" content="{escape(description)}">
 <meta property="og:type" content="book">
 <meta property="og:locale" content="ru_RU">
+<meta property="og:url" content="{url}">
 <meta property="og:image" content="{SITE_URL}/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
