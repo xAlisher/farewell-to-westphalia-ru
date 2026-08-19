@@ -1,0 +1,64 @@
+{
+ "total": 19,
+ "by_cat": {
+  "addition": 1,
+  "naturalness": 12,
+  "terminology": 3,
+  "accuracy": 1,
+  "register": 1,
+  "mechanics": 1
+ },
+ "by_sev": {
+  "minor": 17,
+  "major": 2
+ },
+ "samples": [
+  {
+   "chunk_id": "15-029",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "need to stake assets, which can be forfeited",
+   "tgt_span": "должны внести активы в залог — и лишатся его",
+   "note": "Глоссарий фиксирует «стейкинг / активы в стейкинге» (глагол to stake -> «отправить/заблокировать в стейкинге»); «внести в залог» рвёт термин, тогда как в 15-010 той же главы стоит «заблокированных в стейкинге». Также ниже: «внесёт в залог ресурсы».",
+   "fix_hint": "«должны заблокировать активы в стейкинге — и лишатся их…»; далее «каждый заблокирует в стейкинге ресурсы, которых лишится…»",
+   "judge": 2
+  },
+  {
+   "chunk_id": "15-030",
+   "cat": "terminology",
+   "sev": "major",
+   "src_span": "they could lose their stake",
+   "tgt_span": "не сообщишь точные сведения — лишишься залога",
+   "note": "Тот же отход от глоссарного «стейкинг»: stake здесь — активы в стейкинге, а не залог; должно быть согласовано с 15-010 и глоссарием.",
+   "fix_hint": "«…лишишься активов в стейкинге» (или «своего стейка» не употреблять — только «активов в стейкинге»)",
+   "judge": 2
+  }
+ ],
+ "escalated": [],
+ "assembly_checks": {
+  "all_chunk_ids_have_parts": true,
+  "chunks_total": 43,
+  "body_chunks": 41,
+  "notes_chunks": 2,
+  "footnotes_continuous_1_to_N": true,
+  "footnote_count": 12,
+  "every_marker_has_note_entry": true,
+  "headings_hierarchy_intact": true,
+  "sections": [
+   "15.1",
+   "15.2",
+   "15.3",
+   "15.4",
+   "15.5",
+   "15.6",
+   "15.7",
+   "15.8"
+  ],
+  "seams_checked": [
+   "15-002/15-003",
+   "15-011/15-012",
+   "15-029/15-030"
+  ],
+  "seams_ok": true
+ }
+}
