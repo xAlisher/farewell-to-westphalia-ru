@@ -1,0 +1,1 @@
+{ "functions": { "api/suggest.js": { "maxDuration": 10 } } }
