@@ -19,6 +19,9 @@ TRANSLATIONS_DIR = ROOT / "translations" / "ru"
 DOCS_DIR = ROOT / "docs"
 CHAPTERS_DIR = DOCS_DIR / "chapters"
 ASSETS_DIR = DOCS_DIR / "assets"
+REVIEW_DIR = DOCS_DIR / "review"
+WORK_CHUNKS_DIR = ROOT / "work" / "chunks"
+WORK_RU_PARTS_DIR = ROOT / "work" / "ru-parts"
 
 SITE_TITLE = "Прощай, Вестфалия"
 SITE_SUBTITLE = "Криптосуверенитет и управление в постнациональную эпоху"
@@ -363,8 +366,8 @@ def html_head(title, description, url="", extra=""):
 
 def assets_path(url):
     """Return relative path to assets based on page depth."""
-    if "/chapters/" in url or url.endswith(("search.html", "about.html", "audiobook.html")):
-        return "../assets/" if "/chapters/" in url else "assets/"
+    if "/chapters/" in url or "/review/" in url:
+        return "../assets/"
     return "assets/"
 
 
@@ -560,6 +563,7 @@ def build_chapter(ch, chapters, idx):
 <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
 <button class="share-btn">Поделиться ↗</button>
 <a href="{ENGLISH_URL}" class="english-link">Читать по-английски →</a>
+<a href="../review/{filename}" class="english-link">⇄ Параллельный текст</a>
 </div>
 </div>
 {nav_html}
@@ -581,6 +585,157 @@ def build_chapter(ch, chapters, idx):
 </html>"""
 
     (CHAPTERS_DIR / filename).write_text(html, encoding="utf-8")
+
+
+def _review_block_html(md_text):
+    """Render one markdown block for the review page: neutral footnote refs, no heading ids."""
+    html = md_to_html(md_text)
+    # footnote markers become plain superscripts (no broken #fn- anchors here)
+    html = re.sub(r'<a href="#fn-\d+"[^>]*>(<sup>\d+</sup>)</a>', r"\1", html)
+    # avoid duplicate heading ids across EN/RU columns
+    html = re.sub(r'<(h[23]) id="[^"]*"', r"<\1", html)
+    return html
+
+
+def _split_blocks(text):
+    """Split markdown text into blocks on blank lines (footnote defs excluded)."""
+    blocks = []
+    for b in re.split(r"\n\s*\n", text):
+        b = b.strip()
+        if b and not re.match(r"^\[\^\d+\]:", b):
+            blocks.append(b)
+    return blocks
+
+
+def review_pairs(slug):
+    """Build aligned EN/RU block pairs for a chapter from the pipeline's chunks.
+
+    Returns list of (pair_id, chunk_id, en_html, ru_html) or None if the
+    chapter has no chunk data. Blocks pair 1:1 when counts match within a
+    chunk; otherwise the whole chunk becomes a single coarse pair.
+    """
+    chunks_file = WORK_CHUNKS_DIR / f"{slug}.json"
+    parts_dir = WORK_RU_PARTS_DIR / slug
+    if not chunks_file.exists() or not parts_dir.is_dir():
+        return None
+    chunks = json.loads(chunks_file.read_text(encoding="utf-8"))
+    pairs = []
+    for chunk in chunks:
+        cid = chunk["id"]
+        part_file = parts_dir / f"{cid}.md"
+        if not part_file.exists():
+            continue
+        en_blocks = _split_blocks(chunk["text"])
+        ru_blocks = _split_blocks(part_file.read_text(encoding="utf-8"))
+        if len(en_blocks) == len(ru_blocks):
+            for k, (en_b, ru_b) in enumerate(zip(en_blocks, ru_blocks)):
+                pairs.append((f"{cid}-{k}", cid, _review_block_html(en_b), _review_block_html(ru_b)))
+        else:
+            pairs.append((cid, cid,
+                          _review_block_html("\n\n".join(en_blocks)),
+                          _review_block_html("\n\n".join(ru_blocks))))
+    return pairs
+
+
+REVIEW_CSS = """
+.rv-hint{font-size:14px;opacity:.7;margin:0 0 20px}
+.rv-grid{display:flex;flex-direction:column;gap:2px}
+.rv-row{display:grid;grid-template-columns:1fr 1fr;gap:0 32px;padding:6px 10px;
+  border-radius:8px;transition:background .12s}
+.rv-row.rv-hl{background:rgba(100,120,255,.10);outline:1px solid rgba(100,120,255,.25)}
+.rv-en{color:#6b6b76;font-size:.93em}
+@media (prefers-color-scheme:dark){.rv-en{color:#9a9aa8}
+  .rv-row.rv-hl{background:rgba(130,150,255,.14)}}
+.rv-row p,.rv-row h2,.rv-row h3{margin-top:.4em;margin-bottom:.4em}
+.rv-head{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px}
+.rv-colhead{display:grid;grid-template-columns:1fr 1fr;gap:0 32px;padding:0 10px 8px;
+  font-size:13px;text-transform:uppercase;letter-spacing:.06em;opacity:.6;
+  position:sticky;top:0;background:inherit}
+@media (max-width:768px){
+  .rv-row,.rv-colhead{grid-template-columns:1fr;gap:6px}
+  .rv-colhead .rv-ch-ru{display:none}
+  .rv-en{border-left:3px solid rgba(120,120,140,.45);padding-left:12px}
+}
+.review-page main{max-width:1200px;margin:0 auto;padding:24px 16px}
+"""
+
+REVIEW_JS = """
+(function(){
+  var active=null;
+  function setHl(row,on){ if(row) row.classList.toggle('rv-hl',on); }
+  if (window.matchMedia('(hover: hover)').matches) {
+    document.addEventListener('mouseover',function(e){
+      var row=e.target.closest && e.target.closest('.rv-row');
+      if(row!==active){ setHl(active,false); setHl(row,true); active=row; }
+    });
+    document.addEventListener('mouseout',function(e){
+      if(!e.relatedTarget || !e.relatedTarget.closest('.rv-row')){ setHl(active,false); active=null; }
+    });
+  } else {
+    document.addEventListener('click',function(e){
+      var row=e.target.closest && e.target.closest('.rv-row');
+      if(!row) return;
+      if(window.getSelection && String(window.getSelection())) return; /* not while selecting */
+      if(row===active){ setHl(row,false); active=null; }
+      else { setHl(active,false); setHl(row,true); active=row; }
+    });
+  }
+})();
+"""
+
+
+def build_review_page(ch, chapters, idx):
+    """Generate a parallel EN/RU review page for a chapter. Returns True if built."""
+    slug = Path(ch["filepath"]).stem
+    pairs = review_pairs(slug)
+    if not pairs:
+        return False
+    num = f"{ch['chapter_num']:02d}"
+    filename = f"chapter-{num}.html"
+    url = f"{SITE_URL}/review/{filename}"
+
+    rows = []
+    for pair_id, cid, en_html, ru_html in pairs:
+        rows.append(
+            f'<div class="rv-row" data-pair="{pair_id}">'
+            f'<div class="rv-en" data-chunk="{cid}" lang="en">{en_html}</div>'
+            f'<div class="rv-ru" data-chunk="{cid}" lang="ru">{ru_html}</div></div>'
+        )
+
+    prev_link = next_link = ""
+    if idx > 0:
+        prev_link = f'<a href="chapter-{chapters[idx-1]["chapter_num"]:02d}.html" class="prev">← Предыдущая</a>'
+    if idx < len(chapters) - 1:
+        next_link = f'<a href="chapter-{chapters[idx+1]["chapter_num"]:02d}.html" class="next">Следующая →</a>'
+
+    page_title = f'Рецензия: {ch["title"]} — {SITE_TITLE}'
+    html = f"""<!DOCTYPE html>
+<html lang="ru" class="review-page">
+{html_head(page_title, f'Параллельный текст EN/RU для вычитки перевода: {ch["title"]}', url,
+    f'<meta name="robots" content="noindex"><style>{REVIEW_CSS}</style>')}
+<body class="review-page">
+{site_header(depth=1)}
+<main>
+<div class="rv-head">
+<h1 style="font-size:1.35em;margin:0">Рецензия · {escape(ch["title"])}</h1>
+<a href="../chapters/{filename}">← обычный вид главы</a>
+</div>
+<p class="rv-hint">Наведите курсор (или тапните) на абзац — подсветится пара EN↔RU.
+Выделите фрагмент русского текста, чтобы предложить улучшение — оно уйдёт issue в репозиторий.</p>
+<nav class="chapter-nav">{prev_link}{next_link}</nav>
+<div class="rv-colhead"><span>English (оригинал)</span><span class="rv-ch-ru">Русский (перевод)</span></div>
+<div class="rv-grid">
+{"".join(rows)}
+</div>
+<nav class="chapter-nav">{prev_link}{next_link}</nav>
+</main>
+{site_footer(depth=1)}
+<script>{REVIEW_JS}</script>
+<script src="../assets/suggest.js"></script>
+</body>
+</html>"""
+    (REVIEW_DIR / filename).write_text(html, encoding="utf-8")
+    return True
 
 
 def build_search(chapters):
@@ -773,6 +928,7 @@ def main():
     # Ensure directories
     CHAPTERS_DIR.mkdir(parents=True, exist_ok=True)
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+    REVIEW_DIR.mkdir(parents=True, exist_ok=True)
 
     # Parse chapters
     chapter_files = get_chapter_files()
@@ -793,6 +949,9 @@ def main():
         build_chapter(ch, chapters, i)
         num = f"{ch['chapter_num']:02d}"
         print(f"  ✓ chapters/chapter-{num}.html")
+
+    n_review = sum(build_review_page(ch, chapters, i) for i, ch in enumerate(chapters))
+    print(f"  ✓ review/ — {n_review} parallel EN/RU pages")
 
     build_search(chapters)
     print("  ✓ search.html + search-index.json")

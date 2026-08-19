@@ -50,7 +50,7 @@
   style.textContent = css;
   document.head.appendChild(style);
 
-  var pop = null, overlay = null, savedSel = '';
+  var pop = null, overlay = null, savedSel = '', savedChunk = '';
 
   function removePop() {
     if (pop) { pop.remove(); pop = null; }
@@ -67,7 +67,12 @@
     if (!el.closest('.chapter-content, .footnotes, main')) return null;
     if (el.closest('.ftw-sg-ov, .ftw-sg-pop')) return null;
     var rect = sel.getRangeAt(0).getBoundingClientRect();
-    return { text: text.slice(0, MAX_SEL), rect: rect };
+    var chunkEl = el.closest('[data-chunk]');
+    return {
+      text: text.slice(0, MAX_SEL),
+      rect: rect,
+      chunk: chunkEl ? chunkEl.getAttribute('data-chunk') : ''
+    };
   }
 
   function showPop(info) {
@@ -81,6 +86,7 @@
     pop.addEventListener('mousedown', function (e) { e.preventDefault(); });
     pop.addEventListener('click', function () {
       savedSel = info.text;
+      savedChunk = info.chunk || '';
       removePop();
       openOverlay();
     });
@@ -121,7 +127,9 @@
     var p = pageInfo();
     var title = 'Предложение: ' + p.title.slice(0, 60) + ' — «' +
       savedSel.slice(0, 40) + (savedSel.length > 40 ? '…' : '') + '»';
-    var body = '**Страница:** ' + p.url + '\n\n**Фрагмент:**\n\n> ' +
+    var body = '**Страница:** ' + p.url +
+      (savedChunk ? '\n**Чанк:** `' + savedChunk + '`' : '') +
+      '\n\n**Фрагмент:**\n\n> ' +
       savedSel.replace(/\n/g, '\n> ') + '\n\n**Предложение:**\n\n' + suggestion +
       (email ? '\n\n**Email:** ' + email : '') +
       '\n\n---\n_Отправлено через форму «Предложить улучшение» на сайте._';
