@@ -589,6 +589,8 @@ def build_chapter(ch, chapters, idx):
 
 def _review_block_html(md_text):
     """Render one markdown block for the review page: neutral footnote refs, no heading ids."""
+    # md_to_html handles ##/### only; chunk texts start chapters with a # h1 line
+    md_text = re.sub(r"^#\s+", "## ", md_text, flags=re.MULTILINE)
     html = md_to_html(md_text)
     # footnote markers become plain superscripts (no broken #fn- anchors here)
     html = re.sub(r'<a href="#fn-\d+"[^>]*>(<sup>\d+</sup>)</a>', r"\1", html)
