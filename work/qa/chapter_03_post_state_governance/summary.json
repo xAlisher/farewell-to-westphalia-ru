@@ -1,0 +1,49 @@
+{
+  "total": 32,
+  "by_cat": {
+    "accuracy": 4,
+    "addition": 2,
+    "omission": 3,
+    "naturalness": 17,
+    "mechanics": 3,
+    "terminology": 3
+  },
+  "by_sev": {
+    "minor": 31,
+    "major": 1
+  },
+  "samples": [
+    {
+      "chunk_id": "03-015",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "raising hands versus secret ballots",
+      "tgt_span": "поднятие рук — или тайный бюллетень",
+      "note": "«тайный бюллетень» — калька с secret ballot; по-русски тайным бывает голосование, а не бюллетень; редактор всегда поправит",
+      "fix_hint": "«поднятие рук — или тайное голосование (бюллетенями)»",
+      "judge": 1
+    }
+  ],
+  "escalated": [],
+  "assembly": {
+    "chunks_expected": 23,
+    "chunks_found": 23,
+    "missing_chunks": [],
+    "footnotes_body": "1..16 continuous, in order",
+    "footnotes_defs": "1..16, all present under '## Примечания'",
+    "headings": [
+      "# 3. Постгосударственное управление",
+      "## 3.1 Предварительные замечания",
+      "## 3.2 Несколько примеров из кембрийского взрыва",
+      "## 3.3 Шардирования недостаточно",
+      "## Примечания"
+    ],
+    "seams_checked": [
+      "03-003/03-004",
+      "03-007/03-008",
+      "03-011/03-012"
+    ],
+    "seams_ok": true,
+    "notes_on_seams": "03-007 list intro flows into 03-008 list; 03-011 introduces «шардирование», 03-012 defines it without duplication; no repeated or missing text at any checked seam. Major finding from 03-015 already fixed in the part on disk."
+  }
+}

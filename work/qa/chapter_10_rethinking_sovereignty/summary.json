@@ -1,0 +1,37 @@
+{
+  "total": 25,
+  "by_cat": {
+    "accuracy": 2,
+    "naturalness": 19,
+    "mechanics": 1,
+    "terminology": 2,
+    "omission": 1
+  },
+  "by_sev": {
+    "minor": 25
+  },
+  "samples": [],
+  "escalated": [],
+  "assembly_checks": {
+    "all_chunk_ids_have_parts": true,
+    "chunk_count": 26,
+    "body_chunks": 23,
+    "notes_chunks": 3,
+    "footnotes_continuous_1_to_21": true,
+    "each_marker_has_note_entry": true,
+    "no_stray_note_defs_in_body": true,
+    "headings_hierarchy_intact": true,
+    "headings": [
+      "# 10. Переосмысляя суверенитет",
+      "## 10.1 Предварительные замечания",
+      "## 10.2 Постгосударственный суверенитет",
+      "## 10.3 Формализуя новое видение суверенитета",
+      "## 10.4 Возвращаясь к территориальному суверенитету",
+      "## 10.5 Децентрализованные реестры собственности",
+      "## Примечания"
+    ],
+    "seams_read": ["10-003->10-004", "10-012->10-013", "10-021->10-022", "10-004->10-005 (blockquote continuity)"],
+    "seams_ok": true,
+    "duplicate_seam_paragraphs": []
+  }
+}

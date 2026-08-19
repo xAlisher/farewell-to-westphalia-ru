@@ -1,0 +1,50 @@
+{
+  "total": 18,
+  "by_cat": {
+    "naturalness": 11,
+    "mechanics": 1,
+    "accuracy": 1,
+    "terminology": 4,
+    "addition": 1
+  },
+  "by_sev": {
+    "minor": 17,
+    "major": 1
+  },
+  "samples": [
+    {
+      "chunk_id": "05-027",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "Instead of getting to create a block by solving a cryptographic puzzle",
+      "tgt_span": "Право создать блок здесь даёт не решённая криптографическая головоломка",
+      "note": "«не решённая» на слух и на глаз сливается в «нерешённая головоломка» — читатель на миг понимает ровно наоборот; к тому же конструкция «даёт не X…» обещает «…а Y», а получает двоеточие. Редактор такое правит всегда.",
+      "fix_hint": "«Право создать блок здесь даёт не решение криптографической головоломки, а размер внесённой доли актива»",
+      "judge": 1
+    }
+  ],
+  "escalated": [],
+  "assembly": {
+    "chunks_total": 31,
+    "body_chunks": 28,
+    "notes_chunks": 3,
+    "missing_parts": [],
+    "footnotes": {
+      "body_markers": 24,
+      "continuous_1_to_n": true,
+      "note_defs": 24,
+      "defs_match_markers": true,
+      "duplicate_defs": false
+    },
+    "headings": [
+      "# 5. Технические основы децентрализованной кооперации",
+      "## 5.1 Предварительные замечания",
+      "## 5.2 Неизменяемые записи",
+      "## 5.3 Децентрализованная кооперация",
+      "## 5.4 Византийские генералы, децентрализация и Сатоши",
+      "## Примечания"
+    ],
+    "seams_checked": ["05-003/05-004", "05-012/05-013", "05-022/05-023"],
+    "seams_ok": true
+  }
+}

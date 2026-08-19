@@ -1,0 +1,584 @@
+CHAPTER 13
+
+WHEN BLOCKCHAIN COMMUNITIES
+ARE IN CONFLICT
+13.1 Preliminaries
+
+N
+
+ation states, quite obviously, repeatedly find themselves in conflict
+and, all too often, those conflicts escalate. They can lead to trade wars
+and sanctions and, ultimately, to kinetic warfare – conflicts in which
+bullets fly. Of course, such conflicts are not limited to nation states.
+Empires go to war, as do communities and factions and clans. Theoretically, any organised group of humans is capable of engaging in warfare.
+Sometimes, the conflict is kinetic, but in some cases, there are forms
+of warfare like psychological operations (PSYOP) in which one party
+attempts to impose its will on another through non-violent means.
+Such actions may involve less bloodshed but are still an important part
+of warfare.
+The dawn of blockchain communities will not be the end of warfare – neither the end of PSYOP nor kinetic conflicts – but as we saw
+in the previous chapter, there is reason to believe that such conflicts
+will be less frequent, less deadly and easier to resolve in a peaceful
+manner. We have already seen several reasons why this might be so.
+
+
+Blockchain communities make it easy for individuals to exit peacefully; they are not defined with respect to physical territory, and their
+interests are less about controlling territory and more about engaging in fruitful networked relations. Communities in conflict also have
+access to neutral, reliable, corruption-resistant platforms upon which
+to negotiate solutions to their differences. But of course, given that
+blockchain communities are ultimately populated by fellow human
+beings, bad actors are inevitable. Violent conflicts are inevitable.
+Trouble will inevitably come.
+This chapter is about what happens when military conflict materialises. As we will see, there are several forms of conflict that might be
+categorised as military conflict. In the first place, there are conflicts that
+involve PSYOP. Are these really military conflicts even if no physical weapons are used? It has certainly been recognised since Sun Tzu
+wrote The Art of War in the fifth century BCE that there are non-violent
+aspects to warfare. Sometimes, it is tricky to determine if a particular
+action or strategy counts as being an act of warfare or not, but that is
+fine. There will be borderline cases.
+When we think of military conflicts, we are apt to think of situations that involve what we would recognise as the deployment of
+physical weapons – guns, knives, bombs, chemical attacks, biological
+attacks and so on. However, there are also cases where the conflicts are
+digital in nature. These might be independent of PSYOP and might
+include attacks against a military target or its command-and-control
+system using various hacking strategies, including computer viruses
+and attempts to armour against such attacks in response. Borrowing a
+term from the title of a book by Major Jason P. Lowery of the US Space
+Force, we can call this Softwar.
+In this chapter, we devote Section 13.2 to PSYOP, 13.3 to kinetic
+warfare and 13.4 to softwar. On the one hand, we want to know how
+blockchain communities can armour themselves against such attacks.
+On the other hand, we want to know how blockchain communities can
+impose these forms of force when necessary.
+
+
+13.2 Blockchain communities and PSYOP
+If a blockchain community has a small or distributed terrestrial footprint, enemies are apt to attack using modes of asymmetric warfare,
+using economic attacks and otherwise working to undermine the
+beliefs and values of the citizens of the target community. In point of
+fact, blockchain communities may be more vulnerable to this sort of
+attack because their identity is not tied to a shared physical location but
+to a shared (or perceived to be shared) set of beliefs and values.
+In 2008, the United States Army authored a then-classified field
+manual on the conduct of asymmetric warfare. Entitled Army Special
+Operations Forces: Unconventional Warfare, it described strategies for
+attack and defence involving non-kinetic asymmetric warfare. One of
+its key ideas illustrated how both conventional (kinetic) and irregular
+approaches to conflict have the same ultimate goal: to control the decision making of the target community.1
+The point is that both conventional warfare and irregular warfare
+have precisely the same goal – to get the opposing government to do
+as you wish. In conventional warfare, that is accomplished by using the
+military to control the outcome through violence. In irregular warfare,
+the goal is to manipulate the population of the target state to achieve
+the same outcome through (ideally) less violent means.
+We will get to the issue of conventional kinetic warfare in the next
+section (for there will still be such a thing in the future we envision).
+However, cyberstates and other blockchain-grounded communities
+will also have to confront irregular warfare – external forces attempting
+to manipulate a community into compliance with their external goals
+and, sometimes, goals in conflict with those of the target community.
+Now, in our view, there is nothing wrong with an external community attempting to persuade your community to change or institute
+United States Department of the Army, Army Special Operations Forces Unconventional
+Warfare (Washington, D.C., 2008).
+
+
+some policy. However, there is a very murky line between attempts at
+persuasion and attempts at manipulation – one can go too far. The army
+field manual does not distinguish between modes of persuasion that are
+within acceptable bounds and modes that are outside those norms, but
+it does give us some examples of methods of population control and
+manipulation that we would surely classify as hostile.
+For the moment, let us set aside the hard problem of distinguishing between acceptable external interventions and hostile
+interventions. Instead, let us consider a more pressing issue: What
+is a community to do when it encounters what is (let us assume) an
+external and hostile PSYOP attack? How is it supposed to arm itself
+against such attacks?
+Before we go deeper into how a community can protect itself, it
+will be useful to go into more detail about the nature of these attacks.
+Here, we can use the army field manual again as our starting point.
+First, we need to emphasise a previously made point: irregular warfare
+(IW ) is not about control of territory; it is about control of people.
+From the manual:
+IW focuses on the control or influence of populations, not on
+the control of an adversary’s forces or territory. Ultimately, IW
+is a political struggle with violent and nonviolent components.
+The struggle is for control or influence over and the support of
+a relevant population.
+The question of how a population is to be controlled immediately
+arises. Again, from the manual:
+IW operations also employ subversion, coercion, attrition,
+and exhaustion to undermine and erode an adversary’s power,
+influence, and will to exercise political authority over a r elevant
+population. What makes IW ‘irregular’ is the focus of its
+operations (a relevant population), its strategic purpose (to gain
+
+
+or maintain control or influence over), and the support of that
+relevant population through political, psychological, and economic methods.
+This finally takes us to the issue of psychological operations, or
+what we have been calling ‘PSYOP’:
+[We define] PSYOP as ‘planned operations to convey selected
+information and indicators to foreign audiences to influence
+their emotions, motives, objective reasoning, and ultimately the
+behavior of foreign governments, organizations, groups, and
+individuals.’2
+Again, the key point is that the target is the people, not the territory; the objective is to control their actions through various forms
+of manipulation. While simple persuasion might work, the point of
+PSYOP is that more underhand strategies are also in play.
+One thing to keep in mind is that blockchain-based communities are difficult targets for any sort of hostile attack. They are, as the
+intelligence community calls them, complex adaptive systems. They are
+decentralised. There is no single central node that you can take out in
+order to defeat the system. You presumably have to take out multiple
+points of control. However, the system is adaptive; it can heal itself even
+while your attack is ongoing. Blockchain communities, being complex
+adaptive systems, make extremely difficult targets.
+Complex adaptive systems are difficult to successfully attack, but
+they are not invulnerable, and they are not a type of adversary that is
+unknown. There are many non-state actors that constitute such complex adaptive systems, from drug cartels to terrorist networks. You
+typically cannot kill them by cutting off the head, although there are
+
+
+Ibid.
+
+
+famous exceptions.3 Nor are standard kinetic attacks likely to be effective. Their existence, in some cases, has the blessings of sovereigns and
+nation states that sometimes use them as pawns on a global geopolitical
+chessboard.
+Likewise, blockchain communities are not invulnerable, and there
+are known attack strategies targeting complex adaptive systems like
+blockchain communities (or any decentralised group). For example,
+there is a game plan set out by Ed Waltz in his paper ‘Means and Ways:
+Practical Approaches to Impact Adversary Decision-Making Processes’.
+Firstly, we need to ask what it means to say that a blockchain community is a ‘complex adaptive system’. Among other things, it means
+you cannot easily predict the outcomes of the actions against nodes
+in that community. More precisely, as Waltz puts it, ‘the organization’s
+behavior cannot be predicted by models of the properties of the actors
+nor by a simple linear combination of them.’4
+This does not mean you cannot attack such a system, but it means
+you must attack it by stressing the system itself, and you do this by targeting individuals in a way that has systemic consequences. That is, if
+you want to degrade a complex adaptive system, you can apply pressure
+in the following ways (again, following Waltz):
+Defection: Recruit, train, and establish individuals within
+the organization and the supporting population capable of
+conducting resistance and dissent activities leading up to, if
+required, a coup d’état.
+One notable exception would be the elimination of Pablo Escobar, which resulted in the
+end of Colombia’s Medellín Cartel. See Santiago Neira, ‘El fin del Cartel de Medellín:
+La muerte de Pablo Escobar y el surgimiento de Los Pepes’, Infobae, 6 December 2023
+<https://www.infobae.com/colombia/2023/06/12/el-fin-del-cartel-de-medellin-lamuerte-de-pablo-escobar-y-el-surgimiento-de-los-pepes/> [accessed 30 October 2024].
+Ed Waltz, ‘Means and Ways: Practical Approaches to Impact Adversary Decision-Making Processes’, in Information Warfare and Organizational Decision-Making (Boston, MA,
+2007), 89–114.
+
+
+Division: Conduct psychological operations to disrupt the unity
+of purpose, discipline, and agreement between government
+bodies and between the government and population groups.
+Deception: Protect the true intentions of the counterorganization operations by operational security while revealing
+selected opposition activities and simulating false activities
+that cause the target to believe a different adversary plan and
+approach is being implemented.
+Diversion: Divert or misdirect attention from the true sources
+of the opposition; secure third-party support to divert attention from the primary source of the attack.5
+More conceptually, any force attacking a decentralised community
+would want to generate a feedback loop by attacking nodes to weaken
+the network in a way that further debilitates the targeted nodes.
+Suppose we think of a node as a prominent individual or organisation within a blockchain community. We can select a handful of important individuals, apply stress to them and observe the effects on the
+network. Similarly, we can manipulate the network itself (in this case,
+the community itself ) so that it acts against the targeted individuals.
+In this way, the feedback loop is initiated, and the health of the community is degraded.
+This strategy for attack is all the more poignant if we consider the
+literal nodes of a computer network like Ethereum. There is a finite
+number of nodes assembling blocks for the proof-of-stake ledger, and
+if one targeted enough of these nodes, one would put a lot of stress
+on the network. Given sufficient resources, such an attack is possible.
+However, the idea here is that you want to do more than simply target the nodes; you also want to observe how the network responds to
+
+Ibid.
+
+
+these attacks and organise your subsequent attacks with this information in hand. For example, you might find that as the originally targeted
+nodes go offline, certain nodes become more important. Therefore, they
+should be the targets of your subsequent attacks.
+Now obviously, there are lots of ways to initiate attacks on blockchain communities. There are as many ways to attack a community as
+there are ways to attack individuals (and combinations of individuals)
+within the community. The real question is this: Can a blockchain community be constructed in such a way that it is fault tolerant with respect
+to these attacks? Note that we are not just talking about run-of-the-mill
+failures within the network. Now, we are worried about attack strategies
+from outside the community. Does Byzantine fault tolerance still work
+for these attacks? Here again, the answer has to be that ‘it depends’.
+On the bright side, most of the attack vectors against such a network involve misinformation and deception, and a large portion of that
+is focused on encouraging people to doubt the integrity and honesty
+of their government and governmental actors. However, this strategy
+is only effective if there is some reason to think that important nodes
+within the community are being dishonest or corrupt, but in a wellconstructed blockchain community, it is inherently difficult to manufacture this sort of distrust. If all-important community actions are
+onchain, and if all financial activity is onchain, and indeed, if those
+actions are the provable consequence of community voting and the execution of auditable smart contracts, then how is the deception supposed
+to work? It would have to rise to the level of getting people to doubt
+the reliability of blockchain technology itself. Of course, you can always
+get people to doubt proven technologies – there are flat-Earthers and
+people who challenge the Moon landing, after all – but our point here
+is that this is the degree of suspicion and doubt that has to be injected
+into a community. Furthermore, it may well be that the rise of conspiracy theories about the Earth being flat and the Moon landing being a
+hoax are fueled by very legitimate distrust of institutions of knowledge
+more generally. Bad acting on the part of governments and academic
+
+
+communities may well have opened the door to all forms of suspicion
+and doubt. Thus, it may be that blockchain communities (where deceptive governments are harder to maintain) will not yield the same propensity for conspiracy-theory-level suspicion.
+Still, there are also things that can be done to protect communities
+against external attack. A community that wishes to be resistant to
+attack must ensure that community members have sufficient technological literacy to understand its foundational technologies. They need
+to not just have technologies that are corruption resistant, but they
+must understand why they are corruption resistant. If a community
+wishes to survive external attacks, it will need community members
+to understand its foundational technologies in addition to its foundational values.
+This would apply not only to information-theoretic attacks but
+to more aggressive hacking efforts. Presumably, in a world of blockchain communities and cyberstates, known vulnerabilities are shared
+between communities, but certain powerful communities might have
+the resources to acquire zero-day exploits and use them against selected
+vulnerable communities.
+It is difficult to see a way around this, but it has to be observed that
+the situation cannot be any worse than it is now, and there is at least
+some hope that if blockchain communities share similar technologies,
+then solutions to exploits would also be shared. By this, we mean that
+if everyone depends on the integrity of the network, then they have an
+interest in sharing knowledge of zero-day exploits (and their patches)
+with everyone on the network.
+Similarly, no blockchain community under unjust attack is alone.
+There will always be similar communities with similar values, and if the
+attack can be identified, then other communities may choose to come
+to its victims’ defence, just as defenceless nation states are often protected by a broader community of nations. Presumably, treaties between
+communities will be part of the manner in which blockchain communities protect themselves. Bad actors can be isolated, and any isolated
+
+
+community in a networked world is going to quickly starve itself of
+resources in terms of economic partnerships, cultural partnerships and
+other opportunities.
+This is significantly different from the situation today, wherein just
+a handful of world powers have the capacity to lock an adversary out
+of the world’s credit markets, freeze their assets and so on. As things
+stand, one power (for example, the United States) or a handful of powers, can lock a community out of the world’s family of communities –
+that is to say, deny the target community’s ability to maintain necessary
+economic and cultural relations. In our scenario, a community can be
+frozen out of some relations, but that is determined by the consensus
+of the communities in the network, not the decision of a centralised
+authority.
+
+13.3 Kinetic attacks on blockchain communities
+So far, we have been thinking in terms of attacks on blockchain communities that involve irregular warfare and, in particular, informationtheoretic attacks. These might involve misinformation or propaganda
+or injecting false narratives among blockchain community members.
+For many cyberstates, these might be the only viable vectors of
+attack since many cyberstates and virtual communities will not have
+physical territory, or alternatively, their physical territory may be widely
+distributed and not easily accessible or, for various reasons, not worth
+the cost of attacking with kinetic resources. But what of blockchain
+communities that have physical territory of some value? Suppose, for
+example, that a community held territory rich in natural resources like
+oil or rare earth minerals, and another actor used force to take the territory. Or imagine state-sponsored pirates that targeted the trade routes
+of the blockchain community. What then?
+Here, we need to be clear on all the possible considerations in play.
+It is not as simple as in the standard nation-state model, where a state
+has well-defined territory that it must defend. Indeed, as we saw in
+
+
+Chapter 10, there is a serious question about whether states would
+continue to have sovereign control over physical territory in the age
+of blockchain communities. There may be an entirely different level of
+governance for that.
+What do we mean by this? One possible outcome is a situation in
+which states are in charge of the wellbeing of their citizens but in which
+territory is under the sovereign control of no single state (just as today
+Bitcoin and Ethereum are under the control of no single state) and
+there is a transnational decentralised title registry that tracks ownership of land independently of questions of sovereignty. With this way
+of thinking, no singular state would have sovereign control over any
+piece of physical territory, and sovereignty would be distributed among
+a global group of communities.
+Of course, even if there was a regime like this for territorial ownership, it does not forestall the possibility of rogue actors wishing to
+seize property by force, ignoring the claims of ownership recorded by
+the global community. For example, let us say a community purchases
+territory near a valuable oil field, and some group then invades the valuable property, seizes it and lays claim to the natural resources, ignoring
+global consensus on ownership and mineral rights. The first thing that
+must be observed is that such a property is certainly no less defensible
+in this scenario than it is now. Traditional claims of sovereignty would
+not have made this property and its resources more easily defended.
+Presumably, it will be possible to purchase military assets (just as it is
+now), to build bases (just as it is now) and recruit professional soldiers
+(just as it is now).
+However, there is more to the story. If sovereignty is distributed and
+recognised globally, then preserving secure title to physical territory is
+also in everyone’s interest. In any case, it is certainly in the interest of
+every other individual and community that owns title to territory. This
+is because the failure to preserve the title of one community undermines the holdings of every other community. This, in turn, suggests
+that there are always a host of natural allies to any community that
+
+
+is a victim of this sort of land seizure by force. Indeed, just as it is in
+every Bitcoin user’s interest to recognise the authenticity of the ledger
+recording their ownership of bitcoin, it is likewise in every property
+owner’s interest to recognise the authenticity of the ledger that records
+their real estate ownership. No one can afford to say that a specific wallet address is invalid, for doing so invalidates every other wallet address.
+The situation we are describing is different from that of today in
+the following way. Presently, when a state is invaded, it is invaded by
+another state with a competing claim to sovereignty. What complicates
+this is that the sovereignty claim may involve any sort of justification,
+ranging from ethnic identity to some historical connection (real or
+imagined) or simply a vision for a new world order. All of these options
+and the resulting conflicts are possible because state claims of territorial
+sovereignty are inherently bogus. Such claims are justified by nothing
+of substance. They are based on invented histories, fables and imperial aspirations. We believe it is time to retire the traditional notion of
+states as territorial sovereigns. Instead, we think it is time to embrace
+the notion of context-dependent, overlapping sovereignties of the form
+articulated in Chapter 10. The effect of this reconceptualisation of territorial sovereignty is that many of the justifications for warfare are
+undermined – they are exposed as being empty. And one hopes that
+being thus exposed, they will no longer serve as triggers and fuel for
+kinetic conflicts.
+
+13.4 Softwar
+In the previous two sections of this chapter, we looked at how blockchain communities will engage in two forms of warfare: PSYOP and
+kinetic warfare. However, there is a third kind of warfare that does not
+cleanly fall within these two categories – let us call it softwar or, if
+you prefer, cyber warfare, and let us take it to involve hacking attacks,
+including worms, viruses, denial-of-service attacks and so on. Such
+attacks might accompany a kinetic attack (for example, with the goal
+
+
+of disrupting command and control operations), and they might be
+part of a PSYOP effort (for example, preventing a community from
+responding to a disinformation campaign). However, they are nevertheless a different animal. For that matter, digital warfare may be more
+than a different animal; it may, in the fullness of time, become the most
+important form of warfare. For blockchain communities, cyber warfare
+attacks are certainly a significant concern.
+In his fascinating book Softwar, Major Lowery develops a theory of
+why softwar is not merely important but urgently important as it may
+ultimately become the future of warfare. To understand why, we need to
+dive deeper into his analysis.
+Lowery has an interesting take on warfare, which is that it is primarily a tool of decentralisation. If you find yourself in a situation under
+the control of a system of governance that you do not consider ethically
+valid, and if there is no way to change that system or to exit, then you
+either have to accept the centralised authority or find some alternative
+way to resist it in order to achieve decentralisation. In some instances,
+the only alternative is to raise the physical costs of centralisation to
+the point where it is no longer worth the effort to fight to maintain
+centralisation.6
+Parenthetically, we should not let it pass unremarked that kinetic
+warfare is also a predominant tool for governmental centralisers. History is full of empires that used force to establish centralised control
+over vast – sometimes global – territories. From the kings of Mesopotamia through the Roman Empire and the Spanish Conquistadors to
+the present day, kinetic warfare has been a popular tool of centralisers.
+For the moment, let us entertain Major Lowery’s ‘war-as-decentralisation’ thesis. It is certainly reasonable to argue that many colonial revolutions were successful because the revolutionaries were able
+to use physical means to raise the cost of maintaining a centralised
+Jason Paul Lowery, Softwar: A Novel Theory on Power Projection and the National Strategic
+Significance of Bitcoin (2023).
+
+
+government so much that the central authority decided it was no longer
+worth the investment. For example, the British Empire could have no
+doubt maintained its war against the American colonies much longer
+than it did but decided it simply was not worth the cost of doing so. A
+similar story played out in South America when Simón Bolivar resisted
+the Spanish Crown. Could the Spanish Crown have maintained its
+control of South America? Well, would it have been worth the expense?
+This then is the key idea: to break centralised authority’s control
+over oneself, one must raise the costs of maintaining control. Warfare
+– kinetic warfare – is the method used for imposing such costs. Now,
+the question becomes, what is the analogous way of raising costs in
+the case of digital warfare? Here, your initial thought might be that
+we can impose a cost by using various firewalls and software security
+measures to protect a community against hackers. However, Major
+Lowery claims that this is actually only effective in the short term –
+until an innovative hacker comes up with a new zero-day exploit to
+attack your digital infrastructure. The thing is, there are always exploits
+to be found. Simple security shields are not enough. One must impose
+an actual cost.7
+For example, there are techniques for fighting spam in which a
+transaction on the network requires a micropayment. You can spam a
+million addresses if you want, but those micropayments add up, imposing a cost significant enough to make spamming not worth the trouble.
+As Major Lowery notes, Bitcoin’s proof-of-work protocol does
+essentially the same thing.8 One can try to seize control of the Bitcoin
+network, but the barrier is not the need to break through some firewall.
+There is no firewall to break through. Everyone already has access to the
+network. The cost arises from the attempt to acquire enough hashing
+power to take control of the network. As we noted earlier, quite apart
+from the cost of buying enough miners with enough hashing power,
+
+Ibid.
+Ibid.
+
+
+this means paying for enormous amounts of energy – something in the
+order of the cost of Finland’s energy usage.
+Another way to look at this is that the energy demands of proofof-work protocols can become the new version of kinetic warfare, at
+least as far as digital warfare goes. As Lowery observes, this is not some
+small piece of the warfare pie, but in the fullness of time, it will be the
+biggest piece of the pie and maintaining proof-of-work protocols is the
+new city walls or the new Patriot missile systems.
+So far, it sounds like proof of work is a defensive strategy. Can it
+also be deployed as an offensive strategy? – for example, if a blockchain community or collection of blockchain communities chose to act
+against a rogue community that engaged in slavery or committed egregious environmental pollution or prohibited exit for its citizens? The
+answer to this question is not entirely clear.
+On the one hand, if you had majority control of a proof-of-work
+network, it would be relatively easy to impose constraints on the network and censor network actors. For example, if there are bad actors on
+the global stage, and if we had the majority of hashing power in some
+critical blockchain application to which a bad actor needed access, then
+we could indeed punish them. We believe this is part of why Major
+Lowery sees an urgency in the United States having a robust presence
+in the crypto scene – if the US could control such critical networks by
+controlling a majority of the hashing power, it could punish its enemies
+very effectively.
+Regarding Major Lowery’s proposal, the first question has to be
+whether proof of work is really the deciding factor. Why not proof of
+stake? It is understandable why someone like Major Lowery, who comes
+from a military background, would see a similarity between proof of
+work and kinetic military activities. Both involve the expenditure of
+energy. In the case of traditional warfare, the energy is expended in the
+form of chemical energy released in the firing of shells and bullets or
+in the detonation of grenades and bombs. Thus, the potential force is
+maintained in chemical energy until it is released on the battlefield in
+
+
+the form of kinetic energy. Similarly, tremendous energy is expended in
+the transportation of forces to the battlefield and in the logistical supply chain. Again, we can think of fuel as being chemical energy that is
+translated into kinetic energy when troops and supplies are delivered
+to the battlefield. The energy expended in proof-of-work protocols is
+supposed to play an analogous role to the use of energy in the military
+context. But does it?
+We are sceptical. Is the expenditure of energy in proof of work
+really what is doing the labour here, or is it merely an artefact of some
+deeper principle? We are inclined to think the latter. To see why we are
+sceptical, consider the question of whether a proof-of-stake protocol
+could not accomplish precisely the same thing as proof of work in this
+context. For example, in the case of proof of work, we noted that it simply would not be worth the trouble to acquire enough hashing power
+and use enough energy to take control of a proof-of-work network.
+Ultimately, this is simply to say it is not worth the financial cost of
+doing so. The energy is there if you want to pay for it, and the hashing
+power is hypothetically there if you have unlimited resources to pay for
+it. But is it worth the cost?
+Of course, we can ask precisely the same question about a proof-ofstake protocol. Is it worth the expense to acquire enough of a cryptocurrency – let us say ETH – and stake it with the goal of gaining control
+of the Ethereum network? As of this writing, there is the equivalent of
+$90 billion staked in the Ethereum protocol.9 Based on the assumption
+that you would have to purchase enough ETH and stake it to seize
+control of the network, you would be looking at a monumental expense.
+Keep in mind that any effort to acquire 50% of all staked ETH would
+send the asset’s price skyrocketing like never before – even attempting
+to corner 10% of the staked ETH market would have an enormous
+impact on ETH price. It is very difficult to grasp just how expensive it
+would be to execute such a project. You also face the prospect of being
+
+<https://beaconcha.in/charts/staked_ether> [accessed 30 October 2024].
+
+
+penalised – having your staked assets frozen or even seized if you are a
+bad actor in the network.10
+We think the moral here is that the fundamental axiom of conflict
+is not the application of physical energy but rather the expenditure of
+value. When warfare is expensive, it is often because one side of the
+conflict determines that it is worth the expenditure of resources to try
+and impose their will. In the age of empires, it could be worth the
+expenditure because there was treasure to be gained from winning the
+war. In the current era, which we could call the neoliberal era, the prizes
+are free markets and all the financial benefits that flow from controlling
+those markets and the natural resources that can be unlocked. If the
+potential market is small, it may not be worth the trouble to subdue it.
+What we are suggesting then is that the fundamental axiom of warfare
+has little to do with the amount of kinetic forces released or the amount
+of energy consumed and everything to do with questions of value and the
+expense (by whatever means) of acquiring something of value (be that mineral rights or open markets or treasure). Kinetic warfare with expenditure
+of energy is one form that conflict can take but certainly not the only form,
+and at the end of the day, it is not a reliable measure of power.
+We can see this by reflecting on rich nations throughout history.
+They certainly did not always maintain standing armies and would purchase mercenary forces when necessary. They could also bring about
+their goals through what neoliberals today call ‘soft power’, which is
+just another way of saying that they can exert their financial clout in
+numerous ways – for example, by buying influence or gifting money or
+offering favourable trade relationships or, on the flip side, by threatening economic penalties and so on. Traditional warfare is another version
+of this – a threat to financially penalise the adversary if they do not
+conform to one’s will. Proof of work is just one way of imposing costs.
+But then, so too is proof of stake.
+In this case, the assets would not be frozen by a centralised authority but by consensus of
+the nodes on the network.
+
+
+All of this leads us back to the question of what recourse there will
+be to act against bad-actor blockchain communities. As noted earlier,
+the principal recourse is similar to soft power solutions widely used
+today. However, such soft power will be decentralised rather than centralised. There will be no global cop, like the United States or a centralised authority like the UN or the World Bank, but rather the collective
+action of a global community of blockchain communities.
+As we noted, any nodes run by a criminal actor would be subject
+to penalty. In the case of proof-of-stake nodes, like those supporting
+Ethereum, staked assets could be forfeited. In the case of proof of work,
+blocking the offending party from the network is a possibility. Such
+forms of digital excommunication for a rogue community would be
+extreme but certainly possible in cases that required an extraordinary
+response – for example, in acting against a neo-Nazi empire.
+Certainly, there is a danger that blockchain groupthink could take
+things too far and be too liberal in its use of excommunication, but as
+we said, such decisions would no longer be in the hands of a single
+power nor in the hands of a body like the UN, in which power resides
+in the votes of arbitrarily constructed and obsolete nation states. The
+power would lie in a decentralised network of global blockchain protocols like Bitcoin and Ethereum and whatever other protocols may
+prove critical to the conduct of government business.
+To be sure, there will be cases in which global blockchain communities do not act in accord with our desires. It will certainly be
+frustrating to communities like the United States that believe in their
+‘exceptionalism’, and it will be equally frustrating to actors that somehow manage to be frozen out of the global community because of
+their actions. We cannot promise that everyone will be happy with
+the results (an impossibility), nor can we even promise that the global
+community will always make the correct decisions. All we can really
+promise is that the decision will be decentralised, the actions will be
+decentralised and that it will be driven by the core values of the stakeholders in a global community.
+
+
+But what if physical action is also necessary? What if removing an
+actor from the global community is not enough? What if it is a neoBronze-Age empire with no digital footprint causing physical harm to
+others? If the bad-actor community has a physical presence in the world,
+then we can bring the same kinetic forces to bear on it as we do today. As
+a last resort, physical harm may be met with physical force. However, if
+the bad-actor community has a distributed or nonexistent physical footprint, there is little that one can do in terms of traditional military and
+policing actions. You cannot monitor or censor them online, and you cannot locate them in physical space either. So, what is the solution?
+The first question that needs to be asked is how much harm such
+a community can actually do. If they have a minimal physical footprint, there is likewise a limit to what they can do in terms of physically oppressing individuals or harming the environment. This is not to
+say harm is impossible, but it is to say that environmental and human
+rights abuses are harder to execute by a community that is scattered
+around the world and without any territorial control. It is not, of course,
+unimaginable. Terrorist organisations, after all, are structured in this
+way, as indeed are many drug cartels. For that matter, there might be
+a distributed online community that maintains household slaves. The
+question is, what could be done in such cases?
+Let us start with the example of the community keeping slaves.
+Assuming that our slaver community existed, there would be real-world
+victims in need of help. What then is to be done? There is no obstacle
+to initiating police action on a case-by-case basis, nor even to taking
+advantage of assassination markets if it came to that. If there are realworld victims of a community and its failed morals, there are real-world
+policing solutions, although this would be a new form of policing –
+decentralised in organisation and backed by globally shared values. The
+same form of decentralised police action would apply to the cases of
+terrorist organisations and drug cartels as well.
+Of course, in the case of terrorist organisations and drug cartels, we
+are talking about complex adaptive systems which require a distinctive
+
+
+vector of attack. The optimal strategy is to attack such bad-actor communities in much the way Waltz envisioned. Once such a community
+is infiltrated and can be thus monitored, it will be possible to stress its
+network by targeting individuals (or individual nodes), assessing the
+effects on the network, developing new targets and proceeding in this
+manner. The effectiveness of such efforts would be a function of the
+strength of consensus among the global community that the harm is
+great and that kinetic action or PSYOP or softwar (or any combination of all three) is required. Again, all of this assumes that efforts to
+negotiate solutions have failed despite the application of blockchain
+technologies to assist those efforts.
+Of course, a sufficiently wealthy and powerful terrestrial community might have the resources to forestall any attempt to police its
+actions and the actions of its individual members. In such a circumstance, kinetic warfare responses may not be a viable solution. However,
+it is very difficult to imagine that a community could acquire that much
+wealth while being cut off from the global blockchain community, here
+assuming that blockchain technology will be (with the help of AI and
+other incorporated technologies) the global engine of wealth. How
+much value in resources can an isolated bad-actor community actually
+sacrifice to outlast punitive action in these cases? As with all conflicts,
+including kinetic warfare, there are no guarantees. In each case, the
+targeted community has to decide if its continued behaviour is worth
+the price.
+We have ended this chapter on a nuanced note, which is appropriate given the conceptual limits we encounter when we begin to think
+about bad actors and the strategies for dealing with such actors in a
+decentralised, post-nation-state world. However, this is not the only
+case where we encounter the conceptual limits to what can be achieved.
+In Chapter 15, we will explore some of those limits. Before we pursue
+that conversation, we need to dive deeper into the nature of the technology itself to better understand both its promise and its limits. We
+resume this exploration in the next chapter.

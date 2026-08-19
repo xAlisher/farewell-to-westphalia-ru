@@ -1,0 +1,30 @@
+{
+  "total": 7,
+  "by_cat": {
+    "accuracy": 1,
+    "register": 1,
+    "naturalness": 3,
+    "mechanics": 2
+  },
+  "by_sev": {
+    "minor": 7
+  },
+  "samples": [],
+  "escalated": [],
+  "assembly": {
+    "chunks_expected": 12,
+    "chunks_found": 12,
+    "body_chunks": 11,
+    "notes_chunks": 1,
+    "footnotes": {
+      "body_markers": ["1", "2", "3"],
+      "note_entries": ["1", "2", "3"],
+      "continuous": true,
+      "all_resolved": true
+    },
+    "headings": ["# 17", "## 17.1", "## 17.2", "## 17.3", "## 17.4", "## Примечания"],
+    "headings_ok": true,
+    "seams_checked": ["17-000/17-001", "17-003/17-004", "17-007/17-008"],
+    "seams_ok": true
+  }
+}

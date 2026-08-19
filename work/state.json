@@ -1,0 +1,65 @@
+{
+  "phase": "W1_pilot",
+  "chapters": {
+    "chapter_00_front_matter": {
+      "status": "draft_accepted"
+    },
+    "chapter_01_introduction": {
+      "status": "draft_accepted"
+    },
+    "chapter_02_nation_states_are_obsolete_governance_technologies": {
+      "status": "draft_accepted"
+    },
+    "chapter_03_post_state_governance": {
+      "status": "draft_accepted"
+    },
+    "chapter_04_new_conceptual_foundations": {
+      "status": "draft_accepted"
+    },
+    "chapter_05_technical_foundations_for_decentralised_cooperation": {
+      "status": "draft_accepted"
+    },
+    "chapter_06_new_tools_for_human_governance": {
+      "status": "draft_accepted"
+    },
+    "chapter_07_why_centralisation_is_the_problem": {
+      "status": "draft_accepted"
+    },
+    "chapter_08_are_cyberstates_the_answer": {
+      "status": "draft_accepted"
+    },
+    "chapter_09_exit_exile_and_access": {
+      "status": "draft_accepted"
+    },
+    "chapter_10_rethinking_sovereignty": {
+      "status": "draft_accepted"
+    },
+    "chapter_11_rights_and_responsibilities_of_blockchain_communities": {
+      "status": "draft_accepted"
+    },
+    "chapter_12_how_blockchain_communities_will_collaborate": {
+      "status": "draft_accepted"
+    },
+    "chapter_13_when_blockchain_communities_are_in_conflict": {
+      "status": "draft_accepted"
+    },
+    "chapter_14_a_deeper_dive_into_the_technology": {
+      "status": "draft_accepted"
+    },
+    "chapter_15_conceptual_limits_of_blockchain_governance": {
+      "status": "draft_accepted"
+    },
+    "chapter_16_are_blockchain_communities_inevitable": {
+      "status": "draft_accepted"
+    },
+    "chapter_17_values_and_the_technology_stack": {
+      "status": "draft_accepted"
+    },
+    "chapter_18_about_the_authors": {
+      "status": "draft_accepted"
+    },
+    "chapter_19_bibliography": {
+      "status": "draft_accepted"
+    }
+  }
+}

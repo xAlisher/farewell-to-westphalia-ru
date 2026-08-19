@@ -1,0 +1,27 @@
+{
+  "total": 0,
+  "by_cat": {},
+  "by_sev": {},
+  "samples": [],
+  "escalated": [],
+  "assembly": {
+    "chunks_total": 28,
+    "chunks_body": 27,
+    "chunks_notes": 1,
+    "parts_missing": [],
+    "footnotes_body_markers": [1, 2, 3, 4, 5],
+    "footnotes_continuous": true,
+    "footnotes_all_defined": true,
+    "headings": [
+      "# 14. Глубже в технологию",
+      "## 14.1 Предварительные замечания",
+      "## 14.2 Долговечные, устойчивые к коррупции, прозрачные архивы",
+      "## 14.3 Децентрализованная защищённая связь",
+      "## 14.4 Криптовалюты и здравая денежная политика",
+      "## Примечания"
+    ],
+    "seams_checked": ["14-002/14-003", "14-010/14-011", "14-023/14-024"],
+    "seams_ok": true,
+    "output_chars": 37777
+  }
+}

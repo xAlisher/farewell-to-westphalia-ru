@@ -1,0 +1,388 @@
+CHAPTER 1
+
+Pursuing Decentralised-Yet-Cooperative Governance
+
+I
+
+n 1648, the Peace of Westphalia marked the end of the Thirty Years’
+War – an event in which Catholics and Protestants had clashed
+across Northern Europe. The war had certainly been grim business.
+Precise numbers are difficult to come by, but apart from the two million
+soldiers that perished, it is estimated that rural areas of what is now
+Germany lost over 60% of their population due to war, starvation and
+disease. Cities lost around a third of their populations. An entry written
+in the margins of a family bible in Swabia recorded, ‘We live like animals, eating bark and grass. No one could have imagined that anything
+like this would happen to us. Many people say that there is no God.’1 By
+some accounts, the situation in the Rhineland had grown so desperate
+that people were resorting to cannibalism.
+The treaties enshrined in the Peace of Westphalia not only ended
+the conflict but made sovereign nation states a permanent fixture in our
+world.2 It was a solution in which all parties agreed that what nation
+Simon Adams, The Thirty Years’ War, 2nd ed. (London, 1997), 160.
+Contrary to common wisdom, the Peace of Westphalia does not refer to a single treaty but
+is shorthand for two separate treaties signed in two separate locations on 24 October 1648:
+the Instrumentum Pacis Monasteriense or the Treaty of Münster, signed between the Holy
+
+
+states do internally is their own business. The agreements successfully
+ended the Thirty Years’ War; this cannot be denied. However, in view
+of the wars and genocide that swept across Europe since the Peace of
+Westphalia – including the Napoleonic Wars, the Franco–Prussian War
+and two World Wars in the twentieth century – one has to question
+how much was accomplished by the invention of the modern nation
+state. The question gains even more bite when we query the wisdom of
+European post-Westphalian colonial powers imposing their artificial
+nation-state boundaries onto territories around the world with complete indifference to previous tribal boundaries and conflicts.
+Sovereign nation states are human technologies designed to
+facilitate the peaceful organisation of human beings, solving for their
+ideological, political and religious differences. However, they are technologies that are nearly 380 years old and, like all technology of that
+era, perhaps not the optimal solutions available today. To put things
+in perspective, the Peace of Westphalia was reached six years after the
+invention of the mechanical adding machine by Blaise Pascal and eight
+years before the invention of the pendulum clock by Christiaan Huygens. These are great inventions, to be sure, but we do not consider
+them to be the end of history. They have been followed by newer and
+superior versions of those technologies. Why should our technologies
+for political organisation be set in stone? Can we not do better? We
+believe that we can. Our solution will involve a thorough investigation
+into developments like blockchain technologies and smart contracts
+and showing how they can be productively applied to the project of
+cooperative human governance.
+Roman Empire and the King of France, and the Instrumentum Pacis Osnabrugense or
+the Treaty of Osnabrück, signed between the Holy Roman Empire and Queen of Sweden.
+Arguably, there is a third treaty in this mix since Dutch autonomy from Spanish Habsburg
+Rule was not part of the Münster–Osnabrück settlements but was established in January of
+1648 in a separate Treaty of Münster. For further discussion, see Andreas Osiander, ‘Sovereignty, International Relations, and the Westphalian Myth’, International Organization,
+55/2 (2001), 251–87 <https://www.jstor.org/stable/3078632> [accessed 28 April 2023].
+
+
+Since the Bitcoin white paper was published by Satoshi Nakamoto
+in 2008,3 there has been plenty of talk about what blockchain technology can (and cannot) accomplish, and most of that talk has assumed
+that the principal application of blockchain technology will be in the
+financial sector (for example, as payment systems or as reserve assets or
+as asset exchanges). However, the central idea of this book is that applying blockchain technology to human governance will be, by far, its most
+important application.
+Let us be more explicit about this central idea. First, let us define
+what we mean by ‘human governance’.
+‘Human governance’ refers to the systems and processes by which
+people manage and make decisions about their communities and
+implement those decisions to achieve some political, economic or cultural goals.
+Next, there is the question of what blockchain technology is for,
+and on its deepest and most general level, its function can be described
+as a tool that allows humans to organise their activities in a way that is
+decentralised yet cooperative. This leads us back to the primary thesis
+of this book: the principal application of blockchain technology will
+be in the facilitation of human governance by providing platforms for
+decentralised-yet-cooperative human activities.
+The key benefit of this new technology, so harnessed, will be that
+it will allow humans to resist systems of centralised power and develop
+alternatives that enable them to cooperate with each other in governing
+their affairs. In other words, it will facilitate decentralised cooperation
+in the context of human governance.
+We know the problems with centralised systems of governance.
+They give rise to tyranny, they are susceptible to corruption and they
+present one single point of failure. Decentralised systems, on the other
+
+Satoshi Nakamoto, ‘Bitcoin: A Peer-to-Peer Electronic Cash System’ (2008) <https://
+bitcoin.org/bitcoin.pdf>.
+
+
+hand, are resilient in the sense that they have no single point of failure
+and are resistant to corruption.
+While they may be resilient in this sense, the standard view is that
+decentralised systems lack efficiency. Many people think that when we
+avoid centralised authority, we are looking at the collapse of human
+organisation. How else can we get everyone on the same page? There
+needs to be a boss to coordinate us, no? The thought has been that centralised systems, despite their obvious flaws, are at least efficient systems
+for governance. This is the alleged resilience-versus-efficiency tradeoff
+with respect to human governance. As we will see, blockchains allow us
+to find a better solution to the tradeoff between resilience and efficiency
+– i.e. blockchains can offer a similar level of efficiency to centralised
+systems while still being resilient and corruption resistant.
+As stated, the promise of blockchain technologies is that they
+allow authority to be decentralised, yet they enable people to organise
+themselves cooperatively. There are many reasons why this would be
+a positive outcome. To begin, let us consider the very simple example
+of government archives. Governmental archives are more secure when
+decentralised. They become anti-fragile. They become difficult to censor, difficult to destroy, difficult to tamper with and, importantly, difficult to hide from community members, thus making governance more
+transparent.
+Transparency is a key issue. The French philosopher Jacques Derrida received a lot of criticism for being an obscurantist, but he was very
+clear on this point, at least: archives may preserve documents, but they
+can also be a place where documents go to disappear from view.4 That
+is not a happy outcome. We want documents to be safe, but we do not
+want them hidden in a safe in the wall of a building somewhere. Important documents should be visible to all.
+Transparent, immutable records, as we will see, are critical to good
+governance. However, so too are secure communications. Furthermore,
+
+Jacques Derrida, Archive Fever: A Freudian Impression (Chicago, IL, 1998).
+
+
+it is important that the intentions of the government are transparent
+and that promises are kept. Decentralised governmental systems can
+facilitate these features via ‘smart contracts’ – contracts encoded as
+computer programs and deployed on the blockchain.
+Bitcoin is just one illustration of how this sort of decentralising
+technology works, for at its most abstract level, Bitcoin is a protocol
+which is very decentralised and in which users are all on the same page
+(or more precisely, they are on pages that say the same thing). Specifically, there is no centralised ledger that keeps track of who owns what
+or who sent what to whom, but there is a distributed ledger, meaning that the information is held by many individuals on the network.
+Therefore, everyone can be confident that they are reading the same
+thing regarding who owns what and so on. Our point in this book is
+that decentralised cooperation can be applied to much more than digital currencies. It can be applied to all forms of human governance.
+This groundbreaking idea does not actually begin with Satoshi’s
+white paper but rather with several decades of important earlier work on
+distributed systems in computer science. One example we will discuss
+is the ‘Paxos protocol’, which was inspired by ideas about distributed
+organisation in a community of ancient Greek citizens that were constantly on the move.5 In that and related research, the question was this:
+How do we organise a system that has multiple computer processors
+(multiple electronic brains, as it were) as opposed to a single processor
+(like the CPU in your laptop computer)? How does such a system stay
+organised for a single, unified purpose? What happens when some of
+the many processors in the system fail or begin operating at cross purposes? Will this not lead to a system with many points of failure and,
+thus, organisational collapse? As it turns out, the answer is no. But the
+system must be designed correctly.
+Leslie Lamport, ‘The Part-Time Parliament’, ACM Transactions on Computer Systems, 16/2
+(1998), 133–69 <https://dl.acm.org/doi/10.1145/279227.279229> [accessed 5 November
+2024].
+
+
+You are already acquainted with some distributed systems that are
+successfully organised in such a way. Your brain is one such system.
+Unlike your laptop, there is no central processing unit running operations in your brain. Rather, there are many smaller nodes that are coordinated towards a common goal, and the entire system carries on even
+when multiple nodes fail. Research over the last several decades has
+helped illuminate the mathematics of such ‘fault-tolerant’ distributed
+systems, and blockchain technology is the product of that research.
+Applied to human governance, the promised outcome is a way for people to peacefully and effectively organise themselves without resorting
+to centralised authorities.
+When we hear the word ‘governance’, we are apt to think of great
+governmental institutions like nation states and their centres of power;
+we may form a mental image of the capitol building in Washington,
+D.C. or the Kremlin in Moscow. Of course, human governance is much
+more extensive than what happens in the centres of power of nation
+states. Indeed, obviously, governance also applies to state legislatures
+and to city councils and, less obviously, to homeowner associations and
+even to condo boards. At the end of the day, nation states and their centres of political power are just the tip of the iceberg regarding human
+governance.
+Some type of governance seems to be involved in the organisation
+of human flourishing (and failure thereof ) at every level of granularity,
+from the United Nations, the Organization of American States, and the
+African Union to labour union meetings, meetings of church deacons,
+faculty meetings, and even scout troop meetings. And, of course, private organisations like corporations have systems of governance as well.
+Governance is everywhere. However, even these examples and cases
+like them do not begin to illuminate how vast and all-encompassing
+human governance is and how much activity it facilitates, obstructs and,
+ultimately, controls.
+Let us start by looking at this in economic terms. The vast
+majority of human wealth is within the control of these human
+
+
+governance structures. Even if we focus solely on governance in
+a coarse-grained way – i.e. the governance that is done by what
+we recognise as official nation states – the amount of wealth made
+possible by governance is staggering. Tom W. Bell, in his book
+Your Next Government?: From the Nation State to Stateless Nations,
+cites statistics from a 2000 study by the World Bank that put the
+percentage of global wealth a ttributable to traditional government
+activity at 44%. By contrast, according to the study, only 5% of the
+world’s wealth is attributable to natural assets like oil, gold and timber, and only 18% of the world’s wealth is generated through manufacturing things like gasoline, jewellery and lumber.6 How is this
+even possible?
+Rather than focus on the exact numbers, for the moment, let us
+consider the more abstract question of why governance is extremely
+important in the creation of wealth. Let us begin with the case of natural resources. Consider a gold mine, for example. If there is no governance, there is no one to control or even keep track of who owns the
+land, which means it belongs to whoever can grab it, and people will
+grab it just in case the cost of grabbing it is less than the cost of what
+can be extracted from it.
+We seldom think about the role of government in tracking property
+ownership, but even in countries like Mexico, which currently has the
+twelfth largest economy in the world,7 the system of property ownership can break down. Until a few years ago, there was a system in which
+a single notaría kept a record of property ownership, but notarías were
+notoriously susceptible to being bribed or intimidated into changing
+ownership records. You could lose your property with a change to a
+single document.
+Tom W. Bell, Your Next Government? From the Nation State to Stateless Nations (Cambridge,
+2017).
+Caleb Silver, ‘The Top 25 Economies in the World’, Investopedia, 10 April 2024 <https://
+www.investopedia.com/insights/worlds-top-economies/> [accessed 23 October 2024].
+
+
+In countries like the United States, there is an extra level of safety
+in the form of title insurance, but of course, insurance markets do not
+operate in a vacuum. Governments are involved in regulating insurance
+markets and requiring that insurance companies have the resources to
+pay what they have promised to pay and that they pay legitimate claims.
+Sometimes, disputes arise over insurance claims and land claims and
+every other sort of claim, and these claims require a court system that is
+expeditious and fair. This may seem like a small ask, but it is a huge one
+in many parts of the world.
+Even if you can maintain control of the territory where your gold
+mine operates, you need to rely on governments (or something like
+them) for additional help. If you do not have your own electrical generation plant, you need to rely on a system that delivers power, and you
+need lines of communication. You need to bring workers and equipment to your mine, and you need to safely transport your extracted gold
+to a well-functioning (non-corrupt) market.
+Of course, you do not need traditional governments to do all of this.
+You could rely on private militias and security firms, and you might
+work out a financial arrangement with whoever controls the roads and
+power grid. Maybe you prefer such a system. Perhaps if security, record
+keeping and so on were private matters, it might be more obvious to us
+just how much value is added by these activities (or subtracted if they
+are not handled well).
+Our point is that even if these activities are taken away from traditional governments and placed in the hands of private enterprises
+free from traditional government oversight, there is still plenty of governance that has to take place. Whether that governance occurs in
+traditional governmental institutions or the private sector, immutable
+records must be preserved yet, at the same time, made available; disputes must be fairly adjudicated; and decisions must be enforced. The
+amount of wealth that relies on the proper execution of this form of
+governance is staggering.
+
+
+Since we began with the example of a gold mine, let us use the
+example of gold to put things in perspective. As of 2020, around $11
+trillion of our global wealth was tied up in above-ground gold. That
+is a lot. It is, as of this writing, more than ten times the value of all
+the Bitcoin in the world. However, it is also a drop in the bucket. The
+Fortune 500 companies have a combined value of $90 trillion.8 Global
+real estate clocks in at $280 trillion. The sum total of all global wealth
+is around $380 trillion.9
+When we ask how much of global wealth is created by government,
+we are really asking how much of that value would exist if there was no
+government (or something performing its governance function). Take
+the example of real estate; its global value is $280 trillion, but all of
+those deeds would not be worth the paper they are written on if there
+was no mechanism in place to ensure that you actually owned the property in question and that no warlord could simply snatch it from you.
+It may seem farfetched to think real estate could simply be taken
+by the stroke of a pen or the brandishing of a sword, but this reaction
+stems from the fact that many readers of this book will live in relatively stable economies with stable governance structures. As we will
+see, there are many countries where ownership of property is tenuous,
+and history has countless examples of property being seized and records
+of ownership destroyed.
+Another way to illustrate the situation is with Tom W. Bell’s ‘law
+bomb’ thought experiment. Bell asks that we imagine something like a
+neutron bomb that did not harm people or physical objects but which
+could eliminate the rule of law. If such a bomb were to be detonated,
+
+NGRAVE, ‘Too Big to Fail? Crypto Market Size vs Traditional Assets’, 2022 <https://
+medium.com/ngrave/too-big-to-fail-crypto-market-size-vs-traditional-assets-eff4bb2ec529> [accessed 23 October 2024].
+Even here, we are ignoring the wealth generated by derivative markets, which dwarf
+everything we have discussed thus far. As of this writing, the amount of wealth in the
+derivative markets is over a quadrillion dollars.
+
+
+much of the wealth we have acquired would be wiped out.10 Property
+has little value when there can be no legal guarantee of ownership, and
+similarly, basic commerce, transportation and communication would
+have to be reinvented for a world without law.
+Our point here is that the practice of governance, whether private
+or public or some hybrid, is critical to the maintenance and growth
+of wealth. As we will see, economic problems are not the only consequences of governance failures.
+In the next chapter, we will discuss consequences like wars and
+genocides, and it is important to keep in mind that these are also
+examples of failures of governance, even if we do not always think
+of them that way. If human society governed itself effectively, these
+things would be far less frequent. Beyond this, there are many other
+consequences of failed governance that cut to the very heart of human
+flourishing. Human governance, if it is working well, not only enables
+the generation and preservation of wealth but also enables the flourishing of human cultures and assists individuals in securing their personal
+freedom and in their pursuit of happiness and wellbeing.
+Governance, whether it comes in the form of public governments or
+other forms of human governance, is absolutely critical to every aspect
+of our lives. The trouble is that it often seems to be broken. The question
+is, what can we do about this? As we noted earlier, our aim in this book
+is to introduce new technologies and corresponding values that can help
+us govern better. Those technologies (in particular, blockchain technologies) will facilitate decentralised governance and human cooperation.
+As stated, good governance can generate wealth for its people, and
+bad governance can debase the wealth of its people. Indeed, especially
+corrupt governance can be worse than no governance at all. And here
+is the problem: because there is so much money created by governing institutions and because so much money passes through governing
+institutions and (although we have not talked about it yet) because so
+
+Bell, Your Next Government?
+
+
+much private sector wealth is regulated by such institutions, governing
+institutions of every stripe are an absolute magnet for corrupt individuals. Willie Sutton once famously said that he robbed banks ‘because
+that is where the money is’, but the problem is that Sutton was wrong
+about that. If you want to find the money, you have to find the central
+authority in control of organising economic activities. That is where the
+money really is. Corrupt individuals – our modern-day bank robbers –
+know this well.
+All of this leaves us with the question: Is it actually necessary for
+governments and other governing institutions and organisations to be
+susceptible to corruption and incompetence? Is corruption the inevitable consequence of human governance? We think not. And here we
+return to the issue of governance technology, for as we said, the tools
+that are used for governance today are obsolete.
+Since Satoshi published the Bitcoin white paper in 2008, the world
+has seen an explosion of tools that leverage blockchain technology
+to provide universally transparent and immutable records of financial
+transactions and human activity. At the same time, we have developed
+other tools that allow us to carry out our private affairs in private. In
+effect, we now have tools that make government activity transparent
+and immutable and our personal business personal and private.
+However, as we also noted earlier, the really profound idea grounding Satoshi’s white paper was not just applicable to cryptocurrencies
+but also to how we can bring about decentralised governance. Most
+governance today has been aided by technologies that have helped centralised governance structures to prosper. These include technologies
+for surveillance and technologies to facilitate the application of force
+against a restive population. In fact, technology has been facilitating
+centralisation since the Bronze Age, as evidenced by bronze swords and
+armour helping to unify the Mesopotamian empire.
+The revolutionary aspect of fault-tolerant distributed systems is
+the idea that we can decentralise authority, and while that generates
+more points of attack, we can utilise the mathematics of Byzantine fault
+
+
+tolerance to engineer systems that can absorb those attacks and survive
+despite them. We will go into some detail about Byzantine fault tolerance in Chapter 5, but for now, it is enough to understand that we can
+engineer our governing technologies in a way that avoids central points
+of attack and can absorb local failures. Indeed, we can emerge from
+those failures stronger.
+Finally, it will be important to keep in mind that no technology can
+be successful on its own. Technologies succeed or fail (sometimes fail
+spectacularly) depending on whether they are designed to have human
+beings as part of the technological system and whether the attitudes of
+these humans align with the goals of the technology.
+In this case, we think that the fundamental values that we should
+prize, and that are inherent in the new technologies we offer here,
+are those of decentralisation, cooperation, corruption resistance and
+transparency.
+Whatever your view about governance, the real dividing lines are
+between systems of governance that are centralised and those that are
+not. Thus, the issue is not whether you are a socialist or a free-market
+capitalist but whether you are a centraliser or a decentraliser. Just as
+there can be decentralised socialism,11 there can also be centralised
+capitalism. As we write this, Silicon Valley is full of centralised powers
+And yes, there actually are versions of socialism that reject centralisation, perhaps most
+famously Marx’s contemporary, Mikhail Bakunin, who is often classified as an anarchist
+socialist. In Bakunin’s view, Marx wanted to seize the reins of centralised authority for his
+own ends. As he put the fundamental problem: ‘Marx’s program is a complete fabric of
+political and economic institutions, strongly centralized, and very authoritarian’. Prophetically, Bakunin wrote of Marx’s project: ‘There will therefore be no longer any privileged
+class, but there will be government and, note this well, an extremely complex government,
+which will not content itself with governing and administering the masses politically, as all
+governments do today, but which will also administer them economically, concentrating
+in its own hands the production and just division of wealth, the cultivation of land, the
+establishment and development of factories, the organization and direction of commerce,
+finally the application of capital to production by the only banker, the State.’ See Mikhail
+Bakunin, ‘Marxism, Freedom and the State’, in Selected Writings from Mikhail Bakunin (St.
+Petersburg, FL, 2010).
+
+
+(from Google and Facebook to Apple and Microsoft) that hold great
+control over our lives, and they are nothing if not centralised centres of
+governance in the information age.
+We believe – and will argue – that decentralised communities and
+blockchain governance (at every level) are not only feasible but are
+on the immediate horizon. Furthermore, the seeds have already been
+planted. Our aim is to nurture those embryonic forms of blockchain
+governance and make their future adoption as frictionless as possible.
+Thus, we also aim to facilitate the development of new forms of blockchain governance. In Chapter 14, we provide a toolbox of resources for
+building blockchain governance at every level. This toolbox includes
+tools for communication, commerce and security.
+Of course, you do not need to use our tools; you can make your
+own. In fact, we have made all of our tools open source, so you can copy
+them or modify them and mix and match them as you see fit. There is
+no right way to build a system of blockchain governance. Or rather,
+there are lots of promising ways to build blockchain communities and
+engineer new forms of blockchain governance at every level – even in
+your local homeowner association meetings. In the fullness of time,
+blockchain governance will take many forms, encoding diverse values
+and principles, and adopting different goals. Our aim here is to help
+that happen – to facilitate the weaving of a beautiful tapestry of diverse
+human projects, all with an eye to nurturing diverse human cultures,
+values, plans and public goods.
+

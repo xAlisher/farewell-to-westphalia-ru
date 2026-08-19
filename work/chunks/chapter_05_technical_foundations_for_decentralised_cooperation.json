@@ -1,0 +1,250 @@
+[
+ {
+  "id": "05-000",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1122,
+  "en_words": 184,
+  "text": "# 5. Technical Foundations for Decentralised Cooperation\n\n## 5.1 Preliminaries\n\nIn 1678, thirty years after the Peace of Westphalia, the German philosopher Gottfried Wilhelm Leibniz wrote to the Duke of Hanover proposing a permanent archive of documents for governance purposes. When that fell on deaf ears, Leibniz made the proposal again in 1680 to the Duke’s successor. Again, it fell on deaf ears. But who is Leibniz? What was his proposal? And what does it have to do with the future of governance?\n\nIn addition to his writing on metaphysics (for example, on monads), Leibniz was known for his debates with Isaac Newton’s associate Samuel Clarke about the nature of space and motion, for his work on the philosophy of religion, and for his work on the theory of knowledge. Leibniz is perhaps best known for independently inventing the calculus (indeed, inventing a version of the notation we use today). Although not his most well-known work, he wrote a tremendous amount on political philosophy, law and government. And these are the writings that concern us here – especially, as they relate to government archives."
+ },
+ {
+  "id": "05-001",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1347,
+  "en_words": 228,
+  "text": "When Leibniz wrote to the successive Dukes of Hanover, he described his archive project as ‘a place where writings useful for government are kept in such a way that they rest intact and unaltered for future information, and that in that occasion they can be used as certified proofs in justice.’ Contemporary Brazilian philosopher Ulysses Pinheiro provided a helpful summary of the project, noting that the idea was to create ‘an instrument with a fundamental concern over the future actions of a Prince. It has the epistemic value of a virtual mechanism guiding the Prince’s actions.’\n\nLeibniz was apparently obsessed with his idea for an archive. In his proposal to the Dukes of Hanover, he went into great detail on how they should secure records. He proposed that the structure housing the records be protected so as to adequately preserve the documents from mould, mice and worms, as well as from fire and attack of enemies. He added that its internal vaults should be reinforced, and its doors should be made of iron. The most important original documents should be kept in a safe and hidden in a wall.[^1]\n\nOne thing that Leibniz, for all his genius (and despite himself being very much a decentraliser), apparently did not envision was that these records could be decentralised and thus made even more secure. But how are they more secure?"
+ },
+ {
+  "id": "05-002",
+  "kind": "body",
+  "en_sentences": 8,
+  "en_chars": 1254,
+  "en_words": 199,
+  "text": "As we will see, centralised record repositories create points of failure in governance. They provide vectors of attack for internal and external enemies, they are magnets for corruption, and they are susceptible to destruction from natural causes (for example, from mould, mice, worms and fire). Decentralisation, we will argue, is necessary to make archives secure. It is not surprising that Leibniz failed to see this despite him being a decentraliser regarding political sovereignty and even in his work on metaphysics (his use of monads, in particular, was a kind of decentralising project). His proposal was more than three centuries before Satoshi’s white paper, after all, and no one has perfect foresight.\n\nIn this chapter and the next, we will develop some of Leibniz’s ideas in ways we think he would like were he alive today. In this chapter, we will discuss immutable records and how they are only made possible by decentralised protocols, and we will lay out the theory of secure decentralised protocols. In the next chapter, we will explore how certain immutable records, in the form of onchain smart contracts, can be leveraged into ‘virtual mechanisms’, not merely ‘guiding the Prince’s actions’ but executing those actions automatically."
+ },
+ {
+  "id": "05-003",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1598,
+  "en_words": 255,
+  "text": "## 5.2 Immutable records\n\nIn May 1747, Don Giuseppe Rapaccioli, a parish priest in Macinesso, Italy, was supervising the renovation of a field near his church when he came across a large bronze plaque containing Latin inscriptions. Today called the *Tabula Alimentaria Traiana*, it measures 1.38 metres high and 2.86 metres long. It is, to this day, the largest bronze inscription from antiquity that has been found. Further study of the Tabula dated it to 112 CE, during the reign of the Roman Emperor Trajan (Traiana signifying its relation to Trajan).[^2]\n\nIn the early second century CE, Trajan instituted an alimentary programme in towns throughout the Italian peninsula. This programme encouraged landowners to take out loans from the government by mortgaging their property. The interest on these loans was paid in the form of a food stipend for children in the respective areas. In other words, landowners could borrow money from the government using their land as collateral, provided that the interest was paid as assistance to local poor children. Emperor Trajan thus used short-term bribes to incentivise landowners to look after local children in the long term.[^3]\n\nIn this particular case, the bronze Tabula codified the details of Trajan’s alimentary project in Veleia, a rural northern Italian town near the Roman colony of Placentia (now known as Piacenza). The recorded information on the plaque included the debtors’ names, the location and value of their property, and the loans they received for that mortgaged land (generally, a little over 8% of the land’s appraised value)."
+ },
+ {
+  "id": "05-004",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1067,
+  "en_words": 177,
+  "text": "This bronze plaque had certain important features that we are interested in. It was public; everyone in the town could see it, and everyone knew what was owed and what the landowners were expected to pay for the children. Second, it was, for all practical purposes, immutable. It was cast in bronze, after all. Not one detail had changed between the time it was lost and its discovery by Father Rapaccioli in 1747.[^4]\n\nNot only was the information in the Tabula public and functionally immutable, but it also had a ‘cybernetic’ effect (in the sense of the ancient Greek origins of the term). By making responsibilities public, it helped to ensure that those responsibilities were carried out. Everyone knew what was expected. Thus, it was not merely information but information that had a governing function. Of course, the encoded information could not guarantee that Trajan’s policy would be carried out. Yet, whoever made the Tabula presumably assumed it would encourage people to fulfil their obligations or possibly feel shame if they failed to live up to them."
+ },
+ {
+  "id": "05-005",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1430,
+  "en_words": 230,
+  "text": "We can also imagine a scenario in which recorded information has a direct causal role by being encoded in a computer program that might reliably act on the information. We will develop this in the next chapter, but for now, let us focus on the importance of secure information and think about what happens when reliable records are not available.\n\nDetailed records have been vital to human governance since the earliest civilisations on record. The ancient Sumerians left behind a detailed record in the form of cuneiform writing on clay tablets. Subsequent civilisations in the Near East (the Babylonians, Assyrians, Elamites, Hurrians, Kassites and Hittites) also made extensive use of cuneiform records to extend the scope of their governmental control, so much so that we now know their legal record keeping as cuneiform law. The most famous case of this legal record keeping is the Code of Hammurabi, which remains one of the most well-preserved legal texts of the era. Cuneiform law became not only a way of regularising the administration of justice but also a means of tying together the administration of perhaps the world’s earliest empire and projecting its force throughout Mesopotamia.[^5]\n\nIt is worth emphasising the role that proper record keeping plays in the administration of justice, for we seldom think about just how important reliable records are. A more contemporary illustration may bring this point home."
+ },
+ {
+  "id": "05-006",
+  "kind": "body",
+  "en_sentences": 14,
+  "en_chars": 1820,
+  "en_words": 300,
+  "text": "In 2008, a group of students from the Pepperdine Caruso School of Law went to Uganda, participating in a project to modernise the Ugandan legal system. One of the most salient facts that stood out to the students was the poor state of the legal records. A campus newspaper reported on their findings: ‘Archives are designed to serve as an area where law precedent is carefully stored, indexed and readily available to the judges. This archive, however, was located deep in the basement of the High Court’s building and consisted of hundreds of unorganized case files dumped into a dark and dirty closet.’[^6]\n\nThe first point of note here is that if there is no reliable record of legal decisions, there is no meaningful notion of judicial precedent. Every case must be argued anew, based not on precedent but on whatever reasoning the local justice chooses to apply. Apart from the inconsistency that this generates in legal decisions, it slows the process considerably if every case needs to be reasoned from scratch.\n\nThis leads to a related point that might not occur to First-World citizens. There is a financial cost to record keeping. In the Western world, judges and courts have nearly unlimited access to clerks and stenographers and other ways of recording deliberations and decisions. However, in places like Uganda, this cannot be taken as a given. This too was noted by the Pepperdine article: ‘This East African country doesn’t have sufficient funding to provide judges with support staff or clerks; they must research, develop and write the decisions on their own. Additionally, High Courts have no court reporters to record trial proceedings, so the judges must hand-write notes.’ As Pepperdine law student Greer Illingworth put it, ‘“the proceedings can only move as fast as the judge takes notes.”’[^7]"
+ },
+ {
+  "id": "05-007",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1711,
+  "en_words": 256,
+  "text": "Situations like this do not merely slow down the proceedings; they leave thousands of people in perilous legal limbo. As the students discovered, there were more than a few remanded minors living in squalid conditions with no reliable record of their case histories, including the charges against them, nor any prospect of timely resolutions of their cases. Failed record keeping put them into dangerous legal limbo.\n\nFailed record keeping can also lead us to lose track of governmental atrocities, as the students learned while exploring the dingy basement that served as a repository for Uganda’s legal system: ‘Students stumbled across a turquoise book marked “Confidential” amid the piles of legal papers. Curious, they soon realised that they had found hundreds of execution orders given by Idi Amin, military dictator and president of Uganda from 1971–1979.’[^8]\n\nIt may be surprising just how fragile record keeping has been through the centuries. For example, during revolutionary periods, one of the first and most important objectives for the revolutionaries is to find and destroy the records of the existing regime. Among other things, records contain files on dissidents and details of their arrests and activities. Destroying such records can protect dissidents from government retaliation.\n\nAnother target has been records of property ownership. In the earlier Russian revolution of 1905 (what Lenin called ‘the dress rehearsal’ for the revolution of 1917), peasants attacked the estates of landowners and destroyed physical property and, notably, debt records.[^9] Similarly, in the Mexican Revolution, Emiliano Zapata’s revolutionaries destroyed the previous regime’s records of land ownership."
+ },
+ {
+  "id": "05-008",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 2194,
+  "en_words": 354,
+  "text": "The case of the Mexican Revolution is particularly apt because records (and the lack of records) played a role on both sides of the conflict. Perhaps initiating the revolution were the actions of the haciendas – large estates that seized ancestral land claims from poor farmers, a crime made possible by the lack of permanent records of ownership. When Zapata’s men attacked the haciendas, among the principal targets were the newly minted records of ownership. A fascinating collection of papers assembled by Carlos Aguirre and Javier Villa-Flores documents numerous examples of this sort of archival conflict in Latin America. It is a tradition that begins with the destruction of Mayan records by the conquistadors in 1530, an event that was followed by the destruction of twenty-seven Mayan codices by Diego de Landa, the Bishop of Yucatán, in 1566.[^10] Reporting on the atrocity, de Landa himself noted, ‘We found a large number of these books, and, as they contained nothing in which there was not to be seen superstition and the lies of the devil, we burned them all, which they regretted to an amazing degree and which caused them great affliction.’[^11]\n\nThe history of archival conflict proceeded through the destruction of records of the Spanish Inquisition to the destruction of municipal archives during an uprising in Mexico City in 1630. It continued all the way through the twentieth century, during which the destruction of archives remained a robust tradition during times of political conflict. We have already mentioned Zapata’s destruction of records of property ownership; this is a strategy that was repeated in El Salvador in 1932 when Red Commanders destroyed the property records in every town they occupied.[^12]\n\nOf course, economic records such as ownership and debt are not the only targets of archival destruction; cultural records are routinely destroyed as well. This was certainly the goal in the destruction of the Mayan codices in the sixteenth century. As Aguirre and Villa-Flores point out, the problem is not just with intentional efforts to destroy records but also the fact that records can be subject to lack of attention, natural disasters and so on."
+ },
+ {
+  "id": "05-009",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1851,
+  "en_words": 294,
+  "text": "Earlier, we mentioned the case of the poorly maintained legal records in Uganda. However, there are many examples of this in Latin America as well, including the Lima–Callao earthquake of 1746 and, more recently, the tragic 2015 fire in the National Museum of Brazil that destroyed 92.5% of its repository of 20 million items, including its archive of indigenous languages. An employee of the Federal University of Rio de Janeiro announced the tragedy to online linguists:\n\n> Folks, there’s nothing left from the Linguistics division. We lost all the indigenous languages collection: the recordings since 1958, the chants in all the languages for which there are no native speakers alive anymore, the Curt Nimuendajú archives: papers, photos, negatives, the original ethnic-historic-linguistic map localizing all the ethnic group in Brazil, the only record that we had from 1945. The ethnological and archeological references of all ethnic groups in Brazil since the 16th century… An irreparable loss of our historic memory. It just hurts so much to see all in ashes.[^13]\n\nWhat does the loss of cultural information have to do with governance? Well, culture plays a role in the unification of people for a common cause. Good governments often take on the responsibility of preserving cultural records, not just because it is a good thing to do, but because the very identity and existence of the government often depend on these cultural archives (think of the role the French government plays in maintaining the Louvre or the role the Italian government plays in maintaining the Uffizi). Even if we think that governments should have nothing to do with preserving national culture, there are still institutions that will be charged with protecting cultural heritage, and those institutions also need proper governance, even if it is self-governance."
+ },
+ {
+  "id": "05-010",
+  "kind": "body",
+  "en_sentences": 8,
+  "en_chars": 1135,
+  "en_words": 180,
+  "text": "It is important to understand that the loss of archives is not the only pain point. A similar effect can be achieved by restricting access to archives. To put it another way, you do not need to destroy the archives if you can instead make them inaccessible. And for sure, there are plenty of information archives throughout the world that remain inaccessible, either because they are classified or private or behind a paywall – a point that was made clear by Aaron Swartz in his *Guerilla Open Access Manifesto*.[^14]\n\nWhy does all this matter? Because archives and access to the information contained in those archives are critical to freedom, democracy and, certainly, our ability to know whether our government is functioning as it promised (whether that government is democratically chosen or not). Jacques Derrida summarised the importance of archives to governance as follows: ‘There is no political power without control of the archive, if not of memory. Effective democratization can always be measured by this essential criterion: the participation in and access to the archive, its constitution, and its interpretation.’[^15]"
+ },
+ {
+  "id": "05-011",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1217,
+  "en_words": 207,
+  "text": "In his discussion of Leibniz’s proposal for an archive in conjunction with the philosopher’s views of national sovereignty, Pinheiro argued that, to some extent, the very existence of the state is a function of the archives it keeps.[^16] If this sounds implausible, it should not. If the archives contain evidence of treaties and land ownership and citizenship and economic contracts, then at the very minimum, one can reconstruct the state, its borders and its interests from a well-maintained archive. Were the archive to disappear due to an ‘archive bomb’, it is not at all clear that the state would be able to persist in its pre-bombing form. Indeed, on reflection, an archive bomb would be at least as devastating as Tom W. Bell’s law bomb because the law is dependent on the existence of functioning archives.\n\nIf we think of a government as a body, then information archives are its DNA; they are the information within the cells of the organisation that guides it in what organs to make and where and how they should be regulated. Similarly, archives are not just things that states keep. Archives are critical to the very identity of the state. We believe this also holds true at every level of governance."
+ },
+ {
+  "id": "05-012",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1448,
+  "en_words": 227,
+  "text": "Now, we get to the real challenge. Archives are not only under threat from conquistadors and revolutionaries and fire and earthquakes. Because they are under centralised control, they are also vulnerable to the corruption and ineptitude of record keepers. Is there a way to decentralise record keeping and thus make records safer? This is one of the great promissory notes of blockchain technology.\n\n## 5.3 Decentralised cooperation\n\nOne of the more infamous examples of record destruction happened on 7 December 1985, when Pablo Escobar paid the left-wing guerrilla group M-19 (the 19 April Movement) to invade Colombia’s Supreme Court building in Bogotá and destroy records related to criminal cases being built against Escobar and other *narcotraficantes*. If Pablo’s son is to be believed, this was accomplished for the low price of $1 million – peanuts to an international drug trafficker.[^17] The damage went far beyond the documents in the case against Escobar. According to Mark Bowden in his book *Killing Pablo*, the attack destroyed documents for 6,000 pending criminal cases and ‘crippled the Colombian legal system’.[^18]\n\nWe can, of course, attempt to armour our central points of failure (as Leibniz proposed to the Dukes of Hanover), but sadly, these attempts are inherently vulnerable to all manner of attack. Pablo Escobar chose the crude method of a guerrilla military operation, but softer methods are often just as successful."
+ },
+ {
+  "id": "05-013",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1019,
+  "en_words": 169,
+  "text": "There is a reason why the Defense Advanced Research Projects Agency (DARPA) funded the early stages of the Internet. A decentralised (or at least more decentralised) network is less vulnerable to attack. In theory, it should even survive a nuclear war. Similarly, if we want our documents and records of value to survive attack, then we should consider decentralised networks. However, slogans about decentralisation aside, this turns out to be easier said than done.\n\nIf a centralised repository of records represents a point of failure, then it would be natural to assume that a decentralised network represents multiple points of failure. However, the difference is that a decentralised network can be fault tolerant. Nodes in the network can fail, but the network keeps humming. You see this in the case of the Internet. If an Internet node goes down, the entire Internet does not fail. As we will see in the next section, fault tolerance takes on a whole new dimension with regards to matters of money and control."
+ },
+ {
+  "id": "05-014",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 872,
+  "en_words": 153,
+  "text": "Most of the institutions of trust that we engage with today are centralised. For example, our national governments are typically central governing bodies that sit in a national capital. Most nations issue their own currency, which is under the control of a central bank. So too, our various institutions of financial trust are centralised. We trust large banks to accurately record how much money is in our accounts and our financial transactions. If we wire $100 to your account from our account, our bank debits our account $100. If we use the same bank, our bank simply credits your account $100 – no coins or dollar bills or bars of gold move. There is just a simple change on a ledger that the bank keeps. If we use different banks then our bank will credit the account of your receiving bank, and this will be recorded by a centralised interbank protocol like SWIFT."
+ },
+ {
+  "id": "05-015",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1292,
+  "en_words": 210,
+  "text": "Similarly, if we buy land, its ownership is recorded by some single official record keeper. In the United States, that would be a title company. In Mexico (prior to 2016), it would have been a local *notaría*. Perhaps you worry that your title company in the United States might misfile something or overlook a dispute about who owns your property. That is why we have title insurance. However, as with everything else, title insurance is recorded with a centralised institution.\n\nThe problem with centralisation is that it represents a massive point of failure for any system, whether it is governmental or financial. Pablo Escobar showed us how centralised legal records represent a point of failure, but this is true for all kinds of record keeping. If ‘official’ financial records are stored in a single centralised location, then those records can be destroyed by targeting that single location. Centralised records are also targets for corruption. If a record of property ownership is controlled by a single *notaría*, the *notaría* becomes a target for bribery and extortion and thus becomes the point of failure for the property ownership system. If the official copy of the records is moved to a central government office, then that government office becomes a target for corruption."
+ },
+ {
+  "id": "05-016",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 941,
+  "en_words": 165,
+  "text": "The same can be said for national currencies, government policies and other societal institutions. If there is a central authority, then that central authority becomes an attack vector for enemies and an opportunity for individuals to game the system for their own benefit. And it may be a very banal form of corruption at the end of the day. After all, central bankers have friends, and they are apt to be part of a wealthy class of individuals. Thus, central bankers are likely to take on the attitudes of their small class of friends. Does this make them corrupt or evil? Well, that is not the issue; more pressing is whether such decisions should rest in the hands of a few central authorities – authorities that are vulnerable to falling under the influence of a small number of individuals. It does not matter whether that influence is driven by force or corruption or simply the interests of close friends. The end result is the same."
+ },
+ {
+  "id": "05-017",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1629,
+  "en_words": 268,
+  "text": "We all know that corruption and more benign forms of influence exist, and we certainly know that there are countries and institutions where corruption and the exercise of political influence are particularly rampant. However, rather than criticise the tools that we use for governance, we are often critical of the morals of corrupt and inappropriately influenced individuals. For sure, there are some morally reprehensible people out there engaging in all sorts of corruption. However, corruption has been a thing for the entire history of human governance. While it might give us a sense of satisfaction to be critical of the individuals caught in the corruption and influence game, it would be much more effective to avoid governance architectures that invite such corruption and influence peddling.\n\nIt is worth noting that many individuals have played the corruption game because they had no choice. As Colombian officials found in the days of Pablo Escobar, there was often an ultimatum: *plata* or *plombo* (silver or lead) – ‘take the bribe and do what we want, or you and your family may suffer physical harm.’ We can blame people who cave to this pressure if we want, but it makes far more sense to attack the root of the problem, which is centralised governance structures.\n\nYou might think that human governance cannot be any other way than centralised because, after all, someone has to keep these records. If everyone kept their own record, surely there would be disputes. How would we even resolve those disputes if not through some central authority that had access to the correct or official record of ownership?"
+ },
+ {
+  "id": "05-018",
+  "kind": "body",
+  "en_sentences": 14,
+  "en_chars": 1376,
+  "en_words": 252,
+  "text": "It is one thing to say that you do not like centralised records, but it is quite another matter to figure out what the decentralised alternative might be. The first thought is that we could simply make copies of the record and distribute it to everyone in the network. However, this raises the question of what happens when disputes arise. What if our records are inconsistent? The temptation is to think that there should be some centralised official record that we can check against, but now we are back in the business of centralised record keeping, and that is the very thing we are trying to get away from.\n\nCentralised record keeping presents numerous points of weakness, but as we are about to see, decentralised networks have their own problems that we will need to address. One such problem is the ‘double-spending problem’. Suppose that we offer to buy a widget from you for $100. You check the shared distributed ledger and confirm that we have $101 in our account, so we should be able to pay. You send us the widget, and you deduct the $100 from our account. However, what you did not realise is that just as we were buying the widget from you, we were buying a $100 cog from Smith. Smith also consulted their copy of the ledger, saw that we had $101 in our account and sent us the cog. Clearly, it is not possible for both you and Smith to be paid. Who is right?"
+ },
+ {
+  "id": "05-019",
+  "kind": "body",
+  "en_sentences": 14,
+  "en_chars": 1448,
+  "en_words": 243,
+  "text": "This is the problem: if there are many nodes in the network, there can be bad actors at any of those nodes. Does decentralisation not just increase our headaches when it comes to failure and corruption?\n\n## 5.4 Byzantine generals, decentralisation and Satoshi\n\nThe double-spending problem is just one instance of a class of problems that every decentralised network has to confront. In 1982, Leslie Lamport, Robert Shostak and Marshall Pease released a research paper titled ‘The Byzantine Generals Problem’,[^19] which gave the class of problems the name by which we know it today.\n\nHere is one version of the problem: several Byzantine generals must participate in a coordinated attack on a city, each at the head of an army. It is a critical point that the attack must be coordinated. If too few armies attack, they will be crushed. However, now we encounter several problems. One problem is that the generals must communicate with each other in what is effectively a hostile environment. What if the messenger gets intercepted? Well, you could wait for a responding message that your initial message was received. But how does the other general know you received the response? Do you have to respond that you got the confirmation? For a coordinated attack, it is not enough for everyone to receive the attack message; everyone has to know that everyone received it, and they have to know that everyone knows that everyone received it and so on."
+ },
+ {
+  "id": "05-020",
+  "kind": "body",
+  "en_sentences": 12,
+  "en_chars": 1349,
+  "en_words": 204,
+  "text": "However, there are more problems. A coordinated attack may also fail due to traitorous generals. Or perhaps, it will fail merely due to incompetent generals sleeping off their hangovers. Therefore, we must plan our attack in a way that is ‘fault tolerant’ – the attack must be successful even if there are weak links among our generals. This is ‘Byzantine fault tolerance’.\n\nThis problem has been with us for as long as we have had to engineer distributed systems. Research on Byzantine fault tolerance (although not under that name) began in the 1950s and mainly revolved around the aviation industry. To see why, consider an aeroplane with multiple computers that might fail. You do not want one failure to bring down the whole system, but how do we engineer around these inevitable failures?\n\nIn the 1970s, researchers at Draper Laboratory published a technical report on the fault-tolerant multiprocessor (FTMP) – a multiprocessor computer that eliminates single-fault vulnerability for aircraft modules. During the same decade, Honeywell developed the multimicroprocessor flight control system (MMFCS), which focused on the detection of Byzantine failures. Then, in 1981, SRI International published a technical report for aircraft control computers called ‘The software-implemented fault tolerance /SIFT/ approach to fault tolerant computing’."
+ },
+ {
+  "id": "05-021",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1526,
+  "en_words": 256,
+  "text": "As noted, these papers were connected with the aerospace industry, where there are plenty of distributed systems and where some failure is inevitable but the wrong kind of failure could be catastrophic. It was not for nothing that the research behind the ‘Byzantine Generals Problem’ paper by Lamport, Shostak and Pease was funded by NASA, the Ballistic Missile Defense Systems Command and the Army Research Office.\n\nIn 1998, Lamport wrote another important paper in which he offered a solution to the Byzantine Generals Problem in the form of the Paxos protocol. The point of departure for Lamport’s paper is the Aegean island of Paxos, which in ancient times was (we are told) run by a ‘part-time’ parliament. It was part-time because trade was a bigger priority than governance for the governing citizens; no one in Paxos could afford to be a full-time member of the island’s parliament – they all needed to be travelling and trading. This meant that the government had to find a way to function even while its voting leaders and members came and went, and each would need their own record of parliamentary decisions while they travelled.\n\nThe analogy to distributed systems and the problem of Byzantine fault tolerance should be clear. Members of the parliament would be voting on important measures at different times. Many people would not have access to a centralised ledger, and in point of fact, if people were allowed to vote while travelling, even a central ledger at the capital would not be completely up to date."
+ },
+ {
+  "id": "05-022",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1624,
+  "en_words": 287,
+  "text": "No one knows how Paxos carried out this feat, so Lamport spun a story of an imaginary protocol in which records of votes would be copied and distributed. Each member of parliament would have their own version of a complete record of all the votes submitted thus far – i.e. state descriptions of the protocol. People could then update their copy of the record with their votes using indelible ink. When disputes arose over conflicting ledgers, there would be votes to determine which modified state description would be deemed official – the official description would be the one that ultimately received the majority vote (this vote could take some time for obvious reasons). In effect, you would not only be voting on policies but also on the official record of additions to the record of votes and policies.[^20]\n\nNotice that this is quite a good solution to some varieties of the Byzantine Generals Problem. If you have a way of tracking which decisions have a majority vote and everyone has a record of that, then if a majority of the armies is sufficient to carry out the attack, you are in a good position. The solution only breaks down if most of the generals are corrupt.\n\nThe Paxos protocol resolved some issues with distributed networks, but it did not resolve all of them, and we mentioned one such problem earlier – the double-spend problem. Recall that this is a case where we have $101 and purchase a $100 widget from you and a $100 cog from Smith, but neither of you is aware of the scam because you are both working from records (state descriptions) that show that I have enough money to pay for the product."
+ },
+ {
+  "id": "05-023",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1495,
+  "en_words": 248,
+  "text": "This leads us to the 2008 publication of Satoshi Nakamoto’s Bitcoin white paper and the subsequent implementation of Bitcoin in 2009. Many people understandably think of Bitcoin as being a virtual coin of sorts (‘coin’ is in its name, after all), but that is a very weak metaphor. If you are a so-called ‘whole coiner’, who owns one bitcoin (BTC), there is no coin sitting in a repository somewhere. It is much better to think of the Bitcoin protocol as a decentralised record or ledger that keeps track of who holds what – a ledger that is immutable (like the *Tabula Alimentaria Traiana*) and which is visible to all (as was the Tabula) but which, unlike the Tabula, is a decentralised record. It is not located in one place, but control of the record is distributed across the network. This has the advantage that it does not have a single point of attack, but it still must encounter the Byzantine Generals Problem, and in particular, the double-spend problem, which heretofore had not been solved. Here lies the monumental genius of Satoshi’s white paper.\n\nRather than having a single centralised authority that determines the official version of the blockchain, that determination can be a rotating responsibility. Furthermore, we can prove whether a proffered version of the blockchain is the official version. There are many ways to execute this general strategy successfully. However, it is worth beginning with Satoshi’s approach, which Bitcoin still uses to this day: ‘proof of work’."
+ },
+ {
+  "id": "05-024",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1333,
+  "en_words": 224,
+  "text": "There are three fundamental questions that a distributed ledger has to answer. First, how do we select which version of the ledger is the official version? Second, how do we prove that a proffered version of the ledger is the officially selected version? Third, how does the protocol protect itself against bad actors? Satoshi’s proposal solves all three problems with one idea: the aforementioned proof-of-work protocol.\n\nThe person who gets to declare the official version of the ledger is the first person who solves a certain cryptographic puzzle. The complexity of the puzzle is weighted in such a way that a new block (a new official version of the ledger) is produced roughly every ten minutes. The output of that effort answers question number two because that output is a ‘cryptographic hash’ that can tell us in short order whether a proffered version of the ledger is the new official version.[^21] If one digit in the ledger has changed (one digit in the entire history of the ledger), then the hash will be completely different. Think of the hash as perfectly reliable evidence that the blockchain you are looking at is the official version at a specific date and time. The people who deploy computer hardware attempting to solve the puzzle and create the blocks (and earn rewards for doing so) are called ‘miners’.[^22]"
+ },
+ {
+  "id": "05-025",
+  "kind": "body",
+  "en_sentences": 11,
+  "en_chars": 1600,
+  "en_words": 267,
+  "text": "We now have a way of selecting the ‘official’ block, and we have a way of proving whether we are looking at that official block. But what about the bad actors part? The protocol incentivises those participating in the network’s operation to maintain the ledger’s integrity in the form of block rewards, distributed in BTC. Bad actors can be penalised – they can be denied their block rewards. Given their massive energy expenses and investment in equipment, a rational actor with finite resources would consider such a strategy too costly, given their massive energy expenses and investment in equipment, when they could simply deploy the same resources and earn profit by following the network rules.\n\nSimilarly, a problem could arise if bad actors were able to create the official blocks most of the time. However, the only way to achieve that is to acquire enough hashing power to solve the cryptographic puzzles more often than all other participants combined. To do that, they would need to amass computer hashing power greater than half of the sum total of all the other computers in the network. Strictly speaking, this is not impossible, but it would be astoundingly expensive to acquire that much hashing power and pay for the energy necessary to solve the hashing puzzles. Estimates made in 2021 put the energy consumption of Bitcoin as comparable to that of Finland,[^23] so anyone wanting to corrupt the blockchain would have to be prepared to expend more than half that much in energy consumption alone. Plus, there is the cost of acquiring control of all the necessary mining equipment."
+ },
+ {
+  "id": "05-026",
+  "kind": "body",
+  "en_sentences": 9,
+  "en_chars": 1087,
+  "en_words": 184,
+  "text": "This was perhaps the most profound insight of Satoshi’s proposal. You do not have to make attacks impossible; you just have to make them cost-ineffective. It is not impossible to break Bitcoin; it is just not worth the expense. As mentioned, proof of work is just one way to engineer Byzantine fault tolerance and resolve the double-spending problem. There are a number of alternative protocols available now, but one important class of strategies that we should remark on here is ‘proof-of-stake’ protocols.\n\nWith proof of work, the idea was to secure the network by making the costs of being a bad actor prohibitive; one would have to acquire more than half the hashing power of the network. To date, this has been a successful strategy, but it has also drawn criticism over its energy usage. Whether, in the big picture, it actually poses an environmental problem is up for debate (a good case can be made that it helps make renewable energy sources profitable).[^24] However, it does raise the question of whether other options are available. Proof of stake (PoS) is one such option."
+ },
+ {
+  "id": "05-027",
+  "kind": "body",
+  "en_sentences": 10,
+  "en_chars": 1542,
+  "en_words": 266,
+  "text": "In the case of PoS, the network is secured by block-creating nodes staking cryptocurrency (for example, ETH) as a kind of guarantee that they will maintain the system’s integrity honestly. Instead of getting to create a block by solving a cryptographic puzzle, your entitlement to create a block is a function of how much of the asset you have staked. The more you stake, the better your chances of being the node that gets to create the block. There is some computing involved, but only as much as is necessary to assemble the block and generate a cryptographic hash for it. We will get into the finer details of this later, including questions about the degree to which PoS really is decentralised and how it can be gamed, but for now, we just want to focus on the general idea and how it qualifies as a version of decentralised governance.\n\nThere are, of course, other protocols, but for the moment, we set those aside because there is a more pressing issue. We have seen how immutable public archives are important and also how it is crucial to their security that they be decentralised. We have also seen that in the last few decades, we have developed general strategies for decentralised computation, culminating in the proof-of-work and proof-of-stake protocols. But this is only a glimpse of what these new technologies can offer us. Not only can we look forward to decentralised ledgers, but as we will see in the next chapter, decentralised smart contracts will also open up a whole new world of possibilities for human governance."
+ },
+ {
+  "id": "05-N00",
+  "kind": "notes",
+  "en_sentences": 14,
+  "en_chars": 1689,
+  "en_words": 211,
+  "text": "[^1]: Ulysses Pinheiro, ‘Leibniz on the Concepts of Archive, Memory, and Sovereignty’, *Für Unser Glück Oder Das Glück Anderer*, 3 (2016), 309–21 <https://www.academia.edu/39198781/Leibniz_on_the_Concepts_of_Archive_Memory_and_Sovereignty> [accessed 16 April 2023].\n\n[^2]: Gianluca Bottazzi, ‘Varsi E La Tabula Alimentaria Di Veleia’, *ValcenoStoria*, 2020 <https://www.valcenostoria.it/2021/08/21/varsi-e-la-tabula-alimentaria-di-veleia-by-g-bottazzi-r/> [accessed 24 January 2024].\n\n[^3]: Here, we set aside questions about the nobility of Trajan’s programme, which was probably motivated by a concern that rural regions of the empire would become depopulated.\n\n[^4]: Strictly speaking, it was not absolutely immutable. Obviously, changes can be made to bronze plaques; in this case, changes were indeed made. The Tabula was updated through the years before it was lost. In fact, there has been a dispute about whether variation in orthography on the Tabula is a result of error or changes in Latin over the years the Tabula was in use.\n\n[^5]: Encyclopedia Britannica, ‘Cuneiform Law’, *Britannica* <https://www.britannica.com/topic/cuneiform-law> [accessed 28 October 2024].\n\n[^6]: Joy Lynn Cole McMillon, ‘Law Students Leave Lasting Mark on Uganda’s Court System’, 2008 <https://law.pepperdine.edu/surf-report/posts/law-students-leave-lasting-mark-on-ugandas-court-system.htm> [accessed 16 April 2023].\n\n[^7]: Ibid.\n\n[^8]: Ibid.\n\n[^9]: Mark D. Steinberg, *The Russian Revolution, 1905-1921*, 1st ed. (Oxford, 2017).\n\n[^10]: Carlos Aguirre and Javier Villa-Flores, *From the Ashes of History: Loss and Recovery of Archives and Libraries in Modern Latin America* (Chapel Hill, NC, 2015)."
+ },
+ {
+  "id": "05-N01",
+  "kind": "notes",
+  "en_sentences": 13,
+  "en_chars": 1366,
+  "en_words": 163,
+  "text": "[^11]: Inga Clendinnen, *Ambivalent Conquests: Maya and Spaniard in Yucatan, 1517-1570* (Cambridge, 1987), 70.\n\n[^12]: Aguirre and Villa-Flores, *From the Ashes of History*.\n\n[^13]: <https://m.facebook.com/story.php?story_fbid=10107422574817418&id=5740086> [accessed 28 October 2024].\n\n[^14]: Peter Ludlow, ‘Aaron Swartz Was Right’, *The Chronicle of Higher Education*, 2013 <https://www.chronicle.com/article/aaron-swartz-was-right/> [accessed 2 January 2024].\n\n[^15]: Derrida, *Archive Fever*.\n\n[^16]: Pinheiro, ‘Leibniz on the Concepts of Archive, Memory, and Sovereignty’, 309–21.\n\n[^17]: Whether Escobar’s son is a reliable source is another question. In the same 2014 interview, he said that Pablo was not killed but committed suicide. Whatever the actual price, the important point is that a centralised store of records creates a point of vulnerability. The Spanish language interview can be found online here: <https://www.wradio.com.co/noticias/actualidad/pablo-escobar-se-suicido-no-lo-mataron-su-hijo/20141106/nota/2495321.aspx> [accessed 30 October 2024].\n\n[^18]: Bowden is a journalist that is perhaps better known for his book *Blackhawk Down*.\n\n[^19]: Leslie Lamport, Robert Shostak and Marshall Pease, ‘The Byzantine Generals Problem’, *ACM Transactions on Programming Languages and Systems*, 4/3 (1982).\n\n[^20]: Lamport, ‘The Part-Time Parliament’."
+ },
+ {
+  "id": "05-N02",
+  "kind": "notes",
+  "en_sentences": 6,
+  "en_chars": 949,
+  "en_words": 144,
+  "text": "[^21]: We can think of the cryptographic hash as being like an electronic signature that can verify the integrity of some file (in this case the ledger). If one element in the file is changed, then the correct hash (the signature) will not be produced. The signature thus serves as a proof that the ledger has not been corrupted.\n\n[^22]: The computers used to do the hashing are also called ‘miners’.\n\n[^23]: Jon Huang, Claire O’Neill and Hiroko Tabuchi, ‘Bitcoin Uses More Electricity Than Many Countries: How Is That Possible?’, *New York Times*, 9 March 2021 <https://www.nytimes.com/interactive/2021/09/03/climate/bitcoin-carbon-footprint-electricity.html> [accessed 28 October 2024].\n\n[^24]: The idea is that for many renewable energy sources like wind, much of the energy production goes to waste, but the energy produced in off-peak hours can be used to mine Bitcoin, radically improving the profitability of the renewable energy method used."
+ }
+]

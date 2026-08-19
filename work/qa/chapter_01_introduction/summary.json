@@ -1,0 +1,99 @@
+{
+  "total": 44,
+  "by_cat": {
+    "accuracy": 4,
+    "naturalness": 25,
+    "terminology": 5,
+    "mechanics": 7,
+    "register": 2,
+    "addition": 1
+  },
+  "by_sev": {
+    "minor": 37,
+    "major": 7
+  },
+  "samples": [
+    {
+      "chunk_id": "01-002",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "are resistant to corruption",
+      "tgt_span": "и защищены от коррупции",
+      "note": "Глоссарий фиксирует corruption-resistant -> «устойчивый к коррупции» (одна из четырёх базовых ценностей книги, см. 01-014); «защищены от коррупции» — инконсистентная передача термина",
+      "fix_hint": "«…и устойчивы к коррупции» (при коллизии с resilient перестроить: «…устойчивы — и к сбоям, и к коррупции»)",
+      "judge": 2
+    },
+    {
+      "chunk_id": "01-003",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "while still being resilient and corruption resistant",
+      "tgt_span": "оставаясь при этом устойчивым и защищённым от коррупции",
+      "note": "Тот же глоссарный термин corruption-resistant -> «устойчивый к коррупции»; «защищённым от коррупции» расходится с канонической формой и разорвёт связку с перечнем ценностей в 01-014",
+      "fix_hint": "«оставаясь при этом устойчивым — в том числе устойчивым к коррупции» или «…и устойчивым к коррупции»",
+      "judge": 2
+    },
+    {
+      "chunk_id": "01-007",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "governance seems to be involved in the organisation of human flourishing (and failure thereof)",
+      "tgt_span": "участвует в устройстве процветания человека (и его провалов)",
+      "note": "Нагромождение отглагольных существительных «участвует в устройстве процветания» — мёртвая абстракция в первой же фразе абзаца; вдобавок «его провалов» читается как «провалов человека».",
+      "fix_hint": "«Какое-то управление, похоже, стоит за тем, как люди процветают — или терпят крах, — на всех уровнях…»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "01-013",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "the world has seen an explosion of tools",
+      "tgt_span": "мир пережил взрыв инструментов",
+      "note": "Калька «explosion of tools»: по-русски «взрыв инструментов» читается буквально — будто инструменты взорвались; редактор школы Галь такое правит всегда",
+      "fix_hint": "«мир захлестнула лавина инструментов на основе блокчейна» или «инструменты… стали множиться лавинообразно»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "01-015",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "make their future adoption as frictionless as possible",
+      "tgt_span": "их будущее принятие шло с как можно меньшим трением",
+      "note": "Мёртвое отглагольное «принятие» как подлежащее плюс неуклюжий кластер «с как можно меньшим» — типичный переводной синтаксис",
+      "fix_hint": "«чтобы в будущем их принимали как можно легче, без трения»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "01-015",
+      "cat": "naturalness",
+      "sev": "major",
+      "src_span": "are on the immediate horizon",
+      "tgt_span": "они уже на ближайшем горизонте",
+      "note": "«На ближайшем горизонте» — калька с «on the immediate horizon»; в русской идиоматике горизонт не бывает «ближайшим»",
+      "fix_hint": "«они уже на горизонте» или «они не за горами»",
+      "judge": 1
+    },
+    {
+      "chunk_id": "01-014",
+      "cat": "terminology",
+      "sev": "major",
+      "src_span": "decentralisation, cooperation, corruption resistance and transparency",
+      "tgt_span": "защищённость от коррупции",
+      "note": "Glossary fixes corruption resistance -> «устойчивость к коррупции»; this is exactly the flagged list of the four named base values, so the canonical term is mandatory here. «Защищённость от коррупции» also collides with the free rendering in 01-003, blurring the term.",
+      "fix_hint": "заменить на «устойчивость к коррупции»",
+      "judge": 2
+    }
+  ],
+  "escalated": [],
+  "assembly_checks": {
+    "chunks_expected": 18,
+    "chunks_found": 18,
+    "body_chunks": 16,
+    "notes_chunks": 2,
+    "footnotes_body_markers": "1..11 continuous",
+    "footnotes_note_defs": "1..11, all matched",
+    "headings": ["# 1. Введение: в поисках децентрализованного, но кооперативного управления", "## Примечания"],
+    "seams_read": ["01-000/01-001", "01-002/01-003", "01-014/01-015"],
+    "seam_issues": "none — no duplicated or missing text, flow intact"
+  }
+}

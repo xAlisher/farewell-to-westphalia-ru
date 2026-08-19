@@ -1,0 +1,44 @@
+{
+ "total": 20,
+ "by_cat": {
+  "accuracy": 3,
+  "naturalness": 11,
+  "mechanics": 1,
+  "terminology": 2,
+  "register": 2,
+  "omission": 1
+ },
+ "by_sev": {
+  "minor": 20
+ },
+ "samples": [],
+ "escalated": [],
+ "assembly_checks": {
+  "pass": "v2",
+  "chunks_total": 22,
+  "body_chunks": 21,
+  "notes_chunks": 1,
+  "all_parts_present": true,
+  "footnotes_body_markers": "1..8 continuous",
+  "footnotes_all_defined": true,
+  "stray_markers_in_notes": false,
+  "headings": [
+   "# 12",
+   "## 12.1",
+   "## 12.2",
+   "## 12.3",
+   "## 12.4",
+   "## Примечания"
+  ],
+  "seams_read": [
+   "12-003/12-004",
+   "12-011/12-012",
+   "12-019/12-020"
+  ],
+  "seams_clean": true,
+  "v1_major_fixes_still_in_place": {
+   "no_forbidden_variants_grep": "кросс-чейн, горячая фаза — 0 hits; кроссчейн/кинетич present in 12-001, 12-013, 12-019, 12-020",
+   "note": "12-017 keeps «несотрудничающими» inside the recast «как быть с…» frame; v2 judges rated the chapter all-minor"
+  }
+ }
+}

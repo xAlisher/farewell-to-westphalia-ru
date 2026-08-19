@@ -1,0 +1,28 @@
+{
+  "pdf_file": "Farewell to Westphalia (Jarrad Hope and Peter Ludlow) - FOSS edition.pdf",
+  "pdf_pages_total": 381,
+  "printed_to_pdf_offset": 10,
+  "notes": "printed page N = PDF page N+10 for the body. Front matter (PDF 1-10) has roman/no numbering. No index in this edition; bibliography runs to the final page.",
+  "chapters": [
+    {"id": "chapter_00_front_matter", "title_en": "Front Matter (title, copyright, dedication, acknowledgements)", "pdf_start": 1, "pdf_end": 10, "printed": null, "note": "TOC pages are NOT translated (site generates its own); translate title block, copyright/license, dedication, acknowledgements, epigraph (Timothy May) which appears on PDF 10"},
+    {"id": "chapter_01_introduction", "title_en": "Introduction", "pdf_start": 11, "pdf_end": 24, "printed": [1, 14]},
+    {"id": "chapter_02_nation_states_are_obsolete_governance_technologies", "title_en": "Nation States Are Obsolete Governance Technologies", "pdf_start": 25, "pdf_end": 50, "printed": [15, 40]},
+    {"id": "chapter_03_post_state_governance", "title_en": "Post-State Governance", "pdf_start": 51, "pdf_end": 70, "printed": [41, 60]},
+    {"id": "chapter_04_new_conceptual_foundations", "title_en": "New Conceptual Foundations", "pdf_start": 71, "pdf_end": 84, "printed": [61, 74]},
+    {"id": "chapter_05_technical_foundations_for_decentralised_cooperation", "title_en": "Technical Foundations for Decentralised Cooperation", "pdf_start": 85, "pdf_end": 106, "printed": [75, 96]},
+    {"id": "chapter_06_new_tools_for_human_governance", "title_en": "New Tools for Human Governance", "pdf_start": 107, "pdf_end": 138, "printed": [97, 128]},
+    {"id": "chapter_07_why_centralisation_is_the_problem", "title_en": "Why Centralisation Is the Problem", "pdf_start": 139, "pdf_end": 160, "printed": [129, 150]},
+    {"id": "chapter_08_are_cyberstates_the_answer", "title_en": "Are Cyberstates the Answer?", "pdf_start": 161, "pdf_end": 182, "printed": [151, 172]},
+    {"id": "chapter_09_exit_exile_and_access", "title_en": "Exit, Exile and Access", "pdf_start": 183, "pdf_end": 200, "printed": [173, 190]},
+    {"id": "chapter_10_rethinking_sovereignty", "title_en": "Rethinking Sovereignty", "pdf_start": 201, "pdf_end": 220, "printed": [191, 210]},
+    {"id": "chapter_11_rights_and_responsibilities_of_blockchain_communities", "title_en": "The Rights and Responsibilities of Blockchain Communities", "pdf_start": 221, "pdf_end": 240, "printed": [211, 230]},
+    {"id": "chapter_12_how_blockchain_communities_will_collaborate", "title_en": "How Blockchain Communities Will Collaborate", "pdf_start": 241, "pdf_end": 260, "printed": [231, 250]},
+    {"id": "chapter_13_when_blockchain_communities_are_in_conflict", "title_en": "When Blockchain Communities Are in Conflict", "pdf_start": 261, "pdf_end": 280, "printed": [251, 270]},
+    {"id": "chapter_14_a_deeper_dive_into_the_technology", "title_en": "A Deeper Dive into the Technology", "pdf_start": 281, "pdf_end": 300, "printed": [271, 290]},
+    {"id": "chapter_15_conceptual_limits_of_blockchain_governance", "title_en": "Conceptual Limits of Blockchain Governance", "pdf_start": 301, "pdf_end": 328, "printed": [291, 318]},
+    {"id": "chapter_16_are_blockchain_communities_inevitable", "title_en": "Are Blockchain Communities Inevitable?", "pdf_start": 329, "pdf_end": 346, "printed": [319, 336]},
+    {"id": "chapter_17_values_and_the_technology_stack", "title_en": "Values and the Technology Stack", "pdf_start": 347, "pdf_end": 358, "printed": [337, 348]},
+    {"id": "chapter_18_about_the_authors", "title_en": "About the Authors", "pdf_start": 359, "pdf_end": 360, "printed": [349, 350]},
+    {"id": "chapter_19_bibliography", "title_en": "Bibliography", "pdf_start": 361, "pdf_end": 381, "printed": [351, 371]}
+  ]
+}

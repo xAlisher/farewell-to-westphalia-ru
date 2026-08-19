@@ -1,0 +1,26 @@
+{
+  "total": 23,
+  "by_cat": {
+    "accuracy": 4,
+    "addition": 3,
+    "naturalness": 15,
+    "register": 1
+  },
+  "by_sev": {
+    "minor": 23
+  },
+  "samples": [],
+  "escalated": [],
+  "assembly": {
+    "chunks_expected": 16,
+    "chunks_found": 16,
+    "chunk_order_ok": true,
+    "footnotes_body_markers": "1-17 continuous",
+    "footnotes_note_defs": "1-17, all present, one per marker",
+    "headings_ok": true,
+    "headings": ["# 4", "## 4.1", "## 4.2", "## 4.3", "### 4.3.1", "### 4.3.2", "### 4.3.3", "## 4.4", "## Примечания"],
+    "seams_checked": ["04-000/04-001", "04-003/04-004", "04-011/04-012"],
+    "seams_ok": true,
+    "output": "work/ru-draft/chapter_04_new_conceptual_foundations.md"
+  }
+}

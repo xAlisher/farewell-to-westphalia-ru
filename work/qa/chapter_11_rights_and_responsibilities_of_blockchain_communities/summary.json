@@ -1,0 +1,48 @@
+{
+ "total": 6,
+ "by_cat": {
+  "accuracy": 1,
+  "naturalness": 4,
+  "terminology": 1
+ },
+ "by_sev": {
+  "minor": 6
+ },
+ "samples": [],
+ "escalated": [],
+ "assembly_checks": {
+  "chunks_expected": 30,
+  "chunks_assembled": 30,
+  "missing_parts": [],
+  "footnotes_body_markers": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "footnotes_note_entries": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "footnotes_continuous": true,
+  "headings": [
+   "# 11. Права и обязанности блокчейн-сообществ",
+   "## 11.1 Предварительные замечания",
+   "## 11.2 Права де-юре и права де-факто",
+   "## 11.3 Декларация прав человека и гражданина",
+   "## 11.4 Об обязанностях блокчейн-сообществ",
+   "## 11.5 Децентрализованный надзор за блокчейн-сообществами",
+   "## 11.6 О правах блокчейн-сообществ",
+   "## Примечания"
+  ],
+  "headings_hierarchy_ok": true,
+  "seams_checked": [
+   "11-003/11-004",
+   "11-011/11-012",
+   "11-021/11-022"
+  ],
+  "seams_ok": true
+ }
+}

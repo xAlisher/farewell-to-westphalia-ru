@@ -1,0 +1,24 @@
+{
+  "total": 5,
+  "by_cat": {
+    "naturalness": 4,
+    "terminology": 1
+  },
+  "by_sev": {
+    "minor": 5
+  },
+  "samples": [],
+  "escalated": [],
+  "assembly": {
+    "chunks_expected": ["18-000"],
+    "chunks_assembled": ["18-000"],
+    "all_parts_present": true,
+    "footnotes": {
+      "body_markers": 0,
+      "note_entries": 0,
+      "continuous": true
+    },
+    "headings": "single H1 (# Об авторах), no subheadings — matches EN source",
+    "seams": "single-chunk chapter, no seams to check"
+  }
+}
