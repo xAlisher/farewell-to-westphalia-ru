@@ -204,7 +204,7 @@
       return r.json();
     }).then(function (d) {
       if (!d || !d.url) throw new Error('bad response');
-      showSuccess(d.url, false);
+      showSuccess(d.url, false, d.number);
     }).catch(function () {
       clearTimeout(t);
       // фолбэк: черновик issue на GitHub
@@ -216,15 +216,15 @@
     });
   }
 
-  function showSuccess(url, isFallback) {
+  function showSuccess(url, isFallback, number) {
     var box = overlay.querySelector('.ftw-sg-box');
     box.innerHTML =
-      '<h3>' + (isFallback ? 'Почти готово' : 'Issue создан') + '</h3>' +
+      '<h3>' + (isFallback ? 'Почти готово' : 'Спасибо!') + '</h3>' +
       '<div class="ftw-sg-ok">' +
       (isFallback
         ? '<p>Мы открыли черновик issue на GitHub в соседней вкладке — ' +
           'проверьте текст и нажмите «Create». Понадобится аккаунт GitHub.</p>'
-        : '<p>Спасибо! Ваше предложение сохранено:</p>') +
+        : '<p>Issue' + (number ? ' #' + number : '') + ' создан.</p>') +
       '<a href="' + url + '" target="_blank" rel="noopener">' + url + '</a>' +
       '<div class="ftw-sg-row">' +
       '<button class="ftw-sg-btn ftw-sg-btn-sec" data-a="copy">Скопировать ссылку</button>' +
