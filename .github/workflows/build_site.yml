@@ -8,6 +8,9 @@ on:
       - 'build_site.py'
       - 'docs/assets/**'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
