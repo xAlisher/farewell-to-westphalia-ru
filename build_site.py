@@ -362,6 +362,9 @@ def html_head(title, description, url="", extra=""):
 <meta name="twitter:image" content="{SITE_URL}/assets/og-image.jpg">
 <link rel="alternate" hreflang="en" href="{ENGLISH_URL}">
 <link rel="canonical" href="{url}">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" href="{assets_path(url)}favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="{assets_path(url)}apple-touch-icon.png">
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" as="style">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="{assets_path(url)}style.css">
