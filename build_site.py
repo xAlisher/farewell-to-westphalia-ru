@@ -404,7 +404,7 @@ def site_footer(depth=0):
 <span>CC BY-SA 4.0 · {SITE_AUTHORS}</span>
 <div class="footer-links">
 <a href="{ENGLISH_URL}">English original</a>
-<a href="https://github.com/nickspaargaren/farewell-to-westphalia-ru">GitHub</a>
+<a href="https://github.com/xAlisher/farewell-to-westphalia-ru">GitHub</a>
 </div>
 </div>
 </div>
@@ -828,7 +828,7 @@ def build_about():
 
 <h2>О переводе</h2>
 <p>Русский перевод выполнен с помощью автоматизированного конвейера на основе Claude AI с последующей человеческой вычиткой. Процесс включает несколько этапов: автоматический перевод, контекстно-зависимую ротацию синонимов для устранения повторов и подготовку аудиоверсии.</p>
-<p>Исходный код конвейера перевода и все материалы доступны в <a href="https://github.com/nickspaargaren/farewell-to-westphalia-ru">репозитории на GitHub</a>.</p>
+<p>Исходный код конвейера перевода и все материалы доступны в <a href="https://github.com/xAlisher/farewell-to-westphalia-ru">репозитории на GitHub</a>.</p>
 
 <h2>Лицензия</h2>
 <p>Книга распространяется по лицензии <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>. Вы можете свободно копировать, распространять и адаптировать материал при условии указания авторства и сохранения той же лицензии.</p>
