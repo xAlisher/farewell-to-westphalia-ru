@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 translations/ru/.pr_progress.json
 .vercel
+.claude/settings.local.json
