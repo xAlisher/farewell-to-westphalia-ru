@@ -570,7 +570,6 @@ def build_chapter(ch, chapters, idx):
 <h1>{escape(ch["title"])}</h1>
 <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
 <button class="share-btn">Поделиться ↗</button>
-<a href="{ENGLISH_URL}" class="english-link">Читать по-английски →</a>
 <a href="../review/{filename}" class="english-link">⇄ Параллельный текст</a>
 </div>
 </div>
