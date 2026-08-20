@@ -1,0 +1,98 @@
+name: Audiobook pass on chapter approval
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+    paths:
+      - 'translations/ru/chapter_*.md'
+
+jobs:
+  audiobook-pass:
+    # Only run when PR was merged (not just closed) AND came from a translation branch
+    if: |
+      github.event.pull_request.merged == true &&
+      startsWith(github.event.pull_request.head.ref, 'translation/ru/chapter-')
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic gitpython
+
+      - name: Extract chapter number from branch name
+        id: chapter
+        run: |
+          BRANCH="${{ github.event.pull_request.head.ref }}"
+          # e.g. translation/ru/chapter-03 → 03
+          CHAPTER_NUM=$(echo "$BRANCH" | grep -oP '(?<=chapter-)\d+')
+          echo "num=$CHAPTER_NUM" >> $GITHUB_OUTPUT
+          # Find the actual file
+          FILE=$(ls translations/ru/chapter_${CHAPTER_NUM}_*.md 2>/dev/null | head -1)
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+          echo "Chapter: $CHAPTER_NUM — File: $FILE"
+
+      - name: Run synonym rotation on this chapter
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python synonym_rotation.py \
+            --input-dir translations/ru \
+            --output-dir translations/ru_rotated \
+            --single-chapter "${{ steps.chapter.outputs.file }}"
+
+      - name: Run audiobook pass on this chapter
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python audiobook_pass.py \
+            --input-dir translations/ru_rotated \
+            --output-dir audiobook/ru \
+            --single-chapter "${{ steps.chapter.outputs.file }}"
+
+      - name: Commit audiobook script
+        run: |
+          git config user.name  "audiobook-bot"
+          git config user.email "bot@noreply"
+          git add translations/ru_rotated/ audiobook/ru/
+          git diff --staged --quiet || git commit -m \
+            "audiobook(ru): chapter ${{ steps.chapter.outputs.num }} — narrator script ready
+
+            Triggered by merge of PR #${{ github.event.pull_request.number }}
+            Approved by: ${{ github.event.pull_request.merged_by.login }}
+            Reviewers: ${{ join(github.event.pull_request.requested_reviewers.*.login, ', ') }}"
+          git push
+
+      - name: Post summary comment on PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const chapter = '${{ steps.chapter.outputs.num }}';
+            const file    = '${{ steps.chapter.outputs.file }}';
+            github.rest.issues.createComment({
+              owner:      context.repo.owner,
+              repo:       context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body: [
+                '## Audiobook pass complete',
+                '',
+                `Chapter **${chapter}** has been processed:`,
+                '- Synonym rotation applied (context-aware)',
+                '- Stress marks added for narrator',
+                '- Numbers converted to Russian words',
+                '- Footnotes moved to chapter end',
+                '',
+                `Narrator script: \`audiobook/ru/narrator_${file.replace('translations/ru/', '')}\``,
+              ].join('\n')
+            });
